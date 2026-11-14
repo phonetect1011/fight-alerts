@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794692499972,
+ "generatedMs": 1794692662342,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -20,6 +20,11 @@
   "RAF": {
    "ok": true,
    "events": 3,
+   "message": ""
+  },
+  "PFL": {
+   "ok": true,
+   "events": 1,
    "message": ""
   }
  },
@@ -5446,6 +5451,233 @@
    "finished": false
   },
   {
+   "id": "pfl-pfl-lyon-lapilus-vs-mckee",
+   "promotion": "PFL",
+   "title": "PFL Lyon: Lapilus vs. McKee",
+   "url": "https://en.wikipedia.org/wiki/PFL_Lyon%3A_Lapilus_vs._McKee",
+   "date": "2026-12-19",
+   "startMs": 1797728400000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Taylor Lapilus",
+     "b": "Mitchell McKee",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": true,
+     "notes": "For the inaugural PFL Bantamweight Championship.",
+     "fa": {
+      "name": "Taylor Lapilus",
+      "url": "https://en.wikipedia.org/wiki/Taylor_Lapilus",
+      "record": "24-4-0",
+      "stats": {
+       "Age": "34",
+       "Height": "5 ft 6 in",
+       "Reach": "73 in",
+       "Team": "SBG Ireland"
+      }
+     },
+     "fb": {
+      "name": "Mitchell McKee"
+     }
+    },
+    {
+     "a": "Bryan Battle",
+     "b": "Boris Mbarga Atangana",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bryan Battle",
+      "url": "https://en.wikipedia.org/wiki/Bryan_Battle",
+      "record": "13-3-0",
+      "stats": {
+       "Age": "32",
+       "Height": "6 ft 2 in",
+       "Reach": "77 in",
+       "Team": "Carolina Combat Sports and Fitness"
+      }
+     },
+     "fb": {
+      "name": "Boris Mbarga Atangana"
+     }
+    },
+    {
+     "a": "Abdoul Abdouraguimov",
+     "b": "Andreeas Binder",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Abdoul Abdouraguimov",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Abdoul.abduragimov.jpg/500px-Abdoul.abduragimov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "photoCredit": "Photo: Mustafa32755 · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Andreeas Binder"
+     }
+    },
+    {
+     "a": "Oualy Tandia",
+     "b": "Alex Lohoré",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Oualy Tandia"
+     },
+     "fb": {
+      "name": "Alex Lohoré",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Alex_Lohore.png/500px-Alex_Lohore.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 4.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Fabian Edwards",
+     "b": "Ilian Bouafia",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Fabian Edwards",
+      "url": "https://en.wikipedia.org/wiki/Fabian_Edwards",
+      "record": "16-5-0",
+      "stats": {
+       "Age": "33",
+       "Height": "6 ft 1 in",
+       "Reach": "79+1/2 in",
+       "Team": "Ultimate Training Centre"
+      }
+     },
+     "fb": {
+      "name": "Ilian Bouafia"
+     }
+    },
+    {
+     "a": "Baris Adiguzel",
+     "b": "Jack Cartwright",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Baris Adiguzel"
+     },
+     "fb": {
+      "name": "Jack Cartwright"
+     }
+    },
+    {
+     "a": "Bafode Gassama",
+     "b": "Coby Bradford",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bafode Gassama"
+     },
+     "fb": {
+      "name": "Coby Bradford"
+     }
+    },
+    {
+     "a": "Dean Garnett",
+     "b": "Bryce Meredith",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Dean Garnett"
+     },
+     "fb": {
+      "name": "Bryce Meredith",
+      "url": "https://en.wikipedia.org/wiki/Bryce_Meredith",
+      "record": "8-1-0",
+      "stats": {
+       "Age": "31",
+       "Height": "5 ft 8 in",
+       "Team": "MMA Lab"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Bryce_Meredith_in_2018.png/500px-Bryce_Meredith_in_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: GOhioCasts · CC BY 3.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Jan Ciepłowski",
+     "b": "Mauricio Partida",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jan Ciepłowski",
+      "url": "https://en.wikipedia.org/wiki/Jan_Ciep%C5%82owski",
+      "record": "11-1-0",
+      "stats": {
+       "Age": "27",
+       "Height": "5 ft 8 in",
+       "Reach": "65 in",
+       "Team": "Fight Factor Łódź"
+      }
+     },
+     "fb": {
+      "name": "Mauricio Partida"
+     }
+    },
+    {
+     "a": "Brandon Brachet",
+     "b": "Adam Meskini",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Brandon Brachet"
+     },
+     "fb": {
+      "name": "Adam Meskini"
+     }
+    },
+    {
+     "a": "Zakaria Hamou",
+     "b": "Amin Bouazza",
+     "section": "Main card",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zakaria Hamou"
+     },
+     "fb": {
+      "name": "Amin Bouazza"
+     }
+    },
+    {
+     "a": "Mathilde Aschenbrenner",
+     "b": "Shelda Chipito",
+     "section": "Main card",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Mathilde Aschenbrenner"
+     },
+     "fb": {
+      "name": "Shelda Chipito"
+     }
+    }
+   ],
+   "finished": false
+  },
+  {
    "id": "ufc-ufc-fight-night-296",
    "promotion": "UFC",
    "title": "UFC Fight Night 296",
@@ -5922,6 +6154,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794692516336,
- "oddsCreditsLeft": "476"
+ "oddsUpdatedMs": 1794692688302,
+ "oddsCreditsLeft": "474"
 }
