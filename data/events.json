@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794652185371,
+ "generatedMs": 1794652497745,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1299,7 +1299,9 @@
        "Age": "23",
        "Height": "1.80 m",
        "Team": "Team Mehdi Zatout"
-      }
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Assadulah-Hero-1200x1165-1.jpg/500px-Assadulah-Hero-1200x1165-1.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Sid Laos · CC0 (Wikimedia Commons)"
      },
      "fb": {
       "name": "Aslamjon Ortikov",
@@ -1413,7 +1415,9 @@
        "Height": "6 ft 1 in",
        "Reach": "77 in",
        "Team": "Jackson's MMA"
-      }
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/USMC-100731-M-3392W-283.jpg/500px-USMC-100731-M-3392W-283.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Lance Cpl. Jonathan G. Wright · Public domain (Wikimedia Commons)"
      },
      "fb": {
       "name": "Theo Doukas",
@@ -3306,7 +3310,9 @@
      "fa": {
       "name": "Howard Davis",
       "country": "United States",
-      "flag": "🇺🇸"
+      "flag": "🇺🇸",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Howard_Davis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Howard Davis · Public domain (Wikimedia Commons)"
      },
      "fb": {
       "name": "Elvin Brito",
@@ -4153,6 +4159,6 @@
    ]
   }
  ],
- "oddsUpdatedMs": 1794652365419,
- "oddsCreditsLeft": "492"
+ "oddsUpdatedMs": 1794652551597,
+ "oddsCreditsLeft": "490"
 }
