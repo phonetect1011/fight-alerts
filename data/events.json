@@ -1,26 +1,26 @@
 {
- "generatedMs": 1794644132668,
+ "generatedMs": 1794645968441,
  "source": "next-fight.com",
  "health": {
   "UFC": {
-   "ok": true,
-   "events": 5,
-   "message": ""
+   "ok": false,
+   "events": 0,
+   "message": "Could not load https://next-fight.com/en/organization/ufc: HTTP 403"
   },
   "BKFC": {
-   "ok": true,
-   "events": 6,
-   "message": ""
+   "ok": false,
+   "events": 0,
+   "message": "Could not load https://next-fight.com/en/bkfc: HTTP 403"
   },
   "ONE": {
-   "ok": true,
-   "events": 5,
-   "message": ""
+   "ok": false,
+   "events": 0,
+   "message": "Could not load https://next-fight.com/en/organization/one-championship: HTTP 403"
   },
   "RAF": {
-   "ok": true,
-   "events": 4,
-   "message": ""
+   "ok": false,
+   "events": 0,
+   "message": "Could not load https://next-fight.com/en/raf: HTTP 403"
   }
  },
  "events": [
