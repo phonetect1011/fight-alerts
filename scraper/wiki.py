@@ -473,19 +473,24 @@ WIKIDATA = "https://www.wikidata.org/w/api.php"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 
 
-def api_query(params, url=API):
+def api_query(params, url=API, tries=3):
     base = {"action": "query", "format": "json", "formatversion": 2, "maxlag": 5}
-    for attempt in range(3):
+    for attempt in range(tries):
         try:
-            r = session.get(url, params={**base, **params}, timeout=30)
+            r = session.get(url, params={**base, **params}, timeout=20)
+            if r.status_code == 429 or r.status_code >= 500:
+                print(f"  {url.split('/')[2]} answered HTTP {r.status_code}, backing off")
+                time.sleep(min(int(r.headers.get("Retry-After", "5") or 5), 15))
+                continue
             j = r.json()
             if j.get("error", {}).get("code") == "maxlag":
                 time.sleep(5)
                 continue
-            time.sleep(0.5)
+            time.sleep(0.3)
             return j
-        except (requests.RequestException, ValueError):
-            time.sleep(3 * (attempt + 1))
+        except (requests.RequestException, ValueError) as e:
+            print(f"  {url.split('/')[2]} request failed: {e}")
+            time.sleep(2)
     return {}
 
 
@@ -675,13 +680,14 @@ def enrich_fighters(events):
 OTHER_WIKIS = ["jawiki", "thwiki", "ptwiki", "ruwiki", "frwiki", "eswiki", "dewiki", "kowiki", "zhwiki",
                "plwiki", "itwiki", "nlwiki", "svwiki", "kawiki", "hywiki", "kkwiki", "uzwiki", "tlwiki"]
 FIGHTER_WORDS = re.compile(r"martial art|mixed martial|kick ?box|boxer|muay thai|wrestler|fighter|grappl|judoka|sambo|lethwei", re.I)
-CACHE_HIT_DAYS, CACHE_MISS_DAYS, MAX_LOOKUPS = 30, 7, 250
+CACHE_HIT_DAYS, CACHE_MISS_DAYS, MAX_LOOKUPS = 30, 7, 120
+TIME_BUDGET_S = 240  # never let photo lookups hold up the fight cards; the rest happens on the next run
 
 
 def find_qid(name):
     """Search Wikidata by name; only accept a result described as some kind of fighter."""
     j = api_query({"action": "wbsearchentities", "search": name, "language": "en", "uselang": "en",
-                   "type": "item", "limit": 7}, url=WIKIDATA)
+                   "type": "item", "limit": 7}, url=WIKIDATA, tries=2)
     for r in j.get("search", []):
         if FIGHTER_WORDS.search(r.get("description", "") or ""):
             return r["id"]
@@ -749,11 +755,17 @@ def fill_missing_photos(events, cache_path):
             todo.append(name)
     todo = todo[:MAX_LOOKUPS]
 
-    qids = {}
+    started = time.time()
+    qids, searched = {}, []
     for name in todo:
+        if time.time() - started > TIME_BUDGET_S * 0.6:
+            print(f"  time budget reached after {len(searched)} lookups; the rest wait for the next run")
+            break
+        searched.append(name)
         q = next((f["_qid"] for f in groups[name] if f.get("_qid")), None) or find_qid(name)
         if q:
             qids[name] = q
+    todo = searched
     ents = wikidata_entities(set(qids.values()))
 
     found = {}
@@ -765,6 +777,8 @@ def fill_missing_photos(events, cache_path):
             found[n] = {"photo": info[fn][0], "photoCredit": photo_credit(info[fn][1])}
     # 2) lead photo of the fighter's page on other-language Wikipedias (free-licence images only)
     for wiki in OTHER_WIKIS:
+        if time.time() - started > TIME_BUDGET_S:
+            break
         need = {n: ents[q]["sitelinks"][wiki] for n, q in qids.items()
                 if n not in found and wiki in ents.get(q, {}).get("sitelinks", {})}
         if not need:
@@ -804,7 +818,8 @@ def fill_missing_photos(events, cache_path):
                 f["photo"], f["photoCredit"] = c["photo"], c.get("photoCredit", "Photo: Wikimedia Commons")
     with open(cache_path, "w") as f:
         json.dump(cache, f, indent=1, ensure_ascii=False, sort_keys=True)
-    print(f"Other-language photos: looked up {len(todo)} fighters, {len(found)} new, {added} with photos")
+    print(f"Other-language photos: looked up {len(todo)} fighters in {time.time() - started:.0f}s, "
+          f"{len(found)} new, {added} with photos")
 
 
 PROMOS = {
