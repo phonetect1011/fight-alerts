@@ -1,52 +1,37 @@
 #!/usr/bin/env python3
-"""Debug helper: what does TheSportsDB (free v1 key) have for UFC / ONE / BKFC / RAF events and start times?"""
-import datetime as dt
-import json
+"""Debug helper: how do finished events look on Wikipedia? (past-events tables + a finished fight card)"""
 import os
-import time
+import re
 import requests
 
-BASE = "https://www.thesportsdb.com/api/v1/json/123/"
+API = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "FightAlertsBot/1.0 (https://github.com/phonetect1011/fight-alerts; personal non-commercial app)"}
-os.makedirs("data/debug", exist_ok=True)
+
+
+def wt(page):
+    r = requests.get(API, headers=HEADERS, params={"action": "parse", "page": page, "prop": "wikitext",
+                                                    "format": "json", "formatversion": 2, "redirects": 1}, timeout=30)
+    return r.json().get("parse", {}).get("wikitext", "")
+
+
 out = []
-
-
-def get(path, **params):
-    for _ in range(3):
-        r = requests.get(BASE + path, params=params, headers=HEADERS, timeout=20)
-        if r.status_code == 429:
-            time.sleep(20)
-            continue
-        time.sleep(3)
-        try:
-            return r.status_code, r.json()
-        except ValueError:
-            return r.status_code, {"raw": r.text[:300]}
-    return 429, {}
-
-
-code, j = get("search_all_leagues.php", s="Fighting")
-leagues = (j or {}).get("countries") or (j or {}).get("leagues") or []
-out.append(f"search_all_leagues Fighting: http={code} count={len(leagues)}")
-for lg in leagues:
-    out.append(f"  {lg.get('idLeague')}  {lg.get('strLeague')}  alt={lg.get('strLeagueAlternate')}")
-
-want = [lg for lg in leagues if any(k in ((lg.get('strLeague') or '') + ' ' + (lg.get('strLeagueAlternate') or '')).lower()
-        for k in ("ufc", "one championship", "bare knuckle", "bkfc", "real american", "raf"))]
-for lg in want:
-    code, j = get("eventsnextleague.php", id=lg["idLeague"])
-    evs = (j or {}).get("events") or []
-    out.append(f"\nNEXT {lg['strLeague']} ({lg['idLeague']}): http={code} events={len(evs)}")
-    for e in evs:
-        out.append(f"  {e.get('dateEvent')} {e.get('strTime')} | local {e.get('dateEventLocal')} {e.get('strTimeLocal')} | ts={e.get('strTimestamp')} | {e.get('strEvent')} | venue={e.get('strVenue')} | status={e.get('strStatus')}")
-
-for d in ("2026-11-14", "2026-11-18", "2026-11-21"):
-    code, j = get("eventsday.php", d=d, s="Fighting")
-    evs = (j or {}).get("events") or []
-    out.append(f"\nDAY {d}: http={code} events={len(evs)}")
-    for e in evs:
-        out.append(f"  {e.get('strLeague')} | {e.get('strTime')} | ts={e.get('strTimestamp')} | {e.get('strEvent')}")
-
-open("data/debug/sportsdb_times.txt", "w").write("\n".join(out) + "\n")
-print("\n".join(out))
+for page in ("List of UFC events", "Real American Freestyle"):
+    t = wt(page)
+    heads = re.findall(r"^==+[^=].*?==+\s*$", t, re.M)
+    out.append(f"##### {page} headings: {heads}")
+    m = re.search(r"^==+\s*Past events\s*==+\s*$", t, re.M | re.I)
+    out.append(f"##### {page} PAST EVENTS (first 3500 chars):\n" + (t[m.end():m.end() + 3500] if m else "(no Past events section)"))
+    links = re.findall(r"\[\[([^|\]]+)", t[m.end():m.end() + 3500]) if m else []
+    if links:
+        ev = next((l for l in links if re.search(r"UFC|RAF", l)), None)
+        if ev:
+            et = wt(ev)
+            c = re.search(r"^==+\s*(Fight card|Results|Card)\s*==+\s*$", et, re.M | re.I)
+            out.append(f"##### FINISHED EVENT {ev} card (first 3000 chars):\n" + (et[c.end():c.end() + 3000] if c else et[:3000]))
+for page in ("2026 in Bare Knuckle Fighting Championship", "2026 in ONE Championship"):
+    t = wt(page)
+    m = re.search(r"def\.", t)
+    out.append(f"##### {page} first finished card around 'def.' (chars):\n" + (t[max(0, m.start() - 2500):m.start() + 1500] if m else "(no def.)"))
+os.makedirs("data/debug", exist_ok=True)
+open("data/debug/results_layout.txt", "w").write("\n\n".join(out))
+print("ok")
