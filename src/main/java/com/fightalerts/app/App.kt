@@ -140,7 +140,7 @@ data class Fighter(
     val stats: List<Pair<String, String>> = emptyList(),
 )
 
-/** next-fight's model prediction for a bout. fav is "a", "b" or "" (unknown). */
+/** Favourite/underdog for a bout. fav is "a", "b" or "" (unknown). */
 data class Prediction(
     val fav: String,
     val pctA: Int,
@@ -150,6 +150,7 @@ data class Prediction(
     val tier: String,
     val why: String,
     val crowd: String,
+    val source: String = "",
 )
 
 data class Bout(
@@ -179,6 +180,7 @@ fun parsePrediction(o: JSONObject?): Prediction? {
         tier = o.optString("tier"),
         why = o.optString("why"),
         crowd = o.optString("crowd"),
+        source = o.optString("source"),
     )
 }
 
@@ -191,6 +193,7 @@ data class FightEvent(
     val prelims: Long?,
     val earlyPrelims: Long?,
     val bouts: List<Bout>,
+    val timeEstimated: Boolean = false,
 )
 
 data class FightData(
@@ -248,6 +251,7 @@ fun parseData(json: String): FightData {
             prelims = if (e.isNull("prelimsMs")) null else e.getLong("prelimsMs"),
             earlyPrelims = if (e.isNull("earlyPrelimsMs")) null else e.getLong("earlyPrelimsMs"),
             bouts = bouts,
+            timeEstimated = e.optBoolean("timeEstimated", false),
         )
     }
     val broken = mutableMapOf<String, String>()
@@ -865,7 +869,10 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
             Spacer(Modifier.height(12.dp))
             Text(e.title, color = c.text, fontSize = 19.sp, fontWeight = FontWeight.Bold, lineHeight = 24.sp)
             Spacer(Modifier.height(4.dp))
-            Text("Main card  ·  ${fmt(e.start)}", color = c.text2, fontSize = 13.sp)
+            Text(
+                "Main card  ·  ${fmt(e.start)}" + if (e.timeEstimated) "  (approx.)" else "",
+                color = c.text2, fontSize = 13.sp,
+            )
             e.prelims?.let { Text("Prelims  ·  ${fmt(it)}", color = c.text3, fontSize = 12.sp) }
             e.earlyPrelims?.let { Text("Early prelims  ·  ${fmt(it)}", color = c.text3, fontSize = 12.sp) }
 
@@ -911,7 +918,7 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
                     }
                     if (e.url.isNotBlank()) {
                         TextButton(onClick = { openUrl(ctx, e.url) }) {
-                            Text("Open full event page", color = RED)
+                            Text("Open event on Wikipedia", color = RED)
                         }
                     }
                 }
@@ -1157,7 +1164,7 @@ fun FighterSheet(
                     color = c.text3, fontSize = 12.sp, textAlign = TextAlign.Center,
                 )
                 Text(event.title, color = c.text2, fontSize = 13.sp, textAlign = TextAlign.Center)
-                Text(fmt(event.start), color = c.text3, fontSize = 12.sp)
+                Text(fmt(event.start) + if (event.timeEstimated) " (approx.)" else "", color = c.text3, fontSize = 12.sp)
             }
 
             val isA = f.name == bout.a.name
@@ -1191,7 +1198,7 @@ fun FighterSheet(
                     if (myOdd > 0 && oppOdd > 0) {
                         Spacer(Modifier.height(8.dp))
                         Text(
-                            "Odds ${"%.2f".format(myOdd)} vs ${"%.2f".format(oppOdd)} · Next-Fight model",
+                            "Odds ${"%.2f".format(myOdd)} vs ${"%.2f".format(oppOdd)} · ${p.source.ifBlank { "Bookmaker odds" }}",
                             color = c.text3, fontSize = 12.sp,
                         )
                     }
@@ -1225,7 +1232,7 @@ fun FighterSheet(
             }
             if (f.url.isNotBlank()) {
                 TextButton(onClick = { openUrl(ctx, f.url) }) {
-                    Text("Full profile on next-fight.com", color = c.text2)
+                    Text("More about ${f.name.substringBefore(" ")} on Wikipedia", color = c.text2)
                 }
             }
         }
@@ -1357,7 +1364,13 @@ fun SettingsScreen(
             SettingsCard {
                 InfoRow("Last updated", data?.let { ago(now - it.generated) } ?: "Never")
                 SettingsDivider()
-                InfoRow("Source", "next-fight.com")
+                InfoRow("Fight cards", "Wikipedia (CC BY-SA)")
+                SettingsDivider()
+                InfoRow("Odds & start times", "The Odds API")
+                Text(
+                    "Times marked approx. are estimates until bookmakers list the fight.",
+                    color = c.text3, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp),
+                )
                 SettingsDivider()
                 PROMOTIONS.forEach { promo ->
                     val msg = data?.broken?.get(promo)
