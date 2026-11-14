@@ -110,7 +110,10 @@ import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
+import coil.Coil
+import coil.ImageLoader
 import coil.compose.AsyncImage
+import okhttp3.OkHttpClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -138,6 +141,7 @@ data class Fighter(
     val photo: String = "",
     val url: String = "",
     val stats: List<Pair<String, String>> = emptyList(),
+    val photoCredit: String = "",
 )
 
 /** Favourite/underdog for a bout. fav is "a", "b" or "" (unknown). */
@@ -218,6 +222,7 @@ fun parseFighter(o: JSONObject?, fallbackName: String): Fighter {
         photo = o.optString("photo"),
         url = o.optString("url"),
         stats = stats,
+        photoCredit = o.optString("photoCredit"),
     )
 }
 
@@ -590,6 +595,22 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         Notify.ensureChannel(this)
+        // Wikimedia asks apps to identify themselves when loading images
+        Coil.setImageLoader(
+            ImageLoader.Builder(this)
+                .okHttpClient {
+                    OkHttpClient.Builder()
+                        .addInterceptor { chain ->
+                            chain.proceed(
+                                chain.request().newBuilder()
+                                    .header("User-Agent", "FightAlerts/1.0 (${BuildConfig.REPO_URL})")
+                                    .build()
+                            )
+                        }
+                        .build()
+                }
+                .build()
+        )
         RefreshWorker.enqueue(this)
         setContent { FightApp(this, resumeTick.intValue) }
     }
@@ -1100,6 +1121,13 @@ fun FighterSheet(
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             FighterPhoto(f, 120.dp)
+            if (f.photo.isNotBlank() && f.photoCredit.isNotBlank()) {
+                Text(
+                    f.photoCredit, color = c.text3, fontSize = 10.sp, textAlign = TextAlign.Center,
+                    maxLines = 2, overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.padding(top = 4.dp),
+                )
+            }
             Spacer(Modifier.height(14.dp))
             Text(
                 withFlag(f), color = c.text, fontSize = 26.sp, fontWeight = FontWeight.Black,
@@ -1367,6 +1395,8 @@ fun SettingsScreen(
                 InfoRow("Fight cards", "Wikipedia (CC BY-SA)")
                 SettingsDivider()
                 InfoRow("Odds & start times", "The Odds API")
+                SettingsDivider()
+                InfoRow("Fighter photos", "Wikimedia Commons")
                 Text(
                     "Times marked approx. are estimates until bookmakers list the fight.",
                     color = c.text3, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp),
