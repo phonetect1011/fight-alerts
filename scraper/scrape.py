@@ -18,6 +18,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
 
@@ -251,6 +252,71 @@ def parse_card(soup):
     return bouts, times
 
 
+def norm_name(n):
+    n = unicodedata.normalize("NFKD", n or "").encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z]", "", n.lower())
+
+
+def parse_predictions(soup):
+    """next-fight's prediction page: favourite, model odds, confidence, reason, crowd vote per fight."""
+    preds = {}
+    for row in soup.find_all(class_="is-prediction"):
+        sides = row.find_all(class_="nf-fight-side", recursive=False) or row.find_all(class_="nf-fight-side")
+        if len(sides) < 2:
+            continue
+        names = [clean(s.find(class_="nf-fight-full").get_text(" ")) if s.find(class_="nf-fight-full") else "" for s in sides[:2]]
+        if not all(names):
+            continue
+        fav_idx = next((i for i, s in enumerate(sides[:2]) if s.find(class_="nf-fight-fav")), None)
+        odds = {}
+        odds_p = row.find(class_="nf-pred-odds")
+        if odds_p:
+            for m in re.finditer(r"([^\d·]+?)\s+(\d+(?:\.\d+)?)", clean(odds_p.get_text(" ")).replace("Next-Fight odds", "")):
+                odds[norm_name(m.group(1))[-6:]] = float(m.group(2))
+
+        def odd_for(name):
+            key = norm_name(name.split(" ")[-1])[-6:]
+            return odds.get(key)
+
+        pred = {
+            "names": names,
+            "fav": fav_idx,
+            "odds": [odd_for(names[0]), odd_for(names[1])],
+        }
+        for key, cls in (("tier", "nf-pred-tier"), ("why", "nf-pred-why"), ("crowd", "nf-pred-public")):
+            el = row.find(class_=cls)
+            if el is not None:
+                pred[key] = clean(el.get_text(" "))
+        preds[frozenset(norm_name(n) for n in names)] = pred
+    return preds
+
+
+def attach_predictions(bouts, preds):
+    for b in bouts:
+        p = preds.get(frozenset((norm_name(b["a"]), norm_name(b["b"]))))
+        if not p:
+            continue
+        # work out which of our two fighters the prediction's favourite is
+        a_is_first = norm_name(p["names"][0]) == norm_name(b["a"])
+        odds_a, odds_b = (p["odds"][0], p["odds"][1]) if a_is_first else (p["odds"][1], p["odds"][0])
+        fav = None
+        if p["fav"] is not None:
+            fav = "a" if (p["fav"] == 0) == a_is_first else "b"
+        elif odds_a and odds_b and odds_a != odds_b:
+            fav = "a" if odds_a < odds_b else "b"
+        out = {"fav": fav}
+        if odds_a and odds_b:
+            ia, ib = 1 / odds_a, 1 / odds_b
+            out["pctA"] = round(100 * ia / (ia + ib))
+            out["pctB"] = 100 - out["pctA"]
+            out["oddsA"], out["oddsB"] = odds_a, odds_b
+        for key in ("tier", "why", "crowd"):
+            if p.get(key):
+                out[key] = p[key]
+        if fav or "pctA" in out:
+            b["pred"] = out
+
+
 def parse_event(promo, path):
     soup = get(path)
     h1 = soup.find("h1")
@@ -263,6 +329,13 @@ def parse_event(promo, path):
         if fighter_links >= 4:
             raise ScrapeError(f"Fight card section missing on {path} (layout changed?)")
         bouts = []  # card not announced yet
+
+    pred_link = soup.find("a", href=re.compile(r"^/en/pronostics/[^/?#]+$"))
+    if pred_link is not None and bouts:
+        try:
+            attach_predictions(bouts, parse_predictions(get(pred_link["href"])))
+        except ScrapeError as e:
+            print(f"  [warn] predictions unavailable for {path}: {e}")
 
     main = times.get("main card") or ld_start(soup)
     faq = MAIN_START_RE.search(text)
