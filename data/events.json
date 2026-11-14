@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794643280066,
+ "generatedMs": 1794644132668,
  "source": "next-fight.com",
  "health": {
   "UFC": {
@@ -39,10 +39,16 @@
      "section": "Main Event",
      "weight": "Light Heavyweight Crossover",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Khamzat Chimaev",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/483/c6dd7e9486d5.webp?v=c6dd7e9486d5",
+      "url": "https://next-fight.com/en/fighter/khamzat-chimaev"
+     },
+     "fb": {
+      "name": "Chris Weidman",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/705/a0267ba49c05.webp?v=a0267ba49c05",
+      "url": "https://next-fight.com/en/fighter/chris-weidman"
+     }
     },
     {
      "a": "Arman Tsarukyan",
@@ -50,10 +56,16 @@
      "section": "Co-main event",
      "weight": "Catchweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Arman Tsarukyan",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/253/f8506b583383.webp?v=f8506b583383",
+      "url": "https://next-fight.com/en/fighter/arman-tsarukyan"
+     },
+     "fb": {
+      "name": "Neiman Gracie",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/4472/413533f38093.jpg?v=413533f38093",
+      "url": "https://next-fight.com/en/fighter/neiman-gracie"
+     }
     },
     {
      "a": "Khamzat Chimaev",
@@ -61,10 +73,16 @@
      "section": "Undercard",
      "weight": "Cruiserweight Crossover",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Khamzat Chimaev",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/483/c6dd7e9486d5.webp?v=c6dd7e9486d5",
+      "url": "https://next-fight.com/en/fighter/khamzat-chimaev"
+     },
+     "fb": {
+      "name": "Colby Covington",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/694/cc5bb196aeff.webp?v=cc5bb196aeff",
+      "url": "https://next-fight.com/en/fighter/colby-covington"
+     }
     },
     {
      "a": "Zabit Magomedsharipov",
@@ -72,10 +90,16 @@
      "section": "Undercard",
      "weight": "Welterweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Zabit Magomedsharipov",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1317/24c3c8b278e7.jpg?v=24c3c8b278e7",
+      "url": "https://next-fight.com/en/fighter/zabit-magomedsharipov"
+     },
+     "fb": {
+      "name": "Giga Chikadze",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/211/39b98ac4772c.webp?v=39b98ac4772c",
+      "url": "https://next-fight.com/en/fighter/giga-chikadze"
+     }
     },
     {
      "a": "Abdulrashid Sadulaev",
@@ -83,10 +107,12 @@
      "section": "Undercard",
      "weight": "Light Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Abdulrashid Sadulaev"
+     },
+     "fb": {
+      "name": "Dauren Kurugliev"
+     }
     },
     {
      "a": "Kyle Dake",
@@ -94,10 +120,12 @@
      "section": "Undercard",
      "weight": "Cruiserweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Kyle Dake"
+     },
+     "fb": {
+      "name": "Alp Arslan Begenjov"
+     }
     },
     {
      "a": "Umar Nurmagomedov",
@@ -105,10 +133,16 @@
      "section": "Undercard",
      "weight": "Lightweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Umar Nurmagomedov",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/198/48046de42608.webp?v=48046de42608",
+      "url": "https://next-fight.com/en/fighter/umar-nurmagomedov"
+     },
+     "fb": {
+      "name": "Urijah Faber",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1309/c1b6c6149d9a.webp?v=c1b6c6149d9a",
+      "url": "https://next-fight.com/en/fighter/urijah-faber"
+     }
     },
     {
      "a": "Urijah Faber",
@@ -116,10 +150,14 @@
      "section": "Undercard",
      "weight": "Catchweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Urijah Faber",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1309/c1b6c6149d9a.webp?v=c1b6c6149d9a",
+      "url": "https://next-fight.com/en/fighter/urijah-faber"
+     },
+     "fb": {
+      "name": "Saba Lazishvili"
+     }
     },
     {
      "a": "Jordan Burroughs",
@@ -127,10 +165,12 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Jordan Burroughs"
+     },
+     "fb": {
+      "name": "Azamat Nurykau"
+     }
     },
     {
      "a": "Kyle Snyder",
@@ -138,10 +178,14 @@
      "section": "Undercard",
      "weight": "Light Heavyweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Kyle Snyder"
+     },
+     "fb": {
+      "name": "Shamil Erdogan",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/19164/7136e6449a2d.webp?v=7136e6449a2d",
+      "url": "https://next-fight.com/en/fighter/shamil-erdogan"
+     }
     },
     {
      "a": "Murtaza Talha",
@@ -149,10 +193,12 @@
      "section": "Undercard",
      "weight": "Light Heavyweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Murtaza Talha"
+     },
+     "fb": {
+      "name": "Osama Elsaidy"
+     }
     },
     {
      "a": "Diana Avsaragova",
@@ -160,10 +206,16 @@
      "section": "Undercard",
      "weight": "Middleweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Diana Avsaragova",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/274607.jpg",
+      "url": "https://next-fight.com/en/fighter/diana-avsaragova"
+     },
+     "fb": {
+      "name": "Julianna Peña",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/567/752503f391c0.webp?v=752503f391c0",
+      "url": "https://next-fight.com/en/fighter/julianna-pena"
+     }
     },
     {
      "a": "Merab Dvalishvili",
@@ -171,10 +223,16 @@
      "section": "Undercard",
      "weight": "Catchweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Merab Dvalishvili",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/230/5ae7ae67437b.webp?v=5ae7ae67437b",
+      "url": "https://next-fight.com/en/fighter/merab-dvalishvili"
+     },
+     "fb": {
+      "name": "Marlon Moraes",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1108/2f77b7fd84eb.jpg?v=2f77b7fd84eb",
+      "url": "https://next-fight.com/en/fighter/marlon-moraes"
+     }
     },
     {
      "a": "Zahid Valencia",
@@ -182,10 +240,12 @@
      "section": "Undercard",
      "weight": "Cruiserweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Zahid Valencia"
+     },
+     "fb": {
+      "name": "Khidir Saipudinov"
+     }
     },
     {
      "a": "Ali AlQaisi",
@@ -193,10 +253,16 @@
      "section": "Undercard",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Ali AlQaisi",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1252/397660176d27.webp?v=397660176d27",
+      "url": "https://next-fight.com/en/fighter/ali-alqaisi"
+     },
+     "fb": {
+      "name": "Hamza Kooheji",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/2950/38ea5c7ccb4d.webp?v=38ea5c7ccb4d",
+      "url": "https://next-fight.com/en/fighter/hamza-kooheji"
+     }
     },
     {
      "a": "Kennedy Blades",
@@ -204,10 +270,14 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Kennedy Blades"
+     },
+     "fb": {
+      "name": "Bella Mir",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/376715.jpg?t=1787731569598",
+      "url": "https://next-fight.com/en/fighter/bella-mir"
+     }
     }
    ]
   },
@@ -226,10 +296,38 @@
      "section": "Main Event",
      "weight": "Heavyweight · 5 rounds",
      "title": true,
-     "aRank": "C",
-     "bRank": "#5",
-     "aRecord": "14-2-0",
-     "bRecord": "10-0-0"
+     "fa": {
+      "name": "Ciryl Gane",
+      "country": "France",
+      "flag": "🇫🇷",
+      "rank": "C",
+      "record": "14-2-0",
+      "nickname": "Bon Gamin",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/339/43d2888a7635.webp?v=43d2888a7635",
+      "url": "https://next-fight.com/en/fighter/ciryl-gane",
+      "stats": {
+       "Height": "196 cm · 6'5\"",
+       "Reach": "206 cm · 81\"",
+       "Age": "36 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Josh Hokit",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#5",
+      "record": "10-0-0",
+      "nickname": "The Incredible Hok",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/205/3025a6e9938e.webp?v=3025a6e9938e",
+      "url": "https://next-fight.com/en/fighter/josh-hokit",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "185 cm · 73\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Kayla Harrison",
@@ -237,10 +335,36 @@
      "section": "Co-main event",
      "weight": "Bantamweight",
      "title": true,
-     "aRank": "C",
-     "bRank": "",
-     "aRecord": "19-1-0",
-     "bRecord": "23-5-0"
+     "fa": {
+      "name": "Kayla Harrison",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "record": "19-1-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/566/89773893f02f.webp?v=89773893f02f",
+      "url": "https://next-fight.com/en/fighter/kayla-harrison",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "168 cm · 66\"",
+       "Age": "36 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Amanda Nunes",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "23-5-0",
+      "nickname": "Lioness",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/922/dc3ebeadb796.webp?v=dc3ebeadb796",
+      "url": "https://next-fight.com/en/fighter/amanda-nunes",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "175 cm · 69\"",
+       "Age": "38 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Caio Borralho",
@@ -248,10 +372,37 @@
      "section": "Main card",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "#6",
-     "bRank": "",
-     "aRecord": "18-2-0",
-     "bRecord": "11-3-0"
+     "fa": {
+      "name": "Caio Borralho",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "rank": "#6",
+      "record": "18-2-0",
+      "nickname": "The Natural",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/56/99f7ecf66ebd.webp?v=99f7ecf66ebd",
+      "url": "https://next-fight.com/en/fighter/caio-borralho",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "33 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Yousri Belgaroui",
+      "country": "Netherlands",
+      "flag": "🇳🇱",
+      "record": "11-3-0",
+      "nickname": "Baby Face Assassin",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/375/3b8a0b9d522a.webp?v=3b8a0b9d522a",
+      "url": "https://next-fight.com/en/fighter/yousri-belgaroui",
+      "stats": {
+       "Height": "196 cm · 6'5\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "34 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Uros Medic",
@@ -259,10 +410,38 @@
      "section": "Main card",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "#9",
-     "bRank": "#15",
-     "aRecord": "14-3-0",
-     "bRecord": "29-15-0"
+     "fa": {
+      "name": "Uros Medic",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#9",
+      "record": "14-3-0",
+      "nickname": "The Doctor",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/4/ef8100a894c3.webp?v=ef8100a894c3",
+      "url": "https://next-fight.com/en/fighter/uros-medic",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "180 cm · 71\"",
+       "Age": "33 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Kevin Holland",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#15",
+      "record": "29-15-0",
+      "nickname": "Trailblazer",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/359/48b70fe78ce0.webp?v=48b70fe78ce0",
+      "url": "https://next-fight.com/en/fighter/kevin-holland",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "206 cm · 81\"",
+       "Age": "34 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Bilal Hasan",
@@ -270,10 +449,36 @@
      "section": "Main card",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "10-0-0",
-     "bRecord": "11-4-0"
+     "fa": {
+      "name": "Bilal Hasan",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "10-0-0",
+      "nickname": "The IndoNinja",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/36497/e44f187dec60.webp?v=e44f187dec60",
+      "url": "https://next-fight.com/en/fighter/bilal-hasan",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "25 yrs",
+       "Stance": "Switch"
+      }
+     },
+     "fb": {
+      "name": "Luis Gurule",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "11-4-0",
+      "nickname": "Grim",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/23/cadfbfc82d20.webp?v=cadfbfc82d20",
+      "url": "https://next-fight.com/en/fighter/luis-gurule",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Reach": "163 cm · 64\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Stephen Thompson",
@@ -281,10 +486,36 @@
      "section": "Prelims",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "17-9-1",
-     "bRecord": "12-5-0"
+     "fa": {
+      "name": "Stephen Thompson",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "17-9-1",
+      "nickname": "Wonderboy",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/537/e5731857aff9.webp?v=e5731857aff9",
+      "url": "https://next-fight.com/en/fighter/stephen-thompson",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "43 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Charles Radtke",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "12-5-0",
+      "nickname": "Chuck Buffalo",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/324/8bb8746edc2b.webp?v=8bb8746edc2b",
+      "url": "https://next-fight.com/en/fighter/charles-radtke",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "183 cm · 72\"",
+       "Age": "36 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Drew Dober",
@@ -292,10 +523,35 @@
      "section": "Prelims",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "29-15-0",
-     "bRecord": "15-3-0"
+     "fa": {
+      "name": "Drew Dober",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "29-15-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/367/265ece057344.webp?v=265ece057344",
+      "url": "https://next-fight.com/en/fighter/drew-dober",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "38 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Chris Duncan",
+      "country": "Scotland",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "record": "15-3-0",
+      "nickname": "The Problem",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/240/fe850f674aab.webp?v=fe850f674aab",
+      "url": "https://next-fight.com/en/fighter/chris-duncan",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "180 cm · 71\"",
+       "Age": "33 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Jim Miller",
@@ -303,10 +559,36 @@
      "section": "Prelims",
      "weight": "Catchweight · 160 lb",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "39-19-0",
-     "bRecord": "18-9-0"
+     "fa": {
+      "name": "Jim Miller",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "39-19-0",
+      "nickname": "A-10",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/636/62a3023d8883.webp?v=62a3023d8883",
+      "url": "https://next-fight.com/en/fighter/jim-miller",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "180 cm · 71\"",
+       "Age": "43 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Terrance McKinney",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "18-9-0",
+      "nickname": "T.Wrecks",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/241/77e3188c056b.webp?v=77e3188c056b",
+      "url": "https://next-fight.com/en/fighter/terrance-mckinney",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "185 cm · 73\"",
+       "Age": "32 yrs",
+       "Stance": "Switch"
+      }
+     }
     },
     {
      "a": "Donte Johnson",
@@ -314,10 +596,36 @@
      "section": "Prelims",
      "weight": "Catchweight · 190 lb",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "9-0-0",
-     "bRecord": "7-3-0"
+     "fa": {
+      "name": "Donte Johnson",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "9-0-0",
+      "nickname": "Lockjaw",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/64/28bd583d96af.webp?v=28bd583d96af",
+      "url": "https://next-fight.com/en/fighter/donte-johnson",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "27 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Cesar Almeida",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "7-3-0",
+      "nickname": "Cesinha",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/213/729e64a72ed3.webp?v=729e64a72ed3",
+      "url": "https://next-fight.com/en/fighter/cesar-almeida",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "38 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Jared Gordon",
@@ -325,10 +633,37 @@
      "section": "Early prelims",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "#12",
-     "aRecord": "21-9-0",
-     "bRecord": "26-8-0"
+     "fa": {
+      "name": "Jared Gordon",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "21-9-0",
+      "nickname": "Flash",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/431/b650fb75d1b1.webp?v=b650fb75d1b1",
+      "url": "https://next-fight.com/en/fighter/jared-gordon",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "38 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Melquizael Costa",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "rank": "#12",
+      "record": "26-8-0",
+      "nickname": "The Dalmatian",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/6/c86b6f972205.webp?v=c86b6f972205",
+      "url": "https://next-fight.com/en/fighter/melquizael-costa",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "180 cm · 71\"",
+       "Age": "30 yrs",
+       "Stance": "Southpaw"
+      }
+     }
     },
     {
      "a": "Macy Chiasson",
@@ -336,10 +671,37 @@
      "section": "Early prelims",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "#14",
-     "bRank": "#11",
-     "aRecord": "10-6-0",
-     "bRecord": "8-0-0"
+     "fa": {
+      "name": "Macy Chiasson",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#14",
+      "record": "10-6-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/34/d8078065f118.webp?v=d8078065f118",
+      "url": "https://next-fight.com/en/fighter/macy-chiasson",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "183 cm · 72\"",
+       "Age": "35 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Bia Mesquita",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "rank": "#11",
+      "record": "8-0-0",
+      "nickname": "Bia",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/2798/96396861b94a.webp?v=96396861b94a",
+      "url": "https://next-fight.com/en/fighter/bia-mesquita",
+      "stats": {
+       "Height": "157 cm · 5'2\"",
+       "Reach": "170 cm · 67\"",
+       "Age": "35 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Juan Diaz",
@@ -347,10 +709,36 @@
      "section": "Early prelims",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "16-1-1",
-     "bRecord": "18-10-2"
+     "fa": {
+      "name": "Juan Diaz",
+      "country": "Peru",
+      "flag": "🇵🇪",
+      "record": "16-1-1",
+      "nickname": "Pegajoso",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/9735/603fe6934339.webp?v=603fe6934339",
+      "url": "https://next-fight.com/en/fighter/juan-diaz",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "175 cm · 69\"",
+       "Age": "28 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Heili Alateng",
+      "country": "China",
+      "flag": "🇨🇳",
+      "record": "18-10-2",
+      "nickname": "The Mongolian Knight",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/627/e31505d9f8aa.webp?v=e31505d9f8aa",
+      "url": "https://next-fight.com/en/fighter/heili-alateng",
+      "stats": {
+       "Height": "168 cm · 5'6\"",
+       "Reach": "168 cm · 66\"",
+       "Age": "34 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Evan Elder",
@@ -358,10 +746,36 @@
      "section": "Early prelims",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "10-2-0",
-     "bRecord": "11-1-0"
+     "fa": {
+      "name": "Evan Elder",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "10-2-0",
+      "nickname": "The Phenom",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/625/448d6a91177e.webp?v=448d6a91177e",
+      "url": "https://next-fight.com/en/fighter/evan-elder",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "183 cm · 72\"",
+       "Age": "29 yrs",
+       "Stance": "Switch"
+      }
+     },
+     "fb": {
+      "name": "Samuel Sanches",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "11-1-0",
+      "nickname": "The Prodigy",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/23360/9a80e1a4b439.webp?v=9a80e1a4b439",
+      "url": "https://next-fight.com/en/fighter/samuel-sanches-389956",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "23 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     }
    ]
   },
@@ -380,10 +794,33 @@
      "section": "Main Event",
      "weight": "Flyweight · 5 rounds",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "24-5-0",
-     "bRecord": "13-1-0"
+     "fa": {
+      "name": "Joshua Pacio",
+      "country": "Philippines",
+      "flag": "🇵🇭",
+      "record": "24-5-0",
+      "nickname": "The Passion",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/19159/61eab0666ef5.webp?v=61eab0666ef5",
+      "url": "https://next-fight.com/en/fighter/joshua-pacio",
+      "stats": {
+       "Height": "163 cm · 5'4\"",
+       "Age": "30 yrs"
+      }
+     },
+     "fb": {
+      "name": "Keito Yamakita",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "13-1-0",
+      "nickname": "Pocket Monk",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16274/aa3f3fda46a4.webp?v=aa3f3fda46a4",
+      "url": "https://next-fight.com/en/fighter/keito-yamakita",
+      "stats": {
+       "Height": "155 cm · 5'1\"",
+       "Reach": "165 cm · 65\"",
+       "Age": "30 yrs"
+      }
+     }
     },
     {
      "a": "Tatsumitsu Wada",
@@ -391,10 +828,34 @@
      "section": "Co-main event",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "26-14-2",
-     "bRecord": "21-6-0"
+     "fa": {
+      "name": "Tatsumitsu Wada",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "26-14-2",
+      "nickname": "The Sweeper",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16272/17f5f7d2d4b2.webp?v=17f5f7d2d4b2",
+      "url": "https://next-fight.com/en/fighter/tatsumitsu-wada",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Age": "37 yrs"
+      }
+     },
+     "fb": {
+      "name": "Jarred Brooks",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "21-6-0",
+      "nickname": "The Monkey God",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1454/61eab0666ef5.webp?v=61eab0666ef5",
+      "url": "https://next-fight.com/en/fighter/jarred-brooks",
+      "stats": {
+       "Height": "160 cm · 5'3\"",
+       "Reach": "157 cm · 62\"",
+       "Age": "33 yrs",
+       "Stance": "Switch"
+      }
+     }
     },
     {
      "a": "Ryugo Takeuchi",
@@ -402,10 +863,29 @@
      "section": "Other fights",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "5-3-0",
-     "bRecord": "8-2-0"
+     "fa": {
+      "name": "Ryugo Takeuchi",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "5-3-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/17623/015880c091fe.webp?v=015880c091fe",
+      "url": "https://next-fight.com/en/fighter/ryugo-takeuchi",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Age": "23 yrs"
+      }
+     },
+     "fb": {
+      "name": "Brandon Hashimoto",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "8-2-0",
+      "url": "https://next-fight.com/en/fighter/brandon-hashimoto",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Age": "28 yrs"
+      }
+     }
     },
     {
      "a": "Shosuke Kinoshita",
@@ -413,10 +893,31 @@
      "section": "Other fights",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "13-7-1",
-     "bRecord": "6-1-0"
+     "fa": {
+      "name": "Shosuke Kinoshita",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "13-7-1",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/276311.jpg?t=1787072320484",
+      "url": "https://next-fight.com/en/fighter/shosuke-kinoshita",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Age": "30 yrs"
+      }
+     },
+     "fb": {
+      "name": "Takuya Shibamura",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "6-1-0",
+      "nickname": "Shibaev",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/444713.jpg?t=1784369690322",
+      "url": "https://next-fight.com/en/fighter/takuya-shibamura",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Age": "27 yrs"
+      }
+     }
     }
    ]
   },
@@ -435,10 +936,25 @@
      "section": "Announced fights",
      "weight": "Strawweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "0-0-0",
-     "bRecord": "0-0-0"
+     "fa": {
+      "name": "Allycia Hellen Rodrigues",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "0-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/359157/df761e8ecb5c.webp?v=df761e8ecb5c",
+      "url": "https://next-fight.com/en/fighter/allycia-hellen-rodrigues",
+      "stats": {
+       "Height": "163 cm · 5'4\"",
+       "Age": "28 yrs"
+      }
+     },
+     "fb": {
+      "name": "Charlotte Padie",
+      "country": "France",
+      "flag": "🇫🇷",
+      "record": "0-0-0",
+      "url": "https://next-fight.com/en/fighter/charlotte-padie"
+     }
     }
    ]
   },
@@ -457,10 +973,14 @@
      "section": "Main Event",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Keith Richardson",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/48148.jpg?t=1778832796104",
+      "url": "https://next-fight.com/en/fighter/keith-richardson"
+     },
+     "fb": {
+      "name": "Joshua Oxendine"
+     }
     },
     {
      "a": "Derek Brunson",
@@ -468,10 +988,15 @@
      "section": "Co-main event",
      "weight": "Cruiserweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Derek Brunson",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/68494.jpg?t=1778568875176",
+      "url": "https://next-fight.com/en/fighter/derek-brunson"
+     },
+     "fb": {
+      "name": "Theo Doukas",
+      "url": "https://next-fight.com/en/fighter/theo-doukas"
+     }
     },
     {
      "a": "Ryan Jett",
@@ -479,10 +1004,13 @@
      "section": "Undercard",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Ryan Jett",
+      "url": "https://next-fight.com/en/fighter/ryan-jett"
+     },
+     "fb": {
+      "name": "Rodney Hinton"
+     }
     },
     {
      "a": "Evan Pierce",
@@ -490,10 +1018,13 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Evan Pierce"
+     },
+     "fb": {
+      "name": "Diego Romo",
+      "url": "https://next-fight.com/en/fighter/diego-romo"
+     }
     },
     {
      "a": "Windson Ramos",
@@ -501,10 +1032,15 @@
      "section": "Undercard",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Windson Ramos",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/248701.jpg?t=1778746877790",
+      "url": "https://next-fight.com/en/fighter/windson-ramos"
+     },
+     "fb": {
+      "name": "Robert Fichtner",
+      "url": "https://next-fight.com/en/fighter/robert-fichtner"
+     }
     },
     {
      "a": "Brandon Bushaw",
@@ -512,10 +1048,13 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Brandon Bushaw",
+      "url": "https://next-fight.com/en/fighter/brandon-bushaw"
+     },
+     "fb": {
+      "name": "Joshua Claudio"
+     }
     },
     {
      "a": "Austin Coleman",
@@ -523,10 +1062,14 @@
      "section": "Undercard",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Austin Coleman",
+      "url": "https://next-fight.com/en/fighter/austin-coleman"
+     },
+     "fb": {
+      "name": "Alex Eliam",
+      "url": "https://next-fight.com/en/fighter/alex-eliam"
+     }
     },
     {
      "a": "Amos Collins",
@@ -534,10 +1077,15 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Amos Collins",
+      "url": "https://next-fight.com/en/fighter/amos-collins"
+     },
+     "fb": {
+      "name": "Ashton Caniglia",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/199877.jpg?t=1779864773444",
+      "url": "https://next-fight.com/en/fighter/ashton-caniglia"
+     }
     },
     {
      "a": "Justin Howell",
@@ -545,10 +1093,12 @@
      "section": "Undercard",
      "weight": "Light Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Justin Howell"
+     },
+     "fb": {
+      "name": "Brian Maxwell"
+     }
     },
     {
      "a": "Maurice Morris",
@@ -556,10 +1106,15 @@
      "section": "Undercard",
      "weight": "Cruiserweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Maurice Morris",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/397906.jpg?t=1779869823752",
+      "url": "https://next-fight.com/en/fighter/maurice-morris"
+     },
+     "fb": {
+      "name": "Lewis Glover",
+      "url": "https://next-fight.com/en/fighter/lewis-glover"
+     }
     }
    ]
   },
@@ -578,10 +1133,37 @@
      "section": "Main Event",
      "weight": "Light Heavyweight · 5 rounds",
      "title": false,
-     "aRank": "#3",
-     "bRank": "#7",
-     "aRecord": "32-6-1",
-     "bRecord": "11-0-0"
+     "fa": {
+      "name": "Jiri Prochazka",
+      "country": "Czech Republic",
+      "flag": "🇨🇿",
+      "rank": "#3",
+      "record": "32-6-1",
+      "nickname": "BJP",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/397/c0758b33fde3.webp?v=c0758b33fde3",
+      "url": "https://next-fight.com/en/fighter/jiri-prochazka",
+      "stats": {
+       "Height": "193 cm · 6'4\"",
+       "Reach": "203 cm · 80\"",
+       "Age": "34 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Navajo Stirling",
+      "country": "New Zealand",
+      "flag": "🇳🇿",
+      "rank": "#7",
+      "record": "11-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/421/4b30507d13e0.webp?v=4b30507d13e0",
+      "url": "https://next-fight.com/en/fighter/navajo-stirling",
+      "stats": {
+       "Height": "193 cm · 6'4\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Aljamain Sterling",
@@ -589,10 +1171,38 @@
      "section": "Co-main event",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "#4",
-     "bRank": "#10",
-     "aRecord": "26-5-0",
-     "bRecord": "18-1-0"
+     "fa": {
+      "name": "Aljamain Sterling",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#4",
+      "record": "26-5-0",
+      "nickname": "Funk Master",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/458/d2544e237593.webp?v=d2544e237593",
+      "url": "https://next-fight.com/en/fighter/aljamain-sterling",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "180 cm · 71\"",
+       "Age": "37 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Kevin Vallejos",
+      "country": "Argentina",
+      "flag": "🇦🇷",
+      "rank": "#10",
+      "record": "18-1-0",
+      "nickname": "El Chino",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/81/8143c020ee12.webp?v=8143c020ee12",
+      "url": "https://next-fight.com/en/fighter/kevin-vallejos",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "24 yrs",
+       "Stance": "Switch"
+      }
+     }
     },
     {
      "a": "Dan Hooker",
@@ -600,10 +1210,36 @@
      "section": "Main card",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "24-15-0",
-     "bRecord": "16-5-0"
+     "fa": {
+      "name": "Dan Hooker",
+      "country": "New Zealand",
+      "flag": "🇳🇿",
+      "record": "24-15-0",
+      "nickname": "The Hangman",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/165/458e39f39967.webp?v=458e39f39967",
+      "url": "https://next-fight.com/en/fighter/dan-hooker",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "36 yrs",
+       "Stance": "Switch"
+      }
+     },
+     "fb": {
+      "name": "Brian Ortega",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "16-5-0",
+      "nickname": "T-City",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/459/5d85f20d0d19.webp?v=5d85f20d0d19",
+      "url": "https://next-fight.com/en/fighter/brian-ortega",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "175 cm · 69\"",
+       "Age": "35 yrs",
+       "Stance": "Switch"
+      }
+     }
     },
     {
      "a": "Kyoji Horiguchi",
@@ -611,10 +1247,38 @@
      "section": "Main card",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "#7",
-     "bRank": "#6",
-     "aRecord": "36-6-0",
-     "bRecord": "24-3-0"
+     "fa": {
+      "name": "Kyoji Horiguchi",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "rank": "#7",
+      "record": "36-6-0",
+      "nickname": "Karate Kid",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/138/0e654109acc0.webp?v=0e654109acc0",
+      "url": "https://next-fight.com/en/fighter/kyoji-horiguchi",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Reach": "160 cm · 63\"",
+       "Age": "36 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Asu Almabayev",
+      "country": "Kazakhstan",
+      "flag": "🇰🇿",
+      "rank": "#6",
+      "record": "24-3-0",
+      "nickname": "Zulfikhar",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/264/d216882e2bf2.webp?v=d216882e2bf2",
+      "url": "https://next-fight.com/en/fighter/asu-almabayev",
+      "stats": {
+       "Height": "163 cm · 5'4\"",
+       "Reach": "165 cm · 65\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Ikram Aliskerov",
@@ -622,10 +1286,36 @@
      "section": "Main card",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "#11",
-     "bRank": "",
-     "aRecord": "18-2-0",
-     "bRecord": "18-10-0"
+     "fa": {
+      "name": "Ikram Aliskerov",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "rank": "#11",
+      "record": "18-2-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/346/1e76d871e21a.webp?v=1e76d871e21a",
+      "url": "https://next-fight.com/en/fighter/ikram-aliskerov",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "193 cm · 76\"",
+       "Age": "33 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Jared Cannonier",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "18-10-0",
+      "nickname": "The Killa Gorilla",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/486/4f77d5473b55.webp?v=4f77d5473b55",
+      "url": "https://next-fight.com/en/fighter/jared-cannonier",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "196 cm · 77\"",
+       "Age": "42 yrs",
+       "Stance": "Switch"
+      }
+     }
     },
     {
      "a": "Aleksandre Topuria",
@@ -633,10 +1323,36 @@
      "section": "Main card",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "7-1-0",
-     "bRecord": "8-1-0"
+     "fa": {
+      "name": "Aleksandre Topuria",
+      "country": "Georgia",
+      "flag": "🇬🇪",
+      "record": "7-1-0",
+      "nickname": "El Conquistador",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/267/fb89c8b1d73c.webp?v=fb89c8b1d73c",
+      "url": "https://next-fight.com/en/fighter/aleksandre-topuria",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "30 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Santiago Luna",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "record": "8-1-0",
+      "nickname": "Border Boy",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/38/ba59978f499a.webp?v=ba59978f499a",
+      "url": "https://next-fight.com/en/fighter/santiago-luna",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "22 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Shamil Gaziev",
@@ -644,10 +1360,35 @@
      "section": "Prelims",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "15-3-0",
-     "bRecord": "9-2-0"
+     "fa": {
+      "name": "Shamil Gaziev",
+      "country": "Bahrain",
+      "flag": "🇧🇭",
+      "record": "15-3-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/259/885e5298e3b3.webp?v=885e5298e3b3",
+      "url": "https://next-fight.com/en/fighter/shamil-gaziev",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "198 cm · 78\"",
+       "Age": "36 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Tallison Teixeira",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "9-2-0",
+      "nickname": "Xicao",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/168/3fce2cacbbc4.webp?v=3fce2cacbbc4",
+      "url": "https://next-fight.com/en/fighter/tallison-teixeira",
+      "stats": {
+       "Height": "201 cm · 6'7\"",
+       "Reach": "211 cm · 83\"",
+       "Age": "26 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Amir Albazi",
@@ -655,10 +1396,37 @@
      "section": "Prelims",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "#8",
-     "bRank": "",
-     "aRecord": "17-3-0",
-     "bRecord": "17-5-0"
+     "fa": {
+      "name": "Amir Albazi",
+      "country": "Iraq",
+      "flag": "🇮🇶",
+      "rank": "#8",
+      "record": "17-3-0",
+      "nickname": "The Prince",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/139/9429780647ae.webp?v=9429780647ae",
+      "url": "https://next-fight.com/en/fighter/amir-albazi",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "33 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Alessandro Costa",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "17-5-0",
+      "nickname": "Nono",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/440/05491e1f3e25.webp?v=05491e1f3e25",
+      "url": "https://next-fight.com/en/fighter/alessandro-costa",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Reach": "170 cm · 67\"",
+       "Age": "30 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Jake Matthews",
@@ -666,10 +1434,36 @@
      "section": "Prelims",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "23-8-0",
-     "bRecord": "20-3-0"
+     "fa": {
+      "name": "Jake Matthews",
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "record": "23-8-0",
+      "nickname": "The Celtic Kid",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/418/4b2f94f45395.webp?v=4b2f94f45395",
+      "url": "https://next-fight.com/en/fighter/jake-matthews",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "185 cm · 73\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Tahir Abdullayev",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿",
+      "record": "20-3-0",
+      "nickname": "Tank",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/75548/2c24d9f45740.webp?v=2c24d9f45740",
+      "url": "https://next-fight.com/en/fighter/tahir-abdullayev",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "185 cm · 73\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Nikolas Motta",
@@ -677,10 +1471,36 @@
      "section": "Other fights",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "15-6-0",
-     "bRecord": "9-3-0"
+     "fa": {
+      "name": "Nikolas Motta",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "15-6-0",
+      "nickname": "Iron",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/555/34e4b1772624.webp?v=34e4b1772624",
+      "url": "https://next-fight.com/en/fighter/nikolas-motta",
+      "stats": {
+       "Height": "173 cm · 5'8\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "33 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Dom Mar Fan",
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "record": "9-3-0",
+      "nickname": "Street Buddha",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/182/33452b91af6d.webp?v=33452b91af6d",
+      "url": "https://next-fight.com/en/fighter/dom-mar-fan",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "26 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Diyar Nurgozhay",
@@ -688,10 +1508,34 @@
      "section": "Other fights",
      "weight": "Light Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "12-2-0",
-     "bRecord": "8-2-0"
+     "fa": {
+      "name": "Diyar Nurgozhay",
+      "country": "Kazakhstan",
+      "flag": "🇰🇿",
+      "record": "12-2-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/69/9768c918ad1a.webp?v=9768c918ad1a",
+      "url": "https://next-fight.com/en/fighter/diyar-nurgozhay",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "29 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Alik Lorenz",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "8-2-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/23379/be2759481a55.webp?v=be2759481a55",
+      "url": "https://next-fight.com/en/fighter/alik-lorenz",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Reach": "197 cm · 78\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     }
    ]
   },
@@ -710,10 +1554,14 @@
      "section": "Main Event",
      "weight": "Lightweight Crossover",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Henry Cejudo",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/235/59f9e86ee1f1.webp?v=59f9e86ee1f1",
+      "url": "https://next-fight.com/en/fighter/henry-cejudo"
+     },
+     "fb": {
+      "name": "Song Yadong"
+     }
     },
     {
      "a": "Donald Cerrone",
@@ -721,10 +1569,16 @@
      "section": "Co-main event",
      "weight": "Cruiserweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Donald Cerrone",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1053/bc8d2f743fc4.webp?v=bc8d2f743fc4",
+      "url": "https://next-fight.com/en/fighter/donald-cerrone"
+     },
+     "fb": {
+      "name": "Anthony Pettis",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1227/71a353cce22f.jpg?v=71a353cce22f",
+      "url": "https://next-fight.com/en/fighter/anthony-pettis"
+     }
     },
     {
      "a": "Arman Tsarukyan",
@@ -732,10 +1586,16 @@
      "section": "Undercard",
      "weight": "Middleweight Crossover",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Arman Tsarukyan",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/253/f8506b583383.webp?v=f8506b583383",
+      "url": "https://next-fight.com/en/fighter/arman-tsarukyan"
+     },
+     "fb": {
+      "name": "Anthony Pettis",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1227/71a353cce22f.jpg?v=71a353cce22f",
+      "url": "https://next-fight.com/en/fighter/anthony-pettis"
+     }
     },
     {
      "a": "Kennedy Blades",
@@ -743,10 +1603,12 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Kennedy Blades"
+     },
+     "fb": {
+      "name": "Alexis Gomez"
+     }
     },
     {
      "a": "Real Woods",
@@ -754,10 +1616,13 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Real Woods"
+     },
+     "fb": {
+      "name": "Sebastian Rivera",
+      "url": "https://next-fight.com/en/fighter/sebastian-rivera"
+     }
     },
     {
      "a": "Sergio Pettis",
@@ -765,10 +1630,16 @@
      "section": "Undercard",
      "weight": "Featherweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Sergio Pettis",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1343/75bca7b19820.webp?v=75bca7b19820",
+      "url": "https://next-fight.com/en/fighter/sergio-pettis"
+     },
+     "fb": {
+      "name": "Cody Garbrandt",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/66/e5884573cfb5.webp?v=e5884573cfb5",
+      "url": "https://next-fight.com/en/fighter/cody-garbrandt"
+     }
     },
     {
      "a": "Roman Bravo-Young",
@@ -776,10 +1647,12 @@
      "section": "Undercard",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Roman Bravo-Young"
+     },
+     "fb": {
+      "name": "Matt Ramos"
+     }
     },
     {
      "a": "Chance Marsteller",
@@ -787,10 +1660,12 @@
      "section": "Undercard",
      "weight": "Cruiserweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Chance Marsteller"
+     },
+     "fb": {
+      "name": "Akhmed Usmanov"
+     }
     },
     {
      "a": "Raúl Rosas Jr.",
@@ -798,10 +1673,16 @@
      "section": "Undercard",
      "weight": "Lightweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Raúl Rosas Jr.",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/61/c408dc9bec80.webp?v=c408dc9bec80",
+      "url": "https://next-fight.com/en/fighter/raul-rosas-jr"
+     },
+     "fb": {
+      "name": "Clay Guida",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/706/8cda2f642f49.webp?v=8cda2f642f49",
+      "url": "https://next-fight.com/en/fighter/clay-guida"
+     }
     },
     {
      "a": "Michael Caliendo",
@@ -809,10 +1690,12 @@
      "section": "Undercard",
      "weight": "Welterweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Michael Caliendo"
+     },
+     "fb": {
+      "name": "Cesar Alvan"
+     }
     },
     {
      "a": "Geno Petriashvili",
@@ -820,10 +1703,12 @@
      "section": "Undercard",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Geno Petriashvili"
+     },
+     "fb": {
+      "name": "Yonger Bastida"
+     }
     },
     {
      "a": "Haley Augello",
@@ -831,10 +1716,14 @@
      "section": "Undercard",
      "weight": "Bantamweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Haley Augello"
+     },
+     "fb": {
+      "name": "Miranda Maverick",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/560/c2646f5a55d9.webp?v=c2646f5a55d9",
+      "url": "https://next-fight.com/en/fighter/miranda-maverick"
+     }
     },
     {
      "a": "Cayden Henschel",
@@ -842,10 +1731,12 @@
      "section": "Undercard",
      "weight": "Featherweight Crossover",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Cayden Henschel"
+     },
+     "fb": {
+      "name": "Conor Beebe"
+     }
     },
     {
      "a": "Danny Sabatello",
@@ -853,10 +1744,14 @@
      "section": "Undercard",
      "weight": "Lightweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Danny Sabatello",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/4501/6e2f3830f429.jpg?v=6e2f3830f429",
+      "url": "https://next-fight.com/en/fighter/danny-sabatello"
+     },
+     "fb": {
+      "name": "Jacob Schultz"
+     }
     }
    ]
   },
@@ -875,10 +1770,32 @@
      "section": "Announced fights",
      "weight": "Strawweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "12-1-1",
-     "bRecord": "7-0-0"
+     "fa": {
+      "name": "Chihiro Sawada",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "12-1-1",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16269/f49d5e9faa94.webp?v=f49d5e9faa94",
+      "url": "https://next-fight.com/en/fighter/chihiro-sawada",
+      "stats": {
+       "Height": "150 cm · 4'11\"",
+       "Reach": "152 cm · 60\"",
+       "Age": "28 yrs"
+      }
+     },
+     "fb": {
+      "name": "Anastasia Nikolakakos",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "record": "7-0-0",
+      "nickname": "Anniemale",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16887/d57fa4885d27.webp?v=d57fa4885d27",
+      "url": "https://next-fight.com/en/fighter/anastasia-nikolakakos",
+      "stats": {
+       "Height": "152 cm · 5'0\"",
+       "Age": "37 yrs"
+      }
+     }
     },
     {
      "a": "Koha Minowa",
@@ -886,10 +1803,32 @@
      "section": "Announced fights",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "16-6-0",
-     "bRecord": "16-2-0"
+     "fa": {
+      "name": "Koha Minowa",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "16-6-0",
+      "nickname": "Hiroba",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16284/529476f9b615.webp?v=529476f9b615",
+      "url": "https://next-fight.com/en/fighter/koha-minowa",
+      "stats": {
+       "Height": "160 cm · 5'3\"",
+       "Age": "27 yrs"
+      }
+     },
+     "fb": {
+      "name": "Fabio Henrique Dourado",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "16-2-0",
+      "nickname": "Gigante",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16886/fdf3f478d0b7.webp?v=fdf3f478d0b7",
+      "url": "https://next-fight.com/en/fighter/fabio-henrique-dourado",
+      "stats": {
+       "Height": "157 cm · 5'2\"",
+       "Age": "34 yrs"
+      }
+     }
     },
     {
      "a": "Taiga Orii",
@@ -897,10 +1836,31 @@
      "section": "Announced fights",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "5-0-0",
-     "bRecord": "4-1-0"
+     "fa": {
+      "name": "Taiga Orii",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "5-0-0",
+      "nickname": "Black Samurai",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16310/dcaa51af8a25.webp?v=dcaa51af8a25",
+      "url": "https://next-fight.com/en/fighter/taiga-orii",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Age": "30 yrs"
+      }
+     },
+     "fb": {
+      "name": "Ryo Hirayama",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "record": "4-1-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/19173/c2f299098772.webp?v=c2f299098772",
+      "url": "https://next-fight.com/en/fighter/ryo-hirayama",
+      "stats": {
+       "Height": "168 cm · 5'6\"",
+       "Age": "27 yrs"
+      }
+     }
     }
    ]
   },
@@ -919,10 +1879,37 @@
      "section": "Main Event",
      "weight": "Middleweight · 5 rounds",
      "title": false,
-     "aRank": "#10",
-     "bRank": "",
-     "aRecord": "24-6-0",
-     "bRecord": "17-1-0"
+     "fa": {
+      "name": "Israel Adesanya",
+      "country": "Nigeria",
+      "flag": "🇳🇬",
+      "rank": "#10",
+      "record": "24-6-0",
+      "nickname": "The Last Stylebender",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/679/6892aaa7546f.webp?v=6892aaa7546f",
+      "url": "https://next-fight.com/en/fighter/israel-adesanya",
+      "stats": {
+       "Height": "193 cm · 6'4\"",
+       "Reach": "203 cm · 80\"",
+       "Age": "37 yrs",
+       "Stance": "Switch"
+      }
+     },
+     "fb": {
+      "name": "Sharabutdin Magomedov",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "record": "17-1-0",
+      "nickname": "Shara Bullet",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/514/6024d343e263.jpg?v=6024d343e263",
+      "url": "https://next-fight.com/en/fighter/sharabutdin-magomedov",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Reach": "185 cm · 73\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Ian Garry",
@@ -930,10 +1917,38 @@
      "section": "Co-main event",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "#2",
-     "bRank": "#13",
-     "aRecord": "17-2-0",
-     "bRecord": "30-1-0"
+     "fa": {
+      "name": "Ian Garry",
+      "country": "Ireland",
+      "flag": "🇮🇪",
+      "rank": "#2",
+      "record": "17-2-0",
+      "nickname": "The Future",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/254/7b2be528d709.webp?v=7b2be528d709",
+      "url": "https://next-fight.com/en/fighter/ian-garry",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "28 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Yaroslav Amosov",
+      "country": "Ukraine",
+      "flag": "🇺🇦",
+      "rank": "#13",
+      "record": "30-1-0",
+      "nickname": "Dynamo",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/218/ddcb1ed4f300.webp?v=ddcb1ed4f300",
+      "url": "https://next-fight.com/en/fighter/yaroslav-amosov",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "33 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Serghei Spivac",
@@ -941,10 +1956,37 @@
      "section": "Other fights",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "#14",
-     "bRank": "#10",
-     "aRecord": "18-7-0",
-     "bRecord": "13-0-0"
+     "fa": {
+      "name": "Serghei Spivac",
+      "country": "Moldova",
+      "flag": "🇲🇩",
+      "rank": "#14",
+      "record": "18-7-0",
+      "nickname": "The Polar Bear",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/7/3e2f16dcebc8.webp?v=3e2f16dcebc8",
+      "url": "https://next-fight.com/en/fighter/serghei-spivac",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "198 cm · 78\"",
+       "Age": "31 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Mario Pinto",
+      "country": "Portugal",
+      "flag": "🇵🇹",
+      "rank": "#10",
+      "record": "13-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/129/dfe7983594fe.webp?v=dfe7983594fe",
+      "url": "https://next-fight.com/en/fighter/mario-pinto",
+      "stats": {
+       "Height": "196 cm · 6'5\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "28 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Islam Dulatov",
@@ -952,10 +1994,35 @@
      "section": "Other fights",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "12-1-0",
-     "bRecord": "15-3-0"
+     "fa": {
+      "name": "Islam Dulatov",
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "record": "12-1-0",
+      "nickname": "The Ripper",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/532/6f62602bb293.webp?v=6f62602bb293",
+      "url": "https://next-fight.com/en/fighter/islam-dulatov",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "28 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Levan Chokheli",
+      "country": "Georgia",
+      "flag": "🇬🇪",
+      "record": "15-3-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16956/53741887d8a9.webp?v=53741887d8a9",
+      "url": "https://next-fight.com/en/fighter/levan-chokheli",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "183 cm · 72\"",
+       "Age": "30 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Akbar Abdullaev",
@@ -963,10 +2030,36 @@
      "section": "Other fights",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "14-0-0",
-     "bRecord": "17-1-0"
+     "fa": {
+      "name": "Akbar Abdullaev",
+      "country": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "record": "14-0-0",
+      "nickname": "Bakal",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/377895.jpg?t=1787407605342",
+      "url": "https://next-fight.com/en/fighter/akbar-abdullaev",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Mairon Santos",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "17-1-0",
+      "nickname": "The Legend",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/251/cbd71fefcb9d.webp?v=cbd71fefcb9d",
+      "url": "https://next-fight.com/en/fighter/mairon-santos",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "183 cm · 72\"",
+       "Age": "26 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Ion Cutelaba",
@@ -974,10 +2067,36 @@
      "section": "Other fights",
      "weight": "Light Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "20-12-1",
-     "bRecord": "6-0-0"
+     "fa": {
+      "name": "Ion Cutelaba",
+      "country": "Moldova",
+      "flag": "🇲🇩",
+      "record": "20-12-1",
+      "nickname": "The Hulk",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/84/f1df092ee6da.webp?v=f1df092ee6da",
+      "url": "https://next-fight.com/en/fighter/ion-cutelaba",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "32 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Magomed Tuchalov",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "record": "6-0-0",
+      "nickname": "Wild",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/44226/af5b69238beb.webp?v=af5b69238beb",
+      "url": "https://next-fight.com/en/fighter/magomed-tuchalov",
+      "stats": {
+       "Height": "196 cm · 6'5\"",
+       "Reach": "198 cm · 78\"",
+       "Age": "26 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Jafel Filho",
@@ -985,10 +2104,36 @@
      "section": "Other fights",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "17-5-0",
-     "bRecord": "15-9-2"
+     "fa": {
+      "name": "Jafel Filho",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "17-5-0",
+      "nickname": "Pastor",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/385/58273f8bb667.webp?v=58273f8bb667",
+      "url": "https://next-fight.com/en/fighter/jafel-filho",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "33 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Bruno Silva",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "15-9-2",
+      "nickname": "Bulldog",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/88/3b9593d6b262.webp?v=3b9593d6b262",
+      "url": "https://next-fight.com/en/fighter/bruno-silva",
+      "stats": {
+       "Height": "163 cm · 5'4\"",
+       "Reach": "165 cm · 65\"",
+       "Age": "36 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Ivan Gnizditskiy",
@@ -996,10 +2141,34 @@
      "section": "Other fights",
      "weight": "Light Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "7-0-0",
-     "bRecord": "9-1-0"
+     "fa": {
+      "name": "Ivan Gnizditskiy",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "record": "7-0-0",
+      "nickname": "Samurai",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/20610/59fdfd3d3ba1.webp?v=59fdfd3d3ba1",
+      "url": "https://next-fight.com/en/fighter/ivan-gnizditskiy",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Age": "30 yrs"
+      }
+     },
+     "fb": {
+      "name": "Uran Satybaldiev",
+      "country": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "record": "9-1-0",
+      "nickname": "Gorilla",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/468/353c46a098e5.webp?v=353c46a098e5",
+      "url": "https://next-fight.com/en/fighter/uran-satybaldiev",
+      "stats": {
+       "Height": "193 cm · 6'4\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Jun Yong Park",
@@ -1007,10 +2176,36 @@
      "section": "Other fights",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "19-7-0",
-     "bRecord": "14-3-0"
+     "fa": {
+      "name": "Jun Yong Park",
+      "country": "South Korea",
+      "flag": "🇰🇷",
+      "record": "19-7-0",
+      "nickname": "The Iron Turtle",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/347/82b32f8e6436.webp?v=82b32f8e6436",
+      "url": "https://next-fight.com/en/fighter/jun-yong-park",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "185 cm · 73\"",
+       "Age": "35 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Marco Tulio",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "14-3-0",
+      "nickname": "Matuto",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/306/8193e88cca2e.webp?v=8193e88cca2e",
+      "url": "https://next-fight.com/en/fighter/marco-tulio",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Pavel Andrusca",
@@ -1018,10 +2213,33 @@
      "section": "Other fights",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "9-0-0",
-     "bRecord": "11-2-0"
+     "fa": {
+      "name": "Pavel Andrusca",
+      "country": "Moldova",
+      "flag": "🇲🇩",
+      "record": "9-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/100064/7f2bb4a96d37.webp?v=7f2bb4a96d37",
+      "url": "https://next-fight.com/en/fighter/pavel-andrusca",
+      "stats": {
+       "Height": "168 cm · 5'6\"",
+       "Reach": "168 cm · 66\"",
+       "Age": "24 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Mehemmedali Osmanli",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿",
+      "record": "11-2-0",
+      "nickname": "Ineffable",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/390629.jpg?t=1785038631584",
+      "url": "https://next-fight.com/en/fighter/mehemmedali-osmanli",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Age": "22 yrs"
+      }
+     }
     },
     {
      "a": "Matthieu Letho Duclos",
@@ -1029,10 +2247,35 @@
      "section": "Other fights",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "11-3-0",
-     "bRecord": "8-1-0"
+     "fa": {
+      "name": "Matthieu Letho Duclos",
+      "country": "France",
+      "flag": "🇫🇷",
+      "record": "11-3-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/11113/2389424d2c11.webp?v=2389424d2c11",
+      "url": "https://next-fight.com/en/fighter/matthieu-letho-duclos",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "193 cm · 76\"",
+       "Age": "31 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Modestino Rodrigues",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "8-1-0",
+      "nickname": "The Slanderman",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/38757/484cc4b851d6.webp?v=484cc4b851d6",
+      "url": "https://next-fight.com/en/fighter/modestino-rodrigues",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Reach": "196 cm · 77\"",
+       "Age": "23 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Hecher Sosa",
@@ -1040,10 +2283,36 @@
      "section": "Other fights",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "14-1-0",
-     "bRecord": "16-2-0"
+     "fa": {
+      "name": "Hecher Sosa",
+      "country": "Spain",
+      "flag": "🇪🇸",
+      "record": "14-1-0",
+      "nickname": "Guanche Warrior",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/100/83c02a022569.webp?v=83c02a022569",
+      "url": "https://next-fight.com/en/fighter/hecher-sosa",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "31 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Abdul Hussein",
+      "country": "Finland",
+      "flag": "🇫🇮",
+      "record": "16-2-0",
+      "nickname": "Abba",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/57651/9384eea6b8eb.webp?v=9384eea6b8eb",
+      "url": "https://next-fight.com/en/fighter/abdul-hussein",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Reach": "170 cm · 67\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     }
    ]
   },
@@ -1062,10 +2331,16 @@
      "section": "Main Event",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Dustin Pague",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/39781.jpg?t=1778576466042",
+      "url": "https://next-fight.com/en/fighter/dustin-pague"
+     },
+     "fb": {
+      "name": "Mike Richman",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/29312/81f787f39fe9.jpg?v=81f787f39fe9",
+      "url": "https://next-fight.com/en/fighter/mike-richman"
+     }
     },
     {
      "a": "Sam Alvey",
@@ -1073,10 +2348,15 @@
      "section": "Co-main event",
      "weight": "",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Sam Alvey",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1043/08743ff99ea3.jpg?v=08743ff99ea3",
+      "url": "https://next-fight.com/en/fighter/sam-alvey"
+     },
+     "fb": {
+      "name": "Jonathan Miller",
+      "url": "https://next-fight.com/en/fighter/jonathan-miller"
+     }
     },
     {
      "a": "Matt Semelsberger",
@@ -1084,10 +2364,13 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Matt Semelsberger"
+     },
+     "fb": {
+      "name": "Michael Manno",
+      "url": "https://next-fight.com/en/fighter/michael-manno"
+     }
     },
     {
      "a": "Benjamin Moser",
@@ -1095,10 +2378,13 @@
      "section": "Undercard",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Benjamin Moser"
+     },
+     "fb": {
+      "name": "Julian Valencia",
+      "url": "https://next-fight.com/en/fighter/julian-valencia"
+     }
     },
     {
      "a": "Pat Carroll",
@@ -1106,10 +2392,12 @@
      "section": "Undercard",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Pat Carroll"
+     },
+     "fb": {
+      "name": "Nelson Best"
+     }
     },
     {
      "a": "Elijah Harris",
@@ -1117,10 +2405,14 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Elijah Harris",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/175451.jpg?t=1779969716305",
+      "url": "https://next-fight.com/en/fighter/elijah-harris-175451"
+     },
+     "fb": {
+      "name": "Stevo Morris"
+     }
     },
     {
      "a": "Jay Haas",
@@ -1128,10 +2420,15 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Jay Haas",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/52094.jpg?t=1778837872000",
+      "url": "https://next-fight.com/en/fighter/jay-haas"
+     },
+     "fb": {
+      "name": "Eduardo Peralta",
+      "url": "https://next-fight.com/en/fighter/eduardo-peralta"
+     }
     },
     {
      "a": "Hunter Starner",
@@ -1139,10 +2436,16 @@
      "section": "Undercard",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Hunter Starner",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/370481.jpg?t=1786780942027",
+      "url": "https://next-fight.com/en/fighter/hunter-starner"
+     },
+     "fb": {
+      "name": "Blaine Shutt",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/98887.jpg?t=1778581738284",
+      "url": "https://next-fight.com/en/fighter/blaine-shutt"
+     }
     },
     {
      "a": "Lex Ludlow",
@@ -1150,10 +2453,13 @@
      "section": "Undercard",
      "weight": "Cruiserweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Lex Ludlow",
+      "url": "https://next-fight.com/en/fighter/lex-ludlow"
+     },
+     "fb": {
+      "name": "Mike Liberto"
+     }
     },
     {
      "a": "Tim Yanc",
@@ -1161,10 +2467,14 @@
      "section": "Undercard",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Tim Yanc",
+      "url": "https://next-fight.com/en/fighter/tim-yanc"
+     },
+     "fb": {
+      "name": "Malcolm Schuyler",
+      "url": "https://next-fight.com/en/fighter/malcolm-schuyler"
+     }
     },
     {
      "a": "Zach Pannell",
@@ -1172,10 +2482,13 @@
      "section": "Undercard",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Zach Pannell"
+     },
+     "fb": {
+      "name": "Zachary Shingara",
+      "url": "https://next-fight.com/en/fighter/zachary-shingara"
+     }
     },
     {
      "a": "Colin Reeser",
@@ -1183,10 +2496,13 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Colin Reeser"
+     },
+     "fb": {
+      "name": "Fabricio Berrun",
+      "url": "https://next-fight.com/en/fighter/fabricio-berrun"
+     }
     },
     {
      "a": "Brian Newman",
@@ -1194,10 +2510,13 @@
      "section": "Undercard",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Brian Newman",
+      "url": "https://next-fight.com/en/fighter/brian-newman"
+     },
+     "fb": {
+      "name": "Dale Reed"
+     }
     }
    ]
   },
@@ -1216,10 +2535,14 @@
      "section": "Main Event",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Bryce Henry"
+     },
+     "fb": {
+      "name": "Clay Collard",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/78465.jpg?t=1778482909860",
+      "url": "https://next-fight.com/en/fighter/clay-collard"
+     }
     },
     {
      "a": "Gorjan Slaveski",
@@ -1227,10 +2550,14 @@
      "section": "Co-main event",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Gorjan Slaveski"
+     },
+     "fb": {
+      "name": "Joe Elmore",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/42415.jpg?t=1778839187950",
+      "url": "https://next-fight.com/en/fighter/joe-elmore"
+     }
     },
     {
      "a": "Jessica Eye",
@@ -1238,10 +2565,16 @@
      "section": "Undercard",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Jessica Eye",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1055/dcf955651699.jpg?v=dcf955651699",
+      "url": "https://next-fight.com/en/fighter/jessica-eye"
+     },
+     "fb": {
+      "name": "Desiree Yanez",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/286877.jpg",
+      "url": "https://next-fight.com/en/fighter/desiree-yanez"
+     }
     },
     {
      "a": "Francesco Ricchi",
@@ -1249,10 +2582,15 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Francesco Ricchi",
+      "url": "https://next-fight.com/en/fighter/francesco-ricchi"
+     },
+     "fb": {
+      "name": "Zeb Vincent",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/289137.jpg?t=1779854681549",
+      "url": "https://next-fight.com/en/fighter/zeb-vincent"
+     }
     },
     {
      "a": "Brandon Alfano",
@@ -1260,10 +2598,12 @@
      "section": "Undercard",
      "weight": "",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Brandon Alfano"
+     },
+     "fb": {
+      "name": "Alex Davis"
+     }
     },
     {
      "a": "Murat Kazgan",
@@ -1271,10 +2611,14 @@
      "section": "Undercard",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Murat Kazgan",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/89061.jpg?t=1787398854949",
+      "url": "https://next-fight.com/en/fighter/murat-kazgan"
+     },
+     "fb": {
+      "name": "Israel Rodriguez"
+     }
     },
     {
      "a": "Howard Davis",
@@ -1282,10 +2626,12 @@
      "section": "Undercard",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Howard Davis"
+     },
+     "fb": {
+      "name": "Elvin Brito"
+     }
     },
     {
      "a": "Leo Acanda",
@@ -1293,10 +2639,13 @@
      "section": "Undercard",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Leo Acanda"
+     },
+     "fb": {
+      "name": "Justin Walters",
+      "url": "https://next-fight.com/en/fighter/justin-walters"
+     }
     }
    ]
   },
@@ -1315,10 +2664,37 @@
      "section": "Main Event",
      "weight": "Lightweight · 5 rounds",
      "title": true,
-     "aRank": "#3",
-     "bRank": "#2",
-     "aRecord": "37-11-0",
-     "bRecord": "28-8-0"
+     "fa": {
+      "name": "Charles Oliveira",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "rank": "#3",
+      "record": "37-11-0",
+      "nickname": "do Bronxs",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/55/009c40d8e7cb.webp?v=009c40d8e7cb",
+      "url": "https://next-fight.com/en/fighter/charles-oliveira",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "37 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Diego Lopes",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "rank": "#2",
+      "record": "28-8-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/163/26c724720cb8.webp?v=26c724720cb8",
+      "url": "https://next-fight.com/en/fighter/diego-lopes",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "183 cm · 72\"",
+       "Age": "31 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Alex Pereira",
@@ -1326,10 +2702,37 @@
      "section": "Co-main event",
      "weight": "Heavyweight",
      "title": false,
-     "aRank": "#1",
-     "bRank": "#4",
-     "aRecord": "13-4-0",
-     "bRecord": "21-3-0"
+     "fa": {
+      "name": "Alex Pereira",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "rank": "#1",
+      "record": "13-4-0",
+      "nickname": "Poatan",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/394/1dc9bb255343.webp?v=1dc9bb255343",
+      "url": "https://next-fight.com/en/fighter/alex-pereira",
+      "stats": {
+       "Height": "193 cm · 6'4\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "39 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Sergei Pavlovich",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "rank": "#4",
+      "record": "21-3-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/460/2d9952ad48cc.webp?v=2d9952ad48cc",
+      "url": "https://next-fight.com/en/fighter/sergei-pavlovich",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "213 cm · 84\"",
+       "Age": "34 yrs",
+       "Stance": "Southpaw"
+      }
+     }
     },
     {
      "a": "Brandon Moreno",
@@ -1337,10 +2740,38 @@
      "section": "Other fights",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "#9",
-     "bRank": "#15",
-     "aRecord": "24-10-2",
-     "bRecord": "20-9-0"
+     "fa": {
+      "name": "Brandon Moreno",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "rank": "#9",
+      "record": "24-10-2",
+      "nickname": "The Assassin Baby",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/28/da01fbf4850a.webp?v=da01fbf4850a",
+      "url": "https://next-fight.com/en/fighter/brandon-moreno",
+      "stats": {
+       "Height": "170 cm · 5'7\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "32 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Charles Johnson",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#15",
+      "record": "20-9-0",
+      "nickname": "InnerG",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/89/c4025fdbf11b.webp?v=c4025fdbf11b",
+      "url": "https://next-fight.com/en/fighter/charles-johnson",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "35 yrs",
+       "Stance": "Switch"
+      }
+     }
     },
     {
      "a": "Yair Rodriguez",
@@ -1348,10 +2779,37 @@
      "section": "Other fights",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "#13",
-     "aRecord": "20-5-0",
-     "bRecord": "19-6-0"
+     "fa": {
+      "name": "Yair Rodriguez",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "record": "20-5-0",
+      "nickname": "El Pantera",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/633/c60f9940195b.webp?v=c60f9940195b",
+      "url": "https://next-fight.com/en/fighter/yair-rodriguez",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "180 cm · 71\"",
+       "Age": "34 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Steve Garcia",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "#13",
+      "record": "19-6-0",
+      "nickname": "Mean Machine",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/319/6452b929293e.webp?v=6452b929293e",
+      "url": "https://next-fight.com/en/fighter/steve-garcia",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "34 yrs",
+       "Stance": "Southpaw"
+      }
+     }
     },
     {
      "a": "Baisangur Susurkaev",
@@ -1359,10 +2817,34 @@
      "section": "Other fights",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "12-0-0",
-     "bRecord": "11-1-0"
+     "fa": {
+      "name": "Baisangur Susurkaev",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "record": "12-0-0",
+      "nickname": "Hunter",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/380001.jpg",
+      "url": "https://next-fight.com/en/fighter/baisangur-susurkaev",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "25 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Damian Pinas",
+      "record": "11-1-0",
+      "nickname": "The Baba Yaga",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/51/c6849ba744a4.webp?v=c6849ba744a4",
+      "url": "https://next-fight.com/en/fighter/damian-pinas",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "201 cm · 79\"",
+       "Age": "24 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Angela Hill",
@@ -1370,10 +2852,36 @@
      "section": "Other fights",
      "weight": "Strawweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "19-16-0",
-     "bRecord": "8-1-0"
+     "fa": {
+      "name": "Angela Hill",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "19-16-0",
+      "nickname": "Overkill",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/294/d476f8a172a7.webp?v=d476f8a172a7",
+      "url": "https://next-fight.com/en/fighter/angela-hill",
+      "stats": {
+       "Height": "160 cm · 5'3\"",
+       "Reach": "163 cm · 64\"",
+       "Age": "41 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Shanelle Dyer",
+      "country": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "record": "8-1-0",
+      "nickname": "The Nightmare",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/135/01b5aed9bb51.webp?v=01b5aed9bb51",
+      "url": "https://next-fight.com/en/fighter/shanelle-dyer",
+      "stats": {
+       "Height": "168 cm · 5'6\"",
+       "Reach": "165 cm · 65\"",
+       "Age": "25 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Chase Hooper",
@@ -1381,10 +2889,36 @@
      "section": "Other fights",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "17-5-1",
-     "bRecord": "18-6-1"
+     "fa": {
+      "name": "Chase Hooper",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "17-5-1",
+      "nickname": "The Dream",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/492/6dbe67758994.webp?v=6dbe67758994",
+      "url": "https://next-fight.com/en/fighter/chase-hooper",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "27 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Chris Padilla",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "18-6-1",
+      "nickname": "Taco",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/304/5368cdb95828.webp?v=5368cdb95828",
+      "url": "https://next-fight.com/en/fighter/chris-padilla",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "31 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Jacqueline Cavalcanti",
@@ -1392,10 +2926,38 @@
      "section": "Other fights",
      "weight": "Bantamweight",
      "title": false,
-     "aRank": "#6",
-     "bRank": "#7",
-     "aRecord": "10-2-0",
-     "bRecord": "8-0-0"
+     "fa": {
+      "name": "Jacqueline Cavalcanti",
+      "country": "Portugal",
+      "flag": "🇵🇹",
+      "rank": "#6",
+      "record": "10-2-0",
+      "nickname": "The Nightmare",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/311/920faa879bdc.webp?v=920faa879bdc",
+      "url": "https://next-fight.com/en/fighter/jacqueline-cavalcanti",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "178 cm · 70\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Michelle Montague",
+      "country": "New Zealand",
+      "flag": "🇳🇿",
+      "rank": "#7",
+      "record": "8-0-0",
+      "nickname": "The Wild One",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/426/e2f0eb73afef.webp?v=e2f0eb73afef",
+      "url": "https://next-fight.com/en/fighter/michelle-montague",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "32 yrs",
+       "Stance": "Southpaw"
+      }
+     }
     },
     {
      "a": "Quentin Pasley",
@@ -1403,10 +2965,35 @@
      "section": "Other fights",
      "weight": "Light Heavyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "4-0-0",
-     "bRecord": "7-6-0"
+     "fa": {
+      "name": "Quentin Pasley",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "4-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/47547/ffad17efdb1b.webp?v=ffad17efdb1b",
+      "url": "https://next-fight.com/en/fighter/quentin-pasley",
+      "stats": {
+       "Height": "193 cm · 6'4\"",
+       "Reach": "198 cm · 78\"",
+       "Age": "25 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Junior Tafa",
+      "country": "New Zealand",
+      "flag": "🇳🇿",
+      "record": "7-6-0",
+      "nickname": "The Juggernaut",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/173/e33c416290f1.webp?v=e33c416290f1",
+      "url": "https://next-fight.com/en/fighter/junior-tafa",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "30 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Ronald Humphrey",
@@ -1414,10 +3001,35 @@
      "section": "Other fights",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "5-0-0",
-     "bRecord": "14-8-0"
+     "fa": {
+      "name": "Ronald Humphrey",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "5-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/47210/6dc9767c6ef4.webp?v=6dc9767c6ef4",
+      "url": "https://next-fight.com/en/fighter/ronald-humphrey",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "196 cm · 77\"",
+       "Age": "26 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Nikolay Veretennikov",
+      "country": "Kazakhstan",
+      "flag": "🇰🇿",
+      "record": "14-8-0",
+      "nickname": "Gladiator",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/150/d7c9310adbc5.webp?v=d7c9310adbc5",
+      "url": "https://next-fight.com/en/fighter/nikolay-veretennikov",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "36 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Roque Conceicao Moreira Junior",
@@ -1425,10 +3037,33 @@
      "section": "Other fights",
      "weight": "Flyweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "12-3-0",
-     "bRecord": "9-1-0"
+     "fa": {
+      "name": "Roque Conceicao Moreira Junior",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "12-3-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/23321/d74d76c2f551.webp?v=d74d76c2f551",
+      "url": "https://next-fight.com/en/fighter/roque-conceicao-moreira-junior",
+      "stats": {
+       "Height": "163 cm · 5'4\"",
+       "Age": "27 yrs"
+      }
+     },
+     "fb": {
+      "name": "Nilson Rojas",
+      "country": "Peru",
+      "flag": "🇵🇪",
+      "record": "9-1-0",
+      "nickname": "El Rayo",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/110220/ba2da6dcf0c2.webp?v=ba2da6dcf0c2",
+      "url": "https://next-fight.com/en/fighter/nilson-rojas",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Reach": "160 cm · 63\"",
+       "Age": "27 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     }
    ]
   },
@@ -1447,10 +3082,30 @@
      "section": "Announced fights",
      "weight": "Middleweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "9-1-0",
-     "bRecord": "7-0-0"
+     "fa": {
+      "name": "Maurice Abevi",
+      "country": "Switzerland",
+      "flag": "🇨🇭",
+      "record": "9-1-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/21890/5803c0462213.webp?v=5803c0462213",
+      "url": "https://next-fight.com/en/fighter/maurice-abevi",
+      "stats": {
+       "Height": "183 cm · 6'0\"",
+       "Age": "27 yrs"
+      }
+     },
+     "fb": {
+      "name": "Dzhabir Dzhabrailov",
+      "country": "Turkey",
+      "flag": "🇹🇷",
+      "record": "7-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/16282/a6ea9a5b1fed.webp?v=a6ea9a5b1fed",
+      "url": "https://next-fight.com/en/fighter/dzhabir-dzhabrailov",
+      "stats": {
+       "Height": "188 cm · 6'2\"",
+       "Age": "21 yrs"
+      }
+     }
     }
    ]
   },
@@ -1469,10 +3124,16 @@
      "section": "Main Event",
      "weight": "Catchweight Crossover",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Bo Nickal",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/282/ec4087f13a5c.webp?v=ec4087f13a5c",
+      "url": "https://next-fight.com/en/fighter/bo-nickal"
+     },
+     "fb": {
+      "name": "Yoel Romero",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/1296/17fb8933fa6b.jpg?v=17fb8933fa6b",
+      "url": "https://next-fight.com/en/fighter/yoel-romero"
+     }
     }
    ]
   },
@@ -1491,10 +3152,31 @@
      "section": "Announced fights",
      "weight": "Featherweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "6-0-0",
-     "bRecord": "10-2-0"
+     "fa": {
+      "name": "Elbek Alyshov",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿",
+      "record": "6-0-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/19174/fd3e6aa77952.webp?v=fd3e6aa77952",
+      "url": "https://next-fight.com/en/fighter/elbek-alyshov",
+      "stats": {
+       "Height": "168 cm · 5'6\"",
+       "Age": "27 yrs"
+      }
+     },
+     "fb": {
+      "name": "Carlo Bumina-ang",
+      "country": "Philippines",
+      "flag": "🇵🇭",
+      "record": "10-2-0",
+      "nickname": "The Bull",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/17817/6c79784d010d.webp?v=6c79784d010d",
+      "url": "https://next-fight.com/en/fighter/carlo-bumina-ang",
+      "stats": {
+       "Height": "165 cm · 5'5\"",
+       "Age": "32 yrs"
+      }
+     }
     }
    ]
   },
@@ -1513,10 +3195,34 @@
      "section": "Headliner not confirmed",
      "weight": "Lightweight · 5 rounds",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "20-7-0",
-     "bRecord": "12-1-1"
+     "fa": {
+      "name": "Diego Ferreira",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "record": "20-7-0",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/435/7343f7f106c5.webp?v=7343f7f106c5",
+      "url": "https://next-fight.com/en/fighter/diego-ferreira",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "188 cm · 74\"",
+       "Age": "41 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "MarQuel Mederos",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "12-1-1",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/572/8000c1df9aeb.webp?v=8000c1df9aeb",
+      "url": "https://next-fight.com/en/fighter/marquel-mederos",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "175 cm · 69\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Geoff Neal",
@@ -1524,10 +3230,36 @@
      "section": "Co-main event",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "16-8-0",
-     "bRecord": "32-13-0"
+     "fa": {
+      "name": "Geoff Neal",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "16-8-0",
+      "nickname": "Handz of Steel",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/3/4939fd6a2661.webp?v=4939fd6a2661",
+      "url": "https://next-fight.com/en/fighter/geoff-neal",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "36 yrs",
+       "Stance": "Southpaw"
+      }
+     },
+     "fb": {
+      "name": "Chris Curtis",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "32-13-0",
+      "nickname": "The Action Man",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/92/4362f0cc10c1.webp?v=4362f0cc10c1",
+      "url": "https://next-fight.com/en/fighter/chris-curtis",
+      "stats": {
+       "Height": "178 cm · 5'10\"",
+       "Reach": "192 cm · 76\"",
+       "Age": "39 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Piero Guaylupo",
@@ -1535,10 +3267,36 @@
      "section": "Announced fights",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "13-0-0",
-     "bRecord": "9-0-0"
+     "fa": {
+      "name": "Piero Guaylupo",
+      "country": "Peru",
+      "flag": "🇵🇪",
+      "record": "13-0-0",
+      "nickname": "El Lobo",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/432139.jpg?t=1783670785180",
+      "url": "https://next-fight.com/en/fighter/piero-guaylupo",
+      "stats": {
+       "Height": "175 cm · 5'9\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "22 yrs",
+       "Stance": "Switch"
+      }
+     },
+     "fb": {
+      "name": "Magomed Zaynukov",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "record": "9-0-0",
+      "nickname": "Wild Chanco",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/23316/4264ec0e18a3.webp?v=4264ec0e18a3",
+      "url": "https://next-fight.com/en/fighter/magomed-zaynukov",
+      "stats": {
+       "Height": "180 cm · 5'11\"",
+       "Reach": "173 cm · 68\"",
+       "Age": "31 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     },
     {
      "a": "Chidi Njokuani",
@@ -1546,10 +3304,36 @@
      "section": "Announced fights",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "26-12-0",
-     "bRecord": "18-7-0"
+     "fa": {
+      "name": "Chidi Njokuani",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "record": "26-12-0",
+      "nickname": "Chidi Bang Bang",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/19/4eb2531dd8a1.webp?v=4eb2531dd8a1",
+      "url": "https://next-fight.com/en/fighter/chidi-njokuani",
+      "stats": {
+       "Height": "191 cm · 6'3\"",
+       "Reach": "203 cm · 80\"",
+       "Age": "37 yrs",
+       "Stance": "Orthodox"
+      }
+     },
+     "fb": {
+      "name": "Ignacio Bahamondes",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "record": "18-7-0",
+      "nickname": "La Jaula",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/552/d74643981f54.webp?v=d74643981f54",
+      "url": "https://next-fight.com/en/fighter/ignacio-bahamondes",
+      "stats": {
+       "Height": "185 cm · 6'1\"",
+       "Reach": "191 cm · 75\"",
+       "Age": "29 yrs",
+       "Stance": "Orthodox"
+      }
+     }
     }
    ]
   },
@@ -1578,10 +3362,14 @@
      "section": "Main Event",
      "weight": "Featherweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Kai Stewart",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighter-photos/333026/4c78d7a1e7f4.jpg?v=4c78d7a1e7f4",
+      "url": "https://next-fight.com/en/fighter/kai-stewart"
+     },
+     "fb": {
+      "name": "Bryan Duran"
+     }
     },
     {
      "a": "George Thorpe",
@@ -1589,10 +3377,14 @@
      "section": "Co-main event",
      "weight": "Welterweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "George Thorpe"
+     },
+     "fb": {
+      "name": "Josh Kuhne",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/351963.jpg?t=1787391833896",
+      "url": "https://next-fight.com/en/fighter/josh-kuhne"
+     }
     },
     {
      "a": "Nathan Rivera",
@@ -1600,10 +3392,14 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Nathan Rivera",
+      "url": "https://next-fight.com/en/fighter/nathan-rivera"
+     },
+     "fb": {
+      "name": "Brandon Meneses",
+      "url": "https://next-fight.com/en/fighter/brandon-meneses"
+     }
     },
     {
      "a": "Julio Perez Rodriguez",
@@ -1611,10 +3407,14 @@
      "section": "Undercard",
      "weight": "",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Julio Perez Rodriguez"
+     },
+     "fb": {
+      "name": "Gabriel Mota",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/209795.jpg?t=1780056059730",
+      "url": "https://next-fight.com/en/fighter/gabriel-mota"
+     }
     },
     {
      "a": "Ramiro Figueroa",
@@ -1622,10 +3422,12 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Ramiro Figueroa"
+     },
+     "fb": {
+      "name": "Mick Whitehead"
+     }
     },
     {
      "a": "Famez",
@@ -1633,10 +3435,12 @@
      "section": "Undercard",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Famez"
+     },
+     "fb": {
+      "name": "Josh Marer"
+     }
     },
     {
      "a": "Joey Gambino",
@@ -1644,10 +3448,15 @@
      "section": "Undercard",
      "weight": "Featherweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Joey Gambino",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/55503.jpg",
+      "url": "https://next-fight.com/en/fighter/joey-gambino"
+     },
+     "fb": {
+      "name": "Matt Denning",
+      "url": "https://next-fight.com/en/fighter/matt-denning"
+     }
     },
     {
      "a": "Cole Ferrell",
@@ -1655,10 +3464,14 @@
      "section": "Undercard",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Cole Ferrell",
+      "url": "https://next-fight.com/en/fighter/cole-ferrell"
+     },
+     "fb": {
+      "name": "Amos Collins",
+      "url": "https://next-fight.com/en/fighter/amos-collins"
+     }
     }
    ]
   },
@@ -1687,10 +3500,12 @@
      "section": "Main Event",
      "weight": "Lightweight",
      "title": true,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Ben Bonner"
+     },
+     "fb": {
+      "name": "Rico Franco"
+     }
     },
     {
      "a": "Jimmy Sweeney",
@@ -1698,10 +3513,14 @@
      "section": "Co-main event",
      "weight": "Lightweight",
      "title": false,
-     "aRank": "",
-     "bRank": "",
-     "aRecord": "",
-     "bRecord": ""
+     "fa": {
+      "name": "Jimmy Sweeney"
+     },
+     "fb": {
+      "name": "James Lilley",
+      "photo": "https://supabase-nf.next-fight.com/storage/v1/object/public/fighters/53540.jpg?t=1778772871617",
+      "url": "https://next-fight.com/en/fighter/james-lilley"
+     }
     }
    ]
   }
