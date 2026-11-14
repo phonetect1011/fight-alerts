@@ -1,40 +1,52 @@
 #!/usr/bin/env python3
-"""Debug helper: checks how many fighters on our cards TheSportsDB (free v1 key) has photos for."""
+"""Debug helper: what does TheSportsDB (free v1 key) have for UFC / ONE / BKFC / RAF events and start times?"""
+import datetime as dt
 import json
 import os
 import time
 import requests
 
-API = "https://www.thesportsdb.com/api/v1/json/123/searchplayers.php"
+BASE = "https://www.thesportsdb.com/api/v1/json/123/"
 HEADERS = {"User-Agent": "FightAlertsBot/1.0 (https://github.com/phonetect1011/fight-alerts; personal non-commercial app)"}
-
-data = json.load(open("data/events.json"))
-fighters = []
-for e in data["events"]:
-    for b in e["bouts"]:
-        for f in (b["fa"], b["fb"]):
-            fighters.append((e["promotion"], f["name"], bool(f.get("photo"))))
-
-# sample: every fighter who has no Wikipedia photo, up to 60 (stay well under 30 requests/minute)
-sample = [x for x in fighters if not x[2]][:60]
 os.makedirs("data/debug", exist_ok=True)
-lines, hits, first_raw = [], 0, None
-for promo, name, _ in sample:
-    try:
-        r = requests.get(API, params={"p": name}, headers=HEADERS, timeout=20)
-        j = r.json() if r.status_code == 200 else {}
-    except Exception as ex:
-        j = {"error": str(ex)}
-    players = j.get("player") or []
-    mma = [p for p in players if (p.get("strSport") or "").lower() in ("fighting", "mma", "boxing", "kickboxing")]
-    pick = (mma or players or [None])[0]
-    if pick and first_raw is None:
-        first_raw = pick
-    img = pick and (pick.get("strCutout") or pick.get("strThumb") or pick.get("strRender"))
-    if img:
-        hits += 1
-    lines.append(f"{promo:4} {name:30} http={r.status_code if 'r' in dir() else '?'} found={len(players)} sport={pick and pick.get('strSport')} img={img}")
-    time.sleep(2.2)
-lines.insert(0, f"{hits}/{len(sample)} fighters without a Wikipedia photo have a TheSportsDB image\n")
-open("data/debug/sportsdb_test.txt", "w").write("\n".join(lines) + "\n\nFIRST RAW RECORD:\n" + json.dumps(first_raw, indent=1)[:4000])
-print(lines[0])
+out = []
+
+
+def get(path, **params):
+    for _ in range(3):
+        r = requests.get(BASE + path, params=params, headers=HEADERS, timeout=20)
+        if r.status_code == 429:
+            time.sleep(20)
+            continue
+        time.sleep(3)
+        try:
+            return r.status_code, r.json()
+        except ValueError:
+            return r.status_code, {"raw": r.text[:300]}
+    return 429, {}
+
+
+code, j = get("search_all_leagues.php", s="Fighting")
+leagues = (j or {}).get("countries") or (j or {}).get("leagues") or []
+out.append(f"search_all_leagues Fighting: http={code} count={len(leagues)}")
+for lg in leagues:
+    out.append(f"  {lg.get('idLeague')}  {lg.get('strLeague')}  alt={lg.get('strLeagueAlternate')}")
+
+want = [lg for lg in leagues if any(k in ((lg.get('strLeague') or '') + ' ' + (lg.get('strLeagueAlternate') or '')).lower()
+        for k in ("ufc", "one championship", "bare knuckle", "bkfc", "real american", "raf"))]
+for lg in want:
+    code, j = get("eventsnextleague.php", id=lg["idLeague"])
+    evs = (j or {}).get("events") or []
+    out.append(f"\nNEXT {lg['strLeague']} ({lg['idLeague']}): http={code} events={len(evs)}")
+    for e in evs:
+        out.append(f"  {e.get('dateEvent')} {e.get('strTime')} | local {e.get('dateEventLocal')} {e.get('strTimeLocal')} | ts={e.get('strTimestamp')} | {e.get('strEvent')} | venue={e.get('strVenue')} | status={e.get('strStatus')}")
+
+for d in ("2026-11-14", "2026-11-18", "2026-11-21"):
+    code, j = get("eventsday.php", d=d, s="Fighting")
+    evs = (j or {}).get("events") or []
+    out.append(f"\nDAY {d}: http={code} events={len(evs)}")
+    for e in evs:
+        out.append(f"  {e.get('strLeague')} | {e.get('strTime')} | ts={e.get('strTimestamp')} | {e.get('strEvent')}")
+
+open("data/debug/sportsdb_times.txt", "w").write("\n".join(out) + "\n")
+print("\n".join(out))
