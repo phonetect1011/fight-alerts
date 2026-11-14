@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794649429858,
+ "generatedMs": 1794649974475,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -59,11 +59,12 @@
       "country": "United Arab Emirates",
       "flag": "🇦🇪",
       "url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
+      "record": "15-1-0",
       "stats": {
        "Age": "32",
        "Height": "6 ft 2 in",
        "Reach": "75 in",
-       "Team": "Allstars Training Center (2017–2023)"
+       "Team": "Fight Club Akhmat"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Khamzat_Chimaev_2022_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -73,11 +74,12 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Chris_Weidman",
+      "record": "16-8-0",
       "stats": {
        "Age": "42",
        "Height": "6 ft 2 in",
        "Reach": "78 in",
-       "Team": "Serra-Longo Fight Team"
+       "Team": "Gym-O"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Chris_Weidman_at_UFC_230.jpg/500px-Chris_Weidman_at_UFC_230.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -107,11 +109,12 @@
       "flag": "🇦🇲",
       "url": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
       "nickname": "Batman",
+      "record": "24-3-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 7 in",
        "Reach": "72.5 in",
-       "Team": "Lion Heart"
+       "Team": "American Top Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Arman_Tsarukyan_2019.jpg/500px-Arman_Tsarukyan_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: inFocus media · CC BY 3.0 (Wikimedia Commons)"
@@ -121,11 +124,12 @@
       "country": "Brazil",
       "flag": "🇧🇷",
       "url": "https://en.wikipedia.org/wiki/Neiman_Gracie",
+      "record": "13-6-0",
       "stats": {
        "Age": "37",
        "Height": "6 ft 0 in",
        "Reach": "74 in",
-       "Team": "Renzo Gracie Jiu-Jitsu Academy"
+       "Team": "Kings MMA"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Neimangracie_Adxc.webp/500px-Neimangracie_Adxc.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Gjiujitsu · CC0 (Wikimedia Commons)"
@@ -154,11 +158,12 @@
       "country": "Russia",
       "flag": "🇷🇺",
       "url": "https://en.wikipedia.org/wiki/Zabit_Magomedsharipov",
+      "record": "18-1-0",
       "stats": {
        "Age": "35",
        "Height": "6 ft 1 in",
        "Reach": "73 in",
-       "Team": "DagFighter"
+       "Team": "Nick Catone MMA"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Zabit_Magomedsharipov_at_UFC_Fight_Night_136.jpg/500px-Zabit_Magomedsharipov_at_UFC_Fight_Night_136.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -169,6 +174,7 @@
       "flag": "🇬🇪",
       "url": "https://en.wikipedia.org/wiki/Giga_Chikadze",
       "nickname": "Ninja",
+      "record": "15-7-0",
       "stats": {
        "Age": "38",
        "Height": "6 ft 0 in",
@@ -269,6 +275,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Urijah_Faber",
+      "record": "35-11-0",
       "stats": {
        "Age": "47",
        "Height": "5 ft 5 in",
@@ -362,6 +369,7 @@
       "country": "Russia",
       "flag": "🇷🇺",
       "url": "https://en.wikipedia.org/wiki/Diana_Avsaragova",
+      "record": "6-2-0",
       "stats": {
        "Age": "28",
        "Height": "5 ft 7 in",
@@ -374,10 +382,11 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Julianna_Pe%C3%B1a",
+      "record": "12-6-0",
       "stats": {
        "Age": "37",
        "Height": "5ft 7in",
-       "Team": "SikJitsu (2008–present)"
+       "Team": "Gregory Boxing & Muay Thai"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -406,10 +415,11 @@
       "country": "Georgia",
       "flag": "🇬🇪",
       "url": "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+      "record": "21-6-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 5 in",
-       "Team": "Serra-Longo Fight Team (2013–present)"
+       "Team": "Serra-Longo Fight Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Merab_Dvalishvili_at_UFC_316_%28cropped%29.jpg/500px-Merab_Dvalishvili_at_UFC_316_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Margo Martin · Public domain (Wikimedia Commons)"
@@ -419,6 +429,7 @@
       "country": "Brazil",
       "flag": "🇧🇷",
       "url": "https://en.wikipedia.org/wiki/Marlon_Moraes",
+      "record": "24-13-1",
       "stats": {
        "Age": "38",
        "Height": "5 ft 6 in",
@@ -520,11 +531,12 @@
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Ciryl_Gane",
       "nickname": "Bon Gamin (Good Kid)",
+      "record": "14-2-0",
       "stats": {
        "Age": "36",
        "Height": "6 ft 5 in",
        "Reach": "81 in",
-       "Team": "MMA Factory (2017–present)"
+       "Team": "MMA Factory"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/UFC_Freedom_250%2C_the_mixed_martial_arts_event_produced_by_the_Ultimate_Fighting_Championship%2C_Sunday%2C_June_14%2C_2026%2C_in_the_Grand_Foyer_of_the_White_House_-_64%28cropped%29.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
@@ -532,6 +544,7 @@
      "fb": {
       "name": "Josh Hokit",
       "url": "https://en.wikipedia.org/wiki/Josh_Hokit",
+      "record": "10-0-0",
       "stats": {
        "Age": "29",
        "Height": "6 ft 1 in",
@@ -564,11 +577,12 @@
       "name": "Kayla Harrison",
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Kayla_Harrison",
+      "record": "19-1-0",
       "stats": {
        "Age": "36",
        "Height": "5 ft 8 in",
        "Reach": "66 in",
-       "Team": "American Top Team (2018–present)"
+       "Team": "American Top Team"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/9/99/President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_%2854577590491%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
@@ -576,11 +590,12 @@
      "fb": {
       "name": "Amanda Nunes",
       "url": "https://en.wikipedia.org/wiki/Amanda_Nunes",
+      "record": "23-5-0",
       "stats": {
        "Age": "38",
        "Height": "5 ft 8 in",
        "Reach": "175 cm (69 in)",
-       "Team": "Team Carvalho (2003–2012)"
+       "Team": "American Top Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -607,6 +622,7 @@
      "fa": {
       "name": "Caio Borralho",
       "url": "https://en.wikipedia.org/wiki/Caio_Borralho",
+      "record": "18-2-0",
       "stats": {
        "Age": "33",
        "Height": "6 ft 2 in",
@@ -619,10 +635,11 @@
      "fb": {
       "name": "Yousri Belgaroui",
       "url": "https://en.wikipedia.org/wiki/Yousri_Belgaroui",
+      "record": "11-3-0",
       "stats": {
        "Age": "34",
        "Height": "6 ft 5 in",
-       "Team": "Mike's Gym (2014–2019)"
+       "Team": "Teixeira MMA & Fitness"
       }
      },
      "pred": {
@@ -647,6 +664,7 @@
      "fa": {
       "name": "Uroš Medić",
       "url": "https://en.wikipedia.org/wiki/Uro%C5%A1_Medi%C4%87",
+      "record": "14-3-0",
       "stats": {
        "Age": "33",
        "Height": "6 ft 1 in",
@@ -658,11 +676,12 @@
       "name": "Kevin Holland",
       "url": "https://en.wikipedia.org/wiki/Kevin_Holland",
       "nickname": "Trailblazer",
+      "record": "29-15-0",
       "stats": {
        "Age": "34",
        "Height": "6 ft 3 in",
        "Reach": "81 in",
-       "Team": "Phalanx MMA Academy"
+       "Team": "Travis Lutter BJJ"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kevin_Holland_at_UFC_316_%2854576727207%29.jpg/500px-Kevin_Holland_at_UFC_316_%2854576727207%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
@@ -689,6 +708,7 @@
      "fa": {
       "name": "Bilal Hasan",
       "url": "https://en.wikipedia.org/wiki/Bilal_Hasan",
+      "record": "10-0-0",
       "stats": {
        "Age": "25",
        "Height": "5 ft 7 in",
@@ -721,11 +741,12 @@
       "name": "Stephen Thompson",
       "url": "https://en.wikipedia.org/wiki/Stephen_Thompson_%28fighter%29",
       "nickname": "Wonderboy",
+      "record": "17-9-1",
       "stats": {
        "Age": "43",
        "Height": "6 ft 0 in",
        "Reach": "75 in",
-       "Team": "Upstate Karate"
+       "Team": "Serra-Longo Fight Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/From_cancer_to_company_commander_130802-M-AR522-306_%28cropped%29.jpg/500px-From_cancer_to_company_commander_130802-M-AR522-306_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Cpl. Devin Nichols · Public domain (Wikimedia Commons)"
@@ -755,16 +776,18 @@
      "fa": {
       "name": "Drew Dober",
       "url": "https://en.wikipedia.org/wiki/Drew_Dober",
+      "record": "29-15-0",
       "stats": {
        "Age": "38",
        "Height": "5 ft 8 in",
        "Reach": "70 in",
-       "Team": "Mid-America Martial Arts (formerly)"
+       "Team": "Elevation Fight Team"
       }
      },
      "fb": {
       "name": "Chris Duncan",
       "url": "https://en.wikipedia.org/wiki/Chris_Duncan_%28fighter%29",
+      "record": "15-3-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 10 in",
@@ -794,11 +817,12 @@
      "fa": {
       "name": "Jim Miller",
       "url": "https://en.wikipedia.org/wiki/Jim_Miller_%28fighter%29",
+      "record": "39-19-0",
       "stats": {
        "Age": "43",
        "Height": "5 ft 8 in",
        "Reach": "71 in",
-       "Team": "AMA Fight Club (2007–2014)"
+       "Team": "Miller Brothers MMA"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Jim.miller.2.jpg/500px-Jim.miller.2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Aleks Ozolins · CC0 (Wikimedia Commons)"
@@ -806,6 +830,7 @@
      "fb": {
       "name": "Terrance McKinney",
       "url": "https://en.wikipedia.org/wiki/Terrance_McKinney",
+      "record": "18-9-0",
       "stats": {
        "Age": "32",
        "Height": "5 ft 10 in",
@@ -838,6 +863,7 @@
      "fb": {
       "name": "César Almeida",
       "url": "https://en.wikipedia.org/wiki/C%C3%A9sar_Almeida_%28fighter%29",
+      "record": "7-3-0",
       "stats": {
        "Age": "38",
        "Height": "6 ft 1 in",
@@ -866,22 +892,23 @@
      "fa": {
       "name": "Jared Gordon",
       "url": "https://en.wikipedia.org/wiki/Jared_Gordon",
+      "record": "21-9-0",
       "stats": {
        "Age": "38",
        "Height": "5 ft 9 in",
        "Reach": "68 in",
-       "Team": "Church Street Boxing Gym (formerly)"
+       "Team": "Kill Cliff FC"
       }
      },
      "fb": {
       "name": "Melquizael Costa",
       "url": "https://en.wikipedia.org/wiki/Melquizael_Costa",
       "nickname": "The Dalmatian",
+      "record": "26-8-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 10 in",
-       "Reach": "71 in",
-       "Team": "Chute Boxe Bauru"
+       "Reach": "71 in"
       }
      },
      "pred": {
@@ -906,19 +933,21 @@
      "fa": {
       "name": "Macy Chiasson",
       "url": "https://en.wikipedia.org/wiki/Macy_Chiasson",
+      "record": "10-6-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 11 in",
-       "Team": "Triumph Krav Maga"
+       "Team": "MidCity MMA"
       }
      },
      "fb": {
       "name": "Beatriz Mesquita",
       "url": "https://en.wikipedia.org/wiki/Beatriz_Mesquita",
+      "record": "8-0-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 2 in",
-       "Team": "Gracie Humaita (BJJ)"
+       "Team": "American Top Team"
       }
      },
      "pred": {
@@ -943,11 +972,12 @@
      "fa": {
       "name": "Alateng Heili",
       "url": "https://en.wikipedia.org/wiki/Alateng_Heili",
+      "record": "18-10-2",
       "stats": {
        "Age": "34",
        "Height": "5 ft 6 in",
        "Reach": "66.5 in",
-       "Team": "UFC PI Shanghai"
+       "Team": "Fight Ready"
       }
      },
      "fb": {
@@ -1005,10 +1035,11 @@
       "flag": "🇵🇭",
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Joshua_Pacio",
+      "record": "24-5-0",
       "stats": {
        "Age": "30",
        "Height": "165 cm",
-       "Team": "Team Lakay Wushu (2007–2023)"
+       "Team": "Lions Nation MMA"
       }
      },
      "fb": {
@@ -1016,6 +1047,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Keito_Yamakita",
+      "record": "13-1-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 1 in",
@@ -1062,7 +1094,7 @@
       "stats": {
        "Age": "27",
        "Height": "168cm",
-       "Team": "NJKF / K3B (2014-2017)"
+       "Team": "999"
       }
      },
      "fb": {
@@ -1088,10 +1120,11 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Jarred_Brooks",
+      "record": "21-6-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 3 in",
-       "Team": "Mash Fight Team"
+       "Team": "Roots Combat Club"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jarred_Brooks_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -1265,7 +1298,7 @@
       "stats": {
        "Age": "23",
        "Height": "1.80 m",
-       "Team": "Team Chingiz Allazov"
+       "Team": "Team Mehdi Zatout"
       }
      },
      "fb": {
@@ -1349,6 +1382,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Keith_Richardson_%28fighter%29",
+      "record": "22-11-0",
       "stats": {
        "Age": "42",
        "Height": "5 ft 6 in",
@@ -1374,10 +1408,11 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Derek_Brunson",
+      "record": "24-9-0",
       "stats": {
        "Height": "6 ft 1 in",
        "Reach": "77 in",
-       "Team": "Port City Sports Performance (until 2019)"
+       "Team": "Jackson's MMA"
       }
      },
      "fb": {
@@ -1553,6 +1588,7 @@
      "fa": {
       "name": "Jiří Procházka",
       "url": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Proch%C3%A1zka",
+      "record": "32-6-1",
       "stats": {
        "Age": "34",
        "Height": "6 ft 4 in",
@@ -1564,11 +1600,12 @@
      "fb": {
       "name": "Navajo Stirling",
       "url": "https://en.wikipedia.org/wiki/Navajo_Stirling",
+      "record": "11-0-0",
       "stats": {
        "Age": "29",
        "Height": "6 ft 4 in",
        "Reach": "79 in",
-       "Team": "City Kickboxing (2021–present)"
+       "Team": "City Kickboxing"
       }
      },
      "pred": {
@@ -1593,6 +1630,7 @@
      "fa": {
       "name": "Aljamain Sterling",
       "url": "https://en.wikipedia.org/wiki/Aljamain_Sterling",
+      "record": "26-5-0",
       "stats": {
        "Age": "37",
        "Height": "5 ft 7 in",
@@ -1605,6 +1643,7 @@
      "fb": {
       "name": "Kevin Vallejos",
       "url": "https://en.wikipedia.org/wiki/Kevin_Vallejos",
+      "record": "18-1-0",
       "stats": {
        "Age": "24",
        "Height": "5 ft 7 in",
@@ -1634,11 +1673,12 @@
      "fa": {
       "name": "Dan Hooker",
       "url": "https://en.wikipedia.org/wiki/Dan_Hooker",
+      "record": "24-15-0",
       "stats": {
        "Age": "36",
        "Height": "6 ft 0 in",
        "Reach": "75+1/2 in",
-       "Team": "Tiger Muay Thai"
+       "Team": "Saigon Sports Club"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/1/14/DanHooker2016.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: Fight Bros NZ · CC BY 3.0 (Wikimedia Commons)"
@@ -1647,11 +1687,12 @@
       "name": "Brian Ortega",
       "url": "https://en.wikipedia.org/wiki/Brian_Ortega",
       "nickname": "T-City",
+      "record": "16-5-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 9 in",
        "Reach": "69 in",
-       "Team": "Black Belt Surfing"
+       "Team": "Huntington Beach Ultimate Training Center"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Brian_Ortega_on_MMAnytt.jpg/500px-Brian_Ortega_on_MMAnytt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -1679,11 +1720,12 @@
       "name": "Kyoji Horiguchi",
       "url": "https://en.wikipedia.org/wiki/Kyoji_Horiguchi",
       "nickname": "Karate Kid",
+      "record": "36-6-0",
       "stats": {
        "Age": "36",
        "Height": "5 ft 5 in",
        "Reach": "66 in",
-       "Team": "KRAZY BEE (2009–2015)"
+       "Team": "American Top Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Kyoji_Horiguchi_2017.jpg/500px-Kyoji_Horiguchi_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Bruno Massami · CC BY 3.0 (Wikimedia Commons)"
@@ -1692,6 +1734,7 @@
       "name": "Asu Almabayev",
       "url": "https://en.wikipedia.org/wiki/Asu_Almabayev",
       "nickname": "Zulfikar",
+      "record": "24-3-0",
       "stats": {
        "Age": "32",
        "Height": "5 ft 4 in",
@@ -1712,11 +1755,12 @@
      "fa": {
       "name": "Jared Cannonier",
       "url": "https://en.wikipedia.org/wiki/Jared_Cannonier",
+      "record": "18-10-0",
       "stats": {
        "Age": "42",
        "Height": "6 ft 0 in",
        "Reach": "77+1/2 in",
-       "Team": "Legacy Jiu Jitsu Alaska"
+       "Team": "MMA Lab"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg/500px-Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -1724,6 +1768,7 @@
      "fb": {
       "name": "Ikram Aliskerov",
       "url": "https://en.wikipedia.org/wiki/Ikram_Aliskerov",
+      "record": "18-2-0",
       "stats": {
        "Age": "33",
        "Height": "6 ft 0 in",
@@ -1755,11 +1800,12 @@
      "fa": {
       "name": "Aleksandre Topuria",
       "url": "https://en.wikipedia.org/wiki/Aleksandre_Topuria",
+      "record": "7-1-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 7 in",
        "Reach": "68 in",
-       "Team": "Climent Club (2012–2025)"
+       "Team": "Topuria Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg/500px-Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: U.S. Army photo by Sgt. 1st Class Brittany Primavera · Public domain (Wikimedia Commons)"
@@ -1767,6 +1813,7 @@
      "fb": {
       "name": "Santiago Luna",
       "url": "https://en.wikipedia.org/wiki/Santiago_Luna_%28fighter%29",
+      "record": "8-1-0",
       "stats": {
        "Age": "22",
        "Height": "5 ft 8 in",
@@ -1796,6 +1843,7 @@
      "fa": {
       "name": "Shamil Gaziev",
       "url": "https://en.wikipedia.org/wiki/Shamil_Gaziev",
+      "record": "15-3-0",
       "stats": {
        "Age": "36",
        "Height": "6 ft 3 in",
@@ -1807,6 +1855,7 @@
       "name": "Tallison Teixeira",
       "url": "https://en.wikipedia.org/wiki/Tallison_Teixeira",
       "nickname": "Xicão",
+      "record": "9-2-0",
       "stats": {
        "Age": "26",
        "Height": "6 ft 8 in",
@@ -1838,11 +1887,12 @@
      "fa": {
       "name": "Amir Albazi",
       "url": "https://en.wikipedia.org/wiki/Amir_Albazi",
+      "record": "17-3-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 5 in",
        "Reach": "68 in",
-       "Team": "Fightzone Stockholm (formerly)"
+       "Team": "Great Britain Top Team"
       }
      },
      "fb": {
@@ -1870,11 +1920,12 @@
      "fa": {
       "name": "Jake Matthews",
       "url": "https://en.wikipedia.org/wiki/Jake_Matthews_%28fighter%29",
+      "record": "23-8-0",
       "stats": {
        "Age": "32",
        "Height": "5 ft 11 in",
        "Reach": "73 in",
-       "Team": "XLR8 Training Centre (2016–present)"
+       "Team": "Resilience Training Centre"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jake_Mattews_%26_Jon_Jones_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: Realistkilla · CC BY-SA 4.0 (Wikimedia Commons)"
@@ -1923,7 +1974,7 @@
        "Age": "31",
        "Height": "176cm",
        "Reach": "68 in",
-       "Team": "Weerasakreck Fairtex"
+       "Team": "Sitmonchai"
       }
      },
      "fb": {
@@ -1983,11 +2034,12 @@
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
       "nickname": "Batman",
+      "record": "24-3-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 7 in",
        "Reach": "72.5 in",
-       "Team": "Lion Heart"
+       "Team": "American Top Team"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Arman_Tsarukyan_2019.jpg/500px-Arman_Tsarukyan_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: inFocus media · CC BY 3.0 (Wikimedia Commons)"
@@ -1998,6 +2050,7 @@
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Anthony_Pettis",
       "nickname": "Showtime",
+      "record": "25-14-0",
       "stats": {
        "Age": "39",
        "Height": "5 ft 10 in",
@@ -2021,6 +2074,7 @@
       "flag": "🇺🇸",
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Henry_Cejudo",
+      "record": "16-6-0",
       "stats": {
        "Age": "39",
        "Height": "5 ft 4 in",
@@ -2035,11 +2089,12 @@
       "country": "China",
       "flag": "🇨🇳",
       "url": "https://en.wikipedia.org/wiki/Song_Yadong",
+      "record": "24-9-1",
       "stats": {
        "Age": "28",
        "Height": "5 ft 8 in",
        "Reach": "67 in",
-       "Team": "Enbo Fight Club (former)"
+       "Team": "Team Alpha Male"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Song_Yadong_at_UFC_Macau.jpg/500px-Song_Yadong_at_UFC_Macau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Bandysputed · CC BY 4.0 (Wikimedia Commons)"
@@ -2113,11 +2168,12 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Sergio_Pettis",
+      "record": "25-7-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 6 in",
        "Reach": "69 in",
-       "Team": "Roufusport (2007–present)"
+       "Team": "Roufusport"
       }
      },
      "fb": {
@@ -2126,11 +2182,12 @@
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Cody_Garbrandt",
       "nickname": "No Love",
+      "record": "15-8-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 7 in",
        "Reach": "65+1/2 in",
-       "Team": "Strong Style (formerly)"
+       "Team": "Xtreme Couture"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cody_Garbrandt.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MiggyTube TV · CC BY 3.0 (Wikimedia Commons)"
@@ -2210,6 +2267,7 @@
       "country": "Mexico",
       "flag": "🇲🇽",
       "url": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr.",
+      "record": "13-1-0",
       "stats": {
        "Age": "22",
        "Height": "5 ft 9 in",
@@ -2224,11 +2282,12 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Clay_Guida",
+      "record": "38-25-0",
       "stats": {
        "Age": "44",
        "Height": "5 ft 7 in",
        "Reach": "70 in",
-       "Team": "Midwest Training Center (until 2009)"
+       "Team": "Team Alpha Male"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Clay_Guida.png/500px-Clay_Guida.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: The original uploader was East718 at English Wikipedia. · CC BY-SA 3.0 (Wikimedia Commons)"
@@ -2307,11 +2366,12 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Miranda_Maverick",
+      "record": "15-6-0",
       "stats": {
        "Age": "29",
        "Height": "5 ft 3 in",
        "Reach": "65 in",
-       "Team": "The House of Muay Thai (2018–2021)"
+       "Team": "Team Elevation"
       }
      }
     },
@@ -2346,6 +2406,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Danny_Sabatello",
+      "record": "19-4-1",
       "stats": {
        "Age": "33",
        "Height": "5 ft 10 in",
@@ -2384,6 +2445,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Chihiro_Sawada",
+      "record": "12-1-1",
       "stats": {
        "Age": "28",
        "Height": "150 cm",
@@ -2525,7 +2587,7 @@
       "stats": {
        "Age": "30",
        "Height": "180cm",
-       "Team": "Team Teppen (Teppen Gym)"
+       "Team": "Team Teppen"
       }
      },
      "fb": {
@@ -2564,6 +2626,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Mike_Richman",
+      "record": "18-8-0",
       "stats": {
        "Age": "41",
        "Height": "5 ft 9 in",
@@ -2587,11 +2650,12 @@
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Sam_Alvey",
       "nickname": "Smile'n",
+      "record": "34-18-1",
       "stats": {
        "Age": "40",
        "Height": "6 ft 2 in",
        "Reach": "75.5 in",
-       "Team": "Team Quest"
+       "Team": "Dan Henderson Fitness Center"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/SamAlvey.jpg/500px-SamAlvey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -2615,11 +2679,12 @@
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Matthew_Semelsberger",
       "nickname": "Semi the Jedi",
+      "record": "11-8-0",
       "stats": {
        "Age": "33",
        "Height": "6 ft 1 in",
        "Reach": "75 in",
-       "Team": "Crazy 88 MMA"
+       "Team": "Clinch Academy"
       }
      },
      "fb": {
@@ -2832,11 +2897,12 @@
       "name": "Israel Adesanya",
       "url": "https://en.wikipedia.org/wiki/Israel_Adesanya",
       "nickname": "The Last Stylebender",
+      "record": "24-6-0",
       "stats": {
        "Age": "37",
        "Height": "6 ft 4 in",
        "Reach": "80 in",
-       "Team": "City Kickboxing (2009–2026)"
+       "Team": "City Kickboxing"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Israel_Adesanya_at_UFC_230.jpg/500px-Israel_Adesanya_at_UFC_230.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMMAnytt · CC BY 3.0 (Wikimedia Commons)"
@@ -2844,6 +2910,7 @@
      "fb": {
       "name": "Sharabutdin Magomedov",
       "url": "https://en.wikipedia.org/wiki/Sharabutdin_Magomedov",
+      "record": "17-1-0",
       "stats": {
        "Age": "32",
        "Height": "6 ft 2 in",
@@ -2875,11 +2942,12 @@
      "fa": {
       "name": "Ian Machado Garry",
       "url": "https://en.wikipedia.org/wiki/Ian_Machado_Garry",
+      "record": "17-2-0",
       "stats": {
        "Age": "28",
        "Height": "6 ft 3 in",
        "Reach": "74 in",
-       "Team": "Team KF Martial Arts (2017–2021)"
+       "Team": "Bangtao Muay Thai & MMA"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ee/IanGarry.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: Oisinvg · CC BY-SA 4.0 (Wikimedia Commons)"
@@ -2887,9 +2955,10 @@
      "fb": {
       "name": "Yaroslav Amosov",
       "url": "https://en.wikipedia.org/wiki/Yaroslav_Amosov",
+      "record": "30-1-0",
       "stats": {
        "Age": "33",
-       "Team": "Combat Dobro"
+       "Team": "American Top Team"
       }
      },
      "pred": {
@@ -2914,6 +2983,7 @@
      "fa": {
       "name": "Serghei Spivac",
       "url": "https://en.wikipedia.org/wiki/Serghei_Spivac",
+      "record": "18-7-0",
       "stats": {
        "Age": "31",
        "Height": "6 ft 3 in",
@@ -2923,6 +2993,7 @@
      "fb": {
       "name": "Mário Pinto",
       "url": "https://en.wikipedia.org/wiki/Mario_Pinto",
+      "record": "13-0-0",
       "stats": {
        "Age": "28",
        "Height": "6 ft 5 in",
@@ -2945,6 +3016,7 @@
      "fb": {
       "name": "Islam Dulatov",
       "url": "https://en.wikipedia.org/wiki/Islam_Dulatov",
+      "record": "12-1-0",
       "stats": {
        "Age": "28",
        "Height": "6 ft 3 in",
@@ -2965,11 +3037,12 @@
      "fb": {
       "name": "Akbar Abdullaev",
       "url": "https://en.wikipedia.org/wiki/Akbar_Abdullaev",
+      "record": "14-0-0",
       "stats": {
        "Age": "29",
        "Height": "5 ft 9 in",
        "Reach": "70 in",
-       "Team": "Al-Munar Fight Club"
+       "Team": "Tiger Muay Thai"
       }
      }
     },
@@ -2986,11 +3059,12 @@
      "fb": {
       "name": "Ion Cuțelaba",
       "url": "https://en.wikipedia.org/wiki/Ion_Cu%C8%9Belaba",
+      "record": "20-11-1",
       "stats": {
        "Age": "32",
        "Height": "6 ft 1 in",
        "Reach": "75 in",
-       "Team": "Timoshkov Sport Club"
+       "Team": "MMA Factory"
       }
      }
     },
@@ -3004,11 +3078,12 @@
      "fa": {
       "name": "Bruno Gustavo da Silva",
       "url": "https://en.wikipedia.org/wiki/Bruno_Gustavo_da_Silva",
+      "record": "15-9-2",
       "stats": {
        "Age": "36",
        "Height": "5 ft 4 in",
        "Reach": "65 in",
-       "Team": "Black House (2012–2015)"
+       "Team": "American Top Team"
       }
      },
      "fb": {
@@ -3042,6 +3117,7 @@
      "fb": {
       "name": "Park Jun-yong",
       "url": "https://en.wikipedia.org/wiki/Jun_Yong_Park",
+      "record": "19-7-0",
       "stats": {
        "Age": "35",
        "Height": "6 ft 0 in",
@@ -3088,6 +3164,7 @@
      "fa": {
       "name": "Abdul Hussein",
       "url": "https://en.wikipedia.org/wiki/Abdul_Hussein_%28fighter%29",
+      "record": "16-2-0",
       "stats": {
        "Age": "29",
        "Height": "5 ft 7 in",
@@ -3129,6 +3206,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Clay_Collard",
+      "record": "25-15-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 11 in",
@@ -3166,11 +3244,12 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Jessica_Eye",
+      "record": "15-11-0",
       "stats": {
        "Age": "40",
        "Height": "5 ft 6 in",
        "Reach": "66 in",
-       "Team": "[http://www.strongstyle.com/ Strong Style Fight Team] (2006–2019, 2021–2022)"
+       "Team": "Xtreme Couture Mixed Martial Arts"
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Jessica_Eye2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: Trixotoulis · CC BY-SA 4.0 (Wikimedia Commons)"
@@ -3278,6 +3357,7 @@
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Charles_Oliveira",
       "nickname": "do Bronxs",
+      "record": "37-11-0",
       "stats": {
        "Age": "37",
        "Height": "5 ft 10 in",
@@ -3289,11 +3369,12 @@
      "fb": {
       "name": "Diego Lopes",
       "url": "https://en.wikipedia.org/wiki/Diego_Lopes_%28fighter%29",
+      "record": "28-8-0",
       "stats": {
        "Age": "31",
        "Height": "5 ft 11 in",
        "Reach": "72 in",
-       "Team": "Lobo Gym MMA"
+       "Team": "Brazilian Warriors"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/UFC_Freedom_250%2C_the_mixed_martial_arts_event_produced_by_the_Ultimate_Fighting_Championship%2C_Sunday%2C_June_14%2C_2026%2C_in_the_Grand_Foyer_of_the_White_House_-_31%28cropped%29.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
@@ -3320,6 +3401,7 @@
      "fa": {
       "name": "Sergei Pavlovich",
       "url": "https://en.wikipedia.org/wiki/Sergei_Pavlovich",
+      "record": "21-3-0",
       "stats": {
        "Age": "34",
        "Height": "6 ft 3 in",
@@ -3333,11 +3415,12 @@
       "name": "Alex Pereira",
       "url": "https://en.wikipedia.org/wiki/Alex_Pereira",
       "nickname": "Poatan",
+      "record": "13-4-0",
       "stats": {
        "Age": "39",
        "Height": "6 ft 4 in",
        "Reach": "79 in",
-       "Team": "Teixeira MMA & Fitness (2020–present)"
+       "Team": "Teixeira MMA & Fitness"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Freedom_250_press_conference_at_the_Lincoln_Memorial_on_June_12%2C_2026_-_26%28cropped%29.jpg/500px-Freedom_250_press_conference_at_the_Lincoln_Memorial_on_June_12%2C_2026_-_26%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: U.S. Department of the Interior · Public domain (Wikimedia Commons)"
@@ -3365,10 +3448,11 @@
       "name": "Brandon Moreno",
       "url": "https://en.wikipedia.org/wiki/Brandon_Moreno",
       "nickname": "The Assassin Baby",
+      "record": "24-10-2",
       "stats": {
        "Age": "32",
        "Height": "5 ft 7 in",
-       "Team": "Entram Gym (2006–2022)"
+       "Team": "Fortis MMA"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Brandon_Moreno_February_2021_%28cropped%29.jpg/500px-Brandon_Moreno_February_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: DiarioMMA · CC BY-SA 4.0 (Wikimedia Commons)"
@@ -3376,6 +3460,7 @@
      "fb": {
       "name": "Charles Johnson",
       "url": "https://en.wikipedia.org/wiki/Charles_Johnson_%28fighter%29",
+      "record": "20-9-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 9 in",
@@ -3398,6 +3483,7 @@
       "name": "Junior Tafa",
       "url": "https://en.wikipedia.org/wiki/Junior_Tafa",
       "nickname": "The Juggernaut",
+      "record": "7-6-0",
       "stats": {
        "Age": "30",
        "Height": "6 ft 3 in",
@@ -3431,10 +3517,11 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Kade_Ruotolo",
+      "record": "4-0-0",
       "stats": {
        "Age": "23",
        "Height": "5 ft 11 in",
-       "Team": "Atos Jiu-Jitsu"
+       "Team": "Art of Jiu Jitsu (AOJ) Combat Submission Wrestling"
       }
      },
      "fb": {
@@ -3442,6 +3529,7 @@
       "country": "South Korea",
       "flag": "🇰🇷",
       "url": "https://en.wikipedia.org/wiki/Ok_Rae-yoon",
+      "record": "17-6-0",
       "stats": {
        "Age": "35",
        "Height": "6 ft 0 in",
@@ -3465,7 +3553,8 @@
       "url": "https://en.wikipedia.org/wiki/Diogo_Reis",
       "nickname": "Baby Shark",
       "stats": {
-       "Age": "24"
+       "Age": "24",
+       "Team": "Melqui Galvão / Fight Sport"
       }
      },
      "fb": {
@@ -3547,7 +3636,7 @@
       "stats": {
        "Age": "34",
        "Height": "1.60 m",
-       "Team": "Team Aftermath (2024-Present)"
+       "Team": "K-1 Gym Sangenjaya Silver Wolf"
       }
      }
     },
@@ -3566,7 +3655,7 @@
       "stats": {
        "Age": "29",
        "Height": "174cm",
-       "Team": "Fairtex (2020-Present)"
+       "Team": "Jakranyanmuaythai"
       }
      },
      "fb": {
@@ -3642,6 +3731,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Kai_Stewart",
+      "record": "1-0-0",
       "stats": {
        "Age": "26",
        "Height": "5 ft 8 in",
@@ -3758,6 +3848,7 @@
       "country": "Cuba",
       "flag": "🇨🇺",
       "url": "https://en.wikipedia.org/wiki/Gustavo_Balart",
+      "record": "12-5-0",
       "stats": {
        "Age": "39",
        "Height": "4 ft 11 in",
@@ -3794,6 +3885,7 @@
       "name": "Joshua Van",
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Joshua_Van",
+      "record": "18-2-0",
       "stats": {
        "Age": "25",
        "Height": "5 ft 5 in",
@@ -3806,6 +3898,7 @@
       "name": "Manel Kape",
       "url": "https://en.wikipedia.org/wiki/Manel_Kape",
       "nickname": "Starboy",
+      "record": "23-7-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 5 in",
@@ -3837,6 +3930,7 @@
      "fa": {
       "name": "Carlos Prates",
       "url": "https://en.wikipedia.org/wiki/Carlos_Prates",
+      "record": "24-7-0",
       "stats": {
        "Age": "33",
        "Height": "6 ft 1 in",
@@ -3849,10 +3943,11 @@
      "fb": {
       "name": "Michael Morales",
       "url": "https://en.wikipedia.org/wiki/Michael_Morales_%28fighter%29",
+      "record": "19-0-0",
       "stats": {
        "Age": "27",
        "Height": "6 ft 0 in",
-       "Team": "Xtreme Fitness Machala"
+       "Team": "Entram Gym"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_%28cropped%29.jpg/500px-Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Presidencia de la República del Ecuador · Public domain (Wikimedia Commons)"
@@ -3892,6 +3987,7 @@
      "fa": {
       "name": "Quillan Salkilld",
       "url": "https://en.wikipedia.org/wiki/Quillan_Salkilld",
+      "record": "13-1-0",
       "stats": {
        "Age": "26",
        "Height": "6 ft 0 in",
@@ -3903,6 +3999,7 @@
       "name": "Benoît Saint Denis",
       "url": "https://en.wikipedia.org/wiki/Beno%C3%AEt_Saint_Denis",
       "nickname": "God of War",
+      "record": "17-4-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 11 in",
@@ -3934,21 +4031,23 @@
       "name": "Bogdan Guskov",
       "url": "https://en.wikipedia.org/wiki/Bogdan_Guskov",
       "nickname": "Hitman",
+      "record": "18-4-1",
       "stats": {
        "Age": "34",
        "Height": "6 ft 3 in",
        "Reach": "76 in",
-       "Team": "GOR MMA"
+       "Team": "American Top Team"
       }
      },
      "fb": {
       "name": "Robert Whittaker",
       "url": "https://en.wikipedia.org/wiki/Robert_Whittaker_%28fighter%29",
+      "record": "27-9-0",
       "stats": {
        "Age": "35",
        "Height": "6 ft 0 in",
        "Reach": "73+1/2 in",
-       "Team": "{{plainlist|"
+       "Team": "Stand Strong Boxing }}"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Robert_Whittaker_2024.png/500px-Robert_Whittaker_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Sexto Round · CC BY 3.0 (Wikimedia Commons)"
@@ -3992,6 +4091,7 @@
      "fb": {
       "name": "Joanderson Brito",
       "url": "https://en.wikipedia.org/wiki/Joanderson_Brito",
+      "record": "20-5-1",
       "stats": {
        "Age": "31",
        "Height": "5 ft 8 in",
@@ -4053,6 +4153,6 @@
    ]
   }
  ],
- "oddsUpdatedMs": 1794649443908,
- "oddsCreditsLeft": "496"
+ "oddsUpdatedMs": 1794649988518,
+ "oddsCreditsLeft": "494"
 }
