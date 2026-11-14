@@ -11,6 +11,8 @@ Sources:
   RAF   "Real American Freestyle" -> Scheduled events table -> each event page
   BKFC  "<year> in Bare Knuckle Fighting Championship" -> one section per event
   ONE   "<year> in ONE Championship" -> one section per event
+  PFL   "<year> in Professional Fighters League" -> one section per event
+        (falls back to "List of PFL events" -> Scheduled events table if that page changes)
 
 Fighters with their own Wikipedia page also get a photo (free-licence images
 only, with the photographer and licence credited), record, nickname and stats.
@@ -392,7 +394,12 @@ def estimate_start(promo, title, day, city=""):
                          ("al rayyan", "Asia/Qatar", 20), ("sydney", "Australia/Sydney", 13), ("perth", "Australia/Perth", 13),
                          ("england", "Europe/London", 20), ("london", "Europe/London", 20), ("newcastle", "Europe/London", 20),
                          ("glasgow", "Europe/London", 20), ("manchester", "Europe/London", 20), ("birmingham", "Europe/London", 20),
-                         ("paris", "Europe/Paris", 21), ("moscow", "Europe/Moscow", 20), ("tbilisi", "Asia/Tbilisi", 20)):
+                         ("paris", "Europe/Paris", 21), ("moscow", "Europe/Moscow", 20), ("tbilisi", "Asia/Tbilisi", 20),
+                         ("dubai", "Asia/Dubai", 20), ("jeddah", "Asia/Riyadh", 20), ("dublin", "Europe/Dublin", 20),
+                         ("belfast", "Europe/London", 20), ("madrid", "Europe/Madrid", 21), ("brussels", "Europe/Brussels", 21),
+                         ("berlin", "Europe/Berlin", 20), ("pretoria", "Africa/Johannesburg", 20),
+                         ("johannesburg", "Africa/Johannesburg", 20), ("cape town", "Africa/Johannesburg", 20),
+                         ("casablanca", "Africa/Casablanca", 21), ("lagos", "Africa/Lagos", 20)):
         if key in city_l and promo != "ONE":
             tz, hour, minute = zone, h, 0
             break
@@ -475,20 +482,38 @@ def from_season_pages(promo, page_fmt):
         if not text:
             continue
         found_page = True
-        for m in re.finditer(r"^==([^=].*?)==\s*$", text, re.M):
-            heading = m.group(1).strip()
+        seen = set()
+        # events are usually ==Event== sections; some pages nest them as ===Event=== under ==Events==
+        for m in re.finditer(r"^(={2,3})([^=].*?)\1\s*$", text, re.M):
+            heading = m.group(2).strip()
             body = section(text, re.escape(heading))
             if "infobox" not in body.lower():
                 continue
+            if len(m.group(1)) == 2 and any("infobox" in section(body, re.escape(sub.group(1).strip())).lower()
+                                            for sub in re.finditer(r"^===([^=].*?)===\s*$", body, re.M)):
+                continue   # a parent section like ==Events== whose events are ===sub-sections===
             day = parse_date(infobox_field(body, "date"))
             if not day or day < today - dt.timedelta(days=RESULTS_DAYS):
                 continue
             name = plain(infobox_field(body, "name")) or heading
             city = plain(infobox_field(body, "city"))
             bouts = parse_card(body, name)
+            if not bouts and len(m.group(1)) == 3:
+                # card in a sibling ===Fight card=== section: read on until the next event (or ==section==)
+                rest = text[m.end():]
+                stop = len(rest)
+                for nxt in re.finditer(r"^(={2,3})([^=].*?)\1\s*$", rest, re.M):
+                    if len(nxt.group(1)) == 2 or "infobox" in section(rest, re.escape(nxt.group(2).strip())).lower():
+                        stop = nxt.start()
+                        break
+                bouts = parse_card(rest[:stop], name)
             if re.search(r"\(cancelled\)", heading, re.I):
                 continue
-            events.append(event_record(promo, name, day, wiki_url(ptitle, heading), bouts, city))
+            ev = event_record(promo, name, day, wiki_url(ptitle, heading), bouts, city)
+            if ev["id"] in seen:
+                continue
+            seen.add(ev["id"])
+            events.append(ev)
     if not found_page:
         raise ScrapeError(f"No season page found for {promo}")
     events.sort(key=lambda e: e["startMs"])
@@ -859,11 +884,25 @@ def fill_missing_photos(events, cache_path):
           f"{len(found)} new, {added} with photos")
 
 
+def pfl():
+    """PFL: the yearly page has the fight cards; if its layout changes, the events list at least gives dates."""
+    try:
+        events = from_season_pages("PFL", "{year} in Professional Fighters League")
+        today = (dt.datetime.now(ET).date() - dt.timedelta(days=1)).isoformat()
+        if any(e["date"] >= today for e in events):
+            return events
+        print("  PFL yearly page has no upcoming events, trying List of PFL events")
+    except ScrapeError as e:
+        print(f"  PFL yearly page failed ({e}), trying List of PFL events")
+    return from_list_page("PFL", "List of PFL events")
+
+
 PROMOS = {
     "UFC": lambda: from_list_page("UFC", "List of UFC events"),
     "BKFC": lambda: from_season_pages("BKFC", "{year} in Bare Knuckle Fighting Championship"),
     "ONE": lambda: from_season_pages("ONE", "{year} in ONE Championship"),
     "RAF": lambda: from_list_page("RAF", "Real American Freestyle"),
+    "PFL": pfl,
 }
 
 
