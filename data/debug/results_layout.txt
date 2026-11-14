@@ -1,0 +1,767 @@
+##### List of UFC events headings: ['==Overview==', '===Other events===', '==Scheduled events==', '==Past events==', '==Number of events by year==', '==Event locations==', '== See also ==', '==References==\n', '==External links==']
+
+##### List of UFC events PAST EVENTS (first 3500 chars):
+
+{{sticky header}}
+{| id="Past events"  class="sticky-header sortable wikitable succession-box" style="font-size:90%;"
+! scope="col" | #
+! scope="col" | Event
+! scope="col" | Date
+! scope="col" | Venue
+! scope="col" | Location
+! scope="col" | Attendance
+! scope="col" class=unsortable| Ref.
+|-
+|797
+|[[UFC Fight Night: Cortes-Acosta vs. Walker]]
+|{{dts|2026|Nov|7}}
+|rowspan=2|[[UFC Apex|Meta Apex]]
+|rowspan=2|[[Las Vegas]], [[Nevada]], U.S.
+|rowspan=3 {{n/a}}
+|<ref>{{Cite web|url=https://mmajunkie.usatoday.com/story/sports/ufc/2026/11/08/ufc-fight-night-293-post-event-facts-waldo-cortes-acosta-longest-losing-skid/92633652007/|title=UFC Fight Night 293 post-event facts: Waldo Cortes Acosta's career takes nosedive|publisher=mmajunkie.usatoday.com|author=Mike Bohn|date=2026-11-08|access-date=2026-11-09}}</ref>
+|-
+|796
+|[[UFC Fight Night: Moicano vs. Nolan]]
+|{{dts|2026|Oct|31}}
+|<ref>{{Cite web|url=https://mmajunkie.usatoday.com/story/sports/ufc/2026/11/01/ufc-fight-night-292-post-event-facts-tom-nolan-jacobe-smith-surging-streaks/92507066007/|title=UFC Fight Night 292 post-event facts: Tom Nolan, Jacobe Smith surging|publisher=mmajunkie.usatoday.com|author=Mike Bohn|date=2026-11-01|access-date=2026-11-02}}</ref>
+|-
+|795
+|[[UFC 333|UFC 333: Volkanovski vs. Evloev]]
+|{{dts|2026|Oct|24}}
+|[[Etihad Arena]]
+|[[Abu Dhabi]], United Arab Emirates
+|<ref>{{Cite web|url=https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/25/ufc-333-post-event-facts-history-made-volkanovski-evloev-yan-dvalishvili/92383660007/|title=UFC 333 post-event facts: History made in both championship fights|publisher=mmajunkie.usatoday.com|author=Mike Bohn|date=2026-10-25|access-date=2026-10-26}}</ref>
+|-
+|794
+|[[UFC Fight Night: Buckley vs. Malott]]
+|{{dts|2026|Oct|17}}
+|[[Rogers Place]]
+|[[Edmonton, Alberta]], Canada
+|16,903
+|<ref>{{Cite web|url=https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/18/ufc-fight-night-291-post-event-facts-history-made-finishes-canada/92270115007/|title=UFC Fight Night 291 post-event facts: History made in Canada|publisher=mmajunkie.usatoday.com|author=Mike Bohn|date=2026-10-18|access-date=2026-10-18}}</ref>
+|-
+|793
+|[[UFC Fight Night: Allen vs. Duncan]]
+|{{dts|2026|Oct|10}}
+|[[UFC Apex|Meta Apex]]
+|[[Las Vegas]], [[Nevada]], U.S.
+|{{n/a}}
+|<ref>{{Cite web|url=https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/11/ufc-fight-night-290-post-event-facts-brendan-allen-most-wins-2020s/92146126007/|title=UFC Fight Night 290 post-event facts: Brendan Allen has most wins of 2020s|publisher=mmajunkie.usatoday.com|author=Mike Bohn|date=2026-10-11|access-date=2026-10-11}}</ref>
+|-
+|792
+|[[UFC 332|UFC 332: Silva vs. Wang]]
+|{{dts|2026|Oct|3}}
+|[[Delta Center]]
+|[[Salt Lake City]], [[Utah]], U.S.
+|16,492
+|<ref>{{Cite web|url=https://www.sportsnet.ca/ufc/article/natalia-silva-wins-flyweight-championship-at-ufc-332/|title=Natalia Silva wins flyweight championship at UFC 332|publisher=sportsnet.ca|author=Associated Press|date=2026-10-03|access-date=2026-10-04}}</ref>
+|-
+|791
+|[[UFC Fight Night: Rosas Jr. vs. Barcelos]]
+|{{dts|2026|Sep|26}}
+|[[UFC Apex|Meta Apex]]
+|[[Las Vegas]], [[Nevada]], U.S.
+|{{n/a}}
+|<ref>{{Cite web|url=https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/28/ufc-fight-night-289-post-event-facts-several-names-hit-career-worst-skids/91957867007/|title=UFC Fight Night 289 post-event facts: Several names hit career-worst skids|publisher=mmajunkie.usatoday.com|author=Mike Bohn|date=2026-09-28|access-date=2026-10-10}}</ref>
+|-
+|790
+
+
+##### FINISHED EVENT UFC Fight Night: Cortes-Acosta vs. Walker card (first 3000 chars):
+
+{{MMAevent}}
+{{MMAevent card|Fight card (Paramount+)}}
+{{MMAevent bout
+|Heavyweight
+|[[Johnny Walker (fighter)|Johnny Walker]]
+|def.
+|[[Waldo Cortes-Acosta]]
+|TKO (punches)
+|3
+|2:27
+|
+}}
+{{MMAevent bout
+|Women's Strawweight
+|[[Tatiana Suarez]]
+|def.
+|[[Virna Jandiroba]]
+|Decision (unanimous) (30–27, 30–27, 29–28)
+|3
+|5:00
+|
+}}
+{{MMAevent bout
+|Bantamweight
+|Elijah Smith
+|def.
+|[[Davey Grant]]
+|KO (punches)
+|1
+|1:00
+|
+}}
+{{MMAevent bout
+|Light Heavyweight
+|Lucas Fernando
+|def.
+|[[Billy Elekana]]
+|Decision (unanimous) (29–28, 29–28, 29–28)
+|3
+|5:00
+|
+}}
+{{MMAevent bout
+|Women's Bantamweight
+|Nina Nikolija Milošević
+|def.
+|[[Priscila Cachoeira]]
+|TKO (elbows and punches)
+|2
+|3:40
+|
+}}
+{{MMAevent bout
+|Flyweight
+|Mitch Raposo
+|def.
+|Marcos Degli
+|Decision (unanimous) (29–28, 29–28, 29–28)
+|3
+|5:00
+|
+}}
+{{MMAevent card|Preliminary card (Paramount+)|header=no}}
+{{MMAevent bout
+|Featherweight
+|Ollie Schmid
+|def.
+|Keiichiro Nakamura
+|Decision (unanimous) (29–28, 29–28, 29–28)
+|3
+|5:00
+|
+}}
+{{MMAevent bout
+|Heavyweight
+|Thomas Petersen
+|def.
+|Gabriel Lorenço
+|TKO (punches)
+|3
+|4:47
+|
+}}
+{{MMAevent bout
+|Women's Flyweight
+|[[Karine Silva]]
+|def.
+|Gabriella Fernandes
+|Decision (unanimous) (29–28, 29–28, 29–28)
+|3
+|5:00
+|
+}}
+{{MMAevent bout
+|Featherweight
+|Murtazali Magomedov
+|def.
+|José Mauro Delano
+|Decision (unanimous) (29–28, 29–28, 29–28)
+|3
+|5:00
+|
+}}
+{{MMAevent bout
+|Featherweight
+|Austin Bashi
+|def.
+|Carlos Calderon
+|Submission (rear-naked choke)
+|1
+|1:07
+|
+}}
+{{MMAevent bout
+|Middleweight
+|[[Andre Petroski]]
+|def.
+|Mantas Kondratavičius
+|TKO (elbows and punches)
+|2
+|4:39
+|
+}}
+{{MMAevent bout
+|Welterweight
+|Ko Seok-hyeon
+|def.
+|[[Wellington Turman]]
+|Decision (unanimous) (30–27, 30–27, 30–27)
+|3
+|5:00
+|
+}}
+{{MMAevent bout
+|Welterweight
+|José Henrique Souza
+|def.
+|Jonny Parsons
+|KO (punches)
+|1
+|4:16
+|
+}}
+{{MMAevent end|notes=yes}}
+<ref>{{Cite web|url=https://www.ufc.com/event/ufc-fight-night-november-07-2026|title=UFC Fight Night: Cortes-Acosta vs. Walker|publisher=Ultimate Fighting Championship|access-date=2026-08-26}}</ref>
+== Bonus awards ==
+The following fighters received bonuses: $100,000. The other finishes received $25,000 additional bonuses.<ref>{{Cite web|url=https://heavy.com/sports/ufc/ufc-vegas-124-bonuses-are-revealed/|title=UFC Vegas 124 bonuses revealed following fun event|publisher=heavy.com|author=Adam Martin|date=2026-11-07|access-date=2026-11-08}}</ref>
+*'''Fight of the Night: Johnny Walker vs. Waldo Cortes-Acosta'''
+*'''Performance of the Night: Elijah Smith''' and '''Thomas Petersen'''
+
+== See also ==
+{{Portal|Martial Arts}}
+*[[2026 in UFC]]
+*[[List of current UFC fighters]]
+*[[List of UFC events]]
+
+== References ==
+{{reflist}}
+
+{{UFC Events}}
+{{2026 in mixed martial arts}}
+
+[[Category:2026 in UFC]]
+[[Category:2026 in sports in Nevada]]
+[[Category:October 2026 sports events in the United States]]
+[[Category:UFC Fight Night]]
+[[Category:Ultimate Fighting Championship events in Enterprise, Nevada]]
+
+##### Real American Freestyle headings: ['== History ==\n', '=== 2024: Planning and development ===\n', "=== 2025: Promotion's launch ===", '=== 2026: International signings and expansion ===', '== Corporate governance and executives ==', '===Chief executive officer===', '===Chairman of the board===', '===Chief operating officer===', '===Chief media officer===', '===Board of directors===', '== Weight divisions and current champions ==', '=== Men ===', '=== Women ===', '== Wrestler salaries and contracts ==', '== Rules ==', '== RAF events ==', '===List of events===', '====Scheduled events====', '====Past events====', '=== Production team ===', '== Media rights ==\n', '== References ==', '== External links ==']
+
+##### Real American Freestyle PAST EVENTS (first 3500 chars):
+
+{| class="sortable wikitable succession-box" style="font-size:90%"
+! scope="col" | #
+! scope="col" | Event
+! scope="col" | Date
+! scope="col" | Venue
+! scope="col" | Location
+|-
+| align=center|16
+| [[RAF 14|RAF 14: Tsarukyan vs. Danis]]
+| {{dts|2026|October|23}}
+| [[Fontainebleau Las Vegas]]
+| [[Las Vegas, Nevada]], U.S.
+|-
+| align=center|15
+| [[RAF 13|RAF 13: Covington vs Muhammad]]
+| {{dts|2026|September|18}}
+| [[Watsco Center]]
+| [[Miami, Florida]], U.S.
+|-
+| align=center|14
+| [[RAF Moscow|RAF Moscow: Chimaev vs. Woodley]]
+| {{dts|2026|September|5}}
+| [[Mytishchi Arena]]
+| [[Moscow]], Russia
+|-
+| align="center" |13
+|[[RAF 12|RAF 12: Dvalishvili vs. Cejudo 2]]
+|{{dts|2026|August|22}}
+|[[Rocket Arena]]
+|[[Cleveland, Ohio]], U.S.
+|-
+| align=center|12
+| [[RAF 11|RAF 11: Tsarukyan vs. Covington]]
+| {{dts|2026|July|18}}
+| [[UW–Milwaukee Panther Arena]]
+| [[Milwaukee, Wisconsin]], U.S.
+|-
+| align=center|11
+| [[RAF Georgia|RAF Georgia: Dvalishvili vs. Cejudo]]
+| {{dts|2026|July|11}}
+| [[Tbilisi Arena]]
+| [[Tbilisi]], Georgia
+|-
+| align=center|10
+| [[RAF 10|RAF 10: Chimaev vs. Danis]]
+| {{dts|2026|June|13}}
+| [[Chaifetz Arena]]
+| [[St. Louis, Missouri]], U.S.
+|-
+| align=center|9
+| [[RAF 09|RAF 09: Steveson vs. Romanov]]
+| {{dts|2026|May|30}}
+| [[College Park Center]]
+| [[Dallas, Texas]], U.S.
+|-
+| align=center|8
+| [[RAF 08|RAF 08: Tsarukyan vs. Faber]]
+| {{dts|2026|April|18}}
+| [[Liacouras Center]]
+| [[Philadelphia, Pennsylvania]], U.S.
+|-
+| align=center|7
+| [[RAF 07|RAF 07: Tsarukyan vs. Poullas]]
+| {{dts|2026|March|28}}
+| [[Yuengling Center]]
+| [[Tampa, Florida]], U.S.
+|-
+| align=center|6
+| [[RAF 06|RAF 06: Cejudo vs. Faber]]
+| {{dts|2026|February|28}}
+| [[Mullett Arena]]
+| [[Tempe, Arizona]], U.S.
+|-
+| align=center|5
+| [[RAF 05|RAF 05: Covington vs. Rockhold]]
+| {{dts|2026|January|10}}
+| [[Amerant Bank Arena]]
+| [[Miami, Florida]], U.S.
+|-
+| align=center|4
+| [[RAF 04|RAF 04: Hendrickson vs. Parris]]
+| {{dts|2025|December|20}}
+| [[Fishers Event Center]]
+| [[Fishers, Indiana]], U.S.
+|-
+| align=center|3
+| [[RAF 03|RAF 03: Mendes vs. Chandler]]
+| {{dts|2025|November|29}}
+| [[Wintrust Arena]]
+| [[Chicago, Illinois]], U.S.
+|-
+| align=center|2
+| [[RAF 02|RAF 02: Dake vs. Makoev]]
+| {{dts|2025|October|25}}
+| [[Bryce Jordan Center]]
+| [[State College, Pennsylvania]], U.S.
+|-
+| align=center|1
+| [[RAF 01|RAF 01: Hendrickson vs. Elders]]
+| {{dts|2025|August|29}}
+| [[Wolstein Center]]
+| [[Cleveland, Ohio]], U.S.
+|}
+
+=== Production team ===
+[[File:Kurt Angle (53983148398).jpg|right|thumb|upright|RAF commentator [[Kurt Angle]]]]
+
+RAF's matchmaking committee is composed of co-founder and CEO Chad Bronstein, COO Izzy Martinez, head of talent development [[Lance Palmer]], vice president of talent development Willie Saylor, and ambassador [[Ben Askren]].<ref name="z141">{{cite web | last=Heck | first=Mike | title='Arman Tsarukyan has not been banned': RAF exec provides clarity, reveals timeframe for rematch with Georgio Poullas | website=[[MMA Fighting]] | date=March 5, 2026 | url=https://www.mmafighting.com/raf-wrestling/474882/arman-tsarukyan-has-not-been-banned-raf-exec-provides-clarity-reveals-timeframe-for-rematch-with-georgio-poullas | access-date=April 28, 2026}}</ref>
+
+The [[sports commentary|commentary]] team consists of Shane Sparks as play-by-play analyst, [[Chael Sonnen]] as color analyst and post-match interviewer, [[Julianna Peña]] as undercard color commentator, and [[Kurt Angle]] as main event color commentator.<ref name="d006">{{cite web | 
+
+##### FINISHED EVENT RAF 14 card (first 3000 chars):
+
+{{MMAevent}}
+{{MMAevent card|Main card}}
+{{MMAevent bout
+|Middleweight
+|{{flagicon|ARM}} [[Arman Tsarukyan]]
+|def.
+|{{flagicon|USA}} [[Dillon Danis]]
+|Technical fall (10-0)
+|1
+|1:19
+|For the inaugural [[RAF Middleweight Crossover Championship]].
+}}
+{{MMAevent bout
+|Catchweight
+|{{flagicon|UAE}} [[Khamzat Chimaev]]
+|def.
+|{{flagicon|USA}} [[Robbie Lawler]]
+|Technical fall (11-0)
+|1
+|1:40
+|
+}}
+{{MMAevent bout
+|Women's Strawweight
+|{{flagicon|ECU}} [[Lucía Yépez]] (c)
+|def.
+|{{flagicon|USA}} [[Sarah Hildebrandt]]
+|Decision (8-7)
+|3
+|2:00
+|For the [[RAF Women's Strawweight Championship]].
+}}
+{{MMAevent bout
+|Featherweight
+|{{flagicon|PRI}} [[Sebastian Rivera]]
+|def.
+|{{flagicon|USA}} [[Vito Arujau]]
+|Decision (criteria) (11-11)
+|3
+|2:00
+|[[RAF Featherweight Championship|RAF Featherweight]] title eliminator.<ref>{{Cite web|url=https://x.com/RAFWrestlingUSA/status/2099302304612495717|title=#1 Contender Match 👀 Olympic Medalist Sebastian Rivera and World Champion Vito Arujau face off at #RAF14 OCT 23 in Las Vegas. Winner takes on Real Woods for the RAF Featherweight Championship|publisher=x.com|author=Real American Freestyle|date=2026-09-14|access-date=2026-09-14}}</ref>
+}}
+{{MMAevent bout
+|Middleweight
+|{{flagicon|USA}} Michael Caliendo
+|def.
+|{{flagicon|USA}} [[Jordan Burroughs]]
+|Decision (7-5)
+|3
+|2:00
+|
+}}
+{{MMAevent bout
+|Lightweight
+|{{flagicon|USA}} [[Ridge Lovett]]
+|def.
+|{{flagicon|USA}} [[Jordan Oliver (professional wrestler)|Jordan Oliver]]
+|Technical fall (13-2)
+|3
+|1:59
+|For the vacant [[RAF Lightweight Championship]].
+}}
+{{MMAevent bout
+|Heavyweight
+|{{flagicon|CUB}} [[Yonger Bastida]]
+|def.
+|{{flagicon|USA}} Zachery Elam
+|Decision (9-1)
+|3
+|2:00
+|
+}}
+{{MMAevent bout
+|Cruiserweight
+|{{flagicon|RUS}} [[Akhmed Gadzhimagomedov]]
+|def.
+|{{flagicon|USA}} [[Mekhi Lewis]]
+|Decision (5-4)
+|3
+|2:00
+|
+}}
+{{MMAevent bout
+|Women's Middleweight
+|{{flagicon|USA}} Bella Mir
+|def.
+|{{flagicon|USA}} Hope Chase
+|Technical fall (10-0)
+|2
+|0:31
+|
+}}
+{{MMAevent bout
+|Catchweight
+|{{flagicon|USA}} [[Pat Downey (wrestler)|Pat Downey]]
+|def.
+|{{flagicon|RUS}} [[Magomed Magomedkerimov]]
+|Pinfall
+|2
+|1:19
+|
+}}
+{{MMAevent bout
+|Catchweight
+|{{flagicon|USA}} [[Brendan Allen]]
+|def.
+|{{flagicon|RUS}} [[Alexander Shlemenko]]
+|Technical fall (10-0)
+|1
+|1:54
+|
+}}
+{{MMAevent bout
+|Featherweight
+|{{flagicon|USA}} Dylan Ragusin
+|def.
+|{{flagicon|USA}} [[Juan Archuleta]]
+|Technical fall (10-0)
+|1
+|1:41
+|
+}}
+{{MMAevent end|notes=yes}}
+<ref>{{Cite web|url=https://www.realamericanfreestyle.com/events/raf14|title=RAF 14: Tsarukyan vs. Danis|publisher=realamericanfreestyle.com|author=Real American Freestyle|date=2026-08-12|access-date=2026-08-12}}</ref>
+
+==Bonus awards==
+The following athletes received bonuses.<ref>{{Cite web|url=https://www.instagram.com/p/De3VDMbRt3b|title=9 POINT COMEBACK FOR MATCH OF THE NIGHT|access-date=2026-10-24}}</ref><ref>{{Cite web|url=https://www.instagram.com/p/De3Z65NlElY|title=PUT ON A SHOW IN VEGAS|access-date=2026-10-24}}</ref><ref>{{Cite web|u
+
+##### 2026 in Bare Knuckle Fighting Championship first finished card around 'def.' (chars):
+FC 86 Mohegan Sun: Lane vs. Pague==
+{{Infobox MMA event
+|name=BKFC 86 Mohegan Sun: Lane vs. Pague
+|image=
+|promotion=[[Bare Knuckle Fighting Championship]]
+|date=January 17, 2026
+|venue=[[Mohegan Sun Arena]]
+|city=[[Uncasville, Connecticut]], United States
+|attendance=
+|previousevent=
+|followingevent=
+}}
+'''BKFC 86 Mohegan Sun: Lane vs. Pague''' (also known as '''BKFC on DAZN 9''') was a bare-knuckle fighting event held by Bare Knuckle Fighting Championship on January 17, 2026.<ref name="bkfc86">{{Cite web |title=BKFC 86 MOHEGAN SUN LANE vs PAGUE on DAZN|url=https://www.bkfc.com/events/bkfc-86-mohegan-sun-lane-vs-pague|access-date=2026-01-13|website=Bare Knuckle Fighting Championships}}</ref>
+
+===Background===
+A [[Bare_Knuckle_Fighting_Championship#Welterweight_Championship|BKFC Welterweight Championship]] bout between current champion Julian Lane and [[Dustin Pague]] headlined the event.<ref name="bkfc86"/> Former [[World Boxing Organization|WBO]] [[Super featherweight|junior lightweight]] boxing champion [[Jamel Herring]] made his debut against Matt Guymon.<ref>{{Cite web|url=https://www.si.com/fannation/boxing/jamel-herring-to-make-bare-knuckle-debut-in-first-bkfc-event-of-2026|title=Jamel Herring To Make Bare-Knuckle Debut In First BKFC Event Of 2026|work=Sports Illustrated|author=Jaren Kawada|date=2025-12-23|access-date=2026-01-13}}</ref>
+
+===Fight card===
+{| class="wikitable" style="font-size: 85%;"
+|-
+! colspan="8" style="background-color: #ccf; color: #000080; text-align: center;" | '''BKFC 86 Mohegan Sun: Lane vs. Pague'''<ref>{{Cite web|url=https://www.bkfc.com/news/bkfc-86-results|title=BKFC 86 Results|publisher=bkfc.com|access-date=2026-01-18}}</ref>
+|-
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" | Weight Class
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" |
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" |
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" |
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" | Method
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" | Round
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" | Time
+! colspan="1" style="background-color: #E6E8FA; color: #000000; text-align: center;" | Notes
+|-
+|Welterweight 75 kg	
+|{{flagicon|USA}} [[Dustin Pague]]
+|align=center|def.
+|{{flagicon|USA}} Julian Lane (c)
+|Decision (unanimous) (57-56, 57-56, 57-56)
+|align=center|6
+|align=center|2:00
+|For the [[Bare_Knuckle_Fighting_Championship#Current_champions|BKFC Welterweight Championship]]. The fight went to a sixth overtime round. 
+|-
+|Bantamweight 61 kg
+|{{flagicon|USA}} [[Jamel Herring]]
+|align=center|def.
+|{{flagicon|USA}} Matt Guymon
+|Decision (unanimous) (50-43, 50-43, 50-43)
+|align=center|5
+|align=center|2:00
+|
+|-
+|Welterweight 75 kg	
+|{{flagicon|USA}} Ramiro Figueroa
+|align=center|def.
+|{{flagicon|USA}} Dalvin Blair
+|Decision (unanimous) (49-46, 49-46, 48-47)
+|align=center|5
+|align=center|2:00
+|
+|-
+|Lightweight 70 kg
+|{{flagicon|USA}} Rico DiSciullo
+|align=center|def.
+|{{flagicon|USA}} Ashton Caniglia
+|KO
+|align=center|2
+|align=center|0:26
+|
+|-
+|Heavyweight 120 kg	
+|{{flagicon|Brazil}} [[Guilherme Viana]]
+|align=center|def.
+|{{flagicon|USA}} Juan Figuerva
+|KO
+|align=center|1
+|align=center|1:59
+|
+|-
+|Heavyweight 120 kg	
+|{{flagicon|USA}} Ras Hylton
+|align=center|def.
+|{{flagicon|USA}} Branko Busick
+|TKO
+|align=center|5
+|align=center|1:53
+|
+|-
+|Lightweight 70 kg
+|{{flagicon|USA}} Trey Martin
+|align=center|def.
+|{{flagicon|USA}} Nathan Ghareeb
+|Decision (split) (47-48, 48-47, 49-46)
+|align=center|5
+|align=center|2:00
+|
+|-
+|Featherweight 66 kg
+|{{flagicon|USA}} Joey Gambino
+|align=center|def.
+|{{flagicon|USA}} Kurtis Ellis
+|TKO
+|align=center|2
+|align=center|1:08
+|
+|-
+! colspan="8" style="background-color: #ccf; color: #000080; text-align: center;
+
+##### 2026 in ONE Championship first finished card around 'def.' (chars):
+2" |$10,000
+| rowspan="2" |
+|-
+|Lamsing T1.FightAcademy
+|{{n/a}}
+|-
+|378
+|[[#ONE Fight Night 40|ONE Fight Night 40: Buntan vs. Hemetsberger 2]]
+|{{dts|2026|02|14}}
+|[[Lumpinee Boxing Stadium]]
+|[[Bangkok]]
+|Thailand
+|{{n/a}}
+|{{n/a}}
+|No Bonuses.
+|
+|-
+|377
+|[[#ONE Friday Fights 142 & The Inner Circle 2|ONE Friday Fights 142: Apiwat vs. Panpadej / The Inner Circle 2]]
+|{{dts|2026|02|13}}
+|[[Lumpinee Boxing Stadium]]
+|[[Bangkok]]
+|Thailand
+|Gregor Thom
+|Dokmaifai Topfairy
+|$10,000
+|
+|-
+| rowspan="3" |376
+| rowspan="3" |[[#ONE Friday Fights 141 & The Inner Circle 1|ONE Friday Fights 141: Komawut vs. Samingdam / The Inner Circle 1]]
+| rowspan="3" |{{dts|2026|02|06}}
+| rowspan="3" |[[Lumpinee Boxing Stadium]]
+| rowspan="3" |[[Bangkok]]
+| rowspan="3" |Thailand
+|Detchawalit Silkmuaythai
+|Face Erawan
+| rowspan="3" |$10,000
+| rowspan="3" |
+|-
+|Haruyuki Tanitsu
+|Ramu Araya
+|-
+|Adam Sor.Dechapan
+|Chokdee Maxjandee
+|-
+| rowspan="3" |375
+| rowspan="3" |[[#ONE Friday Fights 140|ONE Friday Fights 140: Kongchai vs. Thway Lin Htet]]
+| rowspan="3" |{{dts|2026|01|30}}
+| rowspan="3" |[[Lumpinee Boxing Stadium]]
+| rowspan="3" |[[Bangkok]]
+| rowspan="3" |Thailand
+|Jaradchai Maxjandee
+|Viet Anh Do
+| rowspan="3" |$10,000
+| rowspan="3" |
+|-
+|Retsu Sashida
+|Ranma
+|-
+|Henrique de Almeida Cabral
+|{{n/a}}
+|-
+|374
+|[[ONE Fight Night 39|ONE Fight Night 39: Rambolek vs. Dayakaev]]
+|{{dts|2026|01|24}}
+|[[Lumpinee Boxing Stadium]]
+|[[Bangkok]]
+|Thailand
+|[[Rambolek Chor.Ajalaboon]] 
+|[[Asadula Imangazaliev]]
+|$50,000
+|
+|-
+| rowspan="3" |373
+| rowspan="3" |[[#ONE Friday Fights 139|ONE Friday Fights 139: Worapon vs. Soe Lin Oo]]
+| rowspan="3" |{{dts|2026|01|23}}
+| rowspan="3" |[[Lumpinee Boxing Stadium]]
+| rowspan="3" |[[Bangkok]]
+| rowspan="3" |Thailand
+|Worapon Lukjaoporongtom
+|Salai Htan Khee Shein
+| rowspan="3" |$10,000
+| rowspan="3" |
+|-
+|Kajornklai Sor.Sor.Toipadriew
+|Kyaw Swar Win
+|-
+|Batochir Batsaikhan
+|Zhao Zhengdong
+|-
+| rowspan="3" |372
+| rowspan="3" |[[#ONE Friday Fights 138|ONE Friday Fights 138: Pompet vs. Decho]]
+| rowspan="3" |{{dts|2026|01|16}}
+| rowspan="3" |[[Lumpinee Boxing Stadium]]
+| rowspan="3" |[[Bangkok]]
+| rowspan="3" |Thailand
+|Kohtao Petsomnuk
+|Petninmungkorn NamkaengIceland
+| rowspan="3" |$10,000
+| rowspan="3" |
+|-
+|Tahaneak Nayokatasala
+|Khunpon Or.AudUdon
+|-
+|Rifdean Masdor
+|Cho Kyeong-jae
+|}
+
+==Title fights==
+{{MMAtitle}}
+{{MMAtitle card|[[List of ONE Championship champions|Title fights in 2026]]}}
+{{MMAtitle bout
+|Featherweight Muay Thai
+|[[Nico Carrillo]]
+|def.
+|[[Shadow Singha Mawynn]]
+|Decision (unanimous)
+|5
+|3:00
+|[[#ONE Fight Night 40|ONE Fight Night 40]]
+|For the interim [[ONE Featherweight Muay Thai World Championship]].
+}}
+{{MMAtitle bout
+|Women's Strawweight Kickboxing
+|[[Stella Hemetsberger]]
+|def.
+|[[Jackie Buntan]] (c)
+|Decision (split)
+|5
+|3:00
+|[[#ONE Fight Night 40|ONE Fight Night 40]]
+|For the [[ONE Women's Strawweight World Championship|ONE Women's Strawweight Kickboxing World Championship]].
+}}
+{{MMAtitle bout
+|Welterweight Submission Grappling
+|[[Tye Ruotolo]] (c)
+|def.
+|Paweł Jaworski
+|Decision (unanimous)
+|1
+|10:00
+|[[#ONE Fight Night 41|ONE Fight Night 41]]
+|For the [[ONE Welterweight Submission Grappling World Championship]].
+}}
+{{MMAtitle bout
+|Bantamweight Muay Thai
+|[[Rambolek Chor.Ajalaboon]]
+|def.
+|[[Nabil Anane]] (c)
+|Decision (unanimous)
+|5
+|3:00
+|[[#ONE Friday Fights 147 & The Inner Circle 7|The Inner Circle 7]]
+|For the [[ONE Bantamweight Muay Thai World Championship]].
+}}
+{{MMAtitle bout
+|Flyweight Muay Thai
+|[[Asadula Imangazaliev]]
+|def.
+|[[Nong-O Hama]]
+|KO (punch to the body)
+|2
+|0:44
+|[[#ONE Friday Fights 147 & The Inner Circle 7|ONE Friday Fights 147]]
+|For the vacant [[ONE Flyweight Muay Thai World Championship]].Imangazaliev missed weight (139.8 lb) and Nong-O was eligible win the title.
+}}
+{{MMAtitle bout
+|Lightweight Kickboxing
+|[[Regian Eersel]]
+|def.
+|[[Rungrawee Sitsongpeenong]]
+|Decision (unanimous)
+|5
+|3:00
+|[[#ONE Friday Fights 150 & The Inner Circle 10|The Inner Circle 10]]
+|For
