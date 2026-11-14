@@ -1,0 +1,4 @@
+{
+ "_how": "Fix a start time: add a line with any part of the event title and its start time, e.g. \"UFC 335\": \"2026-12-12 22:00 America/New_York\" (or a UTC time like \"2026-12-13T03:00:00Z\"). Commit, and the app updates within a few minutes. Times you set here always win.",
+ "RAF Abu Dhabi": "2026-11-14 11:00 America/New_York"
+}
