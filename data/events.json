@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794654830660,
+ "generatedMs": 1794655504404,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -83,17 +83,6 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Chris_Weidman_at_UFC_230.jpg/500px-Chris_Weidman_at_UFC_230.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 94,
-      "pctB": 6,
-      "oddsA": 1.02,
-      "oddsB": 16.5,
-      "tier": "Heavy favourite",
-      "why": "",
-      "crowd": "Average of 1 bookmaker",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -133,17 +122,6 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Neimangracie_Adxc.webp/500px-Neimangracie_Adxc.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Gjiujitsu · CC0 (Wikimedia Commons)"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 95,
-      "pctB": 5,
-      "oddsA": 1.01,
-      "oddsB": 18.87,
-      "tier": "Heavy favourite",
-      "why": "",
-      "crowd": "Average of 1 bookmaker",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -183,17 +161,6 @@
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Giga_Chikadze_post_fight_interview_at_UFC_Fight_Night_160_in_Copenhagen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 94,
-      "pctB": 6,
-      "oddsA": 1.02,
-      "oddsB": 15.5,
-      "tier": "Heavy favourite",
-      "why": "",
-      "crowd": "Average of 1 bookmaker",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -390,17 +357,6 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 55,
-      "pctB": 45,
-      "oddsA": 1.75,
-      "oddsB": 2.13,
-      "tier": "Pick'em",
-      "why": "",
-      "crowd": "Average of 1 bookmaker",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -437,17 +393,6 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Marlon_Moraes.jpg/500px-Marlon_Moraes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Sambo1096 · CC BY-SA 4.0 (Wikimedia Commons)"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 86,
-      "pctB": 14,
-      "oddsA": 1.11,
-      "oddsB": 7.0,
-      "tier": "Heavy favourite",
-      "why": "",
-      "crowd": "Average of 1 bookmaker",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -517,8 +462,8 @@
    "date": "2026-11-14",
    "startMs": 1794708900000,
    "timeEstimated": false,
-   "prelimsMs": 1794693600000,
-   "earlyPrelimsMs": null,
+   "prelimsMs": 1794701700000,
+   "earlyPrelimsMs": 1794693600000,
    "bouts": [
     {
      "a": "Ciryl Gane",
@@ -1010,7 +955,9 @@
       "source": "Bookmaker odds"
      }
     }
-   ]
+   ],
+   "earlyPrelimsEstimated": false,
+   "prelimsEstimated": true
   },
   {
    "id": "one-one-samurai-5",
@@ -1581,7 +1528,7 @@
    "date": "2026-11-21",
    "startMs": 1795280400000,
    "timeEstimated": false,
-   "prelimsMs": null,
+   "prelimsMs": 1795269600000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -1951,7 +1898,8 @@
       "source": "Bookmaker odds"
      }
     }
-   ]
+   ],
+   "prelimsEstimated": true
   },
   {
    "id": "one-one-friday-fights-180-the-inner-circle-40",
@@ -4161,6 +4109,6 @@
    ]
   }
  ],
- "oddsUpdatedMs": 1794654867598,
- "oddsCreditsLeft": "482"
+ "oddsUpdatedMs": 1794655516785,
+ "oddsCreditsLeft": "480"
 }
