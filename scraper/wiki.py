@@ -12,6 +12,9 @@ Sources:
   BKFC  "<year> in Bare Knuckle Fighting Championship" -> one section per event
   ONE   "<year> in ONE Championship" -> one section per event
 
+Fighters with their own Wikipedia page also get a photo (free-licence images
+only, with the photographer and licence credited), record, nickname and stats.
+
 Wikipedia gives dates but not start times, so each event gets an estimated
 start time (flagged timeEstimated). scraper/odds.py later replaces it with the
 real start time when bookmakers are pricing the fights.
@@ -279,6 +282,7 @@ def make_fighter(cell):
     target = link_target(cell)
     if target:
         f["url"] = wiki_url(target)
+        f["_page"] = target  # used by enrich_fighters(), removed before saving
     return f
 
 
@@ -460,6 +464,178 @@ def from_season_pages(promo, page_fmt):
     return events[:MAX_EVENTS_PER_PROMO]
 
 
+# ---------------------------------------------------------------- fighter pages (photo, record, stats)
+
+def api_query(params):
+    base = {"action": "query", "format": "json", "formatversion": 2, "maxlag": 5}
+    for attempt in range(3):
+        try:
+            r = session.get(API, params={**base, **params}, timeout=30)
+            j = r.json()
+            if j.get("error", {}).get("code") == "maxlag":
+                time.sleep(5)
+                continue
+            time.sleep(0.5)
+            return j
+        except (requests.RequestException, ValueError):
+            time.sleep(3 * (attempt + 1))
+    return {}
+
+
+def template_params(tpl):
+    """{{name|a|b|k=v}} -> (positional list, named dict)."""
+    parts = split_params(tpl[2:-2])
+    pos, named = [], {}
+    for part in parts[1:]:
+        if "=" in part and not part.lstrip().startswith(("[[", "{{")):
+            k, v = part.split("=", 1)
+            named[k.strip().lower()] = v.strip()
+        else:
+            pos.append(part.strip())
+    return pos, named
+
+
+def first_template(value, names):
+    m = re.search(r"\{\{\s*(" + names + r")\s*\|", value or "", re.I)
+    if not m:
+        return None
+    end = find_template_end(value, m.start())
+    return template_params(value[m.start():end])
+
+
+def measure(value):
+    """Heights / reaches: {{height|ft=6|in=1}}, {{convert|76|in|cm}}, or plain text."""
+    value = strip_refs(value or "")
+    h = first_template(value, r"height")
+    if h:
+        _, n = h
+        if n.get("ft"):
+            return f"{n['ft']} ft {n.get('in', '0')} in"
+        if n.get("m"):
+            return f"{n['m']} m"
+        if n.get("cm"):
+            return f"{n['cm']} cm"
+    c = first_template(value, r"convert|cvt")
+    if c:
+        pos, _ = c
+        if len(pos) >= 2:
+            if len(pos) >= 4 and pos[1] == "ft" and re.match(r"^\d", pos[2]):
+                return f"{pos[0]} ft {pos[2]} in"
+            return f"{pos[0]} {pos[1]}"
+    return plain(re.split(r"<br\s*/?>", value)[0])
+
+
+def age_from(value):
+    t = first_template(value, r"birth date and age|birth-date and age|bda")
+    if t:
+        nums = [x for x in t[0] if re.match(r"^\d+$", x)]
+        if len(nums) >= 3:
+            born = dt.date(int(nums[0]), int(nums[1]), int(nums[2]))
+            today = dt.date.today()
+            return str(today.year - born.year - ((today.month, today.day) < (born.month, born.day)))
+    return ""
+
+
+def parse_infobox(text):
+    m = re.search(r"\{\{\s*Infobox", text or "", re.I)
+    if not m:
+        return {}
+    _, named = template_params(text[m.start():find_template_end(text, m.start())])
+    return named
+
+
+def fighter_details(text):
+    box = parse_infobox(text)
+    out, stats = {}, {}
+    nick = plain(re.split(r"<br\s*/?>", box.get("nickname", ""))[0]).strip("\"'“” ")
+    if nick:
+        out["nickname"] = nick
+
+    def num(*keys):
+        for k in keys:
+            v = re.sub(r"\D", "", plain(box.get(k, "")))
+            if v:
+                return int(v)
+        return None
+    wins, losses, draws = num("mmawins"), num("mmalosses"), num("mmadraws")
+    if wins is None and losses is None:  # e.g. boxers / bare-knuckle only
+        wins, losses, draws = num("wins"), num("losses"), num("draws")
+    if wins is not None or losses is not None:
+        out["record"] = f"{wins or 0}-{losses or 0}-{draws or 0}"
+    age = age_from(box.get("birth_date", ""))
+    if age:
+        stats["Age"] = age
+    for key, label in (("height", "Height"), ("reach", "Reach")):
+        v = measure(box.get(key, ""))
+        if v:
+            stats[label] = v
+    team = plain(re.split(r"<br\s*/?>|\n\*", box.get("team", ""))[0]).lstrip("* ")
+    if team:
+        stats["Team"] = team
+    if stats:
+        out["stats"] = stats
+    return out
+
+
+def enrich_fighters(events):
+    """Adds photo (free-licence images only), record, nickname and stats from each fighter's Wikipedia page."""
+    wanted = {}
+    for e in events:
+        for b in e["bouts"]:
+            for f in (b["fa"], b["fb"]):
+                page = f.pop("_page", None)
+                if page:
+                    wanted.setdefault(page, []).append(f)
+    titles = list(wanted)
+    found = {}      # requested title -> page dict
+    for i in range(0, len(titles), 50):
+        chunk = titles[i:i + 50]
+        j = api_query({"prop": "pageimages|revisions", "piprop": "thumbnail|name", "pithumbsize": 400,
+                       "pilicense": "free", "rvprop": "content", "rvslots": "main", "redirects": 1,
+                       "titles": "|".join(chunk)})
+        q = j.get("query", {})
+        alias = {}
+        for m in q.get("normalized", []) + q.get("redirects", []):
+            alias[m["from"]] = m["to"]
+        pages = {p["title"]: p for p in q.get("pages", [])}
+        for t in chunk:
+            final = t
+            for _ in range(3):
+                final = alias.get(final, final)
+            if final in pages:
+                found[t] = pages[final]
+
+    # credits for the photos (author + licence), from Commons file metadata
+    files = sorted({"File:" + p["pageimage"] for p in found.values() if p.get("pageimage") and p.get("thumbnail")})
+    credit = {}
+    for i in range(0, len(files), 50):
+        j = api_query({"prop": "imageinfo", "iiprop": "extmetadata", "iiextmetadatalanguage": "en",
+                       "iiextmetadatafilter": "Artist|LicenseShortName", "titles": "|".join(files[i:i + 50])})
+        q = j.get("query", {})
+        alias = {m["from"]: m["to"] for m in q.get("normalized", [])}
+        back = {alias.get(f, f): f for f in files[i:i + 50]}
+        for p in q.get("pages", []):
+            meta = (p.get("imageinfo") or [{}])[0].get("extmetadata", {})
+            artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
+            lic = meta.get("LicenseShortName", {}).get("value", "").strip()
+            parts = [x for x in (artist[:60], lic) if x]
+            credit[back.get(p["title"], p["title"]).replace(" ", "_")] = " · ".join(parts)
+
+    got = 0
+    for t, page in found.items():
+        text = ((page.get("revisions") or [{}])[0].get("slots", {}).get("main", {}).get("content", ""))
+        details = fighter_details(text) if text else {}
+        thumb = (page.get("thumbnail") or {}).get("source")
+        if thumb:
+            details["photo"] = thumb
+            c = credit.get(("File:" + page.get("pageimage", "")).replace(" ", "_"), "")
+            details["photoCredit"] = ("Photo: " + c + " (Wikimedia Commons)") if c else "Photo: Wikimedia Commons"
+            got += 1
+        for f in wanted[t]:
+            f.update(details)
+    print(f"Fighter pages: {len(found)}/{len(titles)} found, {got} with photos")
+
+
 PROMOS = {
     "UFC": lambda: from_list_page("UFC", "List of UFC events"),
     "BKFC": lambda: from_season_pages("BKFC", "{year} in Bare Knuckle Fighting Championship"),
@@ -496,6 +672,14 @@ def main():
             all_events += [ev for ev in previous.get("events", [])
                            if ev.get("promotion") == promo and (ev.get("startMs") or 0) > now_ms - 6 * 3600_000]
 
+    try:
+        enrich_fighters(all_events)
+    except Exception as e:  # extras only: never break the fight cards over this
+        print(f"[WARN] Could not load fighter pages: {e}")
+    for ev in all_events:
+        for b in ev.get("bouts", []):
+            b["fa"].pop("_page", None)
+            b["fb"].pop("_page", None)
     all_events.sort(key=lambda e: e["startMs"])
     data = {
         "generatedMs": now_ms,
