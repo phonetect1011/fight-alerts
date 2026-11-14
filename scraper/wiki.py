@@ -14,6 +14,9 @@ Sources:
 
 Fighters with their own Wikipedia page also get a photo (free-licence images
 only, with the photographer and licence credited), record, nickname and stats.
+Fighters still without a photo are looked up on Wikidata, which links their
+pages on other-language Wikipedias (Japanese, Thai, Portuguese...). Those
+lookups are cached in data/photo-cache.json so each fighter is checked weekly.
 
 Wikipedia gives dates but not start times, so each event gets an estimated
 start time (flagged timeEstimated). scraper/odds.py later replaces it with the
@@ -466,11 +469,15 @@ def from_season_pages(promo, page_fmt):
 
 # ---------------------------------------------------------------- fighter pages (photo, record, stats)
 
-def api_query(params):
+WIKIDATA = "https://www.wikidata.org/w/api.php"
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+
+
+def api_query(params, url=API):
     base = {"action": "query", "format": "json", "formatversion": 2, "maxlag": 5}
     for attempt in range(3):
         try:
-            r = session.get(API, params={**base, **params}, timeout=30)
+            r = session.get(url, params={**base, **params}, timeout=30)
             j = r.json()
             if j.get("error", {}).get("code") == "maxlag":
                 time.sleep(5)
@@ -591,6 +598,16 @@ def fighter_details(text):
     return out
 
 
+def credit_text(meta):
+    artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
+    lic = meta.get("LicenseShortName", {}).get("value", "").strip()
+    return " · ".join(x for x in (artist[:60], lic) if x)
+
+
+def photo_credit(c):
+    return ("Photo: " + c + " (Wikimedia Commons)") if c else "Photo: Wikimedia Commons"
+
+
 def enrich_fighters(events):
     """Adds photo (free-licence images only), record, nickname and stats from each fighter's Wikipedia page."""
     wanted = {}
@@ -604,7 +621,8 @@ def enrich_fighters(events):
     found = {}      # requested title -> page dict
     for i in range(0, len(titles), 50):
         chunk = titles[i:i + 50]
-        j = api_query({"prop": "pageimages|revisions", "piprop": "thumbnail|name", "pithumbsize": 400,
+        j = api_query({"prop": "pageimages|revisions|pageprops", "ppprop": "wikibase_item",
+                       "piprop": "thumbnail|name", "pithumbsize": 400,
                        "pilicense": "free", "rvprop": "content", "rvslots": "main", "redirects": 1,
                        "titles": "|".join(chunk)})
         q = j.get("query", {})
@@ -630,10 +648,7 @@ def enrich_fighters(events):
         back = {alias.get(f, f): f for f in files[i:i + 50]}
         for p in q.get("pages", []):
             meta = (p.get("imageinfo") or [{}])[0].get("extmetadata", {})
-            artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
-            lic = meta.get("LicenseShortName", {}).get("value", "").strip()
-            parts = [x for x in (artist[:60], lic) if x]
-            credit[back.get(p["title"], p["title"]).replace(" ", "_")] = " · ".join(parts)
+            credit[back.get(p["title"], p["title"]).replace(" ", "_")] = credit_text(meta)
 
     got = 0
     for t, page in found.items():
@@ -643,11 +658,153 @@ def enrich_fighters(events):
         if thumb:
             details["photo"] = thumb
             c = credit.get(("File:" + page.get("pageimage", "")).replace(" ", "_"), "")
-            details["photoCredit"] = ("Photo: " + c + " (Wikimedia Commons)") if c else "Photo: Wikimedia Commons"
+            details["photoCredit"] = photo_credit(c)
             got += 1
+        qid = (page.get("pageprops") or {}).get("wikibase_item")
         for f in wanted[t]:
             f.update(details)
+            if qid:
+                f["_qid"] = qid  # lets fill_missing_photos() skip the name search
     print(f"Fighter pages: {len(found)}/{len(titles)} found, {got} with photos")
+
+
+# ---------------------------------------------------------------- photos from other-language Wikipedias
+
+# Fighters with no free photo on English Wikipedia often have one on Japanese, Thai, Portuguese... Wikipedia.
+# Wikidata links all language versions of a fighter's page, and its "image" (P18) points at Wikimedia Commons.
+OTHER_WIKIS = ["jawiki", "thwiki", "ptwiki", "ruwiki", "frwiki", "eswiki", "dewiki", "kowiki", "zhwiki",
+               "plwiki", "itwiki", "nlwiki", "svwiki", "kawiki", "hywiki", "kkwiki", "uzwiki", "tlwiki"]
+FIGHTER_WORDS = re.compile(r"martial art|mixed martial|kick ?box|boxer|muay thai|wrestler|fighter|grappl|judoka|sambo|lethwei", re.I)
+CACHE_HIT_DAYS, CACHE_MISS_DAYS, MAX_LOOKUPS = 30, 7, 250
+
+
+def find_qid(name):
+    """Search Wikidata by name; only accept a result described as some kind of fighter."""
+    j = api_query({"action": "wbsearchentities", "search": name, "language": "en", "uselang": "en",
+                   "type": "item", "limit": 7}, url=WIKIDATA)
+    for r in j.get("search", []):
+        if FIGHTER_WORDS.search(r.get("description", "") or ""):
+            return r["id"]
+    return None
+
+
+def wikidata_entities(qids):
+    out = {}
+    qids = sorted(qids)
+    for i in range(0, len(qids), 50):
+        j = api_query({"action": "wbgetentities", "ids": "|".join(qids[i:i + 50]), "props": "claims|sitelinks"},
+                      url=WIKIDATA)
+        for q, ent in (j.get("entities") or {}).items():
+            img = None
+            for claim in (ent.get("claims") or {}).get("P18", []):
+                img = ((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+                if img:
+                    break
+            out[q] = {"image": img,
+                      "sitelinks": {k: v.get("title") for k, v in (ent.get("sitelinks") or {}).items()}}
+    return out
+
+
+def commons_files(files, want_thumb=True):
+    """Commons filename -> (thumbnail url, credit text)."""
+    out = {}
+    files = sorted(set(files))
+    for i in range(0, len(files), 50):
+        chunk = files[i:i + 50]
+        params = {"prop": "imageinfo", "iiprop": "url|extmetadata", "iiextmetadatalanguage": "en",
+                  "iiextmetadatafilter": "Artist|LicenseShortName", "titles": "|".join("File:" + f for f in chunk)}
+        if want_thumb:
+            params["iiurlwidth"] = 400
+        j = api_query(params, url=COMMONS)
+        q = j.get("query", {})
+        alias = {m["to"]: m["from"] for m in q.get("normalized", [])}
+        for p in q.get("pages", []):
+            info = (p.get("imageinfo") or [{}])[0]
+            asked = alias.get(p["title"], p["title"])[5:]
+            out[asked] = (info.get("thumburl") or info.get("url"), credit_text(info.get("extmetadata", {})))
+    return out
+
+
+def fill_missing_photos(events, cache_path):
+    try:
+        with open(cache_path) as f:
+            cache = json.load(f)
+    except Exception:
+        cache = {}
+    now = int(time.time() * 1000)
+    day = 86_400_000
+
+    groups = {}
+    for e in events:
+        for b in e.get("bouts", []):
+            for f in (b["fa"], b["fb"]):
+                if not f.get("photo") and f.get("name"):
+                    groups.setdefault(f["name"], []).append(f)
+
+    todo = []
+    for name in groups:
+        c = cache.get(name)
+        fresh = c and now - c.get("checked", 0) < (CACHE_HIT_DAYS if c.get("photo") else CACHE_MISS_DAYS) * day
+        if not fresh:
+            todo.append(name)
+    todo = todo[:MAX_LOOKUPS]
+
+    qids = {}
+    for name in todo:
+        q = next((f["_qid"] for f in groups[name] if f.get("_qid")), None) or find_qid(name)
+        if q:
+            qids[name] = q
+    ents = wikidata_entities(set(qids.values()))
+
+    found = {}
+    # 1) Wikidata's own image
+    p18 = {n: ents.get(q, {}).get("image") for n, q in qids.items() if ents.get(q, {}).get("image")}
+    info = commons_files(p18.values())
+    for n, fn in p18.items():
+        if info.get(fn, (None,))[0]:
+            found[n] = {"photo": info[fn][0], "photoCredit": photo_credit(info[fn][1])}
+    # 2) lead photo of the fighter's page on other-language Wikipedias (free-licence images only)
+    for wiki in OTHER_WIKIS:
+        need = {n: ents[q]["sitelinks"][wiki] for n, q in qids.items()
+                if n not in found and wiki in ents.get(q, {}).get("sitelinks", {})}
+        if not need:
+            continue
+        host = f"https://{wiki[:-4].replace('_', '-')}.wikipedia.org/w/api.php"
+        titles = list(need.items())
+        for i in range(0, len(titles), 50):
+            chunk = titles[i:i + 50]
+            j = api_query({"prop": "pageimages", "piprop": "thumbnail|name", "pithumbsize": 400, "pilicense": "free",
+                           "redirects": 1, "titles": "|".join(t for _, t in chunk)}, url=host)
+            q = j.get("query", {})
+            alias = {}
+            for m in q.get("normalized", []) + q.get("redirects", []):
+                alias[m["from"]] = m["to"]
+            pages = {p["title"]: p for p in q.get("pages", [])}
+            for n, t in chunk:
+                final = t
+                for _ in range(3):
+                    final = alias.get(final, final)
+                pg = pages.get(final) or {}
+                thumb = (pg.get("thumbnail") or {}).get("source")
+                if thumb:
+                    found[n] = {"photo": thumb, "_file": pg.get("pageimage", "")}
+    files = {n: v.pop("_file") for n, v in found.items() if "_file" in v}
+    credits = commons_files([f.replace("_", " ") for f in files.values() if f], want_thumb=False)
+    for n, fn in files.items():
+        found[n]["photoCredit"] = photo_credit(credits.get(fn.replace("_", " "), (None, ""))[1])
+
+    for name in todo:
+        cache[name] = {**found.get(name, {}), "checked": now}
+    added = 0
+    for name, fs in groups.items():
+        c = cache.get(name) or {}
+        if c.get("photo"):
+            added += 1
+            for f in fs:
+                f["photo"], f["photoCredit"] = c["photo"], c.get("photoCredit", "Photo: Wikimedia Commons")
+    with open(cache_path, "w") as f:
+        json.dump(cache, f, indent=1, ensure_ascii=False, sort_keys=True)
+    print(f"Other-language photos: looked up {len(todo)} fighters, {len(found)} new, {added} with photos")
 
 
 PROMOS = {
@@ -690,10 +847,15 @@ def main():
         enrich_fighters(all_events)
     except Exception as e:  # extras only: never break the fight cards over this
         print(f"[WARN] Could not load fighter pages: {e}")
+    try:
+        fill_missing_photos(all_events, os.path.join(os.path.dirname(out_path) or ".", "photo-cache.json"))
+    except Exception as e:
+        print(f"[WARN] Could not load photos from other Wikipedias: {e}")
     for ev in all_events:
         for b in ev.get("bouts", []):
-            b["fa"].pop("_page", None)
-            b["fb"].pop("_page", None)
+            for f in (b["fa"], b["fb"]):
+                f.pop("_page", None)
+                f.pop("_qid", None)
     all_events.sort(key=lambda e: e["startMs"])
     data = {
         "generatedMs": now_ms,
