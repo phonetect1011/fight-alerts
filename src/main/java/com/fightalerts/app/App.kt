@@ -37,6 +37,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -139,7 +140,47 @@ data class Fighter(
     val stats: List<Pair<String, String>> = emptyList(),
 )
 
-data class Bout(val a: Fighter, val b: Fighter, val section: String, val weight: String, val title: Boolean)
+/** next-fight's model prediction for a bout. fav is "a", "b" or "" (unknown). */
+data class Prediction(
+    val fav: String,
+    val pctA: Int,
+    val pctB: Int,
+    val oddsA: Double,
+    val oddsB: Double,
+    val tier: String,
+    val why: String,
+    val crowd: String,
+)
+
+data class Bout(
+    val a: Fighter,
+    val b: Fighter,
+    val section: String,
+    val weight: String,
+    val title: Boolean,
+    val pred: Prediction? = null,
+) {
+    /** (isFavourite, win %) for fighter a (isA = true) or b, or null when there's no prediction. */
+    fun odds(isA: Boolean): Pair<Boolean, Int>? {
+        val p = pred ?: return null
+        if (p.fav.isBlank()) return null
+        return ((p.fav == "a") == isA) to (if (isA) p.pctA else p.pctB)
+    }
+}
+
+fun parsePrediction(o: JSONObject?): Prediction? {
+    if (o == null) return null
+    return Prediction(
+        fav = if (o.isNull("fav")) "" else o.optString("fav"),
+        pctA = o.optInt("pctA", -1),
+        pctB = o.optInt("pctB", -1),
+        oddsA = o.optDouble("oddsA", 0.0),
+        oddsB = o.optDouble("oddsB", 0.0),
+        tier = o.optString("tier"),
+        why = o.optString("why"),
+        crowd = o.optString("crowd"),
+    )
+}
 
 data class FightEvent(
     val id: String,
@@ -194,6 +235,7 @@ fun parseData(json: String): FightData {
                     section = b.optString("section"),
                     weight = b.optString("weight"),
                     title = b.optBoolean("title"),
+                    pred = parsePrediction(b.optJSONObject("pred")),
                 )
             }
         }
@@ -376,7 +418,7 @@ object Notify {
             ctx, 0, Intent(ctx, MainActivity::class.java), PendingIntent.FLAG_IMMUTABLE,
         )
         val n = NotificationCompat.Builder(ctx, CHANNEL)
-            .setSmallIcon(android.R.drawable.ic_lock_idle_alarm)
+            .setSmallIcon(R.drawable.ic_stat_gloves)
             .setContentTitle(title)
             .setContentText(body.lineSequence().firstOrNull() ?: "")
             .setStyle(NotificationCompat.BigTextStyle().bigText(body))
@@ -853,7 +895,11 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
                             )
                         }
                         MatchupRow(b, followed, photoSize = 36.dp) { isA -> selected = b to isA }
-                        val info = listOfNotNull(b.weight.ifBlank { null }, if (b.title) "🏆 Title fight" else null)
+                        val info = listOfNotNull(
+                            b.weight.ifBlank { null },
+                            if (b.title) "🏆 Title fight" else null,
+                            b.pred?.tier?.ifBlank { null },
+                        )
                             .joinToString("  ·  ")
                         if (info.isNotEmpty()) {
                             Text(
@@ -906,7 +952,7 @@ fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -
         ) {
             FighterPhoto(b.a, photoSize)
             Spacer(Modifier.width(8.dp))
-            FighterLabel(b.a, b.a.name in followed, alignEnd = false)
+            FighterLabel(b.a, b.a.name in followed, alignEnd = false, odds = b.odds(true))
         }
         Text(
             "VS", color = c.text3, fontSize = 11.sp, fontWeight = FontWeight.Black,
@@ -917,7 +963,10 @@ fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.End,
         ) {
-            FighterLabel(b.b, b.b.name in followed, alignEnd = true, modifier = Modifier.weight(1f, fill = false))
+            FighterLabel(
+                b.b, b.b.name in followed, alignEnd = true, odds = b.odds(false),
+                modifier = Modifier.weight(1f, fill = false),
+            )
             Spacer(Modifier.width(8.dp))
             FighterPhoto(b.b, photoSize)
         }
@@ -925,7 +974,13 @@ fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -
 }
 
 @Composable
-fun FighterLabel(f: Fighter, isFollowed: Boolean, alignEnd: Boolean, modifier: Modifier = Modifier) {
+fun FighterLabel(
+    f: Fighter,
+    isFollowed: Boolean,
+    alignEnd: Boolean,
+    modifier: Modifier = Modifier,
+    odds: Pair<Boolean, Int>? = null,
+) {
     val c = LocalPalette.current
     Column(modifier, horizontalAlignment = if (alignEnd) Alignment.End else Alignment.Start) {
         Text(
@@ -942,7 +997,26 @@ fun FighterLabel(f: Fighter, isFollowed: Boolean, alignEnd: Boolean, modifier: M
             f.record.ifBlank { null },
         ).joinToString(" · ")
         if (sub.isNotBlank()) Text(sub, color = c.text3, fontSize = 11.sp)
+        if (odds != null) {
+            Spacer(Modifier.height(3.dp))
+            OddsTag(odds.first, odds.second)
+        }
     }
+}
+
+private val DOG_ORANGE = Color(0xFFFB8C00)
+
+@Composable
+fun OddsTag(isFav: Boolean, pct: Int) {
+    val c = LocalPalette.current
+    val color = if (isFav) c.green else DOG_ORANGE
+    val pctText = if (pct >= 0) " $pct%" else ""
+    Text(
+        (if (isFav) "FAV" else "DOG") + pctText,
+        color = color, fontSize = 10.sp, fontWeight = FontWeight.Black, letterSpacing = 0.5.sp,
+        modifier = Modifier.clip(RoundedCornerShape(5.dp)).background(color.copy(alpha = 0.15f))
+            .padding(horizontal = 6.dp, vertical = 2.dp),
+    )
 }
 
 @Composable
@@ -1084,6 +1158,53 @@ fun FighterSheet(
                 )
                 Text(event.title, color = c.text2, fontSize = 13.sp, textAlign = TextAlign.Center)
                 Text(fmt(event.start), color = c.text3, fontSize = 12.sp)
+            }
+
+            val isA = f.name == bout.a.name
+            val myOdds = bout.odds(isA)
+            val p = bout.pred
+            if (p != null && myOdds != null) {
+                Spacer(Modifier.height(14.dp))
+                val (isFav, pct) = myOdds
+                val color = if (isFav) c.green else DOG_ORANGE
+                Column(
+                    Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp))
+                        .background(color.copy(alpha = 0.10f)).border(1.dp, color.copy(alpha = 0.5f), RoundedCornerShape(14.dp))
+                        .padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    Text(
+                        if (isFav) "FAVOURITE" else "UNDERDOG", color = color, fontSize = 13.sp,
+                        fontWeight = FontWeight.Black, letterSpacing = 1.5.sp,
+                    )
+                    if (pct >= 0) {
+                        Text("$pct% to win", color = c.text, fontSize = 24.sp, fontWeight = FontWeight.Black)
+                        Spacer(Modifier.height(8.dp))
+                        // win-chance bar: this fighter vs opponent
+                        Row(Modifier.fillMaxWidth().height(8.dp).clip(RoundedCornerShape(4.dp))) {
+                            Box(Modifier.weight(pct.coerceIn(1, 99).toFloat()).fillMaxHeight().background(color))
+                            Box(Modifier.weight((100 - pct).coerceIn(1, 99).toFloat()).fillMaxHeight().background(c.cardBorder))
+                        }
+                    }
+                    val myOdd = if (isA) p.oddsA else p.oddsB
+                    val oppOdd = if (isA) p.oddsB else p.oddsA
+                    if (myOdd > 0 && oppOdd > 0) {
+                        Spacer(Modifier.height(8.dp))
+                        Text(
+                            "Odds ${"%.2f".format(myOdd)} vs ${"%.2f".format(oppOdd)} · Next-Fight model",
+                            color = c.text3, fontSize = 12.sp,
+                        )
+                    }
+                    if (p.tier.isNotBlank()) Text(p.tier, color = c.text2, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                    if (p.why.isNotBlank()) {
+                        Spacer(Modifier.height(6.dp))
+                        Text(p.why, color = c.text2, fontSize = 13.sp, textAlign = TextAlign.Center)
+                    }
+                    if (p.crowd.isNotBlank()) {
+                        Spacer(Modifier.height(4.dp))
+                        Text(p.crowd, color = c.text3, fontSize = 12.sp, textAlign = TextAlign.Center)
+                    }
+                }
             }
 
             Spacer(Modifier.height(18.dp))
