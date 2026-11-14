@@ -1,0 +1,79 @@
+3/60 fighters without a Wikipedia photo have a TheSportsDB image
+
+RAF  Alp Arslan Begenjow            http=200 found=0 sport=None img=None
+RAF  Saba Lazishvili                http=200 found=0 sport=None img=None
+RAF  Azamat Nurykau                 http=200 found=0 sport=None img=None
+RAF  Shamil Erdogan                 http=200 found=0 sport=None img=None
+RAF  Murtaza Talha                  http=200 found=1 sport=Fighting img=None
+RAF  Osama Elsaidy                  http=200 found=0 sport=None img=None
+RAF  Diana Avsaragova               http=200 found=1 sport=Fighting img=https://r2.thesportsdb.com/images/media/player/cutout/nkiia21619554982.png
+RAF  Zahid Valencia                 http=200 found=0 sport=None img=None
+RAF  Bella Mir                      http=200 found=0 sport=None img=None
+UFC  Yousri Belgaroui               http=200 found=1 sport=Fighting img=https://r2.thesportsdb.com/images/media/player/cutout/sdlm0q1774812734.png
+UFC  Uroš Medić                     http=200 found=1 sport=Fighting img=https://r2.thesportsdb.com/images/media/player/cutout/u4dufh1732796564.png
+UFC  Bilal Hasan                    http=200 found=1 sport=Soccer img=None
+UFC  Luis Gurule                    http=429 found=0 sport=None img=None
+UFC  Charles Radtke                 http=429 found=0 sport=None img=None
+UFC  Drew Dober                     http=429 found=0 sport=None img=None
+UFC  Chris Duncan                   http=429 found=0 sport=None img=None
+UFC  Terrance McKinney              http=429 found=0 sport=None img=None
+UFC  Donte Johnson                  http=429 found=0 sport=None img=None
+UFC  César Almeida                  http=429 found=0 sport=None img=None
+UFC  Jared Gordon                   http=429 found=0 sport=None img=None
+UFC  Melquizael Costa               http=429 found=0 sport=None img=None
+UFC  Macy Chiasson                  http=429 found=0 sport=None img=None
+UFC  Beatriz Mesquita               http=429 found=0 sport=None img=None
+UFC  Alateng Heili                  http=429 found=0 sport=None img=None
+UFC  Juan Díaz                      http=429 found=0 sport=None img=None
+UFC  Evan Elder                     http=429 found=0 sport=None img=None
+UFC  Samuel Sanches                 http=429 found=0 sport=None img=None
+ONE  Joshua Pacio                   http=429 found=0 sport=None img=None
+ONE  Keito Yamakita                 http=429 found=0 sport=None img=None
+ONE  Ryujin Nasukawa                http=429 found=0 sport=None img=None
+ONE  Raichi Nagai                   http=429 found=0 sport=None img=None
+ONE  Masashi Kumura                 http=429 found=0 sport=None img=None
+ONE  Ellis Badr Barboza             http=429 found=0 sport=None img=None
+ONE  Tatsumitsu Wada                http=429 found=0 sport=None img=None
+ONE  Yutaro Asahi                   http=429 found=0 sport=None img=None
+ONE  Petchtanong Petchfergus        http=429 found=0 sport=None img=None
+ONE  Ryugo Takeuchi                 http=429 found=0 sport=None img=None
+ONE  Brandon Hashimoto              http=429 found=0 sport=None img=None
+ONE  Yugo Kato                      http=429 found=0 sport=None img=None
+ONE  Jurai Ishii                    http=429 found=0 sport=None img=None
+ONE  Reiji Takaki                   http=429 found=0 sport=None img=None
+ONE  Rui Botelho                    http=429 found=0 sport=None img=None
+ONE  Gump                           http=429 found=0 sport=None img=None
+ONE  Shuto Inui                     http=429 found=0 sport=None img=None
+ONE  Shosuke Kinoshita              http=429 found=0 sport=None img=None
+ONE  Takuya Shibamura               http=429 found=0 sport=None img=None
+ONE  Chartpayak Saksatoon           http=429 found=0 sport=None img=None
+ONE  Klarob Nuikafeboran            http=429 found=0 sport=None img=None
+ONE  Asadula Imangazaliev           http=429 found=0 sport=None img=None
+ONE  Aslamjon Ortikov               http=429 found=0 sport=None img=None
+ONE  Black Panther VenumMuaythai    http=429 found=0 sport=None img=None
+ONE  Ubaid Hussain                  http=429 found=0 sport=None img=None
+ONE  Allycia Rodrigues              http=429 found=0 sport=None img=None
+ONE  Charlotte Padié                http=429 found=0 sport=None img=None
+BKFC Keith Richardson               http=429 found=0 sport=None img=None
+BKFC Joshua Oxendine                http=429 found=0 sport=None img=None
+BKFC Derek Brunson                  http=429 found=0 sport=None img=None
+BKFC Theo Doukas                    http=429 found=0 sport=None img=None
+BKFC Ryan Jett                      http=429 found=0 sport=None img=None
+BKFC Rodney Hinton                  http=429 found=0 sport=None img=None
+
+FIRST RAW RECORD:
+{
+ "idPlayer": "34257759",
+ "idTeam": "147369",
+ "strPlayer": "Murtaza Talha",
+ "strTeam": "_Retired Fighting",
+ "strSport": "Fighting",
+ "strThumb": null,
+ "strCutout": null,
+ "strNationality": "United Kingdom",
+ "dateBorn": "1996-07-10",
+ "strStatus": "Retired",
+ "strGender": "Male",
+ "strPosition": "Fighter",
+ "relevance": "39.37039566040039"
+}
