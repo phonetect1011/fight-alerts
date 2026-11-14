@@ -21,7 +21,7 @@ import time
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Tag
 
 BASE = "https://next-fight.com"
 ET = ZoneInfo("America/New_York")
@@ -40,19 +40,11 @@ PROMOS = {
     "RAF": ("/en/raf", r"^/en/raf/[^/?#]+$"),
 }
 
-SECTION_LABELS = ["cancelled fights", "early prelims", "co-main event",
-                  "main event", "main card", "prelims"]
-WEIGHT_RE = re.compile(
-    r"\b((?:women'?s\s+)?(?:straw|fly|bantam|feather|light|welter|middle|"
-    r"light\s*heavy|light-heavy|cruiser|heavy)weight|catchweight[^·\n]*|"
-    r"open\s*weight|\d{2,3}\s*(?:lb|lbs|kg)\b)", re.I)
 TIME = r"(\d{1,2}:\d{2}\s*[AP]M)"
 MAIN_START_RE = re.compile(
     r"starts on\s+(?:[A-Za-z]+,?\s+)?([A-Za-z]+)\s+(\d{1,2})(?:,?\s+(\d{4}))?\s+at\s+"
     + TIME + r"\s+(?:Eastern|ET\b|EST\b|EDT\b)", re.I)
-EARLY_RE = re.compile(r"early\s+prelims?[^.]{0,60}?" + TIME + r"\s*(?:Eastern|ET\b|EST\b|EDT\b)", re.I)
 PRELIM_RE = re.compile(r"(?<!early )(?<!early\s)prelims?[^.]{0,60}?" + TIME + r"\s*(?:Eastern|ET\b|EST\b|EDT\b)", re.I)
-STOP_HEADING_RE = re.compile(r"frequently asked|what time|faq|newsletter|explore|partners|latest results|related", re.I)
 
 
 class ScrapeError(Exception):
@@ -119,126 +111,110 @@ def infer_date(month_name, day, year):
     return d
 
 
-def fighter_name(a, slug):
-    name = a.get_text(" ", strip=True)
+def clean(t):
+    return re.sub(r"\s+", " ", t or "").strip()
+
+
+def parse_iso(s):
+    return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+
+
+def ld_start(soup):
+    for tag in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(tag.string or "")
+        except Exception:
+            continue
+        for item in (data if isinstance(data, list) else [data]):
+            if isinstance(item, dict) and item.get("@type") == "SportsEvent" and item.get("startDate"):
+                try:
+                    return parse_iso(item["startDate"])
+                except ValueError:
+                    pass
+    return None
+
+
+def parse_side(side):
+    full = side.find(class_="nf-fight-full")
+    name = clean(full.get_text(" ")) if full else ""
     if not name:
-        img = a.find("img")
-        name = (img.get("alt") or "").strip() if img else ""
-    if not name:
-        name = re.sub(r"-\d+$", "", slug).replace("-", " ").title()
-    return re.sub(r"\s+", " ", name)
+        img = side.find("img")
+        name = clean(img.get("alt")) if img else ""
+    rank = side.find(class_="nf-fight-rank")
+    record = side.find(class_="nf-fight-record")
+    return name, clean(rank.get_text()) if rank else "", clean(record.get_text()) if record else ""
 
 
-def parse_bouts(soup):
-    h1 = soup.find("h1")
-    start = None
-    for h in soup.find_all(["h2", "h3"]):
-        if re.search(r"fight card", h.get_text(), re.I):
-            start = h
-            break
-    if start is None:
-        start = h1 or soup.body
-
-    tokens = []
-    started = False
-    for el in soup.body.descendants:
-        if el is start:
-            started = True
-            continue
-        if not started:
-            continue
-        if isinstance(el, Tag) and el.name in ("h2", "h3") and STOP_HEADING_RE.search(el.get_text()):
-            break
-        if isinstance(el, Tag) and el.name == "a":
-            href = norm_href(el.get("href")) or ""
-            m = re.match(r"^/en/fighter/([^/]+)$", href)
-            if m:
-                tokens.append(("fighter", m.group(1), fighter_name(el, m.group(1))))
-        elif isinstance(el, NavigableString):
-            if el.parent and el.parent.name == "a" and "/en/fighter/" in (el.parent.get("href") or ""):
+def parse_card(soup):
+    """Reads section#fight-card. Returns (bouts, {section label: start datetime})."""
+    card = soup.find(id="fight-card")
+    if card is None:
+        return None, {}
+    bouts, times, section = [], {}, "Main card"
+    for el in card.find_all(True):
+        cls = el.get("class") or []
+        if el.name == "div" and "pt-4" in cls and "nf-fight-row" not in cls:
+            span = el.find("span")
+            label = clean(span.get_text(" ") if span else el.get_text(" "))
+            section = label or "Undercard"
+            t = el.find("time")
+            if t and t.get("datetime"):
+                try:
+                    times[section.lower()] = parse_iso(t["datetime"])
+                except ValueError:
+                    pass
+        elif "nf-fight-row" in cls:
+            sides = el.find_all(class_="nf-fight-side", recursive=False) or el.find_all(class_="nf-fight-side")
+            if len(sides) < 2:
                 continue
-            txt = re.sub(r"\s+", " ", str(el)).strip()
-            if not txt:
+            a, a_rank, a_rec = parse_side(sides[0])
+            b, b_rank, b_rec = parse_side(sides[1])
+            if not a or not b:
                 continue
-            low = txt.lower()
-            for label in SECTION_LABELS:
-                if low.startswith(label) and len(txt) <= len(label) + 30:
-                    tokens.append(("section", label))
-                    break
-            else:
-                if low == "title" or low.startswith("title fight"):
-                    tokens.append(("title",))
-                wm = WEIGHT_RE.search(txt)
-                if wm and len(txt) < 60:
-                    tokens.append(("weight", wm.group(1).strip().title()))
-
-    bouts, pending, section, orphan = [], None, "", {}
-    last_slug = None
-    for tok in tokens:
-        kind = tok[0]
-        if kind == "section":
-            section = tok[1]
-        elif kind == "fighter":
-            slug, name = tok[1], tok[2]
-            if slug == last_slug:  # image link + name link for same fighter
-                if pending and pending.get("b_slug") is None and pending["a_slug"] == slug and len(name) > len(pending["a"]):
-                    pending["a"] = name
+            title, weight = False, ""
+            meta = el.find(class_="nf-fight-meta-idle")
+            if meta:
+                belt = meta.find(class_="nf-fight-belt")
+                if belt:
+                    title = True
+                    belt.extract()
+                weight = clean(meta.get_text(" ")).strip(" ·")
+            if section.lower().startswith("cancel"):
                 continue
-            last_slug = slug
-            if pending is None:
-                pending = {"a": name, "a_slug": slug, "b_slug": None, "section": section,
-                           "weight": orphan.get("weight", ""), "title": orphan.get("title", False)}
-                orphan = {}
-            else:
-                pending["b"], pending["b_slug"] = name, slug
-                bouts.append(pending)
-                pending = None
-        elif kind in ("weight", "title"):
-            target = pending if pending else (bouts[-1] if bouts else None)
-            key = "weight" if kind == "weight" else "title"
-            val = tok[1] if kind == "weight" else True
-            if target is not None and not target.get(key):
-                target[key] = val
-            elif target is None or target is not pending:
-                orphan[key] = val
-
-    out = []
-    for b in bouts:
-        if b["section"] == "cancelled fights":
-            continue
-        out.append({
-            "a": b["a"], "b": b["b"],
-            "section": b["section"].title().replace("Co-Main", "Co-main"),
-            "weight": b.get("weight", ""), "title": bool(b.get("title")),
-        })
-    return out
+            bouts.append({"a": a, "b": b, "section": section, "weight": weight, "title": title,
+                          "aRank": a_rank, "bRank": b_rank, "aRecord": a_rec, "bRecord": b_rec})
+    return bouts, times
 
 
 def parse_event(promo, path):
     soup = get(path)
     h1 = soup.find("h1")
-    title = h1.get_text(" ", strip=True) if h1 else path.rsplit("/", 1)[-1]
+    title = clean(h1.get_text(" ")) if h1 else path.rsplit("/", 1)[-1]
     text = re.sub(r"\s+", " ", soup.get_text(" "))
 
-    m = MAIN_START_RE.search(text)
-    if not m:
+    bouts, times = parse_card(soup)
+    if bouts is None:
+        fighter_links = len(soup.select('a[href^="/en/fighter/"]'))
+        if fighter_links >= 4:
+            raise ScrapeError(f"Fight card section missing on {path} (layout changed?)")
+        bouts = []  # card not announced yet
+
+    main = times.get("main card") or ld_start(soup)
+    faq = MAIN_START_RE.search(text)
+    if main is None and faq:
+        main = parse_time(infer_date(faq.group(1), faq.group(2), faq.group(3)), faq.group(4))
+    if main is None:
         raise ScrapeError(f"No start time found on {path}")
-    day = infer_date(m.group(1), m.group(2), m.group(3))
-    main = parse_time(day, m.group(4))
 
-    def card_time(rx):
-        mm = rx.search(text[m.start():m.start() + 1500])
-        if not mm:
-            return None
-        t = parse_time(day, mm.group(1))
-        if t > main:  # e.g. prelims at 11 PM the night before? keep it before main card
-            t -= dt.timedelta(days=1)
-        return t if t != main else None
-
-    early = card_time(EARLY_RE)
-    prelims = card_time(PRELIM_RE)
-    if prelims and early and prelims == early:
-        prelims = None
+    prelims = times.get("prelims")
+    early = times.get("early prelims")
+    if prelims is None and faq:  # fall back to the FAQ text
+        mm = PRELIM_RE.search(text[faq.start():faq.start() + 1500])
+        if mm:
+            t = parse_time(main.astimezone(ET).date(), mm.group(1))
+            if t > main:
+                t -= dt.timedelta(days=1)
+            prelims = t if t != main else None
 
     def ms(t):
         return int(t.timestamp() * 1000) if t else None
@@ -251,7 +227,7 @@ def parse_event(promo, path):
         "startMs": ms(main),
         "prelimsMs": ms(prelims),
         "earlyPrelimsMs": ms(early),
-        "bouts": parse_bouts(soup),
+        "bouts": bouts,
     }
 
 
