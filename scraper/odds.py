@@ -10,6 +10,9 @@ Where the bookmakers list a main-card fight close to our estimated start time,
 their start time replaces the estimate. times.py runs next, and confirmed
 times (TheSportsDB, your overrides) win over bookmaker times.
 
+The download is saved to data/odds-cache.json. With ODDS_USE_CACHE=1 (the runs
+in between the 6-hourly ones) the saved download is reused, costing no credits.
+
 Needs the API key in the ODDS_API_KEY environment variable (a GitHub secret).
 
 Usage: python scraper/odds.py data/events.json
@@ -27,7 +30,7 @@ import unicodedata
 import requests
 
 API_URL = "https://api.the-odds-api.com/v4/sports/mma_mixed_martial_arts/odds"
-# us + au bookmakers: 2 credits per run. Every 6 hours ~= 240 of the 500 free credits a month.
+# us + au bookmakers: 2 credits per download. Every 6 hours ~= 240 of the 500 free credits a month.
 REGIONS = "us,au"
 # A bookmaker start time only replaces our estimate when the two are within 3 hours.
 # (RAF Abu Dhabi was listed 5 hours early by bookmakers; our estimate was right.)
@@ -107,6 +110,14 @@ def main():
                     "Fight cards are unaffected; FAV/DOG tags just won't update until this is fixed.\n")
         sys.exit(1)
 
+    cache_path = os.path.join(os.path.dirname(path) or ".", "odds-cache.json")
+    if os.environ.get("ODDS_USE_CACHE") == "1" and os.path.exists(cache_path):
+        # in-between runs reuse the last download, so odds don't cost extra free credits
+        with open(cache_path) as f:
+            cached = json.load(f)
+        apply_odds(path, report_path, cached["fights"], cached.get("remaining", "?"), cached.get("fetchedMs"))
+        return
+
     if not key:
         fail("No ODDS_API_KEY secret found. Add it under Settings -> Secrets and variables -> Actions.")
 
@@ -126,7 +137,13 @@ def main():
     remaining = r.headers.get("x-requests-remaining", "?")
     fights = [o for o in (fight_odds(f) for f in r.json()) if o]
     print(f"Got odds for {len(fights)} fights. Credits left this month: {remaining}")
+    now = int(time.time() * 1000)
+    with open(cache_path, "w") as f:
+        json.dump({"fetchedMs": now, "remaining": remaining, "fights": fights}, f)
+    apply_odds(path, report_path, fights, remaining, now)
 
+
+def apply_odds(path, report_path, fights, remaining, fetched_ms):
     with open(path) as f:
         data = json.load(f)
 
@@ -177,7 +194,7 @@ def main():
             event["startMs"] = min(main_card_times)
             event["timeEstimated"] = False
 
-    data["oddsUpdatedMs"] = int(time.time() * 1000)
+    data["oddsUpdatedMs"] = fetched_ms or int(time.time() * 1000)
     data["oddsCreditsLeft"] = remaining
     with open(path, "w") as f:
         json.dump(data, f, indent=1, ensure_ascii=False)

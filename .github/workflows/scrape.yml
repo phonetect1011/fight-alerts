@@ -1,10 +1,10 @@
 name: Update fight data
 
-# Fight cards come from Wikipedia (official MediaWiki API, CC BY-SA content).
+# Fight cards and results come from Wikipedia (official MediaWiki API, CC BY-SA content).
 # Start times: your data/time-overrides.json, then TheSportsDB, then bookmaker times (The Odds API) if close to our estimate.
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours (~240 of the 500 free odds credits a month)
+    - cron: "17 */2 * * *"   # every 2 hours, so results appear soon after fights (odds only every 6 hours)
   workflow_dispatch:          # run it by hand from the Actions tab
   push:                       # re-run straight away whenever the scrapers change
     paths:
@@ -35,6 +35,10 @@ jobs:
       - name: Install libraries
         run: pip install requests
 
+      - name: What hour is it (UTC)
+        id: clock
+        run: echo "hour=$(date -u +%H)" >> "$GITHUB_OUTPUT"
+
       - name: Fight cards from Wikipedia
         id: cards
         continue-on-error: true
@@ -46,6 +50,8 @@ jobs:
         continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          # odds cost free credits: fresh download every 6 hours (~240 credits a month), the last download in between
+          ODDS_USE_CACHE: ${{ github.event_name == 'schedule' && !contains(fromJSON('["00","06","12","18"]'), steps.clock.outputs.hour) && '1' || '0' }}
         run: python scraper/odds.py data/events.json
 
       - name: Confirmed start times (your overrides + TheSportsDB, then section times)
@@ -58,7 +64,7 @@ jobs:
           git config user.name "fight-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/events.json
-          git add data/photo-cache.json data/times-cache.json 2>/dev/null || true
+          git add data/photo-cache.json data/times-cache.json data/odds-cache.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes"
           else

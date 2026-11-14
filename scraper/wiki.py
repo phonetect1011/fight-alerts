@@ -18,6 +18,9 @@ Fighters still without a photo are looked up on Wikidata, which links their
 pages on other-language Wikipedias (Japanese, Thai, Portuguese...). Those
 lookups are cached in data/photo-cache.json so each fighter is checked weekly.
 
+Finished events from the last week are kept, with each bout's result (winner,
+method, round, time), so the app can show results.
+
 Wikipedia gives dates but not start times, so each event gets an estimated
 start time (flagged timeEstimated). scraper/odds.py later replaces it with the
 real start time when bookmakers are pricing the fights.
@@ -41,7 +44,9 @@ import requests
 API = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "FightAlertsBot/1.0 (https://github.com/phonetect1011/fight-alerts; personal non-commercial app)"}
 ET = ZoneInfo("America/New_York")
-MAX_EVENTS_PER_PROMO = 8
+MAX_EVENTS_PER_PROMO = 8     # upcoming events kept per promotion
+RESULTS_DAYS = 8             # finished events stay this long so the app can show results
+MAX_RESULTS_PER_PROMO = 4
 
 
 class ScrapeError(Exception):
@@ -289,18 +294,30 @@ def make_fighter(cell):
     return f
 
 
-def make_bout(weight, a, mid, b, notes, sect):
+def make_result(mid, method, rnd, tm):
+    """Wikipedia lists the winner first with 'def.'; draws / no contests keep 'vs.' with a method."""
+    m = plain(method)
+    m = re.sub(r"\s*\((?:\d+\s*[–-]\s*\d+\s*,?\s*)+\)", "", m).strip()   # drop judges' scores
+    won = plain(mid).lower().startswith("def")
+    if not won and not re.search(r"draw|no contest|\bnc\b", m, re.I):
+        return None
+    return {"winner": "a" if won else "", "method": m, "round": plain(rnd), "time": plain(tm)}
+
+
+def make_bout(weight, a, mid, b, notes, sect, method="", rnd="", tm=""):
     if not plain(a) or not plain(b):
         return None
-    if plain(mid).lower().startswith("def"):
-        return None  # already happened
     fa, fb = make_fighter(a), make_fighter(b)
     if not fa["name"] or not fb["name"] or fa["name"].upper() == "TBA" or fb["name"].upper() == "TBA":
         return None
     note = plain(notes)
     title = bool(re.search(r"\bfor the\b.*\b(championship|title)\b", note, re.I)) and "eliminator" not in note.lower()
-    return {"a": fa["name"], "b": fb["name"], "section": sect, "weight": plain(weight),
+    bout = {"a": fa["name"], "b": fb["name"], "section": sect, "weight": plain(weight),
             "title": title, "notes": note, "fa": fa, "fb": fb}
+    result = make_result(mid, method, rnd, tm)
+    if result:
+        bout["result"] = result
+    return bout
 
 
 def parse_mmaevent_templates(text, event_title):
@@ -313,7 +330,7 @@ def parse_mmaevent_templates(text, event_title):
             sect = normalise_section(params[0] if params else "", event_title)
             continue
         params += [""] * (8 - len(params))
-        b = make_bout(params[0], params[1], params[2], params[3], params[7], sect)
+        b = make_bout(params[0], params[1], params[2], params[3], params[7], sect, params[4], params[5], params[6])
         if b:
             bouts.append(b)
     return bouts
@@ -344,7 +361,7 @@ def parse_wikitables(text, event_title):
                     cells.append(sub[-1] if len(sub) > 1 and "=" in sub[0] and "[[" not in sub[0] and "{{" not in sub[0] else c)
             if len(cells) >= 4 and re.match(r"\s*(vs\.?|def\.?)\s*$", plain(cells[2]), re.I):
                 cells += [""] * (8 - len(cells))
-                b = make_bout(cells[0], cells[1], cells[2], cells[3], cells[7], sect)
+                b = make_bout(cells[0], cells[1], cells[2], cells[3], cells[7], sect, cells[4], cells[5], cells[6])
                 if b:
                     bouts.append(b)
     return bouts
@@ -398,32 +415,43 @@ def event_record(promo, title, day, url, bouts, city=""):
         "prelimsMs": None,
         "earlyPrelimsMs": None,
         "bouts": bouts,
+        "finished": bool(bouts) and all(b.get("result") for b in bouts),
     }
 
 
-def from_list_page(promo, list_page):
-    """UFC / RAF: scheduled-events table linking to one page per event."""
-    _, text = wikitext(list_page)
-    table_src = section(text, r"Scheduled events")
-    if not table_src:
-        raise ScrapeError(f"No 'Scheduled events' section on {list_page} (layout changed?)")
-    today = dt.datetime.now(ET).date()
+def table_rows(table_src):
+    """(date, event cell, city) for each row of a Wikipedia events table."""
     rows = []
     for row in re.split(r"\n\|-[^\n]*", table_src):
         cells = [c for c in re.split(r"\n\|", "\n" + row) if c.strip()]
         cells = [c for c in cells if not c.lstrip().startswith(("!", "{|", "}"))]
         ev_cell = next((c for c in cells if re.search(r"\[\[|^\s*\D", c) and not parse_date(c)
-                        and not re.match(r"\s*(align|scope|style)", c)), None)
+                        and not re.match(r"\s*(align|scope|style|rowspan|<ref)", c)), None)
         day = next((parse_date(c) for c in cells if parse_date(c)), None)
-        if not ev_cell or not day or day < today - dt.timedelta(days=1):
-            continue
-        city = plain(cells[-1]) if cells else ""
-        rows.append((day, ev_cell, city))
-    rows.sort(key=lambda r: r[0])
-    events = []
-    for day, ev_cell, city in rows[:MAX_EVENTS_PER_PROMO]:
+        if ev_cell and day:
+            rows.append((day, ev_cell, plain(cells[-1]) if cells else ""))
+    return rows
+
+
+def from_list_page(promo, list_page):
+    """UFC / RAF: scheduled-events table (plus recent past events, for results) linking to one page per event."""
+    _, text = wikitext(list_page)
+    table_src = section(text, r"Scheduled events")
+    if not table_src:
+        raise ScrapeError(f"No 'Scheduled events' section on {list_page} (layout changed?)")
+    today = dt.datetime.now(ET).date()
+    upcoming = sorted([r for r in table_rows(table_src) if r[0] >= today - dt.timedelta(days=1)], key=lambda r: r[0])
+    past = [r for r in table_rows(section(text, r"Past events"))
+            if today - dt.timedelta(days=RESULTS_DAYS) <= r[0] < today]
+    past = sorted(past, key=lambda r: r[0], reverse=True)[:MAX_RESULTS_PER_PROMO]
+    events, seen = [], set()
+    for day, ev_cell, city in upcoming[:MAX_EVENTS_PER_PROMO] + past:
         target = link_target(ev_cell)
         label = plain(ev_cell)
+        key = target or label
+        if key in seen:
+            continue
+        seen.add(key)
         if target:
             ptitle, ptext = wikitext(target, required=False)
             if ptext:
@@ -453,7 +481,7 @@ def from_season_pages(promo, page_fmt):
             if "infobox" not in body.lower():
                 continue
             day = parse_date(infobox_field(body, "date"))
-            if not day or day < today - dt.timedelta(days=1):
+            if not day or day < today - dt.timedelta(days=RESULTS_DAYS):
                 continue
             name = plain(infobox_field(body, "name")) or heading
             city = plain(infobox_field(body, "city"))
@@ -464,7 +492,9 @@ def from_season_pages(promo, page_fmt):
     if not found_page:
         raise ScrapeError(f"No season page found for {promo}")
     events.sort(key=lambda e: e["startMs"])
-    return events[:MAX_EVENTS_PER_PROMO]
+    upcoming = [e for e in events if e["date"] >= (today - dt.timedelta(days=1)).isoformat()]
+    past = [e for e in events if e["date"] < (today - dt.timedelta(days=1)).isoformat()]
+    return upcoming[:MAX_EVENTS_PER_PROMO] + past[-MAX_RESULTS_PER_PROMO:]
 
 
 # ---------------------------------------------------------------- fighter pages (photo, record, stats)
