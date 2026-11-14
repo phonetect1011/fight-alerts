@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794654332863,
+ "generatedMs": 1794654830660,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -43,7 +43,7 @@
    "url": "https://en.wikipedia.org/wiki/RAF_Abu_Dhabi",
    "date": "2026-11-14",
    "startMs": 1794672000000,
-   "timeEstimated": true,
+   "timeEstimated": false,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -506,7 +506,8 @@
       "flag": "🇺🇸"
      }
     }
-   ]
+   ],
+   "timeSource": "Set by you"
   },
   {
    "id": "ufc-ufc-334-gane-vs-hokit",
@@ -516,7 +517,7 @@
    "date": "2026-11-14",
    "startMs": 1794708900000,
    "timeEstimated": false,
-   "prelimsMs": null,
+   "prelimsMs": 1794693600000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -1017,8 +1018,8 @@
    "title": "ONE Samurai 5",
    "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Samurai_5",
    "date": "2026-11-18",
-   "startMs": 1794988800000,
-   "timeEstimated": true,
+   "startMs": 1794990600000,
+   "timeEstimated": false,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -1250,7 +1251,8 @@
       "flag": "🇯🇵"
      }
     }
-   ]
+   ],
+   "timeSource": "TheSportsDB"
   },
   {
    "id": "one-one-friday-fights-179-the-inner-circle-39",
@@ -4159,6 +4161,6 @@
    ]
   }
  ],
- "oddsUpdatedMs": 1794654347472,
- "oddsCreditsLeft": "484"
+ "oddsUpdatedMs": 1794654867598,
+ "oddsCreditsLeft": "482"
 }

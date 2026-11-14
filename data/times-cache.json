@@ -1,0 +1,134 @@
+{
+ "2026-11-13": {
+  "checked": 1794654842617,
+  "events": [
+   {
+    "strEvent": "We Love Wrestling Live In Magdeburg",
+    "strLeague": "wXw",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-13T00:00:00"
+   },
+   {
+    "strEvent": "Kyushu Basho Day 6",
+    "strLeague": "Sumo",
+    "strTimeLocal": "16:00:00",
+    "strTimestamp": "2026-11-13T07:00:00"
+   },
+   {
+    "strEvent": "Viernes Espectacular",
+    "strLeague": "CMLL",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-13T00:00:00"
+   }
+  ]
+ },
+ "2026-11-14": {
+  "checked": 1794654842617,
+  "events": [
+   {
+    "strEvent": "We Love Wrestling Live In Limbach Oberfrohna",
+    "strLeague": "wXw",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-14T00:00:00"
+   },
+   {
+    "strEvent": "UFC 334 Gane vs Hokit",
+    "strLeague": "UFC",
+    "strTimeLocal": "17:00:00",
+    "strTimestamp": "2026-11-14T22:00:00"
+   },
+   {
+    "strEvent": "PFL Dubai Nemkov vs Bilostenniy",
+    "strLeague": "Professional Fighters League",
+    "strTimeLocal": "18:00:00",
+    "strTimestamp": "2026-11-14T14:00:00"
+   }
+  ]
+ },
+ "2026-11-18": {
+  "checked": 1794654842617,
+  "events": [
+   {
+    "strEvent": "ONE Samurai 5",
+    "strLeague": "ONE",
+    "strTimeLocal": "17:30:00",
+    "strTimestamp": "2026-11-18T08:30:00"
+   },
+   {
+    "strEvent": "Kyushu Basho Day 11",
+    "strLeague": "Sumo",
+    "strTimeLocal": "16:00:00",
+    "strTimestamp": "2026-11-18T07:00:00"
+   }
+  ]
+ },
+ "2026-11-20": {
+  "checked": 1794654842617,
+  "events": [
+   {
+    "strEvent": "SmackDown #1422",
+    "strLeague": "WWE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-20T00:00:00"
+   },
+   {
+    "strEvent": "Kyushu Basho Day 13",
+    "strLeague": "Sumo",
+    "strTimeLocal": "16:00:00",
+    "strTimestamp": "2026-11-20T07:00:00"
+   },
+   {
+    "strEvent": "BKFC Fight Night Myrtle Beach Richardson vs Oxendine",
+    "strLeague": "BKFC",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-11-20T00:00:00"
+   }
+  ]
+ },
+ "2026-11-21": {
+  "checked": 1794654842617,
+  "events": [
+   {
+    "strEvent": "We Love Wrestling Live In Bad Säckingen",
+    "strLeague": "wXw",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-21T00:00:00"
+   },
+   {
+    "strEvent": "KOK 130 World Series in Freiburg",
+    "strLeague": "KOK",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-11-21T00:00:00"
+   },
+   {
+    "strEvent": "UFC Fight Night 294 Procházka vs Stirling",
+    "strLeague": "UFC",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-21T00:00:00"
+   }
+  ]
+ },
+ "2026-11-27": {
+  "checked": 1794654842617,
+  "events": [
+   {
+    "strEvent": "SmackDown #1423",
+    "strLeague": "WWE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-27T00:00:00"
+   },
+   {
+    "strEvent": "Cage Warriors 214 Unplugged",
+    "strLeague": "Cage Warriors",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-11-27T00:00:00"
+   },
+   {
+    "strEvent": "World Tag League Day 4",
+    "strLeague": "NJPW",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-27T00:00:00"
+   }
+  ]
+ }
+}
