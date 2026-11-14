@@ -1,19 +1,22 @@
 name: Update fight data
 
-# PAUSED: next-fight.com's terms of use prohibit systematic extraction (scraping)
-# without written permission, and the site now blocks these requests (HTTP 403).
-# The schedule and auto-run are switched off until we move to a permitted data source.
-# It can still be run by hand from the Actions tab, but please don't point it at
-# next-fight.com again unless they give permission.
+# Fight cards come from Wikipedia (official MediaWiki API, CC BY-SA content).
+# Favourite/underdog odds and real start times come from The Odds API (free plan).
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours (~240 of the 500 free odds credits a month)
+  workflow_dispatch:          # run it by hand from the Actions tab
+  push:                       # re-run straight away whenever the scrapers change
+    paths:
+      - "scraper/wiki.py"
+      - "scraper/odds.py"
 
 permissions:
   contents: write
   issues: write
 
 jobs:
-  scrape:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,13 +25,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install scraper libraries
-        run: pip install requests beautifulsoup4
+      - name: Install libraries
+        run: pip install requests
 
-      - name: Scrape fights
-        id: scrape
+      - name: Fight cards from Wikipedia
+        id: cards
         continue-on-error: true
-        run: python scraper/scrape.py data/events.json
+        run: python scraper/wiki.py data/events.json
+
+      - name: Odds and start times from The Odds API
+        id: odds
+        continue-on-error: true
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python scraper/odds.py data/events.json
 
       - name: Save data to repo
         run: |
@@ -44,12 +54,20 @@ jobs:
           fi
 
       - name: Report breakage (opens a GitHub issue)
-        if: steps.scrape.outcome == 'failure'
+        if: steps.cards.outcome == 'failure' || steps.odds.outcome == 'failure'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TITLE="Fight data scraper is broken"
-          BODY="$(cat data/health.txt 2>/dev/null || echo 'The scraper crashed before writing a report.')"
+          BODY=""
+          if [ "${{ steps.cards.outcome }}" = "failure" ]; then
+            BODY="$(cat data/health.txt 2>/dev/null || echo 'The Wikipedia scraper crashed before writing a report.')"
+          fi
+          if [ "${{ steps.odds.outcome }}" = "failure" ]; then
+            BODY="$BODY
+
+          $(cat data/odds-health.txt 2>/dev/null || echo 'The odds fetcher crashed before writing a report.')"
+          fi
           BODY="$BODY
 
           Run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
@@ -61,11 +79,11 @@ jobs:
           fi
           exit 1
 
-      - name: Close issue when it's working again
-        if: steps.scrape.outcome == 'success'
+      - name: Close issue when everything works again
+        if: steps.cards.outcome == 'success' && steps.odds.outcome == 'success'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for N in $(gh issue list --state open --search "Fight data scraper is broken in:title" --json number --jq '.[].number'); do
-            gh issue close "$N" --comment "Scraper is working again ✅"
+            gh issue close "$N" --comment "Fight data is updating again (Wikipedia + The Odds API) ✅"
           done
