@@ -157,6 +157,15 @@ data class Prediction(
     val source: String = "",
 )
 
+/** Result of a finished bout. winner is "a", "b" or "" (draw / no contest). */
+data class FightResult(val winner: String, val method: String, val round: String, val time: String) {
+    fun detail(): String = listOf(
+        method,
+        round.takeIf { it.isNotBlank() }?.let { "R$it" },
+        time.takeIf { it.isNotBlank() },
+    ).filterNotNull().filter { it.isNotBlank() }.joinToString("  ·  ")
+}
+
 data class Bout(
     val a: Fighter,
     val b: Fighter,
@@ -164,6 +173,7 @@ data class Bout(
     val weight: String,
     val title: Boolean,
     val pred: Prediction? = null,
+    val result: FightResult? = null,
 ) {
     /** (isFavourite, win %) for fighter a (isA = true) or b, or null when there's no prediction. */
     fun odds(isA: Boolean): Pair<Boolean, Int>? {
@@ -200,7 +210,10 @@ data class FightEvent(
     val timeEstimated: Boolean = false,
     val prelimsEstimated: Boolean = false,
     val earlyPrelimsEstimated: Boolean = false,
+    val finished: Boolean = false,
 ) {
+    val hasResults: Boolean get() = bouts.any { it.result != null }
+
     /** Card sections with start times, earliest first: (label, time, isEstimate). */
     fun slots(): List<Triple<String, Long, Boolean>> = listOfNotNull(
         earlyPrelims?.let { Triple("Early prelims", it, earlyPrelimsEstimated) },
@@ -259,6 +272,9 @@ fun parseData(json: String): FightData {
                     weight = b.optString("weight"),
                     title = b.optBoolean("title"),
                     pred = parsePrediction(b.optJSONObject("pred")),
+                    result = b.optJSONObject("result")?.let { r ->
+                        FightResult(r.optString("winner"), r.optString("method"), r.optString("round"), r.optString("time"))
+                    },
                 )
             }
         }
@@ -274,6 +290,7 @@ fun parseData(json: String): FightData {
             timeEstimated = e.optBoolean("timeEstimated", false),
             prelimsEstimated = e.optBoolean("prelimsEstimated", false),
             earlyPrelimsEstimated = e.optBoolean("earlyPrelimsEstimated", false),
+            finished = e.optBoolean("finished", false),
         )
     }
     val broken = mutableMapOf<String, String>()
@@ -338,6 +355,11 @@ class Prefs(ctx: Context) {
     var mainCardAlert: Boolean
         get() = sp.getBoolean("mainCardAlert", false)
         set(v) = sp.edit().putBoolean("mainCardAlert", v).apply()
+
+    /** Off by default: results stay hidden until tapped, so there are no spoilers. */
+    var showResults: Boolean
+        get() = sp.getBoolean("showResults", false)
+        set(v) = sp.edit().putBoolean("showResults", v).apply()
 
     var onlyFollowed: Boolean
         get() = sp.getBoolean("onlyFollowed", false)
@@ -574,6 +596,7 @@ fun ago(ms: Long): String {
 }
 
 fun countdown(e: FightEvent, now: Long): String {
+    if (e.finished || (e.hasResults && now > e.start + 6 * 3_600_000L)) return "FINISHED"
     if (now >= e.start) return "LIVE NOW"
     if (now >= e.firstStart) return "PRELIMS LIVE"
     val mins = (e.firstStart - now) / 60_000
@@ -587,7 +610,7 @@ fun countdown(e: FightEvent, now: Long): String {
     }
 }
 
-fun isLive(e: FightEvent, now: Long): Boolean = now >= e.firstStart
+fun isLive(e: FightEvent, now: Long): Boolean = now >= e.firstStart && !e.finished && now < e.start + 8 * 3_600_000L
 
 fun promoColor(p: String): Color = when (p) {
     "UFC" -> Color(0xFFD20A0A)
@@ -702,6 +725,7 @@ fun AppScreen(prefs: Prefs, themeMode: String, onTheme: (String) -> Unit, resume
     var followed by remember { mutableStateOf(prefs.followed) }
     var screen by remember { mutableStateOf(Screen.Main) }
     var now by remember { mutableLongStateOf(System.currentTimeMillis()) }
+    var tab by remember { mutableStateOf("upcoming") }
 
     val notifLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
 
@@ -816,9 +840,24 @@ fun AppScreen(prefs: Prefs, themeMode: String, onTheme: (String) -> Unit, resume
             }
         }
 
-        val events = d?.events.orEmpty()
-            .filter { it.promotion in promotions && it.start > now - 6 * 3_600_000L }
-            .sortedBy { it.firstStart }
+        Box(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 6.dp)) {
+            SegmentedPicker(
+                options = listOf("upcoming" to "Upcoming", "results" to "Results"),
+                selected = tab,
+                onSelect = { tab = it },
+            )
+        }
+
+        val showResults = prefs.showResults
+        val events = if (tab == "results") {
+            d?.events.orEmpty()
+                .filter { it.promotion in promotions && it.hasResults }
+                .sortedByDescending { it.start }
+        } else {
+            d?.events.orEmpty()
+                .filter { it.promotion in promotions && it.start > now - 6 * 3_600_000L && !it.finished }
+                .sortedBy { it.firstStart }
+        }
 
         if (events.isEmpty()) {
             Column(
@@ -828,7 +867,11 @@ fun AppScreen(prefs: Prefs, themeMode: String, onTheme: (String) -> Unit, resume
                 Text("🥊", fontSize = 44.sp)
                 Spacer(Modifier.height(8.dp))
                 Text(
-                    if (d == null) "Loading fights…" else "No upcoming fights for the promotions you picked.",
+                    when {
+                        d == null -> "Loading fights…"
+                        tab == "results" -> "No results from the last week yet. They appear a few hours after the fights."
+                        else -> "No upcoming fights for the promotions you picked."
+                    },
                     color = c.text3, textAlign = TextAlign.Center,
                 )
             }
@@ -839,7 +882,7 @@ fun AppScreen(prefs: Prefs, themeMode: String, onTheme: (String) -> Unit, resume
             contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 4.dp, bottom = 24.dp),
         ) {
             items(events, key = { it.id }) { e ->
-                EventCard(e, now, followed) { name ->
+                EventCard(e, now, followed, showResults) { name ->
                     followed = if (name in followed) followed - name else followed + name
                     prefs.followed = followed
                     reschedule()
@@ -884,10 +927,13 @@ fun Pill(text: String, color: Color, filled: Boolean = false) {
 }
 
 @Composable
-fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String) -> Unit) {
+fun EventCard(e: FightEvent, now: Long, followed: Set<String>, showResults: Boolean, onFollow: (String) -> Unit) {
     val c = LocalPalette.current
     val ctx = LocalContext.current
     var expanded by remember { mutableStateOf(false) }
+    var revealAll by remember(showResults) { mutableStateOf(showResults) }
+    var revealed by remember { mutableStateOf(setOf<Int>()) }
+    fun shown(i: Int) = revealAll || i in revealed
     var selected by remember { mutableStateOf<Pair<Bout, Boolean>?>(null) }
     val hasFollowed = e.bouts.any { it.a.name in followed || it.b.name in followed }
     val live = isLive(e, now)
@@ -927,7 +973,14 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
                 Text("Card to be announced", color = c.text3, fontSize = 14.sp)
             } else if (!expanded) {
                 Spacer(Modifier.height(14.dp))
-                MatchupRow(main, followed, photoSize = 46.dp) { isA -> selected = main to isA }
+                val i = e.bouts.indexOf(main)
+                MatchupRow(main, followed, photoSize = 46.dp, showWinner = shown(i)) { isA -> selected = main to isA }
+                ResultLine(main, shown(i)) { revealed = revealed + i }
+            }
+            if (e.hasResults && !revealAll && (expanded || e.bouts.size > 1)) {
+                TextButton(onClick = { revealAll = true }, modifier = Modifier.fillMaxWidth()) {
+                    Text("Show all results", color = c.gold, fontWeight = FontWeight.SemiBold)
+                }
             }
 
             AnimatedVisibility(
@@ -937,7 +990,7 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
             ) {
                 Column {
                     var lastSection = ""
-                    e.bouts.forEach { b ->
+                    e.bouts.forEachIndexed { i, b ->
                         if (b.section.isNotBlank() && b.section != lastSection) {
                             lastSection = b.section
                             val st = e.sectionTime(b.section)
@@ -957,7 +1010,8 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
                                 }
                             }
                         }
-                        MatchupRow(b, followed, photoSize = 36.dp) { isA -> selected = b to isA }
+                        MatchupRow(b, followed, photoSize = 36.dp, showWinner = shown(i)) { isA -> selected = b to isA }
+                        ResultLine(b, shown(i)) { revealed = revealed + i }
                         val info = listOfNotNull(
                             b.weight.ifBlank { null },
                             if (b.title) "🏆 Title fight" else null,
@@ -1006,7 +1060,12 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
 }
 
 @Composable
-fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -> Unit) {
+fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, showWinner: Boolean = false, onTap: (Boolean) -> Unit) {
+    val r = b.result?.takeIf { showWinner }
+    fun outcome(isA: Boolean): Boolean? = when {
+        r == null || r.winner.isBlank() -> null
+        else -> (r.winner == "a") == isA
+    }
     val c = LocalPalette.current
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         Row(
@@ -1015,7 +1074,7 @@ fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -
         ) {
             FighterPhoto(b.a, photoSize)
             Spacer(Modifier.width(8.dp))
-            FighterLabel(b.a, b.a.name in followed, alignEnd = false, odds = b.odds(true))
+            FighterLabel(b.a, b.a.name in followed, alignEnd = false, odds = b.odds(true), won = outcome(true))
         }
         Text(
             "VS", color = c.text3, fontSize = 11.sp, fontWeight = FontWeight.Black,
@@ -1028,7 +1087,7 @@ fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -
         ) {
             FighterLabel(
                 b.b, b.b.name in followed, alignEnd = true, odds = b.odds(false),
-                modifier = Modifier.weight(1f, fill = false),
+                modifier = Modifier.weight(1f, fill = false), won = outcome(false),
             )
             Spacer(Modifier.width(8.dp))
             FighterPhoto(b.b, photoSize)
@@ -1043,12 +1102,13 @@ fun FighterLabel(
     alignEnd: Boolean,
     modifier: Modifier = Modifier,
     odds: Pair<Boolean, Int>? = null,
+    won: Boolean? = null,
 ) {
     val c = LocalPalette.current
     Column(modifier, horizontalAlignment = if (alignEnd) Alignment.End else Alignment.Start) {
         Text(
             text = (if (isFollowed) "★ " else "") + withFlag(f),
-            color = if (isFollowed) c.gold else c.text,
+            color = (if (isFollowed) c.gold else c.text).copy(alpha = if (won == false) 0.45f else 1f),
             fontWeight = FontWeight.SemiBold,
             fontSize = 14.sp,
             maxLines = 2,
@@ -1060,10 +1120,43 @@ fun FighterLabel(
             f.record.ifBlank { null },
         ).joinToString(" · ")
         if (sub.isNotBlank()) Text(sub, color = c.text3, fontSize = 11.sp)
-        if (odds != null) {
+        if (won == true) {
+            Spacer(Modifier.height(3.dp))
+            Text(
+                "WIN", color = c.green, fontSize = 10.sp, fontWeight = FontWeight.Black, letterSpacing = 0.5.sp,
+                modifier = Modifier.clip(RoundedCornerShape(5.dp)).background(c.green.copy(alpha = 0.15f))
+                    .padding(horizontal = 6.dp, vertical = 2.dp),
+            )
+        } else if (odds != null && won == null) {
             Spacer(Modifier.height(3.dp))
             OddsTag(odds.first, odds.second)
         }
+    }
+}
+
+/** Under a finished bout: the method, round and time, or a tap-to-reveal button (no spoilers). */
+@Composable
+fun ResultLine(b: Bout, shown: Boolean, onReveal: () -> Unit) {
+    val c = LocalPalette.current
+    val r = b.result ?: return
+    if (shown) {
+        val who = when (r.winner) {
+            "a" -> b.a.name
+            "b" -> b.b.name
+            else -> ""
+        }
+        Text(
+            (if (who.isNotBlank()) "✓ $who  ·  " else "") + r.detail(),
+            color = c.text2, fontSize = 12.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp),
+        )
+    } else {
+        Text(
+            "Tap to see result",
+            color = c.gold, fontSize = 12.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).clickable { onReveal() }
+                .padding(top = 4.dp, bottom = 6.dp),
+        )
     }
 }
 
@@ -1207,7 +1300,7 @@ fun FighterSheet(
                     .padding(16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-                Text("NEXT FIGHT", color = RED, fontSize = 11.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                Text(if (bout.result != null) "THE FIGHT" else "NEXT FIGHT", color = RED, fontSize = 11.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                 Spacer(Modifier.height(10.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     FighterPhoto(opponent, 40.dp)
@@ -1321,6 +1414,7 @@ fun SettingsScreen(
     var lead by remember { mutableStateOf(prefs.leadMinutes) }
     var mainAlert by remember { mutableStateOf(prefs.mainCardAlert) }
     var onlyFollowed by remember { mutableStateOf(prefs.onlyFollowed) }
+    var showResults by remember { mutableStateOf(prefs.showResults) }
     var notifTick by remember { mutableIntStateOf(0) }
     val notifOk = remember(resumeTick, notifTick) { Notify.hasPermission(ctx) }
     val exactOk = remember(resumeTick) { Alarms.canExact(ctx) }
@@ -1383,6 +1477,18 @@ fun SettingsScreen(
                 }
             }
 
+            SectionTitle("Results")
+            SettingsCard {
+                ToggleRow(
+                    "Show results straight away",
+                    "Off = winners stay hidden until you tap them, so no spoilers",
+                    showResults,
+                ) {
+                    showResults = it
+                    prefs.showResults = it
+                }
+            }
+
             SectionTitle("Permissions")
             SettingsCard {
                 StatusRow(
@@ -1429,7 +1535,7 @@ fun SettingsScreen(
             SettingsCard {
                 InfoRow("Last updated", data?.let { ago(now - it.generated) } ?: "Never")
                 SettingsDivider()
-                InfoRow("Fight cards", "Wikipedia (CC BY-SA)")
+                InfoRow("Fight cards & results", "Wikipedia (CC BY-SA)")
                 SettingsDivider()
                 InfoRow("Start times", "TheSportsDB + bookmakers")
                 SettingsDivider()
