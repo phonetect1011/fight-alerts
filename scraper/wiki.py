@@ -551,15 +551,27 @@ def fighter_details(text):
     if nick:
         out["nickname"] = nick
 
-    def num(*keys):
-        for k in keys:
-            v = re.sub(r"\D", "", plain(box.get(k, "")))
-            if v:
-                return int(v)
-        return None
-    wins, losses, draws = num("mmawins"), num("mmalosses"), num("mmadraws")
-    if wins is None and losses is None:  # e.g. boxers / bare-knuckle only
+    def num(key):
+        v = re.sub(r"\D", "", plain(box.get(key, "")))
+        return int(v) if v else None
+
+    def tally(prefix):
+        """Records are split by finish type: mma_ko_win, mma_sub_win, mma_dec_win ... (or a plain mma_win total)."""
+        res = []
+        for kind in ("win", "loss"):
+            total = num(f"{prefix}_{kind}")
+            if total is None:
+                parts = [num(k) for k in box if re.fullmatch(prefix + r"_[a-z]+_" + kind, k)]
+                parts = [x for x in parts if x is not None]
+                total = sum(parts) if parts else None
+            res.append(total)
+        res.append(num(f"{prefix}_draw"))
+        return res
+    wins, losses, draws = tally("mma")
+    if wins is None and losses is None:  # boxers / bare-knuckle only
         wins, losses, draws = num("wins"), num("losses"), num("draws")
+    if wins is None and losses is None:  # kickboxers / Muay Thai (common on ONE cards)
+        wins, losses, draws = tally("kick")
     if wins is not None or losses is not None:
         out["record"] = f"{wins or 0}-{losses or 0}-{draws or 0}"
     age = age_from(box.get("birth_date", ""))
@@ -569,7 +581,9 @@ def fighter_details(text):
         v = measure(box.get(key, ""))
         if v:
             stats[label] = v
-    team = plain(re.split(r"<br\s*/?>|\n\*", box.get("team", ""))[0]).lstrip("* ")
+    teams = [plain(t).lstrip("* ") for t in re.split(r"<br\s*/?>|\n\*", strip_refs(box.get("team", "")))]
+    teams = [t for t in teams if t]
+    team = re.sub(r"\s*\([^)]*\)\s*$", "", teams[-1]) if teams else ""  # most recent team, years dropped
     if team:
         stats["Team"] = team
     if stats:
