@@ -18,6 +18,7 @@ import os
 import re
 import sys
 import time
+from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -134,15 +135,75 @@ def ld_start(soup):
     return None
 
 
+def twemoji_flag(src):
+    """twemoji URL like .../1f1eb-1f1f7.svg -> the flag emoji itself."""
+    m = re.search(r"/([0-9a-f]{4,5}(?:-[0-9a-f]{4,5})+)\.svg", src or "")
+    if not m:
+        return ""
+    try:
+        return "".join(chr(int(x, 16)) for x in m.group(1).split("-"))
+    except ValueError:
+        return ""
+
+
+def image_url(img):
+    if img is None:
+        return ""
+    for attr in ("src", "srcset", "srcSet"):
+        val = (img.get(attr) or "").split(" ")[0]
+        if not val:
+            continue
+        if val.startswith("/_next/image"):
+            q = parse_qs(urlparse(val).query).get("url", [""])[0]
+            if q.startswith("http"):
+                return q
+        elif val.startswith("http"):
+            return val
+    return ""
+
+
 def parse_side(side):
     full = side.find(class_="nf-fight-full")
     name = clean(full.get_text(" ")) if full else ""
-    if not name:
-        img = side.find("img")
-        name = clean(img.get("alt")) if img else ""
-    rank = side.find(class_="nf-fight-rank")
-    record = side.find(class_="nf-fight-record")
-    return name, clean(rank.get_text()) if rank else "", clean(record.get_text()) if record else ""
+    portrait = side.find(class_="nf-fight-portrait")
+    p_img = portrait.find("img") if portrait else None
+    if not name and p_img is not None:
+        name = clean(p_img.get("alt"))
+    info = {"name": name}
+    flag = side.find("img", class_="nf-fight-flag")
+    if flag is not None:
+        info["country"] = clean(flag.get("alt"))
+        info["flag"] = twemoji_flag(flag.get("src"))
+    for key, cls in (("rank", "nf-fight-rank"), ("record", "nf-fight-record"), ("nickname", "nf-fight-nick")):
+        el = side.find(class_=cls)
+        if el is not None:
+            info[key] = clean(el.get_text(" ")).strip("“”\" ")
+    photo = image_url(p_img)
+    if photo:
+        info["photo"] = photo
+    link = side.find("a", href=re.compile(r"^/en/fighter/"))
+    if link is not None:
+        info["url"] = BASE + link["href"]
+    return {k: v for k, v in info.items() if v}
+
+
+def parse_stats(row):
+    """Height/reach/age/stance table that UFC/ONE pages show under each fight."""
+    holder = row.parent if row.parent is not None and row.parent.name == "details" else None
+    dl = holder.find(class_="nf-fight-stats") if holder is not None else None
+    a, b = {}, {}
+    if dl is None:
+        return a, b
+    for dt_ in dl.find_all("dt"):
+        label = clean(dt_.get_text(" "))
+        if not label or label.lower() == "nickname":
+            continue
+        prev, nxt = dt_.find_previous_sibling("dd"), dt_.find_next_sibling("dd")
+        for target, cell in ((a, prev), (b, nxt)):
+            val = clean(cell.get_text(" ")) if cell is not None else ""
+            if val and val not in ("—", "-"):
+                target[label] = val
+    return a, b
 
 
 def parse_card(soup):
@@ -167,10 +228,14 @@ def parse_card(soup):
             sides = el.find_all(class_="nf-fight-side", recursive=False) or el.find_all(class_="nf-fight-side")
             if len(sides) < 2:
                 continue
-            a, a_rank, a_rec = parse_side(sides[0])
-            b, b_rank, b_rec = parse_side(sides[1])
-            if not a or not b:
+            fa, fb = parse_side(sides[0]), parse_side(sides[1])
+            if not fa.get("name") or not fb.get("name"):
                 continue
+            sa, sb = parse_stats(el)
+            if sa:
+                fa["stats"] = sa
+            if sb:
+                fb["stats"] = sb
             title, weight = False, ""
             meta = el.find(class_="nf-fight-meta-idle")
             if meta:
@@ -181,8 +246,8 @@ def parse_card(soup):
                 weight = clean(meta.get_text(" ")).strip(" ·")
             if section.lower().startswith("cancel"):
                 continue
-            bouts.append({"a": a, "b": b, "section": section, "weight": weight, "title": title,
-                          "aRank": a_rank, "bRank": b_rank, "aRecord": a_rec, "bRecord": b_rec})
+            bouts.append({"a": fa["name"], "b": fb["name"], "section": section, "weight": weight,
+                          "title": title, "fa": fa, "fb": fb})
     return bouts, times
 
 
