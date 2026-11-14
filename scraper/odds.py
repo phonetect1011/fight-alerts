@@ -6,8 +6,8 @@ from The Odds API (https://the-odds-api.com, free plan: 500 credits/month).
 One request returns every upcoming MMA fight the bookmakers are pricing.
 We average each fighter's implied win chance across bookmakers (with the
 bookmaker margin removed), then match fights to our cards by fighter name.
-Where the bookmakers list a main-card fight, their start time replaces the
-estimated time from Wikipedia.
+Where the bookmakers list a main-card fight close to our estimated start time,
+their start time replaces the estimate from Wikipedia.
 
 Needs the API key in the ODDS_API_KEY environment variable (a GitHub secret).
 
@@ -28,6 +28,9 @@ import requests
 API_URL = "https://api.the-odds-api.com/v4/sports/mma_mixed_martial_arts/odds"
 # us + au bookmakers: 2 credits per run. Every 6 hours ~= 240 of the 500 free credits a month.
 REGIONS = "us,au"
+# A bookmaker start time only replaces our estimate when the two are within 3 hours.
+# (RAF Abu Dhabi was listed 5 hours early by bookmakers; our estimate was right.)
+TRUST_WINDOW_MS = 3 * 3_600_000
 
 
 def norm(name):
@@ -135,6 +138,7 @@ def main():
     matched = 0
     for event in data.get("events", []):
         main_card_times = []
+        estimate = event["startMs"]
         for bout in event.get("bouts", []):
             for fo in fights:
                 when = commence_ms(fo)
@@ -162,7 +166,9 @@ def main():
                     "source": "Bookmaker odds",
                 }
                 matched += 1
-                if when and bout.get("section", "Main card") == "Main card":
+                # bookmakers sometimes list placeholder times, so only trust one close to our estimate
+                if when and bout.get("section", "Main card") == "Main card" \
+                        and abs(when - estimate) <= TRUST_WINDOW_MS:
                     main_card_times.append(when)
                 break
         if main_card_times:
