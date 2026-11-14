@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794692881650,
+ "generatedMs": 1794700501115,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2615,38 +2615,44 @@
      }
     },
     {
-     "a": "Macy Chiasson",
-     "b": "Beatriz Mesquita",
+     "a": "Beatriz Mesquita",
+     "b": "Macy Chiasson",
      "section": "Early prelims",
      "weight": "Women's Bantamweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Macy Chiasson",
-      "url": "https://en.wikipedia.org/wiki/Macy_Chiasson",
-      "record": "10-6-0",
-      "stats": {
-       "Age": "35",
-       "Height": "5 ft 11 in",
-       "Team": "MidCity MMA"
-      }
-     },
-     "fb": {
       "name": "Beatriz Mesquita",
       "url": "https://en.wikipedia.org/wiki/Beatriz_Mesquita",
-      "record": "8-0-0",
+      "record": "9-0-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 2 in",
        "Team": "American Top Team"
       }
      },
+     "fb": {
+      "name": "Macy Chiasson",
+      "url": "https://en.wikipedia.org/wiki/Macy_Chiasson",
+      "record": "10-7-0",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 11 in",
+       "Team": "MidCity MMA"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "1",
+      "time": "3:23"
+     },
      "pred": {
-      "fav": "b",
-      "pctA": 31,
-      "pctB": 69,
-      "oddsA": 3.1,
-      "oddsB": 1.38,
+      "fav": "a",
+      "pctA": 69,
+      "pctB": 31,
+      "oddsA": 1.38,
+      "oddsB": 3.1,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 11 bookmakers",
@@ -2654,16 +2660,19 @@
      }
     },
     {
-     "a": "Alateng Heili",
-     "b": "Juan Díaz",
+     "a": "Juan Díaz",
+     "b": "Alateng Heili",
      "section": "Early prelims",
      "weight": "Catchweight (136.4 lb)",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Juan Díaz"
+     },
+     "fb": {
       "name": "Alateng Heili",
       "url": "https://en.wikipedia.org/wiki/Alateng_Heili",
-      "record": "18-10-2",
+      "record": "18-11-2",
       "stats": {
        "Age": "34",
        "Height": "5 ft 6 in",
@@ -2671,8 +2680,11 @@
        "Team": "Fight Ready"
       }
      },
-     "fb": {
-      "name": "Juan Díaz"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      }
     },
     {
@@ -2681,12 +2693,18 @@
      "section": "Early prelims",
      "weight": "Lightweight",
      "title": false,
-     "notes": "",
+     "notes": "Sanches was deducted one point in round 3 due to repeated fence grabs.",
      "fa": {
       "name": "Evan Elder"
      },
      "fb": {
       "name": "Samuel Sanches"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
       "fav": "b",
