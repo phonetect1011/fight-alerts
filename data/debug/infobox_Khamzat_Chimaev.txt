@@ -1,0 +1,48 @@
+{{Short description|Russian-Emirati mixed martial artist and freestyle wrestler (born 1994)}}
+{{family name hatnote|Khizarovich|Chimaev|lang=Eastern Slavic}}
+{{pp-vandalism|small=yes}}
+{{Use dmy dates|date=July 2023}}
+{{Infobox martial artist
+| name             = Khamzat Chimaev
+| image            = Khamzat Chimaev 2022 (cropped).png
+| image_size       =
+| alt              = 
+| caption          = Chimaev in 2022
+| birth_name       = Khamzat Khizarovich Girikanov
+| other_names      = Borz
+| native_name      = [[Chechen language|Chechen]]: Чимаев Хизаран кӏант Хамзат<ref>{{Cite web |date=2024-06-14 |title=Боец UFC Хамзат Чимаев был госпитализирован |url=https://matchtv.ru/boxing/matchtvnews_NI2069185_Bojec_UFC_Khamzat_Chimajev_byl_gospitalizirovan#:~:text=%D0%92%20%D1%87%D0%B5%D1%82%D0%B2%D0%B5%D1%80%D0%B3%20%D1%81%D1%82%D0%B0%D0%BB%D0%BE%20%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%BE,%20%D1%87%D1%82%D0%BE,,%20%D0%BF%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D1%83%20%C2%AB%D1%82%D1%8F%D0%B6%D0%B5%D0%BB%D0%BE%20%D0%B1%D0%BE%D0%BB%D0%B5%D0%BD%C2%BB. |access-date=2025-02-02 |website=matchtv |language=ru-RU}}</ref>
+| birth_date       = {{birth date and age|df=y|1994|5|1}}
+| birth_place      = [[Gvardeyskoye, Chechen Republic]], Russia{{efn|Chechnya was a ''de facto'' independent state known as the [[Chechen Republic of Ichkeria]] at the time of Chimaev's birth.<ref name=":4">{{Cite web |date=1 October 2020 |title="Хамзату дали визу на два года — ему должно хватить". Чимаев стал звездой UFC — мы поговорили с его братом |url=https://matchtv.ru/boxing/matchtvnews_NI1247347_Khamzatu_dali_vizu_na_dva_goda__jemu_dolzhno_khvatit_Chimajev_stal_zvezdoj_UFC__my_pogovorili_s_jego_bratom |access-date=17 January 2023 |website=matchtv |language=ru-RU |archive-date=17 January 2023 |archive-url=https://web.archive.org/web/20230117015224/https://matchtv.ru/boxing/matchtvnews_NI1247347_Khamzatu_dali_vizu_na_dva_goda__jemu_dolzhno_khvatit_Chimajev_stal_zvezdoj_UFC__my_pogovorili_s_jego_bratom |url-status=live }}</ref><ref name="auto">{{Cite web |date=15 January 2021 |title="Хочу дом в Чечне и для мамы – в Швеции". Открытие года в UFC Хамзат Чимаев рассказал про рыбалку и работу охранником |url=https://matchtv.ru/boxing/matchtvnews_NI1299052_Khochu_dom_v_Chechne_i_dla_mamy__v_Shvecii_Otkrytije_goda_v_UFC_Khamzat_Chimajev_rasskazal_pro_rybalku_i_rabotu_ohrannikom |access-date=17 January 2023 |website=matchtv |language=ru-RU |archive-date=30 December 2021 |archive-url=https://web.archive.org/web/20211230223112/https://matchtv.ru/boxing/matchtvnews_NI1299052_Khochu_dom_v_Chechne_i_dla_mamy__v_Shvecii_Otkrytije_goda_v_UFC_Khamzat_Chimajev_rasskazal_pro_rybalku_i_rabotu_ohrannikom |url-status=live }}</ref>}}
+| death_date       = 
+| death_place      = 
+| death_cause      = 
+| nationality      = Russian<br>Emirati<ref name="UAEcitizenship"/><ref>{{cite web | url=https://www.mmafighting.com/2023/10/20/23923709/khamzat-chimaev-travel-issues-uae-chechnya-russia-kamaru-usman-paulo-costa | title=Coach explains Khamzat Chimaev's travel issues, move to UAE | date=20 October 2023 }}</ref>
+| height           = {{height|ft=6|in=2}}
+| weight           = 185 lb
+| weight_class     = [[Welterweight (MMA)|Welterweight]] (2018–2022) <br> [[Middleweight (MMA)|Middleweight]] (2018–2020, 2023–present)
+| reach            = {{convert|75|in|cm|abbr=on}}<ref>{{Cite web|last=ufc.com|title=Khamzat Chimaev|url=https://www.ufc.com/athlete/khamzat-chimaev|access-date=18 September 2020|website=ufc|date=9 July 2020|archive-date=10 April 2022|archive-url=https://web.archive.org/web/20220410024421/https://www.ufc.com/athlete/khamzat-chimaev|url-status=live}}</ref>
+| style            = 
+| stance           = Orthodox<ref>{{Cite web|title=Stats {{!}} UFC|url=http://ufcstats.com/fighter-details/767755fd74662dbf|access-date=20 September 2020|website=ufcstats.com|archive-date=17 April 2022|archive-url=https://web.archive.org/web/20220417214052/http://ufcstats.com/fighter-details/767755fd74662dbf|url-status=live}}</ref>
+| fighting_out_of  = [[Dubai]], [[United Arab Emirates]]
+| team             = Allstars Training Center (2017–2023)<ref name=espn21>{{cite web|url=https://www.espn.com/mma/story/_/id/32486189/khamzat-chimaev-returning-ufc-267-circus-picking-right-back-up|title=Khamzat Chimaev is finally returning at UFC 267: 'The circus is picking right back up'|date=28 October 2021|work=[[ESPN]]|author=Brett Okamoto|access-date=16 November 2021|archive-date=13 April 2022|archive-url=https://web.archive.org/web/20220413125701/https://www.espn.com/mma/story/_/id/32486189/khamzat-chimaev-returning-ufc-267-circus-picking-right-back-up|url-status=live}}</ref><br>[[Fight Club Akhmat]]<ref>{{cite web |last1=Ranjan |first1=Soumya |title="I represent my team" - Khamzat Chimaev unites with Chechenya warlord Ramzan Kadyrov amid backlash over Sweden to UAE move |url=https://firstsportz.com/ufc-news-khamzat-chimaev-unites-with-chechenya-warlord-ramzan-kadyrov-amid-backlash-over-sweden-to-uae-move/ |website=FirstSportz |date=24 September 2023}}</ref>
+| trainer          = 
+| rank             = Black belt in [[Brazilian Jiu-Jitsu]] under Alan Nascimento<ref>{{Cite web |last=BJJEE |date=2025-08-17 |title=Khamzat Chimaev Becomes UFC Champion — Earns His Black Belt in Brazilian Jiu-Jitsu Inside the Cage |url=https://www.bjjee.com/articles/khamzat-chimaev-becomes-ufc-champion-earns-his-black-belt-in-brazilian-jiu-jitsu-inside-the-cage/ |access-date=2025-08-17 |website=Bjj Eastern Europe |language=en-US}}</ref>
+| years_active     = 2015–present ([[Freestyle wrestling]]) <br> 2018–present ([[MMA]])
+| mma_ko_win       = 6
+| mma_sub_win      = 6
+| mma_dec_win      = 3
+| mma_ko_loss      = 
+| mma_sub_loss     = 
+| mma_dec_loss     = 1
+| mma_draw         = 
+| mma_nc           = 
+| am_win           = 3
+| am_ko_win        = 1
+| am_sub_win       = 2
+| am_dec_win       = 
+| am_loss          = 
+| am_ko_loss       = 
+| am_sub_loss      = 
+| am_dec_loss      = 
+| am_draw          = 
+| am

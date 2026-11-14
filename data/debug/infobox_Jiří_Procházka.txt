@@ -1,0 +1,56 @@
+{{short description|Czech mixed martial artist (born 1992)}}
+{{about||the Czech ice dancer|Jiří Procházka (ice dancer)}}
+{{Infobox martial artist
+| name              = Jiří Procházka
+| image             = JiriProchazka2022.png
+| caption           = Procházka in 2022
+| image_size        =
+| birth_name        = 
+| birth_date        = {{birth date and age|1992|10|14}}
+| birth_place       = [[Znojmo]], [[Czech and Slovak Federative Republic|Czechoslovakia]]<ref name="iSportCZ.UFC.251">[https://www.youtube.com/watch?v=3sYFnc3yQ4E Procházka po triumfu v UFC odpovídal čtenářům: Je mi jedno, kdo bude další!], ''[[Blesk|iSport.cz]]'' 2020/07/14. Retrieved on 2 September 2020.</ref>
+| other_names       = BJP<br>Denisa<ref>{{cite web | title=Český samuraj v MMA Procházka: Soupeře nechci zmrzačit, ale porazit | date=February 2016 | url=https://www.idnes.cz/sport/mma/bojovnik-mma-jiri-prochazka-rozhovor-pro-idnes-cz.A160118_165812_sporty_pes }}</ref>
+| nationality       = Czech
+| height            = 6 ft 4 in
+| weight            = 205 lb
+| weight_class      = [[Light Heavyweight (MMA)|Light Heavyweight]] (2012–2015, 2017–present)<br/> [[Heavyweight (MMA)|Heavyweight]] (2015–2016)
+| reach             = 80 in<ref name="UFCstats" />
+| style             = 
+| stance            = Orthodox<ref name="UFCstats">{{Cite web|title=Stats|publisher=UFC|url=http://ufcstats.com/fighter-details/009341ed974bad72|access-date=2021-05-02|website=ufcstats.com}}</ref>
+| fighting_out_of   = [[Brno]], Czech Republic
+| trainer           = {{unbulleted list|Martin Karaivanov (head coach & kickboxing coach)<ref name="ProFightersDenisa2">[https://www.youtube.com/watch?v=1-kjKKrV944 Jiří "Denisa" Procházka -- cesta bojovníka 2. časť], ''ProFighters'' 2014/06/05. Retrieved on 11 July 2020.</ref>|Jaroslav Hovězák (MMA coach)<ref name="ProFightersDenisa2"/>|Zdeněk Dohnal (strength coach)<ref name="OKTAGONMAJK#1">[https://www.youtube.com/watch?v=Y32OL5KkL08 OKTAGON MAJK #1 - Ivan Buchinger a Jiří ''Denisa'' Procházka], ''OKTAGON MMA'' 2018/01/29. Retrieved on 11 July 2020.</ref>}}
+| rank              = Black belt in [[Kyokushin]]<ref>{{cite web | title=The Ariel Helwani Show &#124; Darren till, Jiri Prochazka, Cub Swanson, Patricio Pitbull &#124; Dec 16, 2024 | date=16 December 2024 | url=https://sports.yahoo.com/ariel-helwani-show-monday-20241216-065743805.html }}</ref><ref>{{cite web | title=The MMA Hour with Jiri Prochazka, Ian Machado Garry, and Paul Hughes | date=24 June 2024 | url=https://www.mmafighting.com/2024/6/24/24184308/the-mma-hour-with-devin-haney-jiri-prochazka-ian-machado-garry-paul-hughes-and-more }}</ref>
+| team              = {{unbulleted list|Jetsaam Gym Brno<ref name="BojoveSportyMCR2011">[http://www.bojovesporty.cz/magazin/magazin_video/2011_07_28_10_55_48 Jetsaam Gym má dva mistry ČR v thajském boxu], ''Bojové Sporty'' 2011/07/28. Retrieved on 11 July 2020.</ref>
+|[[Bangtao Muay Thai & MMA]]<ref>{{cite web |title=Jiri Prochazka was inspired by a 400 year old Japanese book |url=https://asianmma.com/jiri-prochazka-was-inspired-by-a-400-year-old-japanese-book/ |website=Asian MMA |language=en |date=31 May 2022}}</ref>
+|[[Xtreme Couture]]<ref name="sportskeeda">[https://www.sportskeeda.com/mma/news-i-gym-skills-ufc-light-heavyweight-champion-jiri-prochazka-reveals-left-henry-cejudo-xtreme-couture] Retrieved on 20 November 2022.</ref>}}
+| university        = [[Masaryk University]]<ref name="MUNI.Brno.ABSOLVENTI.Jiri.Prochazka">[https://www.fsps.muni.cz/o-nas/uspechy/absolventi/prochazka-jiri Úspěchy absolventů: Procházka Jiří], ''Masarykova univerzita''. Retrieved on 3 October 2021.</ref>
+| years_active      = 2012–present (MMA)
+| mma_ko_win        = 28
+| mma_sub_win       = 3
+| mma_dec_win       = 1
+| mma_ko_loss       = 5
+| mma_sub_loss      = 1
+| mma_dec_loss      = 
+| mma_draw          = 1
+| mma_nc            = 
+| website           = {{URL|www.jiribjp.com}}
+| sherdog           = 97529
+| footnotes         = 
+| updated           = 
+| Kickboxing record = 
+| medal_templates   = {{MedalSport | Men's [[Muay Thai]]}}
+{{MedalCompetition|{{flagicon|CZE}}}} [[:cs:Česká Muaythai Asociace|Czech National Championships]]
+{{MedalGold|2011 [[Prague]] |−86&nbsp;kg}}<ref name="MTMCR2011"/>
+| module            = {{infobox social media personality
+| child = yes | youtube_handle        = JiriProchazkaBJP
+| youtube_display_name  = Jiri BJP Prochazka
+| youtube_years_active  = 
+| youtube_genre         = 
+| youtube_subscribers   = 75 thousand<!-- PLEASE DO NOT CHANGE WITHOUT UPDATING stats_update BELOW -->
+| youtube_views         = 6 million<!-- PLEASE DO NOT CHANGE WITHOUT UPDATING stats_update BELOW -->
+| stats_update        = January 17, 2026
+}} 
+}}
+'''Jiří Procházka''' ({{IPA|cs|ˈjɪr̝iː ˈproxaːska|lang|Jiří Procházka.ogg}}; {{IPA|cs|ˈjɪrka||Cs-Jirka.oga}}; born October 14, 1992) is a Czech professional [[mixed martial artist]]. He currently competes in the [[Light heavyweight (MMA)|Light Heavyweight]] division of the [[Ultimate Fighting Championship]] (UFC), where he is a former [[UFC Light Heavyweight Champion]] and the first Czech fighter to win a UFC championship. He was the inaugural [[Rizin Fighting Federation#Light Heavyweight Championship|Rizin Fighting Federation Light Heavyweight Champion]] and the inaugural Gladiator Fighting Championship Light Heavyweight Champion. As of April 14, 2026, he is #3 in the [[Meta Platforms|Meta]] [[UFC rankings#Light Heavyweight|UFC light heavyweight rankings]].<ref>{{Cite web |title=UFC Rankings, Division Rankings, P4P rankings, UFC Champions {{!}} UFC.com |url=https://www.ufc.com/rankings |access-date=2026-04-14|website=www.ufc.com}}</ref>
+
+==Early life==
+Procházka was born on October 14, 1992, in a hospital in [[Znojmo]] in [[Czechoslovakia]] (now the [[Czech Republic]]),<ref name="iSportCZ.UFC.251"/> but he comes from the nearby village of [[Hostěradice]].<ref>{{cite web |title=Podávala se snídaně a šlo se fandit. Procházka ve svém rodišti zažehl euforii|url=https://www.idnes.cz/sport/mma
