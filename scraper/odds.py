@@ -6,8 +6,9 @@ from The Odds API (https://the-odds-api.com, free plan: 500 credits/month).
 One request returns every upcoming MMA fight the bookmakers are pricing.
 We average each fighter's implied win chance across bookmakers (with the
 bookmaker margin removed), then match fights to our cards by fighter name.
-Where an event still only has an estimated time and the bookmakers list a
-main-card fight close to it, their start time replaces the estimate.
+Where the bookmakers list a main-card fight close to our estimated start time,
+their start time replaces the estimate. times.py runs next, and confirmed
+times (TheSportsDB, your overrides) win over bookmaker times.
 
 Needs the API key in the ODDS_API_KEY environment variable (a GitHub secret).
 
@@ -171,8 +172,8 @@ def main():
                         and abs(when - estimate) <= TRUST_WINDOW_MS:
                     main_card_times.append(when)
                 break
-        if main_card_times and event.get("timeEstimated", True):
-            # bookmakers' start time for the main card replaces our estimate (never a confirmed time)
+        if main_card_times:
+            # bookmakers' start time for the main card replaces our estimate (times.py runs next and wins)
             event["startMs"] = min(main_card_times)
             event["timeEstimated"] = False
 

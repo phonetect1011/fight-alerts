@@ -8,9 +8,12 @@ the estimate with a confirmed time, in this order:
   1. data/time-overrides.json  - times you type in yourself (always wins)
   2. TheSportsDB               - free sports API (shared key "123"); its time is when the
                                  event starts (first fight), in UTC. If that's hours before
-                                 the main card it's saved as the prelims start instead
-  3. otherwise the estimate stays and the app shows "(approx.)"; odds.py may still
-     use a bookmaker time if it's close to the estimate
+                                 the main card it's saved as the first prelims section instead
+  3. otherwise a bookmaker time (odds.py runs first) if it was close to the estimate,
+     or the estimate itself, which the app shows as "(approx.)"
+
+Every section on the card (early prelims, prelims, main card) then gets its own start time:
+confirmed where known, otherwise estimated from the usual gaps and flagged as an estimate.
 
 The app converts every time to the phone's own timezone.
 
@@ -103,6 +106,29 @@ def same_event(ours, theirs):
     return len(names_a & names_b) >= 2    # e.g. both main-event surnames
 
 
+def sections(e):
+    return {b.get("section") for b in e.get("bouts", [])}
+
+
+def fill_section_times(e):
+    """Give every section on the card a start time. Confirmed times are kept; the rest are estimated
+    from the usual gaps (UFC numbered events: early prelims 4h and prelims 2h before the main card;
+    Fight Nights: prelims about 3h before; other promotions about 2h) and flagged as estimates."""
+    secs = sections(e)
+    main = e["startMs"]
+    numbered = bool(re.match(r"ufc \d+", e["title"].lower()))
+    gap = 2 if numbered or e["promotion"] != "UFC" else 3
+    if "Prelims" in secs and not e.get("prelimsMs"):
+        e["prelimsMs"], e["prelimsEstimated"] = main - gap * 3_600_000, True
+    if "Early prelims" in secs and not e.get("earlyPrelimsMs"):
+        base = e.get("prelimsMs") or main
+        e["earlyPrelimsMs"], e["earlyPrelimsEstimated"] = base - 2 * 3_600_000, True
+    # keep the order sensible if a confirmed time and an estimate disagree
+    if e.get("earlyPrelimsMs") and e.get("prelimsMs") and e["earlyPrelimsMs"] >= e["prelimsMs"] \
+            and e.get("prelimsEstimated"):
+        e["prelimsMs"] = e["earlyPrelimsMs"] + 90 * 60_000
+
+
 def main():
     path = sys.argv[1] if len(sys.argv) > 1 else "data/events.json"
     folder = os.path.dirname(path) or "."
@@ -143,7 +169,7 @@ def main():
             cache[day] = {"checked": now, "events": [
                 {"strLeague": x.get("strLeague"), "strEvent": x.get("strEvent"), "strTimestamp": x.get("strTimestamp"),
                  "strTimeLocal": x.get("strTimeLocal")} for x in found]}
-    # also look at the day after (UTC dates can run a day ahead of the local date)
+    # also look at the day before/after (UTC dates can differ from the local date)
     confirmed = 0
     for e in events:
         if not e.get("date"):
@@ -155,9 +181,12 @@ def main():
         for x in candidates:
             when = sportsdb_start(x)
             if when and same_event(e, x) and abs(when - e["startMs"]) < 1.5 * DAY_MS:
-                if when < e["startMs"] - 2 * 3_600_000:
-                    # TheSportsDB gives the first fight; well before the main card means that's the prelims
-                    e["prelimsMs"] = when
+                if when < e["startMs"] - 90 * 60_000:
+                    # TheSportsDB gives the first fight; well before the main card means it's the first prelim
+                    if "Early prelims" in sections(e):
+                        e["earlyPrelimsMs"], e["earlyPrelimsEstimated"] = when, False
+                    else:
+                        e["prelimsMs"], e["prelimsEstimated"] = when, False
                 else:
                     e["startMs"], e["timeEstimated"], e["timeSource"] = when, False, "TheSportsDB"
                 confirmed += 1
@@ -174,6 +203,9 @@ def main():
                     used += 1
                 except ValueError as err:
                     print(f"[WARN] Could not read the time for '{key}': {value} ({err})")
+
+    for e in events:
+        fill_section_times(e)
 
     # drop cache days that have passed
     cache = {d: v for d, v in cache.items() if d >= (dt.date.today() - dt.timedelta(days=2)).isoformat()}

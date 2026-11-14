@@ -41,17 +41,17 @@ jobs:
         timeout-minutes: 12
         run: python scraper/wiki.py data/events.json
 
-      - name: Confirmed start times (your overrides + TheSportsDB)
-        continue-on-error: true
-        timeout-minutes: 5
-        run: python scraper/times.py data/events.json
-
       - name: Odds and start times from The Odds API
         id: odds
         continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python scraper/odds.py data/events.json
+
+      - name: Confirmed start times (your overrides + TheSportsDB, then section times)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python scraper/times.py data/events.json
 
       - name: Save data to repo
         run: |
