@@ -1,10 +1,10 @@
 {
- "generatedMs": 1794642693451,
+ "generatedMs": 1794643280066,
  "source": "next-fight.com",
  "health": {
   "UFC": {
    "ok": true,
-   "events": 3,
+   "events": 5,
    "message": ""
   },
   "BKFC": {
@@ -14,7 +14,7 @@
   },
   "ONE": {
    "ok": true,
-   "events": 2,
+   "events": 5,
    "message": ""
   },
   "RAF": {
@@ -34,123 +34,180 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Khamzat Chimaev Khamzat Chimaev",
+     "a": "Khamzat Chimaev",
      "b": "Chris Weidman",
      "section": "Main Event",
-     "weight": "Light Heavyweight",
-     "title": true
+     "weight": "Light Heavyweight Crossover",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Arman Tsarukyan Arman Tsarukyan",
+     "a": "Arman Tsarukyan",
      "b": "Neiman Gracie",
-     "section": "Co-main Event",
+     "section": "Co-main event",
      "weight": "Catchweight Crossover",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Khamzat Chimaev Khamzat Chimaev",
+     "a": "Khamzat Chimaev",
      "b": "Colby Covington",
-     "section": "Co-main Event",
-     "weight": "Cruiserweight",
-     "title": true
+     "section": "Undercard",
+     "weight": "Cruiserweight Crossover",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Zabit Magomedsharipov Zabit Magomedsharipov",
+     "a": "Zabit Magomedsharipov",
      "b": "Giga Chikadze",
-     "section": "Co-main Event",
-     "weight": "Welterweight",
-     "title": true
+     "section": "Undercard",
+     "weight": "Welterweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Umar Nurmagomedov Umar Nurmagomedov",
-     "b": "Urijah Faber",
-     "section": "Co-main Event",
-     "weight": "Cruiserweight",
-     "title": true
-    },
-    {
-     "a": "Shamil Erdogan Shamil Erdogan",
-     "b": "Diana Avsaragova",
-     "section": "Co-main Event",
+     "a": "Abdulrashid Sadulaev",
+     "b": "Dauren Kurugliev",
+     "section": "Undercard",
      "weight": "Light Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Julianna Peña Julianna Peña",
-     "b": "Merab Dvalishvili",
-     "section": "Co-main Event",
-     "weight": "Middleweight",
-     "title": false
+     "a": "Kyle Dake",
+     "b": "Alp Arslan Begenjov",
+     "section": "Undercard",
+     "weight": "Cruiserweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Marlon Moraes Marlon Moraes",
-     "b": "Ali AlQaisi",
-     "section": "Co-main Event",
+     "a": "Umar Nurmagomedov",
+     "b": "Urijah Faber",
+     "section": "Undercard",
+     "weight": "Lightweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Urijah Faber",
+     "b": "Saba Lazishvili",
+     "section": "Undercard",
      "weight": "Catchweight Crossover",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Hamza Kooheji Hamza Kooheji",
-     "b": "Bella Mir",
-     "section": "Co-main Event",
+     "a": "Jordan Burroughs",
+     "b": "Azamat Nurykau",
+     "section": "Undercard",
+     "weight": "Middleweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Kyle Snyder",
+     "b": "Shamil Erdogan",
+     "section": "Undercard",
+     "weight": "Light Heavyweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Murtaza Talha",
+     "b": "Osama Elsaidy",
+     "section": "Undercard",
+     "weight": "Light Heavyweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Diana Avsaragova",
+     "b": "Julianna Peña",
+     "section": "Undercard",
+     "weight": "Middleweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Merab Dvalishvili",
+     "b": "Marlon Moraes",
+     "section": "Undercard",
+     "weight": "Catchweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Zahid Valencia",
+     "b": "Khidir Saipudinov",
+     "section": "Undercard",
+     "weight": "Cruiserweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Ali AlQaisi",
+     "b": "Hamza Kooheji",
+     "section": "Undercard",
      "weight": "Lightweight",
-     "title": true
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Khamzat Chimaev 15-1-0",
-     "b": "Chris Weidman 16-8-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Colby Covington 17-5-0",
-     "b": "Arman Tsarukyan 24-3-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Neiman Gracie 13-6-0",
-     "b": "Zabit Magomedsharipov 18-1-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Giga Chikadze 15-7-0",
-     "b": "Umar Nurmagomedov 20-2-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Urijah Faber 35-11-0",
-     "b": "Shamil Erdogan 14-0-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Diana Avsaragova 6-2-0",
-     "b": "Julianna Pena 12-6-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Merab Dvalishvili 21-6-0",
-     "b": "Marlon Moraes 24-13-1",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Ali AlQaisi 16-10-0",
-     "b": "Hamza Kooheji 15-4-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Kennedy Blades",
+     "b": "Bella Mir",
+     "section": "Undercard",
+     "weight": "Middleweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     }
    ]
   },
@@ -161,98 +218,150 @@
    "url": "https://next-fight.com/en/event/ufc-334",
    "startMs": 1794708000000,
    "prelimsMs": 1794700800000,
-   "earlyPrelimsMs": null,
+   "earlyPrelimsMs": 1794693600000,
    "bouts": [
     {
-     "a": "Ciryl Gane C Ciryl Gane",
+     "a": "Ciryl Gane",
      "b": "Josh Hokit",
      "section": "Main Event",
-     "weight": "Heavyweight",
-     "title": true
+     "weight": "Heavyweight · 5 rounds",
+     "title": true,
+     "aRank": "C",
+     "bRank": "#5",
+     "aRecord": "14-2-0",
+     "bRecord": "10-0-0"
     },
     {
-     "a": "Kayla Harrison C Kayla Harrison",
+     "a": "Kayla Harrison",
      "b": "Amanda Nunes",
-     "section": "Co-main Event",
+     "section": "Co-main event",
      "weight": "Bantamweight",
-     "title": true
+     "title": true,
+     "aRank": "C",
+     "bRank": "",
+     "aRecord": "19-1-0",
+     "bRecord": "23-5-0"
     },
     {
-     "a": "Caio Borralho #6 Caio Borralho",
+     "a": "Caio Borralho",
      "b": "Yousri Belgaroui",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Middleweight",
-     "title": false
+     "title": false,
+     "aRank": "#6",
+     "bRank": "",
+     "aRecord": "18-2-0",
+     "bRecord": "11-3-0"
     },
     {
-     "a": "Uros Medic #9 Uros Medic",
+     "a": "Uros Medic",
      "b": "Kevin Holland",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Welterweight",
-     "title": false
+     "title": false,
+     "aRank": "#9",
+     "bRank": "#15",
+     "aRecord": "14-3-0",
+     "bRecord": "29-15-0"
     },
     {
-     "a": "Bilal Hasan Bilal Hasan",
+     "a": "Bilal Hasan",
      "b": "Luis Gurule",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Flyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "10-0-0",
+     "bRecord": "11-4-0"
     },
     {
-     "a": "Stephen Thompson Stephen Thompson",
+     "a": "Stephen Thompson",
      "b": "Charles Radtke",
      "section": "Prelims",
      "weight": "Welterweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "17-9-1",
+     "bRecord": "12-5-0"
     },
     {
-     "a": "Drew Dober Drew Dober",
+     "a": "Drew Dober",
      "b": "Chris Duncan",
      "section": "Prelims",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "29-15-0",
+     "bRecord": "15-3-0"
     },
     {
-     "a": "Jim Miller Jim Miller",
+     "a": "Jim Miller",
      "b": "Terrance McKinney",
      "section": "Prelims",
-     "weight": "Catchweight",
-     "title": false
+     "weight": "Catchweight · 160 lb",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "39-19-0",
+     "bRecord": "18-9-0"
     },
     {
-     "a": "Donte Johnson Donte Johnson",
+     "a": "Donte Johnson",
      "b": "Cesar Almeida",
      "section": "Prelims",
-     "weight": "Catchweight",
-     "title": false
+     "weight": "Catchweight · 190 lb",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "9-0-0",
+     "bRecord": "7-3-0"
     },
     {
-     "a": "Jared Gordon Jared Gordon",
+     "a": "Jared Gordon",
      "b": "Melquizael Costa",
-     "section": "Early Prelims",
+     "section": "Early prelims",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "#12",
+     "aRecord": "21-9-0",
+     "bRecord": "26-8-0"
     },
     {
-     "a": "Macy Chiasson #14 Macy Chiasson",
+     "a": "Macy Chiasson",
      "b": "Bia Mesquita",
-     "section": "Early Prelims",
+     "section": "Early prelims",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "#14",
+     "bRank": "#11",
+     "aRecord": "10-6-0",
+     "bRecord": "8-0-0"
     },
     {
-     "a": "Juan Diaz Juan Diaz",
+     "a": "Juan Diaz",
      "b": "Heili Alateng",
-     "section": "Early Prelims",
+     "section": "Early prelims",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "16-1-1",
+     "bRecord": "18-10-2"
     },
     {
-     "a": "Evan Elder Evan Elder",
+     "a": "Evan Elder",
      "b": "Samuel Sanches",
-     "section": "Early Prelims",
+     "section": "Early prelims",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "10-2-0",
+     "bRecord": "11-1-0"
     }
    ]
   },
@@ -266,32 +375,48 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Joshua Pacio Joshua Pacio",
+     "a": "Joshua Pacio",
      "b": "Keito Yamakita",
      "section": "Main Event",
-     "weight": "Flyweight",
-     "title": true
+     "weight": "Flyweight · 5 rounds",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "24-5-0",
+     "bRecord": "13-1-0"
     },
     {
-     "a": "Tatsumitsu Wada Tatsumitsu Wada",
+     "a": "Tatsumitsu Wada",
      "b": "Jarred Brooks",
-     "section": "Co-main Event",
+     "section": "Co-main event",
      "weight": "Flyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "26-14-2",
+     "bRecord": "21-6-0"
     },
     {
-     "a": "Ryugo Takeuchi Ryugo Takeuchi",
-     "b": "BH",
-     "section": "Co-main Event",
+     "a": "Ryugo Takeuchi",
+     "b": "Brandon Hashimoto",
+     "section": "Other fights",
      "weight": "Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "5-3-0",
+     "bRecord": "8-2-0"
     },
     {
-     "a": "Shosuke Kinoshita Shosuke Kinoshita",
+     "a": "Shosuke Kinoshita",
      "b": "Takuya Shibamura",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "13-7-1",
+     "bRecord": "6-1-0"
     }
    ]
   },
@@ -305,11 +430,15 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Allycia Hellen Rodrigues Allycia Hellen Rodrigues",
-     "b": "CP",
-     "section": "",
+     "a": "Allycia Hellen Rodrigues",
+     "b": "Charlotte Padie",
+     "section": "Announced fights",
      "weight": "Strawweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "0-0-0",
+     "bRecord": "0-0-0"
     }
    ]
   },
@@ -323,102 +452,114 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Keith Richardson Keith Richardson",
-     "b": "Derek Brunson",
+     "a": "Keith Richardson",
+     "b": "Joshua Oxendine",
      "section": "Main Event",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Theo Doukas Theo Doukas",
-     "b": "RJ",
-     "section": "Co-main Event",
+     "a": "Derek Brunson",
+     "b": "Theo Doukas",
+     "section": "Co-main event",
      "weight": "Cruiserweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Diego Romo Diego Romo",
-     "b": "Windson Ramos",
-     "section": "Co-main Event",
+     "a": "Ryan Jett",
+     "b": "Rodney Hinton",
+     "section": "Undercard",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Evan Pierce",
+     "b": "Diego Romo",
+     "section": "Undercard",
      "weight": "Middleweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Robert Fichtner Robert Fichtner",
-     "b": "BB",
-     "section": "Co-main Event",
+     "a": "Windson Ramos",
+     "b": "Robert Fichtner",
+     "section": "Undercard",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Austin Coleman Austin Coleman",
-     "b": "AE",
-     "section": "Co-main Event",
+     "a": "Brandon Bushaw",
+     "b": "Joshua Claudio",
+     "section": "Undercard",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Amos Collins Amos Collins",
+     "a": "Austin Coleman",
+     "b": "Alex Eliam",
+     "section": "Undercard",
+     "weight": "Bantamweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Amos Collins",
      "b": "Ashton Caniglia",
-     "section": "Co-main Event",
+     "section": "Undercard",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Maurice Morris Maurice Morris",
-     "b": "LG",
-     "section": "Co-main Event",
+     "a": "Justin Howell",
+     "b": "Brian Maxwell",
+     "section": "Undercard",
      "weight": "Light Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Keith Richardson 22-11-0",
-     "b": "Derek Brunson 24-9-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Theo Doukas 2-2-0",
-     "b": "Ryan Jett 5-9-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Diego Romo 3-1-0",
-     "b": "Windson Ramos 5-3-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Robert Fichtner 0-0-0",
-     "b": "Brandon Bushaw 6-6-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Austin Coleman 6-8-0",
-     "b": "Alex Eliam 1-3-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Amos Collins 6-7-0",
-     "b": "Ashton Caniglia 8-10-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Maurice Morris 6-6-0",
-     "b": "Lewis Glover 0-2-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Maurice Morris",
+     "b": "Lewis Glover",
+     "section": "Undercard",
+     "weight": "Cruiserweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     }
    ]
   },
@@ -432,81 +573,125 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Jiri Prochazka #3 Jiri Prochazka",
+     "a": "Jiri Prochazka",
      "b": "Navajo Stirling",
      "section": "Main Event",
-     "weight": "Light Heavyweight",
-     "title": false
+     "weight": "Light Heavyweight · 5 rounds",
+     "title": false,
+     "aRank": "#3",
+     "bRank": "#7",
+     "aRecord": "32-6-1",
+     "bRecord": "11-0-0"
     },
     {
-     "a": "Aljamain Sterling #4 Aljamain Sterling",
+     "a": "Aljamain Sterling",
      "b": "Kevin Vallejos",
-     "section": "Co-main Event",
+     "section": "Co-main event",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "#4",
+     "bRank": "#10",
+     "aRecord": "26-5-0",
+     "bRecord": "18-1-0"
     },
     {
-     "a": "Dan Hooker Dan Hooker",
+     "a": "Dan Hooker",
      "b": "Brian Ortega",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "24-15-0",
+     "bRecord": "16-5-0"
     },
     {
-     "a": "Kyoji Horiguchi #7 Kyoji Horiguchi",
+     "a": "Kyoji Horiguchi",
      "b": "Asu Almabayev",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Flyweight",
-     "title": false
+     "title": false,
+     "aRank": "#7",
+     "bRank": "#6",
+     "aRecord": "36-6-0",
+     "bRecord": "24-3-0"
     },
     {
-     "a": "Ikram Aliskerov #11 Ikram Aliskerov",
+     "a": "Ikram Aliskerov",
      "b": "Jared Cannonier",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Middleweight",
-     "title": false
+     "title": false,
+     "aRank": "#11",
+     "bRank": "",
+     "aRecord": "18-2-0",
+     "bRecord": "18-10-0"
     },
     {
-     "a": "Aleksandre Topuria Aleksandre Topuria",
+     "a": "Aleksandre Topuria",
      "b": "Santiago Luna",
-     "section": "Main Card",
+     "section": "Main card",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "7-1-0",
+     "bRecord": "8-1-0"
     },
     {
-     "a": "Shamil Gaziev Shamil Gaziev",
+     "a": "Shamil Gaziev",
      "b": "Tallison Teixeira",
      "section": "Prelims",
      "weight": "Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "15-3-0",
+     "bRecord": "9-2-0"
     },
     {
-     "a": "Amir Albazi #8 Amir Albazi",
+     "a": "Amir Albazi",
      "b": "Alessandro Costa",
      "section": "Prelims",
      "weight": "Flyweight",
-     "title": false
+     "title": false,
+     "aRank": "#8",
+     "bRank": "",
+     "aRecord": "17-3-0",
+     "bRecord": "17-5-0"
     },
     {
-     "a": "Jake Matthews Jake Matthews",
+     "a": "Jake Matthews",
      "b": "Tahir Abdullayev",
      "section": "Prelims",
      "weight": "Welterweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "23-8-0",
+     "bRecord": "20-3-0"
     },
     {
-     "a": "Nikolas Motta Nikolas Motta",
+     "a": "Nikolas Motta",
      "b": "Dom Mar Fan",
-     "section": "Prelims",
+     "section": "Other fights",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "15-6-0",
+     "bRecord": "9-3-0"
     },
     {
-     "a": "Diyar Nurgozhay Diyar Nurgozhay",
+     "a": "Diyar Nurgozhay",
      "b": "Alik Lorenz",
-     "section": "Prelims",
+     "section": "Other fights",
      "weight": "Light Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "12-2-0",
+     "bRecord": "8-2-0"
     }
    ]
   },
@@ -520,81 +705,345 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Henry Cejudo Henry Cejudo",
-     "b": "Donald Cerrone",
+     "a": "Henry Cejudo",
+     "b": "Song Yadong",
      "section": "Main Event",
-     "weight": "Lightweight",
-     "title": true
+     "weight": "Lightweight Crossover",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Anthony Pettis Anthony Pettis",
-     "b": "Arman Tsarukyan",
-     "section": "Co-main Event",
-     "weight": "Cruiserweight",
-     "title": true
+     "a": "Donald Cerrone",
+     "b": "Anthony Pettis",
+     "section": "Co-main event",
+     "weight": "Cruiserweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Anthony Pettis Anthony Pettis",
-     "b": "SR",
-     "section": "Co-main Event",
+     "a": "Arman Tsarukyan",
+     "b": "Anthony Pettis",
+     "section": "Undercard",
+     "weight": "Middleweight Crossover",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Kennedy Blades",
+     "b": "Alexis Gomez",
+     "section": "Undercard",
      "weight": "Middleweight",
-     "title": true
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Sergio Pettis Sergio Pettis",
-     "b": "Cody Garbrandt",
-     "section": "Co-main Event",
+     "a": "Real Woods",
+     "b": "Sebastian Rivera",
+     "section": "Undercard",
      "weight": "Featherweight",
-     "title": false
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Raúl Rosas Jr. Raúl Rosas Jr.",
-     "b": "Clay Guida",
-     "section": "Co-main Event",
-     "weight": "Cruiserweight",
-     "title": true
+     "a": "Sergio Pettis",
+     "b": "Cody Garbrandt",
+     "section": "Undercard",
+     "weight": "Featherweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Miranda Maverick Miranda Maverick",
-     "b": "Danny Sabatello",
-     "section": "Co-main Event",
+     "a": "Roman Bravo-Young",
+     "b": "Matt Ramos",
+     "section": "Undercard",
      "weight": "Bantamweight",
-     "title": true
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Henry Cejudo 16-6-0",
-     "b": "Donald Cerrone 36-17-0",
-     "section": "Co-main Event",
+     "a": "Chance Marsteller",
+     "b": "Akhmed Usmanov",
+     "section": "Undercard",
+     "weight": "Cruiserweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Raúl Rosas Jr.",
+     "b": "Clay Guida",
+     "section": "Undercard",
+     "weight": "Lightweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Michael Caliendo",
+     "b": "Cesar Alvan",
+     "section": "Undercard",
+     "weight": "Welterweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Geno Petriashvili",
+     "b": "Yonger Bastida",
+     "section": "Undercard",
+     "weight": "Heavyweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Haley Augello",
+     "b": "Miranda Maverick",
+     "section": "Undercard",
+     "weight": "Bantamweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Cayden Henschel",
+     "b": "Conor Beebe",
+     "section": "Undercard",
+     "weight": "Featherweight Crossover",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Danny Sabatello",
+     "b": "Jacob Schultz",
+     "section": "Undercard",
+     "weight": "Lightweight Crossover",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    }
+   ]
+  },
+  {
+   "id": "one-one-championship-one-samurai-6",
+   "promotion": "ONE",
+   "title": "One Championship - ONE Samurai 6",
+   "url": "https://next-fight.com/en/event/one-championship-one-samurai-6",
+   "startMs": 1796169600000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Chihiro Sawada",
+     "b": "Anastasia Nikolakakos",
+     "section": "Announced fights",
+     "weight": "Strawweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "12-1-1",
+     "bRecord": "7-0-0"
+    },
+    {
+     "a": "Koha Minowa",
+     "b": "Fabio Henrique Dourado",
+     "section": "Announced fights",
+     "weight": "Flyweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "16-6-0",
+     "bRecord": "16-2-0"
+    },
+    {
+     "a": "Taiga Orii",
+     "b": "Ryo Hirayama",
+     "section": "Announced fights",
+     "weight": "Featherweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "5-0-0",
+     "bRecord": "4-1-0"
+    }
+   ]
+  },
+  {
+   "id": "ufc-ufc-fight-night-295-riyadh",
+   "promotion": "UFC",
+   "title": "UFC Fight Night: Adesanya vs Magomedov",
+   "url": "https://next-fight.com/en/event/ufc-fight-night-295-riyadh",
+   "startMs": 1796428800000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Israel Adesanya",
+     "b": "Sharabutdin Magomedov",
+     "section": "Main Event",
+     "weight": "Middleweight · 5 rounds",
+     "title": false,
+     "aRank": "#10",
+     "bRank": "",
+     "aRecord": "24-6-0",
+     "bRecord": "17-1-0"
+    },
+    {
+     "a": "Ian Garry",
+     "b": "Yaroslav Amosov",
+     "section": "Co-main event",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "#2",
+     "bRank": "#13",
+     "aRecord": "17-2-0",
+     "bRecord": "30-1-0"
+    },
+    {
+     "a": "Serghei Spivac",
+     "b": "Mario Pinto",
+     "section": "Other fights",
+     "weight": "Heavyweight",
+     "title": false,
+     "aRank": "#14",
+     "bRank": "#10",
+     "aRecord": "18-7-0",
+     "bRecord": "13-0-0"
+    },
+    {
+     "a": "Islam Dulatov",
+     "b": "Levan Chokheli",
+     "section": "Other fights",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "12-1-0",
+     "bRecord": "15-3-0"
+    },
+    {
+     "a": "Akbar Abdullaev",
+     "b": "Mairon Santos",
+     "section": "Other fights",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "14-0-0",
+     "bRecord": "17-1-0"
     },
     {
-     "a": "Anthony Pettis 25-14-0",
-     "b": "Arman Tsarukyan 24-3-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Ion Cutelaba",
+     "b": "Magomed Tuchalov",
+     "section": "Other fights",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "20-12-1",
+     "bRecord": "6-0-0"
     },
     {
-     "a": "Sebastian Rivera 0-0-0",
-     "b": "Sergio Pettis 25-8-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Jafel Filho",
+     "b": "Bruno Silva",
+     "section": "Other fights",
+     "weight": "Flyweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "17-5-0",
+     "bRecord": "15-9-2"
     },
     {
-     "a": "Cody Garbrandt 15-8-0",
-     "b": "Raul Rosas Jr. 13-1-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Ivan Gnizditskiy",
+     "b": "Uran Satybaldiev",
+     "section": "Other fights",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "7-0-0",
+     "bRecord": "9-1-0"
     },
     {
-     "a": "Clay Guida 38-25-0",
-     "b": "Miranda Maverick 15-6-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Jun Yong Park",
+     "b": "Marco Tulio",
+     "section": "Other fights",
+     "weight": "Middleweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "19-7-0",
+     "bRecord": "14-3-0"
+    },
+    {
+     "a": "Pavel Andrusca",
+     "b": "Mehemmedali Osmanli",
+     "section": "Other fights",
+     "weight": "Bantamweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "9-0-0",
+     "bRecord": "11-2-0"
+    },
+    {
+     "a": "Matthieu Letho Duclos",
+     "b": "Modestino Rodrigues",
+     "section": "Other fights",
+     "weight": "Middleweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "11-3-0",
+     "bRecord": "8-1-0"
+    },
+    {
+     "a": "Hecher Sosa",
+     "b": "Abdul Hussein",
+     "section": "Other fights",
+     "weight": "Bantamweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "14-1-0",
+     "bRecord": "16-2-0"
     }
    ]
   },
@@ -608,123 +1057,147 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Dustin Pague Dustin Pague",
+     "a": "Dustin Pague",
      "b": "Mike Richman",
      "section": "Main Event",
      "weight": "Middleweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Sam Alvey Sam Alvey",
-     "b": "JM",
-     "section": "Co-main Event",
+     "a": "Sam Alvey",
+     "b": "Jonathan Miller",
+     "section": "Co-main event",
+     "weight": "",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Matt Semelsberger",
+     "b": "Michael Manno",
+     "section": "Undercard",
      "weight": "Middleweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Michael Manno Michael Manno",
-     "b": "JV",
-     "section": "Co-main Event",
+     "a": "Benjamin Moser",
+     "b": "Julian Valencia",
+     "section": "Undercard",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Elijah Harris Elijah Harris",
-     "b": "Jay Haas",
-     "section": "Co-main Event",
+     "a": "Pat Carroll",
+     "b": "Nelson Best",
+     "section": "Undercard",
      "weight": "Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Eduardo Peralta Eduardo Peralta",
-     "b": "Hunter Starner",
-     "section": "Co-main Event",
+     "a": "Elijah Harris",
+     "b": "Stevo Morris",
+     "section": "Undercard",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Blaine Shutt Blaine Shutt",
-     "b": "LL",
-     "section": "Co-main Event",
+     "a": "Jay Haas",
+     "b": "Eduardo Peralta",
+     "section": "Undercard",
+     "weight": "Featherweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Hunter Starner",
+     "b": "Blaine Shutt",
+     "section": "Undercard",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Tim Yanc Tim Yanc",
-     "b": "MS",
-     "section": "Co-main Event",
+     "a": "Lex Ludlow",
+     "b": "Mike Liberto",
+     "section": "Undercard",
      "weight": "Cruiserweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Zachary Shingara Zachary Shingara",
-     "b": "FB",
-     "section": "Co-main Event",
+     "a": "Tim Yanc",
+     "b": "Malcolm Schuyler",
+     "section": "Undercard",
+     "weight": "Bantamweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Zach Pannell",
+     "b": "Zachary Shingara",
+     "section": "Undercard",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Brian Newman Brian Newman",
-     "b": "Dustin Pague 12-11-0",
-     "section": "Co-main Event",
+     "a": "Colin Reeser",
+     "b": "Fabricio Berrun",
+     "section": "Undercard",
+     "weight": "Featherweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Brian Newman",
+     "b": "Dale Reed",
+     "section": "Undercard",
      "weight": "Heavyweight",
-     "title": false
-    },
-    {
-     "a": "Mike Richman 18-8-0",
-     "b": "Sam Alvey 34-18-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Jonathan Miller 0-0-0",
-     "b": "Michael Manno 3-4-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Julian Valencia 0-0-0",
-     "b": "Elijah Harris 6-12-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Jay Haas 17-21-0",
-     "b": "Eduardo Peralta 3-4-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Hunter Starner 3-3-0",
-     "b": "Blaine Shutt 8-6-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Lex Ludlow 2-4-0",
-     "b": "Tim Yanc 0-0-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Malcolm Schuyler 1-1-0",
-     "b": "Zachary Shingara 1-1-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Fabricio Berrun 0-0-0",
-     "b": "Brian Newman 0-0-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     }
    ]
   },
@@ -738,60 +1211,92 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Clay Collard Clay Collard",
-     "b": "Joe Elmore",
+     "a": "Bryce Henry",
+     "b": "Clay Collard",
      "section": "Main Event",
      "weight": "Welterweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Jessica Eye Jessica Eye",
-     "b": "Desiree Yanez",
-     "section": "Co-main Event",
-     "weight": "Flyweight",
-     "title": false
-    },
-    {
-     "a": "Francesco Ricchi Francesco Ricchi",
-     "b": "Zeb Vincent",
-     "section": "Co-main Event",
-     "weight": "Middleweight",
-     "title": false
-    },
-    {
-     "a": "Murat Kazgan Murat Kazgan",
-     "b": "JW",
-     "section": "Co-main Event",
+     "a": "Gorjan Slaveski",
+     "b": "Joe Elmore",
+     "section": "Co-main event",
      "weight": "Welterweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Clay Collard 25-15-0",
-     "b": "Joe Elmore 13-12-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Jessica Eye",
+     "b": "Desiree Yanez",
+     "section": "Undercard",
+     "weight": "Flyweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Jessica Eye 15-11-0",
-     "b": "Desiree Yanez 7-6-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Francesco Ricchi",
+     "b": "Zeb Vincent",
+     "section": "Undercard",
+     "weight": "Middleweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Francesco Ricchi 1-0-0",
-     "b": "Zeb Vincent 2-1-0",
-     "section": "Co-main Event",
+     "a": "Brandon Alfano",
+     "b": "Alex Davis",
+     "section": "Undercard",
      "weight": "",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Murat Kazgan 4-2-0",
-     "b": "Justin Walters 0-1-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Murat Kazgan",
+     "b": "Israel Rodriguez",
+     "section": "Undercard",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Howard Davis",
+     "b": "Elvin Brito",
+     "section": "Undercard",
+     "weight": "Lightweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Leo Acanda",
+     "b": "Justin Walters",
+     "section": "Undercard",
+     "weight": "Middleweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     }
    ]
   },
@@ -805,81 +1310,147 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Charles Oliveira #3 Charles Oliveira",
+     "a": "Charles Oliveira",
      "b": "Diego Lopes",
      "section": "Main Event",
-     "weight": "Lightweight",
-     "title": true
+     "weight": "Lightweight · 5 rounds",
+     "title": true,
+     "aRank": "#3",
+     "bRank": "#2",
+     "aRecord": "37-11-0",
+     "bRecord": "28-8-0"
     },
     {
-     "a": "Alex Pereira #1 Alex Pereira",
+     "a": "Alex Pereira",
      "b": "Sergei Pavlovich",
-     "section": "Co-main Event",
+     "section": "Co-main event",
      "weight": "Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "#1",
+     "bRank": "#4",
+     "aRecord": "13-4-0",
+     "bRecord": "21-3-0"
     },
     {
-     "a": "Brandon Moreno #9 Brandon Moreno",
+     "a": "Brandon Moreno",
      "b": "Charles Johnson",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Flyweight",
-     "title": false
+     "title": false,
+     "aRank": "#9",
+     "bRank": "#15",
+     "aRecord": "24-10-2",
+     "bRecord": "20-9-0"
     },
     {
-     "a": "Yair Rodriguez Yair Rodriguez",
+     "a": "Yair Rodriguez",
      "b": "Steve Garcia",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "#13",
+     "aRecord": "20-5-0",
+     "bRecord": "19-6-0"
     },
     {
-     "a": "Baisangur Susurkaev Baisangur Susurkaev",
+     "a": "Baisangur Susurkaev",
      "b": "Damian Pinas",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Middleweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "12-0-0",
+     "bRecord": "11-1-0"
     },
     {
-     "a": "Angela Hill Angela Hill",
+     "a": "Angela Hill",
      "b": "Shanelle Dyer",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Strawweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "19-16-0",
+     "bRecord": "8-1-0"
     },
     {
-     "a": "Chase Hooper Chase Hooper",
+     "a": "Chase Hooper",
      "b": "Chris Padilla",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "17-5-1",
+     "bRecord": "18-6-1"
     },
     {
-     "a": "Jacqueline Cavalcanti #6 Jacqueline Cavalcanti",
+     "a": "Jacqueline Cavalcanti",
      "b": "Michelle Montague",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Bantamweight",
-     "title": false
+     "title": false,
+     "aRank": "#6",
+     "bRank": "#7",
+     "aRecord": "10-2-0",
+     "bRecord": "8-0-0"
     },
     {
-     "a": "Quentin Pasley Quentin Pasley",
+     "a": "Quentin Pasley",
      "b": "Junior Tafa",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Light Heavyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "4-0-0",
+     "bRecord": "7-6-0"
     },
     {
-     "a": "Ronald Humphrey Ronald Humphrey",
+     "a": "Ronald Humphrey",
      "b": "Nikolay Veretennikov",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Welterweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "5-0-0",
+     "bRecord": "14-8-0"
     },
     {
-     "a": "Roque Conceicao Moreira Junior Roque Conceicao Moreira Junior",
+     "a": "Roque Conceicao Moreira Junior",
      "b": "Nilson Rojas",
-     "section": "Co-main Event",
+     "section": "Other fights",
      "weight": "Flyweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "12-3-0",
+     "bRecord": "9-1-0"
+    }
+   ]
+  },
+  {
+   "id": "one-one-championship-one-on-prime-video-50",
+   "promotion": "ONE",
+   "title": "One Championship - One on Prime Video 50",
+   "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-50",
+   "startMs": 1797552000000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Maurice Abevi",
+     "b": "Dzhabir Dzhabrailov",
+     "section": "Announced fights",
+     "weight": "Middleweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "9-1-0",
+     "bRecord": "7-0-0"
     }
    ]
   },
@@ -893,18 +1464,92 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Bo Nickal Bo Nickal",
+     "a": "Bo Nickal",
      "b": "Yoel Romero",
      "section": "Main Event",
      "weight": "Catchweight Crossover",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    }
+   ]
+  },
+  {
+   "id": "one-one-championship-one-friday-fights-185",
+   "promotion": "ONE",
+   "title": "One Championship - One Friday Fights 185",
+   "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-185",
+   "startMs": 1799971200000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Elbek Alyshov",
+     "b": "Carlo Bumina-ang",
+     "section": "Announced fights",
+     "weight": "Featherweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "6-0-0",
+     "bRecord": "10-2-0"
+    }
+   ]
+  },
+  {
+   "id": "ufc-ufc-fight-night-296-dallas",
+   "promotion": "UFC",
+   "title": "UFC Fight Night: Dallas",
+   "url": "https://next-fight.com/en/event/ufc-fight-night-296-dallas",
+   "startMs": 1800057600000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Diego Ferreira",
+     "b": "MarQuel Mederos",
+     "section": "Headliner not confirmed",
+     "weight": "Lightweight · 5 rounds",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "20-7-0",
+     "bRecord": "12-1-1"
     },
     {
-     "a": "Bo Nickal 9-1-0",
-     "b": "Yoel Romero 17-7-0",
-     "section": "Main Event",
-     "weight": "",
-     "title": false
+     "a": "Geoff Neal",
+     "b": "Chris Curtis",
+     "section": "Co-main event",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "16-8-0",
+     "bRecord": "32-13-0"
+    },
+    {
+     "a": "Piero Guaylupo",
+     "b": "Magomed Zaynukov",
+     "section": "Announced fights",
+     "weight": "Lightweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "13-0-0",
+     "bRecord": "9-0-0"
+    },
+    {
+     "a": "Chidi Njokuani",
+     "b": "Ignacio Bahamondes",
+     "section": "Announced fights",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "26-12-0",
+     "bRecord": "18-7-0"
     }
    ]
   },
@@ -928,67 +1573,92 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Kai Stewart Kai Stewart",
-     "b": "Josh Kuhne",
+     "a": "Kai Stewart",
+     "b": "Bryan Duran",
      "section": "Main Event",
      "weight": "Featherweight",
-     "title": true
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Nathan Rivera Nathan Rivera",
-     "b": "BM",
-     "section": "Co-main Event",
+     "a": "George Thorpe",
+     "b": "Josh Kuhne",
+     "section": "Co-main event",
+     "weight": "Welterweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Nathan Rivera",
+     "b": "Brandon Meneses",
+     "section": "Undercard",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Gabriel Mota Gabriel Mota",
-     "b": "Joey Gambino",
-     "section": "Co-main Event",
+     "a": "Julio Perez Rodriguez",
+     "b": "Gabriel Mota",
+     "section": "Undercard",
+     "weight": "",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Ramiro Figueroa",
+     "b": "Mick Whitehead",
+     "section": "Undercard",
      "weight": "Featherweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Matt Denning Matt Denning",
-     "b": "CF",
-     "section": "Co-main Event",
-     "weight": "Featherweight",
-     "title": false
-    },
-    {
-     "a": "Amos Collins Amos Collins",
-     "b": "Kai Stewart 1-0-0",
-     "section": "Co-main Event",
+     "a": "Famez",
+     "b": "Josh Marer",
+     "section": "Undercard",
      "weight": "Lightweight",
-     "title": false
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Josh Kuhne 4-3-0",
-     "b": "Nathan Rivera 0-0-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Joey Gambino",
+     "b": "Matt Denning",
+     "section": "Undercard",
+     "weight": "Featherweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     },
     {
-     "a": "Brandon Meneses 1-2-0",
-     "b": "Gabriel Mota 6-8-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Joey Gambino 9-2-0",
-     "b": "Matt Denning 8-24-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
-    },
-    {
-     "a": "Cole Ferrell 12-2-0",
-     "b": "Amos Collins 6-7-0",
-     "section": "Co-main Event",
-     "weight": "",
-     "title": false
+     "a": "Cole Ferrell",
+     "b": "Amos Collins",
+     "section": "Undercard",
+     "weight": "Lightweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
     }
    ]
   },
@@ -1010,7 +1680,30 @@
    "startMs": 1802545200000,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": []
+   "bouts": [
+    {
+     "a": "Ben Bonner",
+     "b": "Rico Franco",
+     "section": "Main Event",
+     "weight": "Lightweight",
+     "title": true,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    },
+    {
+     "a": "Jimmy Sweeney",
+     "b": "James Lilley",
+     "section": "Co-main event",
+     "weight": "Lightweight",
+     "title": false,
+     "aRank": "",
+     "bRank": "",
+     "aRecord": "",
+     "bRecord": ""
+    }
+   ]
   }
  ]
 }
