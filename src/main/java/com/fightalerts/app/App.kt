@@ -198,7 +198,22 @@ data class FightEvent(
     val earlyPrelims: Long?,
     val bouts: List<Bout>,
     val timeEstimated: Boolean = false,
-)
+    val prelimsEstimated: Boolean = false,
+    val earlyPrelimsEstimated: Boolean = false,
+) {
+    /** Card sections with start times, earliest first: (label, time, isEstimate). */
+    fun slots(): List<Triple<String, Long, Boolean>> = listOfNotNull(
+        earlyPrelims?.let { Triple("Early prelims", it, earlyPrelimsEstimated) },
+        prelims?.let { Triple("Prelims", it, prelimsEstimated) },
+        Triple("Main card", start, timeEstimated),
+    ).sortedBy { it.second }
+
+    /** When the very first fight of the night starts. */
+    val firstStart: Long get() = slots().first().second
+
+    fun sectionTime(section: String): Pair<Long, Boolean>? =
+        slots().firstOrNull { it.first.equals(section, ignoreCase = true) }?.let { it.second to it.third }
+}
 
 data class FightData(
     val generated: Long,
@@ -257,6 +272,8 @@ fun parseData(json: String): FightData {
             earlyPrelims = if (e.isNull("earlyPrelimsMs")) null else e.getLong("earlyPrelimsMs"),
             bouts = bouts,
             timeEstimated = e.optBoolean("timeEstimated", false),
+            prelimsEstimated = e.optBoolean("prelimsEstimated", false),
+            earlyPrelimsEstimated = e.optBoolean("earlyPrelimsEstimated", false),
         )
     }
     val broken = mutableMapOf<String, String>()
@@ -317,9 +334,10 @@ class Prefs(ctx: Context) {
         get() = sp.getInt("lead", 15)
         set(v) = sp.edit().putInt("lead", v).apply()
 
-    var prelimAlerts: Boolean
-        get() = sp.getBoolean("prelims", false)
-        set(v) = sp.edit().putBoolean("prelims", v).apply()
+    /** The alert always fires before the first fight; this adds a second one for the main card. */
+    var mainCardAlert: Boolean
+        get() = sp.getBoolean("mainCardAlert", false)
+        set(v) = sp.edit().putBoolean("mainCardAlert", v).apply()
 
     var onlyFollowed: Boolean
         get() = sp.getBoolean("onlyFollowed", false)
@@ -371,11 +389,10 @@ object Alarms {
             val followedHere = e.bouts.flatMap { listOf(it.a.name, it.b.name) }.filter { it in followed }.distinct()
             if (prefs.onlyFollowed && followedHere.isEmpty()) continue
 
-            val slots = mutableListOf("Main card" to e.start)
-            if (prefs.prelimAlerts) {
-                e.prelims?.let { slots += "Prelims" to it }
-                e.earlyPrelims?.let { slots += "Early prelims" to it }
-            }
+            // alert before the very first fight; optionally a second one for the main card
+            val first = e.slots().first()
+            val slots = mutableListOf(first.first to first.second)
+            if (prefs.mainCardAlert && first.first != "Main card") slots += "Main card" to e.start
 
             for ((label, startTime) in slots) {
                 val at = startTime - lead
@@ -541,6 +558,11 @@ private val TIME_FMT = DateTimeFormatter.ofPattern("EEE d MMM · h:mm a")
 
 fun fmt(ms: Long): String = TIME_FMT.format(Instant.ofEpochMilli(ms).atZone(ZoneId.systemDefault()))
 
+private val CLOCK_FMT = DateTimeFormatter.ofPattern("h:mm a")
+
+/** Just the clock time, e.g. "9:00 am", in the phone's timezone. */
+fun fmtTime(ms: Long): String = CLOCK_FMT.format(Instant.ofEpochMilli(ms).atZone(ZoneId.systemDefault()))
+
 fun ago(ms: Long): String {
     val m = ms / 60_000
     return when {
@@ -553,9 +575,8 @@ fun ago(ms: Long): String {
 
 fun countdown(e: FightEvent, now: Long): String {
     if (now >= e.start) return "LIVE NOW"
-    val firstStart = e.earlyPrelims ?: e.prelims
-    if (firstStart != null && now >= firstStart) return "PRELIMS LIVE"
-    val mins = (e.start - now) / 60_000
+    if (now >= e.firstStart) return "PRELIMS LIVE"
+    val mins = (e.firstStart - now) / 60_000
     val d = mins / 1440
     val h = (mins % 1440) / 60
     val m = mins % 60
@@ -566,7 +587,7 @@ fun countdown(e: FightEvent, now: Long): String {
     }
 }
 
-fun isLive(e: FightEvent, now: Long): Boolean = now >= (e.earlyPrelims ?: e.prelims ?: e.start)
+fun isLive(e: FightEvent, now: Long): Boolean = now >= e.firstStart
 
 fun promoColor(p: String): Color = when (p) {
     "UFC" -> Color(0xFFD20A0A)
@@ -797,7 +818,7 @@ fun AppScreen(prefs: Prefs, themeMode: String, onTheme: (String) -> Unit, resume
 
         val events = d?.events.orEmpty()
             .filter { it.promotion in promotions && it.start > now - 6 * 3_600_000L }
-            .sortedBy { it.start }
+            .sortedBy { it.firstStart }
 
         if (events.isEmpty()) {
             Column(
@@ -890,12 +911,15 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
             Spacer(Modifier.height(12.dp))
             Text(e.title, color = c.text, fontSize = 19.sp, fontWeight = FontWeight.Bold, lineHeight = 24.sp)
             Spacer(Modifier.height(4.dp))
-            Text(
-                "Main card  ·  ${fmt(e.start)}" + if (e.timeEstimated) "  (approx.)" else "",
-                color = c.text2, fontSize = 13.sp,
-            )
-            e.prelims?.let { Text("Prelims  ·  ${fmt(it)}", color = c.text3, fontSize = 12.sp) }
-            e.earlyPrelims?.let { Text("Early prelims  ·  ${fmt(it)}", color = c.text3, fontSize = 12.sp) }
+            e.slots().forEach { (label, time, estimated) ->
+                val isMain = label == "Main card"
+                Text(
+                    "$label  ·  ${fmt(time)}" + if (estimated) "  (approx.)" else "",
+                    color = if (isMain) c.text2 else c.text3,
+                    fontSize = if (isMain) 13.sp else 12.sp,
+                    fontWeight = if (isMain) FontWeight.SemiBold else FontWeight.Normal,
+                )
+            }
 
             val main = mainBout(e)
             if (main == null) {
@@ -916,11 +940,22 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
                     e.bouts.forEach { b ->
                         if (b.section.isNotBlank() && b.section != lastSection) {
                             lastSection = b.section
-                            Text(
-                                b.section.uppercase(), color = RED, fontSize = 11.sp,
-                                fontWeight = FontWeight.Bold, letterSpacing = 1.sp,
-                                modifier = Modifier.padding(top = 16.dp, bottom = 6.dp),
-                            )
+                            val st = e.sectionTime(b.section)
+                            Row(
+                                Modifier.fillMaxWidth().padding(top = 16.dp, bottom = 6.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                            ) {
+                                Text(
+                                    b.section.uppercase(), color = RED, fontSize = 11.sp,
+                                    fontWeight = FontWeight.Bold, letterSpacing = 1.sp,
+                                )
+                                if (st != null) {
+                                    Text(
+                                        "  ·  ${fmtTime(st.first)}" + if (st.second) " (approx.)" else "",
+                                        color = c.text3, fontSize = 11.sp, fontWeight = FontWeight.SemiBold,
+                                    )
+                                }
+                            }
                         }
                         MatchupRow(b, followed, photoSize = 36.dp) { isA -> selected = b to isA }
                         val info = listOfNotNull(
@@ -1192,7 +1227,8 @@ fun FighterSheet(
                     color = c.text3, fontSize = 12.sp, textAlign = TextAlign.Center,
                 )
                 Text(event.title, color = c.text2, fontSize = 13.sp, textAlign = TextAlign.Center)
-                Text(fmt(event.start) + if (event.timeEstimated) " (approx.)" else "", color = c.text3, fontSize = 12.sp)
+                val st = event.sectionTime(bout.section) ?: (event.start to event.timeEstimated)
+                Text(fmt(st.first) + if (st.second) " (approx.)" else "", color = c.text3, fontSize = 12.sp)
             }
 
             val isA = f.name == bout.a.name
@@ -1283,7 +1319,7 @@ fun SettingsScreen(
     val c = LocalPalette.current
     val ctx = LocalContext.current
     var lead by remember { mutableStateOf(prefs.leadMinutes) }
-    var prelims by remember { mutableStateOf(prefs.prelimAlerts) }
+    var mainAlert by remember { mutableStateOf(prefs.mainCardAlert) }
     var onlyFollowed by remember { mutableStateOf(prefs.onlyFollowed) }
     var notifTick by remember { mutableIntStateOf(0) }
     val notifOk = remember(resumeTick, notifTick) { Notify.hasPermission(ctx) }
@@ -1321,7 +1357,8 @@ fun SettingsScreen(
 
             SectionTitle("Alerts")
             SettingsCard {
-                Text("Notify me before the start", color = c.text, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                Text("Notify me before the first fight", color = c.text, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                Text("Counts down to the earliest card (early prelims or prelims)", color = c.text3, fontSize = 12.sp)
                 Spacer(Modifier.height(12.dp))
                 SegmentedPicker(
                     options = listOf("0" to "At start", "5" to "5m", "15" to "15m", "30" to "30m", "60" to "1h"),
@@ -1333,9 +1370,9 @@ fun SettingsScreen(
                     },
                 )
                 SettingsDivider()
-                ToggleRow("Prelims alerts", "Also alert before prelims and early prelims", prelims) {
-                    prelims = it
-                    prefs.prelimAlerts = it
+                ToggleRow("Main card alert too", "A second alert when the main card is about to start", mainAlert) {
+                    mainAlert = it
+                    prefs.mainCardAlert = it
                     onChanged()
                 }
                 SettingsDivider()
@@ -1380,7 +1417,7 @@ fun SettingsScreen(
                 Spacer(Modifier.height(12.dp))
                 Button(
                     onClick = {
-                        Notify.show(ctx, 999, "UFC: Main card starts in 15 min", "Test alert\nThis is what your fight alerts look like")
+                        Notify.show(ctx, 999, "UFC: Early prelims start in 15 min", "Test alert\nThis is what your fight alerts look like")
                     },
                     modifier = Modifier.fillMaxWidth().height(48.dp),
                     shape = RoundedCornerShape(14.dp),
@@ -1394,11 +1431,13 @@ fun SettingsScreen(
                 SettingsDivider()
                 InfoRow("Fight cards", "Wikipedia (CC BY-SA)")
                 SettingsDivider()
-                InfoRow("Odds & start times", "The Odds API")
+                InfoRow("Start times", "TheSportsDB + bookmakers")
+                SettingsDivider()
+                InfoRow("Odds", "The Odds API")
                 SettingsDivider()
                 InfoRow("Fighter photos", "Wikimedia Commons")
                 Text(
-                    "Times marked approx. are estimates until bookmakers list the fight.",
+                    "Times marked approx. are estimates until a confirmed time is found.",
                     color = c.text3, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp),
                 )
                 SettingsDivider()
