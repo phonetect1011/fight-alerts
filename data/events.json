@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794662893557,
+ "generatedMs": 1794683415541,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1791,7 +1791,7 @@
      "a": "Zabit Magomedsharipov",
      "b": "Giga Chikadze",
      "section": "Main card",
-     "weight": "Welterweight",
+     "weight": "Catchweight",
      "title": false,
      "notes": "",
      "fa": {
@@ -1824,6 +1824,12 @@
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Giga_Chikadze_post_fight_interview_at_UFC_Fight_Night_160_in_Copenhagen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Pinfall",
+      "round": "2",
+      "time": "1:06"
      }
     },
     {
@@ -1857,11 +1863,17 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/%D0%9A%D1%83%D1%80%D1%83%D0%B3%D0%BB%D0%B8%D0%B5%D0%B2.jpg/500px-%D0%9A%D1%83%D1%80%D1%83%D0%B3%D0%BB%D0%B8%D0%B5%D0%B2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Новости Дагестан · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
      "a": "Kyle Dake",
-     "b": "Alp Arslan Begenjow",
+     "b": "Alp Arslan Begenjov",
      "section": "Main card",
      "weight": "Cruiserweight",
      "title": true,
@@ -1881,24 +1893,28 @@
       "photoCredit": "Photo: National Olympic Committee of the Republic of Uzbekistan · CC BY 4.0 (Wikimedia Commons)"
      },
      "fb": {
-      "name": "Alp Arslan Begenjow",
+      "name": "Alp Arslan Begenjov",
       "country": "Turkmenistan",
-      "flag": "🇹🇲",
-      "url": "https://en.wikipedia.org/wiki/Alp_Arslan_Begenjow"
+      "flag": "🇹🇲"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "3",
+      "time": "1:48"
      }
     },
     {
      "a": "Saba Lazishvili",
      "b": "Urijah Faber",
      "section": "Main card",
-     "weight": "Lightweight",
+     "weight": "Catchweight",
      "title": false,
      "notes": "",
      "fa": {
       "name": "Saba Lazishvili",
       "country": "Georgia",
-      "flag": "🇬🇪",
-      "url": "https://en.wikipedia.org/wiki/Saba_Lazishvili"
+      "flag": "🇬🇪"
      },
      "fb": {
       "name": "Urijah Faber",
@@ -1914,6 +1930,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Urijah_Faber_24_July_2009.jpg/500px-Urijah_Faber_24_July_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Kelly Bailey · CC BY 2.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
@@ -1940,6 +1962,12 @@
       "name": "Azamat Nurykau",
       "country": "Belarus",
       "flag": "🇧🇾"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
@@ -1967,6 +1995,12 @@
       "name": "Shamil Erdogan",
       "country": "Turkey",
       "flag": "🇹🇷"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "3",
+      "time": "0:45"
      }
     },
     {
@@ -1985,6 +2019,12 @@
       "name": "Osama Elsaidy",
       "country": "Egypt",
       "flag": "🇪🇬"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
@@ -2020,13 +2060,19 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Pinfall",
+      "round": "1",
+      "time": "1:33"
      }
     },
     {
      "a": "Merab Dvalishvili",
      "b": "Marlon Moraes",
      "section": "Main card",
-     "weight": "Catchweight",
+     "weight": "Welterweight",
      "title": false,
      "notes": "",
      "fa": {
@@ -2056,6 +2102,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Marlon_Moraes.jpg/500px-Marlon_Moraes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Sambo1096 · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Pinfall",
+      "round": "1",
+      "time": "1:30"
      }
     },
     {
@@ -2086,6 +2138,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Wrestling_at_the_2025_Islamic_Solidarity_Games_57_-_Khidir_Saipudinov%28cropped%29.jpg/500px-Wrestling_at_the_2025_Islamic_Solidarity_Games_57_-_Khidir_Saipudinov%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Dilaver Najafov · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
@@ -2112,6 +2170,12 @@
       "name": "Bella Mir",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "1",
+      "time": "1:30"
      }
     }
    ],
@@ -5682,7 +5746,9 @@
        "Height": "6 ft 0 in",
        "Reach": "75 in",
        "Team": "Luistro Combat Academy"
-      }
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Qsalkilld.png/500px-Qsalkilld.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Dsdcrewsmoke · CC0 (Wikimedia Commons)"
      },
      "fb": {
       "name": "Benoît Saint Denis",
