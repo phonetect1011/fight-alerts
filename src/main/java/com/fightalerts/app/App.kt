@@ -14,12 +14,23 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -29,8 +40,8 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
@@ -39,26 +50,42 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.AlertDialog
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -68,6 +95,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.app.NotificationCompat
@@ -94,13 +123,9 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.concurrent.TimeUnit
 
-// ---------------------------------------------------------------- data
+// ================================================================ data
 
 val PROMOTIONS = listOf("UFC", "BKFC", "ONE", "RAF")
-
-private val RED = Color(0xFFE53935)
-private val GOLD = Color(0xFFFFB300)
-private val CARD_BG = Color(0xFF1E1E1E)
 
 data class Fighter(
     val name: String,
@@ -127,7 +152,12 @@ data class FightEvent(
     val bouts: List<Bout>,
 )
 
-data class FightData(val generated: Long, val events: List<FightEvent>, val broken: Map<String, String>)
+data class FightData(
+    val generated: Long,
+    val events: List<FightEvent>,
+    val broken: Map<String, String>,
+    val healthy: List<String>,
+)
 
 fun parseFighter(o: JSONObject?, fallbackName: String): Fighter {
     if (o == null) return Fighter(fallbackName)
@@ -179,14 +209,15 @@ fun parseData(json: String): FightData {
         )
     }
     val broken = mutableMapOf<String, String>()
+    val healthy = mutableListOf<String>()
     val health = root.optJSONObject("health")
     if (health != null) {
         for (key in health.keys()) {
             val h = health.getJSONObject(key)
-            if (!h.optBoolean("ok", true)) broken[key] = h.optString("message")
+            if (h.optBoolean("ok", true)) healthy += key else broken[key] = h.optString("message")
         }
     }
-    return FightData(root.optLong("generatedMs"), events, broken)
+    return FightData(root.optLong("generatedMs"), events, broken, healthy)
 }
 
 object Repo {
@@ -242,12 +273,17 @@ class Prefs(ctx: Context) {
     var onlyFollowed: Boolean
         get() = sp.getBoolean("onlyFollowed", false)
         set(v) = sp.edit().putBoolean("onlyFollowed", v).apply()
+
+    /** "system", "day" or "night" */
+    var theme: String
+        get() = sp.getString("theme", "system") ?: "system"
+        set(v) = sp.edit().putString("theme", v).apply()
 }
 
 fun mainBout(e: FightEvent): Bout? =
     e.bouts.firstOrNull { it.section.equals("Main Event", ignoreCase = true) } ?: e.bouts.firstOrNull()
 
-// ---------------------------------------------------------------- alarms & notifications
+// ================================================================ alarms & notifications
 
 object Alarms {
     fun canExact(ctx: Context): Boolean {
@@ -398,9 +434,59 @@ class RefreshWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ct
     }
 }
 
-// ---------------------------------------------------------------- formatting helpers
+// ================================================================ theme
 
-private val TIME_FMT = DateTimeFormatter.ofPattern("EEE d MMM, h:mm a")
+private val RED = Color(0xFFE53935)
+
+data class Palette(
+    val isDark: Boolean,
+    val bg: Color,
+    val card: Color,
+    val cardBorder: Color,
+    val sheet: Color,
+    val text: Color,
+    val text2: Color,
+    val text3: Color,
+    val divider: Color,
+    val gold: Color,
+    val green: Color,
+)
+
+/** Night: true black for AMOLED screens. */
+val NightPalette = Palette(
+    isDark = true,
+    bg = Color(0xFF000000),
+    card = Color(0xFF0C0C0C),
+    cardBorder = Color(0xFF1C1C1C),
+    sheet = Color(0xFF0C0C0C),
+    text = Color(0xFFFFFFFF),
+    text2 = Color(0xFFB8B8B8),
+    text3 = Color(0xFF7A7A7A),
+    divider = Color(0xFF1F1F1F),
+    gold = Color(0xFFFFB300),
+    green = Color(0xFF4CAF50),
+)
+
+/** Day: clean white. */
+val DayPalette = Palette(
+    isDark = false,
+    bg = Color(0xFFFFFFFF),
+    card = Color(0xFFF5F5F7),
+    cardBorder = Color(0xFFE6E6EA),
+    sheet = Color(0xFFFFFFFF),
+    text = Color(0xFF111111),
+    text2 = Color(0xFF4A4A50),
+    text3 = Color(0xFF8A8A90),
+    divider = Color(0xFFE5E5EA),
+    gold = Color(0xFFB7791F),
+    green = Color(0xFF2E7D32),
+)
+
+val LocalPalette = staticCompositionLocalOf { NightPalette }
+
+// ================================================================ formatting helpers
+
+private val TIME_FMT = DateTimeFormatter.ofPattern("EEE d MMM · h:mm a")
 
 fun fmt(ms: Long): String = TIME_FMT.format(Instant.ofEpochMilli(ms).atZone(ZoneId.systemDefault()))
 
@@ -417,54 +503,108 @@ fun ago(ms: Long): String {
 fun countdown(e: FightEvent, now: Long): String {
     if (now >= e.start) return "LIVE NOW"
     val firstStart = e.earlyPrelims ?: e.prelims
-    if (firstStart != null && now >= firstStart) return "PRELIMS UNDERWAY"
+    if (firstStart != null && now >= firstStart) return "PRELIMS LIVE"
     val mins = (e.start - now) / 60_000
     val d = mins / 1440
     val h = (mins % 1440) / 60
     val m = mins % 60
     return when {
-        d > 0 -> "in ${d}d ${h}h"
-        h > 0 -> "in ${h}h ${m}m"
-        else -> "in ${m}m"
+        d > 0 -> "IN ${d}D ${h}H"
+        h > 0 -> "IN ${h}H ${m}M"
+        else -> "IN ${m}M"
     }
 }
+
+fun isLive(e: FightEvent, now: Long): Boolean = now >= (e.earlyPrelims ?: e.prelims ?: e.start)
 
 fun promoColor(p: String): Color = when (p) {
     "UFC" -> Color(0xFFD20A0A)
     "BKFC" -> Color(0xFF8E24AA)
     "ONE" -> Color(0xFFF9A825)
-    "RAF" -> Color(0xFF1565C0)
-    else -> Color.DarkGray
+    "RAF" -> Color(0xFF1E88E5)
+    else -> Color.Gray
 }
 
-// ---------------------------------------------------------------- UI
+fun withFlag(f: Fighter): String = if (f.flag.isNotBlank()) "${f.flag} ${f.name}" else f.name
+
+fun openUrl(ctx: Context, url: String) {
+    try {
+        ctx.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+    } catch (e: Exception) {
+        // no browser
+    }
+}
+
+// ================================================================ activity + root
 
 class MainActivity : ComponentActivity() {
+    private val resumeTick = mutableIntStateOf(0)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         Notify.ensureChannel(this)
         RefreshWorker.enqueue(this)
-        setContent {
-            MaterialTheme(colorScheme = darkColorScheme(primary = RED, secondary = GOLD)) {
-                Surface(Modifier.fillMaxSize(), color = Color(0xFF121212)) {
-                    AppScreen()
-                }
-            }
-        }
+        setContent { FightApp(this, resumeTick.intValue) }
     }
 
     override fun onResume() {
         super.onResume()
+        resumeTick.intValue++
         // re-arm alarms in case the exact-alarm permission was just granted
         Repo.loadCached(this)?.let { Alarms.scheduleAll(this, it) }
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+enum class Screen { Main, Settings }
+
 @Composable
-fun AppScreen() {
+fun FightApp(activity: ComponentActivity, resumeTick: Int) {
+    val prefs = remember { Prefs(activity) }
+    var themeMode by remember { mutableStateOf(prefs.theme) }
+    val dark = when (themeMode) {
+        "day" -> false
+        "night" -> true
+        else -> isSystemInDarkTheme()
+    }
+    val p = if (dark) NightPalette else DayPalette
+
+    DisposableEffect(dark) {
+        val clear = android.graphics.Color.TRANSPARENT
+        val style = if (dark) SystemBarStyle.dark(clear) else SystemBarStyle.light(clear, clear)
+        activity.enableEdgeToEdge(statusBarStyle = style, navigationBarStyle = style)
+        onDispose { }
+    }
+
+    val scheme = if (dark) {
+        darkColorScheme(
+            primary = RED, onPrimary = Color.White, secondary = p.gold,
+            background = p.bg, onBackground = p.text, surface = p.bg, onSurface = p.text,
+            surfaceVariant = p.card, onSurfaceVariant = p.text2, outline = p.cardBorder,
+            surfaceContainerLow = p.sheet, surfaceContainerHigh = p.card,
+        )
+    } else {
+        lightColorScheme(
+            primary = RED, onPrimary = Color.White, secondary = p.gold,
+            background = p.bg, onBackground = p.text, surface = p.bg, onSurface = p.text,
+            surfaceVariant = p.card, onSurfaceVariant = p.text2, outline = p.cardBorder,
+            surfaceContainerLow = p.sheet, surfaceContainerHigh = p.card,
+        )
+    }
+
+    CompositionLocalProvider(LocalPalette provides p) {
+        MaterialTheme(colorScheme = scheme) {
+            Surface(Modifier.fillMaxSize(), color = p.bg) {
+                AppScreen(prefs, themeMode, { themeMode = it; prefs.theme = it }, resumeTick)
+            }
+        }
+    }
+}
+
+@Composable
+fun AppScreen(prefs: Prefs, themeMode: String, onTheme: (String) -> Unit, resumeTick: Int) {
     val ctx = LocalContext.current
-    val prefs = remember { Prefs(ctx) }
+    val c = LocalPalette.current
     val scope = rememberCoroutineScope()
 
     var data by remember { mutableStateOf(Repo.loadCached(ctx)) }
@@ -472,7 +612,7 @@ fun AppScreen() {
     var error by remember { mutableStateOf<String?>(null) }
     var promotions by remember { mutableStateOf(prefs.promotions) }
     var followed by remember { mutableStateOf(prefs.followed) }
-    var showSettings by remember { mutableStateOf(false) }
+    var screen by remember { mutableStateOf(Screen.Main) }
     var now by remember { mutableLongStateOf(System.currentTimeMillis()) }
 
     val notifLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
@@ -510,21 +650,50 @@ fun AppScreen() {
         }
     }
 
+    BackHandler(enabled = screen == Screen.Settings) { screen = Screen.Main }
+
+    if (screen == Screen.Settings) {
+        SettingsScreen(
+            prefs = prefs,
+            themeMode = themeMode,
+            onTheme = onTheme,
+            data = data,
+            now = now,
+            resumeTick = resumeTick,
+            onBack = { screen = Screen.Main },
+            onChanged = { reschedule() },
+        )
+        return
+    }
+
     Column(Modifier.fillMaxSize().systemBarsPadding()) {
-        // header
-        Row(Modifier.fillMaxWidth().padding(16.dp, 12.dp), verticalAlignment = Alignment.CenterVertically) {
+        // ---- header
+        Row(
+            Modifier.fillMaxWidth().padding(start = 20.dp, end = 8.dp, top = 14.dp, bottom = 6.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
             Column(Modifier.weight(1f)) {
-                Text("🥊 Fight Alerts", fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White)
+                Text("Fight Alerts", fontSize = 28.sp, fontWeight = FontWeight.Black, color = c.text)
                 Text(
-                    data?.let { "Data updated ${ago(now - it.generated)}" } ?: "No data yet",
-                    fontSize = 12.sp, color = Color.Gray,
+                    data?.let { "Updated ${ago(now - it.generated)}" } ?: "Getting fights…",
+                    fontSize = 12.sp, color = c.text3,
                 )
             }
-            TextButton(onClick = { refresh() }, enabled = !loading) { Text(if (loading) "Loading…" else "Refresh") }
-            TextButton(onClick = { showSettings = true }) { Text("Settings") }
+            if (loading) {
+                CircularProgressIndicator(
+                    modifier = Modifier.padding(12.dp).size(22.dp), color = RED, strokeWidth = 2.5.dp,
+                )
+            } else {
+                IconButton(onClick = { refresh() }) {
+                    Icon(Icons.Filled.Refresh, contentDescription = "Refresh", tint = c.text2)
+                }
+            }
+            IconButton(onClick = { screen = Screen.Settings }) {
+                Icon(Icons.Filled.Settings, contentDescription = "Settings", tint = c.text2)
+            }
         }
 
-        // warnings: broken scraper / stale data / download errors
+        // ---- warnings: broken scraper / stale data / download errors
         val d = data
         val warnings = buildList {
             error?.let { add(it) }
@@ -537,25 +706,25 @@ fun AppScreen() {
         }
         warnings.forEach { w ->
             Text(
-                "⚠ $w", color = Color.Black, fontSize = 13.sp,
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 4.dp)
-                    .background(GOLD, RoundedCornerShape(8.dp)).padding(10.dp),
+                "⚠  $w", color = c.text, fontSize = 13.sp,
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(c.gold.copy(alpha = 0.16f))
+                    .padding(12.dp),
             )
         }
 
-        // promotion toggles (controls both what's shown and what alerts you get)
-        Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 12.dp)) {
-            PROMOTIONS.forEach { p ->
-                FilterChip(
-                    selected = p in promotions,
-                    onClick = {
-                        promotions = if (p in promotions) promotions - p else promotions + p
-                        prefs.promotions = promotions
-                        reschedule()
-                    },
-                    label = { Text(p) },
-                    modifier = Modifier.padding(end = 8.dp),
-                )
+        // ---- promotion toggles (controls what's shown and what you get alerts for)
+        Row(
+            Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 8.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            PROMOTIONS.forEach { promo ->
+                PromoChip(promo, selected = promo in promotions) {
+                    promotions = if (promo in promotions) promotions - promo else promotions + promo
+                    prefs.promotions = promotions
+                    reschedule()
+                }
             }
         }
 
@@ -564,13 +733,23 @@ fun AppScreen() {
             .sortedBy { it.start }
 
         if (events.isEmpty()) {
-            Text(
-                if (d == null) "Loading fights…" else "No upcoming fights for the promotions you picked.",
-                color = Color.Gray, modifier = Modifier.padding(24.dp),
-            )
+            Column(
+                Modifier.fillMaxWidth().padding(40.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+            ) {
+                Text("🥊", fontSize = 44.sp)
+                Spacer(Modifier.height(8.dp))
+                Text(
+                    if (d == null) "Loading fights…" else "No upcoming fights for the promotions you picked.",
+                    color = c.text3, textAlign = TextAlign.Center,
+                )
+            }
         }
 
-        LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(12.dp)) {
+        LazyColumn(
+            Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 4.dp, bottom = 24.dp),
+        ) {
             items(events, key = { it.id }) { e ->
                 EventCard(e, now, followed) { name ->
                     followed = if (name in followed) followed - name else followed + name
@@ -580,106 +759,135 @@ fun AppScreen() {
             }
         }
     }
+}
 
-    if (showSettings) {
-        SettingsDialog(prefs) {
-            showSettings = false
-            reschedule()
-        }
+// ================================================================ main screen pieces
+
+@Composable
+fun PromoChip(promo: String, selected: Boolean, onClick: () -> Unit) {
+    val c = LocalPalette.current
+    val color = promoColor(promo)
+    Row(
+        Modifier.clip(RoundedCornerShape(50))
+            .background(if (selected) color.copy(alpha = if (c.isDark) 0.22f else 0.14f) else Color.Transparent)
+            .border(1.dp, if (selected) color else c.cardBorder, RoundedCornerShape(50))
+            .clickable { onClick() }
+            .padding(horizontal = 14.dp, vertical = 8.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Box(Modifier.size(8.dp).clip(CircleShape).background(if (selected) color else c.text3))
+        Spacer(Modifier.width(8.dp))
+        Text(
+            promo, fontSize = 13.sp, fontWeight = FontWeight.SemiBold,
+            color = if (selected) c.text else c.text3,
+        )
     }
 }
 
 @Composable
+fun Pill(text: String, color: Color, filled: Boolean = false) {
+    Text(
+        text, fontSize = 11.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.5.sp,
+        color = if (filled) Color.White else color,
+        modifier = Modifier.clip(RoundedCornerShape(6.dp))
+            .background(if (filled) color else color.copy(alpha = 0.15f))
+            .padding(horizontal = 8.dp, vertical = 3.dp),
+    )
+}
+
+@Composable
 fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String) -> Unit) {
-    var expanded by remember { mutableStateOf(false) }
+    val c = LocalPalette.current
     val ctx = LocalContext.current
-    val hasFollowed = e.bouts.any { it.a.name in followed || it.b.name in followed }
+    var expanded by remember { mutableStateOf(false) }
     var selected by remember { mutableStateOf<Pair<Bout, Boolean>?>(null) }
+    val hasFollowed = e.bouts.any { it.a.name in followed || it.b.name in followed }
+    val live = isLive(e, now)
 
     Card(
-        modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp).clickable { expanded = !expanded },
-        colors = CardDefaults.cardColors(containerColor = CARD_BG),
+        modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp),
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.cardColors(containerColor = c.card),
+        border = BorderStroke(1.dp, if (live) RED.copy(alpha = 0.6f) else c.cardBorder),
     ) {
-        Column(Modifier.padding(14.dp)) {
+        Column(Modifier.clickable { expanded = !expanded }.padding(16.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    e.promotion, color = Color.White, fontSize = 11.sp, fontWeight = FontWeight.Bold,
-                    modifier = Modifier.background(promoColor(e.promotion), RoundedCornerShape(4.dp))
-                        .padding(horizontal = 6.dp, vertical = 2.dp),
-                )
+                Pill(e.promotion, promoColor(e.promotion), filled = true)
                 Spacer(Modifier.width(8.dp))
-                Text(
-                    countdown(e, now),
-                    color = if (now >= (e.earlyPrelims ?: e.prelims ?: e.start)) RED else GOLD,
-                    fontSize = 12.sp, fontWeight = FontWeight.SemiBold,
-                )
+                Pill(countdown(e, now), if (live) RED else c.gold, filled = live)
                 Spacer(Modifier.weight(1f))
-                if (hasFollowed) Text("★", color = GOLD, fontSize = 16.sp)
+                if (hasFollowed) {
+                    Icon(Icons.Filled.Star, contentDescription = "Has a fighter you follow", tint = c.gold, modifier = Modifier.size(20.dp))
+                }
             }
-            Spacer(Modifier.height(6.dp))
-            Text(e.title, color = Color.White, fontSize = 17.sp, fontWeight = FontWeight.Bold)
-            Text("Main card: ${fmt(e.start)}", color = Color.LightGray, fontSize = 13.sp)
-            e.prelims?.let { Text("Prelims: ${fmt(it)}", color = Color.Gray, fontSize = 12.sp) }
-            e.earlyPrelims?.let { Text("Early prelims: ${fmt(it)}", color = Color.Gray, fontSize = 12.sp) }
+            Spacer(Modifier.height(12.dp))
+            Text(e.title, color = c.text, fontSize = 19.sp, fontWeight = FontWeight.Bold, lineHeight = 24.sp)
+            Spacer(Modifier.height(4.dp))
+            Text("Main card  ·  ${fmt(e.start)}", color = c.text2, fontSize = 13.sp)
+            e.prelims?.let { Text("Prelims  ·  ${fmt(it)}", color = c.text3, fontSize = 12.sp) }
+            e.earlyPrelims?.let { Text("Early prelims  ·  ${fmt(it)}", color = c.text3, fontSize = 12.sp) }
 
-            if (!expanded) {
-                val main = mainBout(e)
-                Text(
-                    if (main != null) "${withFlag(main.a)} vs ${withFlag(main.b)}" else "Card to be announced",
-                    color = if (main != null) Color.White else Color.Gray,
-                    fontSize = 14.sp, modifier = Modifier.padding(top = 6.dp),
-                )
-                if (e.bouts.size > 1) {
-                    Text("Tap to see all ${e.bouts.size} fights", color = Color.Gray, fontSize = 11.sp)
-                }
-            } else {
-                if (e.bouts.isEmpty()) {
-                    Text("Card to be announced", color = Color.Gray, modifier = Modifier.padding(top = 8.dp))
-                }
-                var lastSection = ""
-                e.bouts.forEach { b ->
-                    if (b.section.isNotBlank() && b.section != lastSection) {
-                        lastSection = b.section
-                        Text(
-                            b.section.uppercase(), color = RED, fontSize = 11.sp, fontWeight = FontWeight.Bold,
-                            modifier = Modifier.padding(top = 10.dp, bottom = 2.dp),
-                        )
+            val main = mainBout(e)
+            if (main == null) {
+                Spacer(Modifier.height(12.dp))
+                Text("Card to be announced", color = c.text3, fontSize = 14.sp)
+            } else if (!expanded) {
+                Spacer(Modifier.height(14.dp))
+                MatchupRow(main, followed, photoSize = 46.dp) { isA -> selected = main to isA }
+            }
+
+            AnimatedVisibility(
+                visible = expanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
+            ) {
+                Column {
+                    var lastSection = ""
+                    e.bouts.forEach { b ->
+                        if (b.section.isNotBlank() && b.section != lastSection) {
+                            lastSection = b.section
+                            Text(
+                                b.section.uppercase(), color = RED, fontSize = 11.sp,
+                                fontWeight = FontWeight.Bold, letterSpacing = 1.sp,
+                                modifier = Modifier.padding(top = 16.dp, bottom = 6.dp),
+                            )
+                        }
+                        MatchupRow(b, followed, photoSize = 36.dp) { isA -> selected = b to isA }
+                        val info = listOfNotNull(b.weight.ifBlank { null }, if (b.title) "🏆 Title fight" else null)
+                            .joinToString("  ·  ")
+                        if (info.isNotEmpty()) {
+                            Text(
+                                info, color = c.text3, fontSize = 11.sp, textAlign = TextAlign.Center,
+                                modifier = Modifier.fillMaxWidth().padding(bottom = 6.dp),
+                            )
+                        }
+                        HorizontalDivider(color = c.divider, modifier = Modifier.padding(vertical = 4.dp))
                     }
-                    Row(
-                        Modifier.fillMaxWidth().padding(vertical = 2.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                    ) {
-                        FighterName(b.a, b.a.name in followed, Modifier.weight(1f), alignEnd = false) { selected = b to true }
-                        Text("vs", color = Color.Gray, fontSize = 12.sp, modifier = Modifier.padding(horizontal = 6.dp))
-                        FighterName(b.b, b.b.name in followed, Modifier.weight(1f), alignEnd = true) { selected = b to false }
+                    if (e.url.isNotBlank()) {
+                        TextButton(onClick = { openUrl(ctx, e.url) }) {
+                            Text("Open full event page", color = RED)
+                        }
                     }
-                    val info = listOfNotNull(b.weight.ifBlank { null }, if (b.title) "Title fight" else null)
-                        .joinToString(" · ")
-                    if (info.isNotEmpty()) {
-                        Text(
-                            info, color = Color.Gray, fontSize = 11.sp, textAlign = TextAlign.Center,
-                            modifier = Modifier.fillMaxWidth(),
-                        )
-                    }
-                }
-                Text(
-                    "Tap a fighter for their profile and to follow them ★", color = Color.Gray, fontSize = 11.sp,
-                    modifier = Modifier.padding(top = 10.dp),
-                )
-                if (e.url.isNotBlank()) {
-                    TextButton(onClick = {
-                        ctx.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(e.url)))
-                    }) { Text("Open full event page") }
                 }
             }
+
+            Spacer(Modifier.height(10.dp))
+            Text(
+                when {
+                    expanded -> "Hide fights  ▲"
+                    e.bouts.size > 1 -> "Show all ${e.bouts.size} fights  ▼"
+                    else -> "Details  ▼"
+                },
+                color = RED, fontSize = 12.sp, fontWeight = FontWeight.SemiBold,
+                modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center,
+            )
         }
     }
 
     selected?.let { (bout, isA) ->
         val f = if (isA) bout.a else bout.b
         val opp = if (isA) bout.b else bout.a
-        FighterDialog(
+        FighterSheet(
             f = f, opponent = opp, bout = bout, event = e,
             isFollowed = f.name in followed,
             onFollow = { onFollow(f.name) },
@@ -688,35 +896,65 @@ fun EventCard(e: FightEvent, now: Long, followed: Set<String>, onFollow: (String
     }
 }
 
-fun withFlag(f: Fighter): String = if (f.flag.isNotBlank()) "${f.flag} ${f.name}" else f.name
-
 @Composable
-fun FighterName(f: Fighter, isFollowed: Boolean, modifier: Modifier, alignEnd: Boolean, onClick: () -> Unit) {
-    Column(
-        modifier = modifier.clickable { onClick() }.padding(4.dp),
-        horizontalAlignment = if (alignEnd) Alignment.End else Alignment.Start,
-    ) {
+fun MatchupRow(b: Bout, followed: Set<String>, photoSize: Dp, onTap: (Boolean) -> Unit) {
+    val c = LocalPalette.current
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Row(
+            Modifier.weight(1f).clip(RoundedCornerShape(12.dp)).clickable { onTap(true) }.padding(4.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            FighterPhoto(b.a, photoSize)
+            Spacer(Modifier.width(8.dp))
+            FighterLabel(b.a, b.a.name in followed, alignEnd = false)
+        }
         Text(
-            text = (if (isFollowed) "★ " else "") + withFlag(f),
-            color = if (isFollowed) GOLD else Color.White,
-            fontWeight = if (isFollowed) FontWeight.Bold else FontWeight.Normal,
-            fontSize = 14.sp,
-            textAlign = if (alignEnd) TextAlign.End else TextAlign.Start,
+            "VS", color = c.text3, fontSize = 11.sp, fontWeight = FontWeight.Black,
+            modifier = Modifier.padding(horizontal = 4.dp),
         )
-        if (f.record.isNotBlank()) {
-            Text(f.record, color = Color.Gray, fontSize = 11.sp)
+        Row(
+            Modifier.weight(1f).clip(RoundedCornerShape(12.dp)).clickable { onTap(false) }.padding(4.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.End,
+        ) {
+            FighterLabel(b.b, b.b.name in followed, alignEnd = true, modifier = Modifier.weight(1f, fill = false))
+            Spacer(Modifier.width(8.dp))
+            FighterPhoto(b.b, photoSize)
         }
     }
 }
 
 @Composable
-fun FighterPhoto(f: Fighter, size: androidx.compose.ui.unit.Dp) {
+fun FighterLabel(f: Fighter, isFollowed: Boolean, alignEnd: Boolean, modifier: Modifier = Modifier) {
+    val c = LocalPalette.current
+    Column(modifier, horizontalAlignment = if (alignEnd) Alignment.End else Alignment.Start) {
+        Text(
+            text = (if (isFollowed) "★ " else "") + withFlag(f),
+            color = if (isFollowed) c.gold else c.text,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 14.sp,
+            maxLines = 2,
+            overflow = TextOverflow.Ellipsis,
+            textAlign = if (alignEnd) TextAlign.End else TextAlign.Start,
+        )
+        val sub = listOfNotNull(
+            f.rank.ifBlank { null }?.let { if (it == "C") "Champ" else it },
+            f.record.ifBlank { null },
+        ).joinToString(" · ")
+        if (sub.isNotBlank()) Text(sub, color = c.text3, fontSize = 11.sp)
+    }
+}
+
+@Composable
+fun FighterPhoto(f: Fighter, size: Dp) {
+    val c = LocalPalette.current
     Box(
-        modifier = Modifier.size(size).clip(CircleShape).background(Color(0xFF2A2A2A)),
+        modifier = Modifier.size(size).clip(CircleShape).background(c.cardBorder),
         contentAlignment = Alignment.Center,
     ) {
-        val initials = f.name.split(" ").filter { it.isNotBlank() }.take(2).joinToString("") { it.take(1).uppercase() }
-        Text(initials, color = Color.Gray, fontSize = 32.sp, fontWeight = FontWeight.Bold)
+        val initials = f.name.split(" ").filter { it.isNotBlank() }.take(2)
+            .joinToString("") { it.take(1).uppercase() }
+        Text(initials, color = c.text3, fontSize = (size.value * 0.32f).sp, fontWeight = FontWeight.Bold)
         if (f.photo.isNotBlank()) {
             AsyncImage(
                 model = f.photo,
@@ -729,31 +967,36 @@ fun FighterPhoto(f: Fighter, size: androidx.compose.ui.unit.Dp) {
     }
 }
 
+// ================================================================ fighter profile sheet
+
 @Composable
 fun RecordBoxes(record: String) {
+    val c = LocalPalette.current
     val parts = record.split("-").map { it.trim() }
     if (parts.size < 2) {
-        Text(record, color = Color.White, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+        Text(record, color = c.text, fontSize = 20.sp, fontWeight = FontWeight.Bold)
         return
     }
-    val labels = listOf("Wins" to Color(0xFF43A047), "Losses" to RED, "Draws" to Color.Gray)
-    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+    val labels = listOf("WINS" to c.green, "LOSSES" to RED, "DRAWS" to c.text3)
+    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         parts.take(3).forEachIndexed { i, n ->
             val (label, color) = labels[i]
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
-                modifier = Modifier.background(Color(0xFF262626), RoundedCornerShape(10.dp))
-                    .padding(horizontal = 14.dp, vertical = 8.dp),
+                modifier = Modifier.weight(1f).clip(RoundedCornerShape(14.dp))
+                    .background(c.card).border(1.dp, c.cardBorder, RoundedCornerShape(14.dp))
+                    .padding(vertical = 12.dp),
             ) {
-                Text(n, color = color, fontSize = 22.sp, fontWeight = FontWeight.Bold)
-                Text(label, color = Color.Gray, fontSize = 11.sp)
+                Text(n, color = color, fontSize = 26.sp, fontWeight = FontWeight.Black)
+                Text(label, color = c.text3, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
             }
         }
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun FighterDialog(
+fun FighterSheet(
     f: Fighter,
     opponent: Fighter,
     bout: Bout,
@@ -762,130 +1005,368 @@ fun FighterDialog(
     onFollow: () -> Unit,
     onDismiss: () -> Unit,
 ) {
+    val c = LocalPalette.current
     val ctx = LocalContext.current
-    AlertDialog(
+    ModalBottomSheet(
         onDismissRequest = onDismiss,
-        confirmButton = {
-            TextButton(onClick = onFollow) { Text(if (isFollowed) "★ Unfollow" else "☆ Follow") }
-        },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Close") } },
-        text = {
-            Column(
-                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()),
-                horizontalAlignment = Alignment.CenterHorizontally,
-            ) {
-                FighterPhoto(f, 112.dp)
-                Spacer(Modifier.height(10.dp))
-                Text(
-                    withFlag(f), color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold,
-                    textAlign = TextAlign.Center,
-                )
-                if (f.nickname.isNotBlank()) {
-                    Text("“${f.nickname}”", color = Color.LightGray, fontStyle = FontStyle.Italic, fontSize = 14.sp)
-                }
-                if (f.country.isNotBlank()) {
-                    Text(f.country, color = Color.Gray, fontSize = 13.sp)
-                }
-                if (f.rank.isNotBlank()) {
-                    Text(
-                        if (f.rank == "C") "🏆 Champion" else "Ranked ${f.rank}",
-                        color = GOLD, fontSize = 13.sp, fontWeight = FontWeight.SemiBold,
-                        modifier = Modifier.padding(top = 4.dp),
-                    )
-                }
-                if (f.record.isNotBlank()) {
-                    Spacer(Modifier.height(12.dp))
-                    RecordBoxes(f.record)
-                }
-                if (f.stats.isNotEmpty()) {
-                    Spacer(Modifier.height(12.dp))
-                    f.stats.forEach { (label, value) ->
-                        Row(Modifier.fillMaxWidth().padding(vertical = 3.dp)) {
-                            Text(label, color = Color.Gray, fontSize = 13.sp, modifier = Modifier.weight(1f))
-                            Text(value, color = Color.White, fontSize = 13.sp)
+        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
+        containerColor = c.sheet,
+        contentColor = c.text,
+    ) {
+        Column(
+            Modifier.fillMaxWidth().verticalScroll(rememberScrollState())
+                .padding(start = 24.dp, end = 24.dp, bottom = 32.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            FighterPhoto(f, 120.dp)
+            Spacer(Modifier.height(14.dp))
+            Text(
+                withFlag(f), color = c.text, fontSize = 26.sp, fontWeight = FontWeight.Black,
+                textAlign = TextAlign.Center,
+            )
+            if (f.nickname.isNotBlank()) {
+                Text("“${f.nickname}”", color = c.text2, fontStyle = FontStyle.Italic, fontSize = 15.sp)
+            }
+            Spacer(Modifier.height(8.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                Pill(event.promotion, promoColor(event.promotion), filled = true)
+                if (f.rank.isNotBlank()) Pill(if (f.rank == "C") "🏆 CHAMPION" else "RANKED ${f.rank}", c.gold)
+                if (f.country.isNotBlank()) Pill(f.country.uppercase(), c.text2)
+            }
+
+            if (f.record.isNotBlank()) {
+                Spacer(Modifier.height(18.dp))
+                RecordBoxes(f.record)
+            }
+
+            if (f.stats.isNotEmpty()) {
+                Spacer(Modifier.height(14.dp))
+                Column(
+                    Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp))
+                        .background(c.card).border(1.dp, c.cardBorder, RoundedCornerShape(14.dp))
+                        .padding(horizontal = 16.dp, vertical = 6.dp),
+                ) {
+                    f.stats.forEachIndexed { i, (label, value) ->
+                        if (i > 0) HorizontalDivider(color = c.divider)
+                        Row(Modifier.fillMaxWidth().padding(vertical = 10.dp)) {
+                            Text(label, color = c.text3, fontSize = 14.sp, modifier = Modifier.weight(1f))
+                            Text(value, color = c.text, fontSize = 14.sp, fontWeight = FontWeight.Medium)
                         }
                     }
                 }
-                Spacer(Modifier.height(12.dp))
-                HorizontalDivider(color = Color(0xFF333333))
+            }
+
+            Spacer(Modifier.height(14.dp))
+            Column(
+                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp))
+                    .background(c.card).border(1.dp, c.cardBorder, RoundedCornerShape(14.dp))
+                    .padding(16.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+            ) {
+                Text("NEXT FIGHT", color = RED, fontSize = 11.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                 Spacer(Modifier.height(10.dp))
-                Text("NEXT FIGHT", color = RED, fontSize = 11.sp, fontWeight = FontWeight.Bold)
-                Text(
-                    "vs ${withFlag(opponent)}" + if (opponent.record.isNotBlank()) " (${opponent.record})" else "",
-                    color = Color.White, fontSize = 15.sp, textAlign = TextAlign.Center,
-                )
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    FighterPhoto(opponent, 40.dp)
+                    Spacer(Modifier.width(10.dp))
+                    Column {
+                        Text("vs ${withFlag(opponent)}", color = c.text, fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
+                        if (opponent.record.isNotBlank()) Text(opponent.record, color = c.text3, fontSize = 12.sp)
+                    }
+                }
+                Spacer(Modifier.height(8.dp))
                 Text(
                     listOfNotNull(
                         bout.weight.ifBlank { null },
                         if (bout.title) "Title fight" else null,
                         bout.section.ifBlank { null },
-                    ).joinToString(" · "),
-                    color = Color.Gray, fontSize = 12.sp, textAlign = TextAlign.Center,
+                    ).joinToString("  ·  "),
+                    color = c.text3, fontSize = 12.sp, textAlign = TextAlign.Center,
                 )
-                Text("${event.promotion} · ${event.title}", color = Color.LightGray, fontSize = 13.sp, textAlign = TextAlign.Center)
-                Text(fmt(event.start), color = Color.Gray, fontSize = 12.sp)
-                if (f.url.isNotBlank()) {
-                    TextButton(onClick = {
-                        ctx.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(f.url)))
-                    }) { Text("Full profile on next-fight.com") }
+                Text(event.title, color = c.text2, fontSize = 13.sp, textAlign = TextAlign.Center)
+                Text(fmt(event.start), color = c.text3, fontSize = 12.sp)
+            }
+
+            Spacer(Modifier.height(18.dp))
+            Button(
+                onClick = onFollow,
+                modifier = Modifier.fillMaxWidth().height(52.dp),
+                shape = RoundedCornerShape(16.dp),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = if (isFollowed) c.card else RED,
+                    contentColor = if (isFollowed) c.gold else Color.White,
+                ),
+                border = if (isFollowed) BorderStroke(1.dp, c.gold) else null,
+            ) {
+                Text(
+                    if (isFollowed) "★  Following" else "☆  Follow ${f.name.substringBefore(" ")}",
+                    fontSize = 16.sp, fontWeight = FontWeight.Bold,
+                )
+            }
+            if (f.url.isNotBlank()) {
+                TextButton(onClick = { openUrl(ctx, f.url) }) {
+                    Text("Full profile on next-fight.com", color = c.text2)
                 }
             }
-        },
-    )
+        }
+    }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+// ================================================================ settings screen
+
 @Composable
-fun SettingsDialog(prefs: Prefs, onDismiss: () -> Unit) {
+fun SettingsScreen(
+    prefs: Prefs,
+    themeMode: String,
+    onTheme: (String) -> Unit,
+    data: FightData?,
+    now: Long,
+    resumeTick: Int,
+    onBack: () -> Unit,
+    onChanged: () -> Unit,
+) {
+    val c = LocalPalette.current
     val ctx = LocalContext.current
     var lead by remember { mutableStateOf(prefs.leadMinutes) }
     var prelims by remember { mutableStateOf(prefs.prelimAlerts) }
     var onlyFollowed by remember { mutableStateOf(prefs.onlyFollowed) }
+    var notifTick by remember { mutableIntStateOf(0) }
+    val notifOk = remember(resumeTick, notifTick) { Notify.hasPermission(ctx) }
+    val exactOk = remember(resumeTick) { Alarms.canExact(ctx) }
+    val notifLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {
+        notifTick++
+    }
 
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        confirmButton = { TextButton(onClick = onDismiss) { Text("Done") } },
-        title = { Text("Alert settings") },
-        text = {
-            Column {
-                Text("Notify me before the start:")
-                Row(Modifier.horizontalScroll(rememberScrollState())) {
-                    listOf(0, 5, 15, 30, 60).forEach { m ->
-                        FilterChip(
-                            selected = lead == m,
-                            onClick = { lead = m; prefs.leadMinutes = m },
-                            label = { Text(if (m == 0) "At start" else "$m min") },
-                            modifier = Modifier.padding(end = 6.dp),
+    Column(Modifier.fillMaxSize().systemBarsPadding()) {
+        Row(
+            Modifier.fillMaxWidth().padding(start = 4.dp, end = 16.dp, top = 8.dp, bottom = 4.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            IconButton(onClick = onBack) {
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = c.text)
+            }
+            Text("Settings", fontSize = 24.sp, fontWeight = FontWeight.Black, color = c.text)
+        }
+
+        Column(
+            Modifier.fillMaxSize().verticalScroll(rememberScrollState())
+                .padding(start = 16.dp, end = 16.dp, bottom = 32.dp),
+        ) {
+            SectionTitle("Appearance")
+            SettingsCard {
+                Text("Theme", color = c.text, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                Text("Night uses true black to save battery on AMOLED screens", color = c.text3, fontSize = 12.sp)
+                Spacer(Modifier.height(12.dp))
+                SegmentedPicker(
+                    options = listOf("system" to "📱 Auto", "day" to "☀️ Day", "night" to "🌙 Night"),
+                    selected = themeMode,
+                    onSelect = onTheme,
+                )
+            }
+
+            SectionTitle("Alerts")
+            SettingsCard {
+                Text("Notify me before the start", color = c.text, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                Spacer(Modifier.height(12.dp))
+                SegmentedPicker(
+                    options = listOf("0" to "At start", "5" to "5m", "15" to "15m", "30" to "30m", "60" to "1h"),
+                    selected = lead.toString(),
+                    onSelect = { v ->
+                        lead = v.toInt()
+                        prefs.leadMinutes = lead
+                        onChanged()
+                    },
+                )
+                SettingsDivider()
+                ToggleRow("Prelims alerts", "Also alert before prelims and early prelims", prelims) {
+                    prelims = it
+                    prefs.prelimAlerts = it
+                    onChanged()
+                }
+                SettingsDivider()
+                ToggleRow("Only my fighters", "Only alert for cards with a fighter you follow", onlyFollowed) {
+                    onlyFollowed = it
+                    prefs.onlyFollowed = it
+                    onChanged()
+                }
+            }
+
+            SectionTitle("Permissions")
+            SettingsCard {
+                StatusRow(
+                    title = "Notifications",
+                    ok = notifOk,
+                    action = "Allow",
+                    onAction = {
+                        if (Build.VERSION.SDK_INT >= 33) {
+                            notifLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+                        } else {
+                            ctx.startActivity(
+                                Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                                    .putExtra(Settings.EXTRA_APP_PACKAGE, ctx.packageName)
+                            )
+                        }
+                    },
+                )
+                SettingsDivider()
+                StatusRow(
+                    title = "Exact alarms",
+                    subtitle = "So alerts arrive right on time",
+                    ok = exactOk,
+                    action = "Allow",
+                    onAction = {
+                        if (Build.VERSION.SDK_INT >= 31) {
+                            ctx.startActivity(
+                                Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM, Uri.parse("package:${ctx.packageName}"))
+                            )
+                        }
+                    },
+                )
+                Spacer(Modifier.height(12.dp))
+                Button(
+                    onClick = {
+                        Notify.show(ctx, 999, "UFC: Main card starts in 15 min", "Test alert\nThis is what your fight alerts look like")
+                    },
+                    modifier = Modifier.fillMaxWidth().height(48.dp),
+                    shape = RoundedCornerShape(14.dp),
+                    colors = ButtonDefaults.buttonColors(containerColor = RED, contentColor = Color.White),
+                ) { Text("Send a test notification", fontWeight = FontWeight.SemiBold) }
+            }
+
+            SectionTitle("Fight data")
+            SettingsCard {
+                InfoRow("Last updated", data?.let { ago(now - it.generated) } ?: "Never")
+                SettingsDivider()
+                InfoRow("Source", "next-fight.com")
+                SettingsDivider()
+                PROMOTIONS.forEach { promo ->
+                    val msg = data?.broken?.get(promo)
+                    Row(Modifier.fillMaxWidth().padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Box(Modifier.size(8.dp).clip(CircleShape).background(promoColor(promo)))
+                        Spacer(Modifier.width(10.dp))
+                        Text(promo, color = c.text, fontSize = 14.sp, modifier = Modifier.weight(1f))
+                        Text(
+                            when {
+                                data == null -> "—"
+                                msg != null -> "⚠ Broken"
+                                else -> "✓ Working"
+                            },
+                            color = if (msg != null) RED else c.green, fontSize = 13.sp, fontWeight = FontWeight.SemiBold,
                         )
                     }
                 }
-                SettingRow("Also alert for prelims", prelims) { prelims = it; prefs.prelimAlerts = it }
-                SettingRow("Only cards with fighters I follow", onlyFollowed) {
-                    onlyFollowed = it
-                    prefs.onlyFollowed = it
+                SettingsDivider()
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                    TextButton(onClick = { openUrl(ctx, BuildConfig.REPO_URL + "/issues") }) {
+                        Text("Scraper issues", color = RED)
+                    }
+                    TextButton(onClick = { openUrl(ctx, BuildConfig.REPO_URL + "/actions") }) {
+                        Text("GitHub Actions", color = RED)
+                    }
                 }
-                if (!Alarms.canExact(ctx) && Build.VERSION.SDK_INT >= 31) {
-                    TextButton(onClick = {
-                        ctx.startActivity(
-                            Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM, Uri.parse("package:${ctx.packageName}"))
-                        )
-                    }) { Text("Allow exact alarms (so alerts arrive on time)") }
-                }
-                if (!Notify.hasPermission(ctx)) {
-                    Text("Notifications are turned off for this app — enable them in Android settings.", color = RED)
-                }
-                TextButton(onClick = {
-                    Notify.show(ctx, 999, "UFC: Main card starts in 15 min", "Test alert\nThis is what your fight alerts look like")
-                }) { Text("Send a test notification") }
             }
-        },
+
+            Spacer(Modifier.height(20.dp))
+            Text(
+                "Fight Alerts v${BuildConfig.VERSION_NAME}",
+                color = c.text3, fontSize = 12.sp, textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth(),
+            )
+        }
+    }
+}
+
+@Composable
+fun SectionTitle(text: String) {
+    val c = LocalPalette.current
+    Text(
+        text.uppercase(), color = c.text3, fontSize = 12.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.2.sp,
+        modifier = Modifier.padding(start = 6.dp, top = 22.dp, bottom = 8.dp),
     )
 }
 
 @Composable
-fun SettingRow(label: String, checked: Boolean, onChange: (Boolean) -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-        Text(label, Modifier.weight(1f))
-        Switch(checked = checked, onCheckedChange = onChange)
+fun SettingsCard(content: @Composable () -> Unit) {
+    val c = LocalPalette.current
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp))
+            .background(c.card).border(1.dp, c.cardBorder, RoundedCornerShape(18.dp))
+            .padding(16.dp),
+    ) { content() }
+}
+
+@Composable
+fun SettingsDivider() {
+    HorizontalDivider(color = LocalPalette.current.divider, modifier = Modifier.padding(vertical = 10.dp))
+}
+
+@Composable
+fun SegmentedPicker(options: List<Pair<String, String>>, selected: String, onSelect: (String) -> Unit) {
+    val c = LocalPalette.current
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(c.bg)
+            .border(1.dp, c.cardBorder, RoundedCornerShape(12.dp)).padding(4.dp),
+    ) {
+        options.forEach { (key, label) ->
+            val isSel = key == selected
+            Box(
+                Modifier.weight(1f).clip(RoundedCornerShape(9.dp))
+                    .background(if (isSel) RED else Color.Transparent)
+                    .clickable { onSelect(key) }
+                    .padding(vertical = 10.dp),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(
+                    label, fontSize = 13.sp, fontWeight = FontWeight.SemiBold, maxLines = 1,
+                    color = if (isSel) Color.White else c.text2,
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun ToggleRow(title: String, subtitle: String, checked: Boolean, onChange: (Boolean) -> Unit) {
+    val c = LocalPalette.current
+    Row(Modifier.fillMaxWidth().clickable { onChange(!checked) }, verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f).padding(end = 12.dp)) {
+            Text(title, color = c.text, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+            Text(subtitle, color = c.text3, fontSize = 12.sp)
+        }
+        Switch(
+            checked = checked,
+            onCheckedChange = onChange,
+            colors = SwitchDefaults.colors(
+                checkedThumbColor = Color.White,
+                checkedTrackColor = RED,
+                uncheckedThumbColor = c.text3,
+                uncheckedTrackColor = c.bg,
+                uncheckedBorderColor = c.cardBorder,
+            ),
+        )
+    }
+}
+
+@Composable
+fun StatusRow(title: String, ok: Boolean, action: String, onAction: () -> Unit, subtitle: String = "") {
+    val c = LocalPalette.current
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f)) {
+            Text(title, color = c.text, fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+            if (subtitle.isNotBlank()) Text(subtitle, color = c.text3, fontSize = 12.sp)
+        }
+        if (ok) {
+            Text("✓ Allowed", color = c.green, fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
+        } else {
+            TextButton(onClick = onAction) { Text(action, color = RED, fontWeight = FontWeight.Bold) }
+        }
+    }
+}
+
+@Composable
+fun InfoRow(label: String, value: String) {
+    val c = LocalPalette.current
+    Row(Modifier.fillMaxWidth()) {
+        Text(label, color = c.text3, fontSize = 14.sp, modifier = Modifier.weight(1f))
+        Text(value, color = c.text, fontSize = 14.sp, fontWeight = FontWeight.Medium)
     }
 }
