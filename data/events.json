@@ -1,20 +1,20 @@
 {
- "generatedMs": 1794655504404,
+ "generatedMs": 1794662893557,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
    "ok": true,
-   "events": 8,
+   "events": 9,
    "message": ""
   },
   "BKFC": {
    "ok": true,
-   "events": 5,
+   "events": 6,
    "message": ""
   },
   "ONE": {
    "ok": true,
-   "events": 6,
+   "events": 8,
    "message": ""
   },
   "RAF": {
@@ -25,6 +25,1305 @@
  },
  "events": [
   {
+   "id": "one-one-friday-fights-177-isannuea-vs-jack-the-inner-circle-37",
+   "promotion": "ONE",
+   "title": "ONE Friday Fights 177: Isannuea vs. Jack / The Inner Circle 37",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Friday_Fights_177_%26_The_Inner_Circle_37",
+   "date": "2026-11-06",
+   "startMs": 1793968200000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Jack Siatarnyokkrok P.K",
+     "b": "Isannuea Chotbangsaen",
+     "section": "ONE Friday Fights 177",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jack Siatarnyokkrok P.K",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Isannuea Chotbangsaen",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Superball Sit Chor.",
+     "b": "Saksri SuperlekMuaythai",
+     "section": "ONE Friday Fights 177",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Superball Sit Chor.",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Saksri SuperlekMuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punches)",
+      "round": "1",
+      "time": "1:42"
+     }
+    },
+    {
+     "a": "Chatpet Suablackmuaythai",
+     "b": "Saipetlek CoachnatSamartmuaythai",
+     "section": "ONE Friday Fights 177",
+     "weight": "Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Chatpet Suablackmuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Saipetlek CoachnatSamartmuaythai",
+      "country": "LAO"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Chaisongkram Looksuan",
+     "b": "Petdam BS.Muaythai",
+     "section": "ONE Friday Fights 177",
+     "weight": "Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Chaisongkram Looksuan",
+      "country": "LAO"
+     },
+     "fb": {
+      "name": "Petdam BS.Muaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Klinphaka Por.Thaisong",
+     "b": "Ran Longshu",
+     "section": "ONE Friday Fights 177",
+     "weight": "Women's Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Klinphaka Por.Thaisong",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Ran Longshu",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch to the body)",
+      "round": "2",
+      "time": "0:57"
+     }
+    },
+    {
+     "a": "Kazuteru Yamazaki",
+     "b": "Phun SueaMuang",
+     "section": "ONE Friday Fights 177",
+     "weight": "Flyweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kazuteru Yamazaki",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
+      "name": "Phun SueaMuang",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Bos Chayut",
+     "b": "Kentaro Okumura",
+     "section": "ONE Friday Fights 177",
+     "weight": "Bantamweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bos Chayut",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Kentaro Okumura",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (knees and punches)",
+      "round": "3",
+      "time": "1:21"
+     }
+    },
+    {
+     "a": "Yuto",
+     "b": "Okazaki Silkmuaythai",
+     "section": "ONE Friday Fights 177",
+     "weight": "Atomweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yuto",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
+      "name": "Okazaki Silkmuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Marats Jankovskis",
+     "b": "Retsu Sashida",
+     "section": "ONE Friday Fights 177",
+     "weight": "Flyweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Marats Jankovskis",
+      "country": "Latvia",
+      "flag": "🇱🇻"
+     },
+     "fb": {
+      "name": "Retsu Sashida",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Tye Ruotolo",
+     "b": "Christian Lee",
+     "section": "The Inner Circle 37",
+     "weight": "Lightweight MMA",
+     "title": true,
+     "notes": "For the ONE Lightweight World Championship.",
+     "fa": {
+      "name": "Tye Ruotolo",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Tye_Ruotolo",
+      "record": "3-0-0",
+      "stats": {
+       "Age": "23",
+       "Height": "5 ft 10 in",
+       "Reach": "77 in",
+       "Team": "Art of Jiu Jitsu (AOJ) Combat Submission Wrestling"
+      }
+     },
+     "fb": {
+      "name": "Christian Lee",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Christian_Lee_%28fighter%29",
+      "nickname": "The Warrior",
+      "record": "18-5-0",
+      "stats": {
+       "Age": "28",
+       "Height": "5 ft 10 in",
+       "Reach": "76 in",
+       "Team": "United MMA"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "1",
+      "time": "2:08"
+     }
+    },
+    {
+     "a": "Yodphupa Petkiatpet",
+     "b": "Komawut FA.Group",
+     "section": "The Inner Circle 37",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yodphupa Petkiatpet",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Komawut FA.Group",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Tantawy Ahmed Hafez",
+     "b": "Kongchai Chanaidonmuang",
+     "section": "The Inner Circle 37",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Tantawy Ahmed Hafez",
+      "country": "Egypt",
+      "flag": "🇪🇬"
+     },
+     "fb": {
+      "name": "Kongchai Chanaidonmuang",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Kongchai_Chanaidonmuang",
+      "stats": {
+       "Age": "24",
+       "Height": "167cm"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Titus Proctor",
+     "b": "Maciej Karpinski",
+     "section": "The Inner Circle 37",
+     "weight": "Lightweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Titus Proctor",
+      "country": "New Zealand",
+      "flag": "🇳🇿"
+     },
+     "fb": {
+      "name": "Maciej Karpinski",
+      "country": "Poland",
+      "flag": "🇵🇱"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch to the body)",
+      "round": "3",
+      "time": "1:27"
+     }
+    },
+    {
+     "a": "Dabdam PorTorThor.Thongtawee",
+     "b": "Cal Cook",
+     "section": "The Inner Circle 37",
+     "weight": "Strawweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Dabdam PorTorThor.Thongtawee",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Cal Cook",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    }
+   ],
+   "finished": true
+  },
+  {
+   "id": "one-one-fight-night-49-gabriel-vs-magomedov",
+   "promotion": "ONE",
+   "title": "ONE Fight Night 49: Gabriel vs. Magomedov",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Fight_Night_49",
+   "date": "2026-11-07",
+   "startMs": 1794013200000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Magomed Magomedov",
+     "b": "Lucas Gabriel",
+     "section": "ONE Fight Night 49",
+     "weight": "Lightweight MMA",
+     "title": false,
+     "notes": "Magomedov missed weight (175.4 lb).",
+     "fa": {
+      "name": "Magomed Magomedov",
+      "country": "Bahrain",
+      "flag": "🇧🇭"
+     },
+     "fb": {
+      "name": "Lucas Gabriel",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Taiki Naito",
+     "b": "Kongthoranee Sor.Sommai",
+     "section": "ONE Fight Night 49",
+     "weight": "Flyweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Taiki Naito",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "url": "https://en.wikipedia.org/wiki/Taiki_Naito",
+      "stats": {
+       "Age": "30",
+       "Height": "170 cm",
+       "Team": "BELLWOOD FIGHT TEAM"
+      }
+     },
+     "fb": {
+      "name": "Kongthoranee Sor.Sommai",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Kongthoranee_Sor.Sommai",
+      "stats": {
+       "Age": "29",
+       "Height": "170cm",
+       "Team": "Sor.Sommai"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Lee Seung-chul",
+     "b": "Nazareth Lalthazuala",
+     "section": "ONE Fight Night 49",
+     "weight": "Strawweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lee Seung-chul",
+      "country": "South Korea",
+      "flag": "🇰🇷"
+     },
+     "fb": {
+      "name": "Nazareth Lalthazuala",
+      "country": "India",
+      "flag": "🇮🇳"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "2",
+      "time": "3:04"
+     }
+    },
+    {
+     "a": "Nonthachai Jitmuangnon",
+     "b": "Felipe Lobo",
+     "section": "ONE Fight Night 49",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Nonthachai Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Felipe Lobo",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Zhou Jiaqiang",
+     "b": "Mamuka Usubyan",
+     "section": "ONE Fight Night 49",
+     "weight": "Featherweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zhou Jiaqiang",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "fb": {
+      "name": "Mamuka Usubyan",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "url": "https://en.wikipedia.org/wiki/Mamuka_Usubyan",
+      "stats": {
+       "Age": "32",
+       "Height": "1.80 m",
+       "Team": "Arkangel Mikhail"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Magdalena Czaban",
+     "b": "Victória Souza",
+     "section": "ONE Fight Night 49",
+     "weight": "Women's Atomweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Magdalena Czaban",
+      "country": "Poland",
+      "flag": "🇵🇱"
+     },
+     "fb": {
+      "name": "Victória Souza",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Bogdan Shumarov",
+     "b": "Gasham Mammadov",
+     "section": "ONE Fight Night 49",
+     "weight": "Lightweight Kickboxing",
+     "title": false,
+     "notes": "Mammadov missed weight (173 lb).",
+     "fa": {
+      "name": "Bogdan Shumarov",
+      "country": "Bulgaria",
+      "flag": "🇧🇬",
+      "url": "https://en.wikipedia.org/wiki/Bogdan_Shumarov",
+      "stats": {
+       "Age": "30",
+       "Height": "179cm",
+       "Team": "SB Gym"
+      }
+     },
+     "fb": {
+      "name": "Gasham Mammadov",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Victor Hugo",
+     "b": "Devhonte Johnson",
+     "section": "ONE Fight Night 49",
+     "weight": "Openweight Submission Grappling",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Victor Hugo",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "url": "https://en.wikipedia.org/wiki/Victor_Hugo_%28grappler%29"
+     },
+     "fb": {
+      "name": "Devhonte Johnson",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Devhonte_Johnson",
+      "nickname": "Bones"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "1",
+      "time": "1:35"
+     }
+    },
+    {
+     "a": "Ilmadi Israilov",
+     "b": "Kalandar Tabarov",
+     "section": "ONE Fight Night 49",
+     "weight": "Bantamweight MMA",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Ilmadi Israilov",
+      "country": "France",
+      "flag": "🇫🇷"
+     },
+     "fb": {
+      "name": "Kalandar Tabarov",
+      "country": "Tajikistan",
+      "flag": "🇹🇯"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    }
+   ],
+   "finished": true
+  },
+  {
+   "id": "bkfc-bkfc-96-glasgow-cooke-vs-weir",
+   "promotion": "BKFC",
+   "title": "BKFC 96 Glasgow: Cooke vs. Weir",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship#BKFC_96_Glasgow%3A_Cooke_vs._Weir",
+   "date": "2026-11-07",
+   "startMs": 1794081600000,
+   "timeEstimated": true,
+   "prelimsMs": 1794074400000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Sean Weir",
+     "b": "Conor Cooke",
+     "section": "Main card",
+     "weight": "Light Heavyweight 84 kg",
+     "title": false,
+     "notes": "Wins vacant BKFC UK Light Heavyweight Championship.",
+     "fa": {
+      "name": "Sean Weir",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Conor Cooke",
+      "country": "United Kingdom",
+      "flag": "🇬🇧",
+      "rank": "C"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "1",
+      "time": "1:41"
+     }
+    },
+    {
+     "a": "Danny Christie",
+     "b": "Stevie Ray",
+     "section": "Main card",
+     "weight": "Middleweight 79 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Danny Christie",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Stevie Ray",
+      "country": "United Kingdom",
+      "flag": "🇬🇧",
+      "url": "https://en.wikipedia.org/wiki/Stevie_Ray_%28fighter%29",
+      "record": "26-13-0",
+      "stats": {
+       "Age": "36",
+       "Height": "5 ft 10 in",
+       "Team": "Dinky Ninjas / Tristar Gym"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "2",
+      "time": "1:59"
+     }
+    },
+    {
+     "a": "Gzim Selmani",
+     "b": "Reece Heer",
+     "section": "Main card",
+     "weight": "Heavyweight 120 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Gzim Selmani",
+      "country": "Albania",
+      "url": "https://en.wikipedia.org/wiki/Rezar",
+      "stats": {
+       "Age": "32"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Rezar%2C_WrestleMania_XL.jpg/500px-Rezar%2C_WrestleMania_XL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Diego Serrano · CC BY 2.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Reece Heer",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "5",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Scott Malone",
+     "b": "Kieron Sewell",
+     "section": "Main card",
+     "weight": "Bantamweight 61 kg",
+     "title": false,
+     "notes": "Overtime sixth round.",
+     "fa": {
+      "name": "Scott Malone",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Kieron Sewell",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "6",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Barry Boyle",
+     "b": "Kaseem Saleem",
+     "section": "Main card",
+     "weight": "Heavyweight 120 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Barry Boyle",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Kaseem Saleem",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO",
+      "round": "2",
+      "time": "0:44"
+     }
+    },
+    {
+     "a": "KJ Metcalfe",
+     "b": "Doalty Torrance",
+     "section": "Main card",
+     "weight": "Welterweight 75 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "KJ Metcalfe",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Doalty Torrance",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "2",
+      "time": "1:14"
+     }
+    },
+    {
+     "a": "Corey Chapman",
+     "b": "Lewis Dixon",
+     "section": "Main card",
+     "weight": "Bantamweight 61 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Corey Chapman",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Lewis Dixon",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO",
+      "round": "1",
+      "time": "0:40"
+     }
+    },
+    {
+     "a": "Dan Morel",
+     "b": "Owen Webster",
+     "section": "Main card",
+     "weight": "Featherweight 66 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Dan Morel",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Owen Webster",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "4",
+      "time": "1:17"
+     }
+    },
+    {
+     "a": "Lewis Knox",
+     "b": "Tommy Carus",
+     "section": "Prelims",
+     "weight": "Featherweight 66 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lewis Knox",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Tommy Carus",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "4",
+      "time": "1:27"
+     }
+    },
+    {
+     "a": "Rhys Pagan",
+     "b": "Danny Moir",
+     "section": "Prelims",
+     "weight": "Light Heavyweight 84 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Rhys Pagan",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Danny Moir",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "1",
+      "time": "1:22"
+     }
+    },
+    {
+     "a": "Charlie Thomson",
+     "b": "Ian Mulroy",
+     "section": "Prelims",
+     "weight": "Middleweight 79 kg",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Charlie Thomson",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Ian Mulroy",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "4",
+      "time": "1:26"
+     }
+    }
+   ],
+   "finished": true,
+   "prelimsEstimated": true
+  },
+  {
+   "id": "ufc-ufc-fight-night-cortes-acosta-vs-walker",
+   "promotion": "UFC",
+   "title": "UFC Fight Night: Cortes-Acosta vs. Walker",
+   "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Cortes-Acosta_vs._Walker",
+   "date": "2026-11-07",
+   "startMs": 1794099600000,
+   "timeEstimated": true,
+   "prelimsMs": 1794088800000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Johnny Walker",
+     "b": "Waldo Cortes-Acosta",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Johnny Walker",
+      "url": "https://en.wikipedia.org/wiki/Johnny_Walker_%28fighter%29",
+      "record": "24-10-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 5 in",
+       "Reach": "82 in",
+       "Team": "Xtreme Couture"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/AFSOC_celebrates_Outstanding_Airmen_of_the_Year_%285%29.jpg/500px-AFSOC_celebrates_Outstanding_Airmen_of_the_Year_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Airman Ashton Hamby · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Waldo Cortes-Acosta",
+      "url": "https://en.wikipedia.org/wiki/Waldo_Cortes-Acosta",
+      "record": "17-5-0",
+      "stats": {
+       "Age": "35",
+       "Height": "6 ft 4 in",
+       "Reach": "78 in",
+       "Team": "Ultimate Kombat Training Center"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "3",
+      "time": "2:27"
+     }
+    },
+    {
+     "a": "Tatiana Suarez",
+     "b": "Virna Jandiroba",
+     "section": "Main card",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Tatiana Suarez",
+      "url": "https://en.wikipedia.org/wiki/Tatiana_Suarez",
+      "record": "13-1-0",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 5 in",
+       "Team": "Millennia MMA Gym"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tatiana_Suarez_at_UFC_228.jpg/500px-Tatiana_Suarez_at_UFC_228.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Virna Jandiroba",
+      "url": "https://en.wikipedia.org/wiki/Virna_Jandiroba",
+      "record": "23-5-0",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 3 in",
+       "Team": "Academia Fight House"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Elijah Smith",
+     "b": "Davey Grant",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Elijah Smith"
+     },
+     "fb": {
+      "name": "Davey Grant",
+      "url": "https://en.wikipedia.org/wiki/Davey_Grant",
+      "record": "18-9-0",
+      "stats": {
+       "Age": "40",
+       "Height": "5ft 8 in",
+       "Reach": "69 in",
+       "Team": "SBG UK"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punches)",
+      "round": "1",
+      "time": "1:00"
+     }
+    },
+    {
+     "a": "Lucas Fernando",
+     "b": "Billy Elekana",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lucas Fernando"
+     },
+     "fb": {
+      "name": "Billy Elekana",
+      "url": "https://en.wikipedia.org/wiki/Billy_Elekana",
+      "record": "10-3-0",
+      "stats": {
+       "Age": "31",
+       "Height": "6 ft 3 in",
+       "Reach": "77 in",
+       "Team": "Uprising MMA Training Center"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Nina Nikolija Milošević",
+     "b": "Priscila Cachoeira",
+     "section": "Main card",
+     "weight": "Women's Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Nina Nikolija Milošević"
+     },
+     "fb": {
+      "name": "Priscila Cachoeira",
+      "url": "https://en.wikipedia.org/wiki/Priscila_Cachoeira",
+      "record": "13-10-0",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 7 in",
+       "Reach": "65 in",
+       "Team": "Team Figueiredo"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (elbows and punches)",
+      "round": "2",
+      "time": "3:40"
+     }
+    },
+    {
+     "a": "Mitch Raposo",
+     "b": "Marcos Degli",
+     "section": "Main card",
+     "weight": "Flyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Mitch Raposo"
+     },
+     "fb": {
+      "name": "Marcos Degli"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Ollie Schmid",
+     "b": "Keiichiro Nakamura",
+     "section": "Prelims",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ollie Schmid"
+     },
+     "fb": {
+      "name": "Keiichiro Nakamura"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Thomas Petersen",
+     "b": "Gabriel Lorenço",
+     "section": "Prelims",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Thomas Petersen"
+     },
+     "fb": {
+      "name": "Gabriel Lorenço"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "3",
+      "time": "4:47"
+     }
+    },
+    {
+     "a": "Karine Silva",
+     "b": "Gabriella Fernandes",
+     "section": "Prelims",
+     "weight": "Women's Flyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Karine Silva",
+      "url": "https://en.wikipedia.org/wiki/Karine_Silva",
+      "record": "20-7-0",
+      "stats": {
+       "Age": "32",
+       "Height": "5 ft 4 in",
+       "Reach": "67 in",
+       "Team": "Fighting Nerds"
+      }
+     },
+     "fb": {
+      "name": "Gabriella Fernandes"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Murtazali Magomedov",
+     "b": "José Mauro Delano",
+     "section": "Prelims",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Murtazali Magomedov"
+     },
+     "fb": {
+      "name": "José Mauro Delano"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Austin Bashi",
+     "b": "Carlos Calderon",
+     "section": "Prelims",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Austin Bashi"
+     },
+     "fb": {
+      "name": "Carlos Calderon"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "1",
+      "time": "1:07"
+     }
+    },
+    {
+     "a": "Andre Petroski",
+     "b": "Mantas Kondratavičius",
+     "section": "Prelims",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Andre Petroski",
+      "url": "https://en.wikipedia.org/wiki/Andre_Petroski",
+      "record": "14-6-0",
+      "stats": {
+       "Age": "35",
+       "Height": "6 ft 0 in",
+       "Reach": "73 in",
+       "Team": "Renzo Gracie Philly"
+      }
+     },
+     "fb": {
+      "name": "Mantas Kondratavičius"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (elbows and punches)",
+      "round": "2",
+      "time": "4:39"
+     }
+    },
+    {
+     "a": "Ko Seok-hyeon",
+     "b": "Wellington Turman",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ko Seok-hyeon"
+     },
+     "fb": {
+      "name": "Wellington Turman",
+      "url": "https://en.wikipedia.org/wiki/Wellington_Turman",
+      "nickname": "The Prodigy",
+      "record": "18-9-0",
+      "stats": {
+       "Height": "6 ft 0 in",
+       "Reach": "72 in",
+       "Team": "Teixeira MMA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/WelingtonTurman2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Celsojunior96 · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "José Henrique Souza",
+     "b": "Jonny Parsons",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "José Henrique Souza"
+     },
+     "fb": {
+      "name": "Jonny Parsons"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punches)",
+      "round": "1",
+      "time": "4:16"
+     }
+    }
+   ],
+   "finished": true,
+   "prelimsEstimated": true
+  },
+  {
    "id": "one-one-friday-fights-178-supalek-vs-mammadov-the-inner-circle-38",
    "promotion": "ONE",
    "title": "ONE Friday Fights 178: Supalek vs. Mammadov / The Inner Circle 38",
@@ -34,7 +1333,371 @@
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": []
+   "bouts": [
+    {
+     "a": "Anar Mammadov",
+     "b": "Supalek Jitmuangnon",
+     "section": "ONE Friday Fights 178",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Anar Mammadov",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿"
+     },
+     "fb": {
+      "name": "Supalek Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "1",
+      "time": "2:09"
+     }
+    },
+    {
+     "a": "Kyaw Swar Win",
+     "b": "Sherzodi Sadullo",
+     "section": "ONE Friday Fights 178",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kyaw Swar Win",
+      "country": "MMR"
+     },
+     "fb": {
+      "name": "Sherzodi Sadullo",
+      "country": "Tajikistan",
+      "flag": "🇹🇯"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Cihan Dogu",
+     "b": "Pek PorTorThor.Thongtawee",
+     "section": "ONE Friday Fights 178",
+     "weight": "Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Cihan Dogu",
+      "country": "Turkey",
+      "flag": "🇹🇷"
+     },
+     "fb": {
+      "name": "Pek PorTorThor.Thongtawee",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Ali Al-kinani",
+     "b": "Kumanngern Jitmuangnon",
+     "section": "ONE Friday Fights 178",
+     "weight": "Strawweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ali Al-kinani",
+      "country": "Iraq",
+      "flag": "🇮🇶"
+     },
+     "fb": {
+      "name": "Kumanngern Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "2",
+      "time": "1:24"
+     }
+    },
+    {
+     "a": "Nattakorn Kesorn",
+     "b": "Mathew Gesto",
+     "section": "ONE Friday Fights 178",
+     "weight": "Strawweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Nattakorn Kesorn",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Mathew Gesto",
+      "country": "Philippines",
+      "flag": "🇵🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Superchamp Wutdychonburipraleasing",
+     "b": "Superjung Sor.Rungsak",
+     "section": "ONE Friday Fights 178",
+     "weight": "Strawweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Superchamp Wutdychonburipraleasing",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Superjung Sor.Rungsak",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punches to the body)",
+      "round": "1",
+      "time": "1:58"
+     }
+    },
+    {
+     "a": "Kim Su-hyeon",
+     "b": "Takumi Fukamachi",
+     "section": "ONE Friday Fights 178",
+     "weight": "Bantamweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kim Su-hyeon",
+      "country": "South Korea",
+      "flag": "🇰🇷"
+     },
+     "fb": {
+      "name": "Takumi Fukamachi",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Nongnuk Sor.Dechapan",
+     "b": "Giorgia Pieropan",
+     "section": "ONE Friday Fights 178",
+     "weight": "Women's Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Nongnuk Sor.Dechapan",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Giorgia Pieropan",
+      "country": "Italy",
+      "flag": "🇮🇹"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Shimon Yoshinari",
+     "b": "Ramadan Ondash",
+     "section": "ONE Friday Fights 178",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "For the ONE Flyweight Muay Thai World Grand Prix Quarter-Finals. |}",
+     "fa": {
+      "name": "Shimon Yoshinari",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "url": "https://en.wikipedia.org/wiki/Shimon_Yoshinari",
+      "stats": {
+       "Age": "22",
+       "Height": "175cm",
+       "Team": "Eiwa Sports Gym"
+      }
+     },
+     "fb": {
+      "name": "Ramadan Ondash",
+      "country": "Lebanon",
+      "flag": "🇱🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Nong-O Hama",
+     "b": "Rodtang Jitmuangnon",
+     "section": "The Inner Circle 38",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "For the ONE Flyweight Muay Thai World Grand Prix Quarter-Finals.",
+     "fa": {
+      "name": "Nong-O Hama",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Nong-O_Hama",
+      "stats": {
+       "Age": "40",
+       "Height": "171 cm",
+       "Reach": "172 cm",
+       "Team": "Superbon Training Camp"
+      }
+     },
+     "fb": {
+      "name": "Rodtang Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Rodtang_Jitmuangnon",
+      "nickname": "The Iron Man",
+      "stats": {
+       "Age": "29",
+       "Height": "168 cm",
+       "Reach": "165 cm",
+       "Team": "Fairtex"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%E3%83%AD%E3%83%83%E3%82%BF%E3%83%B3%E3%83%BB%E3%82%B8%E3%83%83%E3%83%88%E3%83%A0%E3%82%A2%E3%83%B3%E3%83%8E%E3%83%B3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: TJ Channel Thailand · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "PTT Apichartfarm",
+     "b": "Hamza Rachid",
+     "section": "The Inner Circle 38",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "PTT missed weight (147.6 lb).",
+     "fa": {
+      "name": "PTT Apichartfarm",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Por_Tor_Thor_Petchrungruang",
+      "stats": {
+       "Age": "29",
+       "Height": "178cm",
+       "Team": "Venum Training Camp"
+      }
+     },
+     "fb": {
+      "name": "Hamza Rachid",
+      "country": "Morocco",
+      "flag": "🇲🇦"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "1",
+      "time": "2:37"
+     }
+    },
+    {
+     "a": "Lenny Blasi",
+     "b": "Adam Benwarwar",
+     "section": "The Inner Circle 38",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lenny Blasi",
+      "country": "Italy",
+      "flag": "🇮🇹"
+     },
+     "fb": {
+      "name": "Adam Benwarwar",
+      "country": "Morocco",
+      "flag": "🇲🇦"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Songpandin Chor.Kaewwiset",
+     "b": "PetUbon Jitmuangnon",
+     "section": "The Inner Circle 38",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "Only 132 lbs limit, Songpandin missed weight (136 lb).",
+     "fa": {
+      "name": "Songpandin Chor.Kaewwiset",
+      "country": "LAO"
+     },
+     "fb": {
+      "name": "PetUbon Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "3:00"
+     }
+    },
+    {
+     "a": "Banluelok Sitwatcharachai",
+     "b": "Mya Lone Chaw",
+     "section": "The Inner Circle 38",
+     "weight": "Atomweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Banluelok Sitwatcharachai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Mya Lone Chaw",
+      "country": "MMR"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punches)",
+      "round": "2",
+      "time": "1:04"
+     }
+    }
+   ],
+   "finished": true
   },
   {
    "id": "raf-raf-abu-dhabi-chimaev-vs-weidman",
@@ -452,6 +2115,7 @@
      }
     }
    ],
+   "finished": false,
    "timeSource": "Set by you"
   },
   {
@@ -505,7 +2169,7 @@
       "pctA": 65,
       "pctB": 35,
       "oddsA": 1.48,
-      "oddsB": 2.67,
+      "oddsB": 2.73,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -637,7 +2301,7 @@
       "pctA": 59,
       "pctB": 41,
       "oddsA": 1.62,
-      "oddsB": 2.35,
+      "oddsB": 2.33,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -702,11 +2366,11 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 56,
-      "pctB": 44,
-      "oddsA": 1.71,
-      "oddsB": 2.15,
-      "tier": "Slight favourite",
+      "pctA": 55,
+      "pctB": 45,
+      "oddsA": 1.74,
+      "oddsB": 2.12,
+      "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 12 bookmakers",
       "source": "Bookmaker odds"
@@ -820,7 +2484,7 @@
       "fav": "a",
       "pctA": 63,
       "pctB": 37,
-      "oddsA": 1.54,
+      "oddsA": 1.52,
       "oddsB": 2.55,
       "tier": "Slight favourite",
       "why": "",
@@ -956,6 +2620,7 @@
      }
     }
    ],
+   "finished": false,
    "earlyPrelimsEstimated": false,
    "prelimsEstimated": true
   },
@@ -1199,6 +2864,7 @@
      }
     }
    ],
+   "finished": false,
    "timeSource": "TheSportsDB"
   },
   {
@@ -1218,7 +2884,7 @@
      "section": "ONE Friday Fights 179",
      "weight": "Flyweight Muay Thai",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Chartpayak Saksatoon",
       "country": "Thailand",
@@ -1226,6 +2892,24 @@
      },
      "fb": {
       "name": "Klarob Nuikafeboran",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Wuttikrai Wor.Chakrawut",
+     "b": "Superjeng Torfunfarm",
+     "section": "ONE Friday Fights 179",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Wuttikrai Wor.Chakrawut",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Superjeng Torfunfarm",
       "country": "Thailand",
       "flag": "🇹🇭"
      }
@@ -1284,31 +2968,65 @@
      }
     },
     {
-     "a": "Allycia Rodrigues",
-     "b": "Charlotte Padié",
+     "a": "Attachai Kelasport",
+     "b": "Petnamkhong Sor.Maneekhot",
      "section": "The Inner Circle 39",
-     "weight": "Women's Atomweight MMA",
+     "weight": "Strawweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Attachai Kelasport",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Petnamkhong Sor.Maneekhot",
+      "country": "LAO"
+     }
+    },
+    {
+     "a": "Alessio Malatesta",
+     "b": "Uzair Ismoiljonov",
+     "section": "The Inner Circle 39",
+     "weight": "Featherweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Alessio Malatesta",
+      "country": "Italy",
+      "flag": "🇮🇹"
+     },
+     "fb": {
+      "name": "Uzair Ismoiljonov",
+      "country": "Uzbekistan",
+      "flag": "🇺🇿"
+     }
+    },
+    {
+     "a": "Rak Erawan",
+     "b": "Salai Htan Khee Shein",
+     "section": "The Inner Circle 39",
+     "weight": "Atomweight Muay Thai",
      "title": false,
      "notes": "|}",
      "fa": {
-      "name": "Allycia Rodrigues",
-      "country": "Brazil",
-      "flag": "🇧🇷",
-      "url": "https://en.wikipedia.org/wiki/Allycia_Rodrigues",
+      "name": "Rak Erawan",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Rak_Erawan",
       "stats": {
-       "Age": "28",
-       "Height": "5 ft 3 in",
-       "Reach": "62 in",
-       "Team": "Phuket Fight Club"
+       "Age": "25",
+       "Height": "164cm",
+       "Team": "Erawan"
       }
      },
      "fb": {
-      "name": "Charlotte Padié",
-      "country": "France",
-      "flag": "🇫🇷"
+      "name": "Salai Htan Khee Shein",
+      "country": "MMR"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "bkfc-bkfc-fight-night-myrtle-beach-richardson-vs-oxendine",
@@ -1518,7 +3236,8 @@
       "flag": "🇬🇧"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "ufc-ufc-fight-night-proch-zka-vs-stirling",
@@ -1563,10 +3282,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 44,
-      "pctB": 56,
-      "oddsA": 2.15,
-      "oddsB": 1.69,
+      "pctA": 43,
+      "pctB": 57,
+      "oddsA": 2.2,
+      "oddsB": 1.67,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 8 bookmakers",
@@ -1606,10 +3325,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 47,
-      "pctB": 53,
-      "oddsA": 2.05,
-      "oddsB": 1.77,
+      "pctA": 45,
+      "pctB": 55,
+      "oddsA": 2.12,
+      "oddsB": 1.73,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 8 bookmakers",
@@ -1899,6 +3618,7 @@
      }
     }
    ],
+   "finished": false,
    "prelimsEstimated": true
   },
   {
@@ -1961,7 +3681,8 @@
       "flag": "🇹🇭"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "raf-raf-15-tsarukyan-vs-pettis",
@@ -2376,7 +4097,8 @@
       "flag": "🇺🇸"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "one-one-samurai-6",
@@ -2552,7 +4274,8 @@
       "flag": "🇯🇵"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "bkfc-bkfc-fight-night-hershey-pague-vs-richman",
@@ -2829,7 +4552,8 @@
       "flag": "🇺🇸"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "ufc-ufc-fight-night-adesanya-vs-magomedov",
@@ -3132,7 +4856,8 @@
       "name": "Hecher Sosa"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "bkfc-bkfc-97-hollywood-fl-henry-vs-collard",
@@ -3288,7 +5013,8 @@
       "flag": "🇺🇸"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "ufc-ufc-335-oliveira-vs-lopes",
@@ -3448,7 +5174,8 @@
       }
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "one-one-fight-night-50",
@@ -3626,7 +5353,8 @@
       }
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "raf-raf-16",
@@ -3638,7 +5366,8 @@
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": []
+   "bouts": [],
+   "finished": false
   },
   {
    "id": "ufc-ufc-fight-night-296",
@@ -3650,7 +5379,8 @@
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": []
+   "bouts": [],
+   "finished": false
   },
   {
    "id": "ufc-ufc-fight-night-297",
@@ -3662,7 +5392,8 @@
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": []
+   "bouts": [],
+   "finished": false
   },
   {
    "id": "bkfc-bkfsea-bruise-cruise-stewart-vs-duran",
@@ -3817,7 +5548,8 @@
       "flag": "🇺🇸"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "ufc-ufc-336-van-vs-kape",
@@ -3920,7 +5652,8 @@
       "source": "Bookmaker odds"
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "ufc-ufc-fight-night-salkilld-vs-saint-denis",
@@ -4056,7 +5789,8 @@
       }
      }
     }
-   ]
+   ],
+   "finished": false
   },
   {
    "id": "bkfc-bkfc-99-sheffield-bonner-vs-franco",
@@ -4106,9 +5840,10 @@
       "flag": "🇬🇧"
      }
     }
-   ]
+   ],
+   "finished": false
   }
  ],
- "oddsUpdatedMs": 1794655516785,
- "oddsCreditsLeft": "480"
+ "oddsUpdatedMs": 1794662951856,
+ "oddsCreditsLeft": "478"
 }
