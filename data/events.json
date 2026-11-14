@@ -1,0 +1,1016 @@
+{
+ "generatedMs": 1794642693451,
+ "source": "next-fight.com",
+ "health": {
+  "UFC": {
+   "ok": true,
+   "events": 3,
+   "message": ""
+  },
+  "BKFC": {
+   "ok": true,
+   "events": 6,
+   "message": ""
+  },
+  "ONE": {
+   "ok": true,
+   "events": 2,
+   "message": ""
+  },
+  "RAF": {
+   "ok": true,
+   "events": 4,
+   "message": ""
+  }
+ },
+ "events": [
+  {
+   "id": "raf-raf-abu-dhabi",
+   "promotion": "RAF",
+   "title": "Chimaev vs Weidman - Abu Dhabi, UAE",
+   "url": "https://next-fight.com/en/raf/raf-abu-dhabi",
+   "startMs": 1794704400000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Khamzat Chimaev Khamzat Chimaev",
+     "b": "Chris Weidman",
+     "section": "Main Event",
+     "weight": "Light Heavyweight",
+     "title": true
+    },
+    {
+     "a": "Arman Tsarukyan Arman Tsarukyan",
+     "b": "Neiman Gracie",
+     "section": "Co-main Event",
+     "weight": "Catchweight Crossover",
+     "title": false
+    },
+    {
+     "a": "Khamzat Chimaev Khamzat Chimaev",
+     "b": "Colby Covington",
+     "section": "Co-main Event",
+     "weight": "Cruiserweight",
+     "title": true
+    },
+    {
+     "a": "Zabit Magomedsharipov Zabit Magomedsharipov",
+     "b": "Giga Chikadze",
+     "section": "Co-main Event",
+     "weight": "Welterweight",
+     "title": true
+    },
+    {
+     "a": "Umar Nurmagomedov Umar Nurmagomedov",
+     "b": "Urijah Faber",
+     "section": "Co-main Event",
+     "weight": "Cruiserweight",
+     "title": true
+    },
+    {
+     "a": "Shamil Erdogan Shamil Erdogan",
+     "b": "Diana Avsaragova",
+     "section": "Co-main Event",
+     "weight": "Light Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Julianna Peña Julianna Peña",
+     "b": "Merab Dvalishvili",
+     "section": "Co-main Event",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Marlon Moraes Marlon Moraes",
+     "b": "Ali AlQaisi",
+     "section": "Co-main Event",
+     "weight": "Catchweight Crossover",
+     "title": false
+    },
+    {
+     "a": "Hamza Kooheji Hamza Kooheji",
+     "b": "Bella Mir",
+     "section": "Co-main Event",
+     "weight": "Lightweight",
+     "title": true
+    },
+    {
+     "a": "Khamzat Chimaev 15-1-0",
+     "b": "Chris Weidman 16-8-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Colby Covington 17-5-0",
+     "b": "Arman Tsarukyan 24-3-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Neiman Gracie 13-6-0",
+     "b": "Zabit Magomedsharipov 18-1-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Giga Chikadze 15-7-0",
+     "b": "Umar Nurmagomedov 20-2-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Urijah Faber 35-11-0",
+     "b": "Shamil Erdogan 14-0-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Diana Avsaragova 6-2-0",
+     "b": "Julianna Pena 12-6-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Merab Dvalishvili 21-6-0",
+     "b": "Marlon Moraes 24-13-1",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Ali AlQaisi 16-10-0",
+     "b": "Hamza Kooheji 15-4-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "ufc-ufc-334",
+   "promotion": "UFC",
+   "title": "UFC 334: Gane vs. Hokit",
+   "url": "https://next-fight.com/en/event/ufc-334",
+   "startMs": 1794708000000,
+   "prelimsMs": 1794700800000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Ciryl Gane C Ciryl Gane",
+     "b": "Josh Hokit",
+     "section": "Main Event",
+     "weight": "Heavyweight",
+     "title": true
+    },
+    {
+     "a": "Kayla Harrison C Kayla Harrison",
+     "b": "Amanda Nunes",
+     "section": "Co-main Event",
+     "weight": "Bantamweight",
+     "title": true
+    },
+    {
+     "a": "Caio Borralho #6 Caio Borralho",
+     "b": "Yousri Belgaroui",
+     "section": "Main Card",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Uros Medic #9 Uros Medic",
+     "b": "Kevin Holland",
+     "section": "Main Card",
+     "weight": "Welterweight",
+     "title": false
+    },
+    {
+     "a": "Bilal Hasan Bilal Hasan",
+     "b": "Luis Gurule",
+     "section": "Main Card",
+     "weight": "Flyweight",
+     "title": false
+    },
+    {
+     "a": "Stephen Thompson Stephen Thompson",
+     "b": "Charles Radtke",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false
+    },
+    {
+     "a": "Drew Dober Drew Dober",
+     "b": "Chris Duncan",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Jim Miller Jim Miller",
+     "b": "Terrance McKinney",
+     "section": "Prelims",
+     "weight": "Catchweight",
+     "title": false
+    },
+    {
+     "a": "Donte Johnson Donte Johnson",
+     "b": "Cesar Almeida",
+     "section": "Prelims",
+     "weight": "Catchweight",
+     "title": false
+    },
+    {
+     "a": "Jared Gordon Jared Gordon",
+     "b": "Melquizael Costa",
+     "section": "Early Prelims",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Macy Chiasson #14 Macy Chiasson",
+     "b": "Bia Mesquita",
+     "section": "Early Prelims",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Juan Diaz Juan Diaz",
+     "b": "Heili Alateng",
+     "section": "Early Prelims",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Evan Elder Evan Elder",
+     "b": "Samuel Sanches",
+     "section": "Early Prelims",
+     "weight": "Lightweight",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "one-one-championship-one-samurai-5",
+   "promotion": "ONE",
+   "title": "One Championship - ONE Samurai 5",
+   "url": "https://next-fight.com/en/event/one-championship-one-samurai-5",
+   "startMs": 1794990600000,
+   "prelimsMs": 1794979800000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Joshua Pacio Joshua Pacio",
+     "b": "Keito Yamakita",
+     "section": "Main Event",
+     "weight": "Flyweight",
+     "title": true
+    },
+    {
+     "a": "Tatsumitsu Wada Tatsumitsu Wada",
+     "b": "Jarred Brooks",
+     "section": "Co-main Event",
+     "weight": "Flyweight",
+     "title": false
+    },
+    {
+     "a": "Ryugo Takeuchi Ryugo Takeuchi",
+     "b": "BH",
+     "section": "Co-main Event",
+     "weight": "Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Shosuke Kinoshita Shosuke Kinoshita",
+     "b": "Takuya Shibamura",
+     "section": "Co-main Event",
+     "weight": "Lightweight",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "one-one-championship-one-friday-fights-179",
+   "promotion": "ONE",
+   "title": "One Championship - One Friday Fights 179",
+   "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-179",
+   "startMs": 1795174200000,
+   "prelimsMs": 1795163400000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Allycia Hellen Rodrigues Allycia Hellen Rodrigues",
+     "b": "CP",
+     "section": "",
+     "weight": "Strawweight",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "bkfc-bkfc-fight-night-myrtle-beach",
+   "promotion": "BKFC",
+   "title": "BKFC Fight Night Myrtle Beach Richardson vs Oxendine",
+   "url": "https://next-fight.com/en/bkfc/bkfc-fight-night-myrtle-beach",
+   "startMs": 1795226400000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Keith Richardson Keith Richardson",
+     "b": "Derek Brunson",
+     "section": "Main Event",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Theo Doukas Theo Doukas",
+     "b": "RJ",
+     "section": "Co-main Event",
+     "weight": "Cruiserweight",
+     "title": false
+    },
+    {
+     "a": "Diego Romo Diego Romo",
+     "b": "Windson Ramos",
+     "section": "Co-main Event",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Robert Fichtner Robert Fichtner",
+     "b": "BB",
+     "section": "Co-main Event",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Austin Coleman Austin Coleman",
+     "b": "AE",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Amos Collins Amos Collins",
+     "b": "Ashton Caniglia",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Maurice Morris Maurice Morris",
+     "b": "LG",
+     "section": "Co-main Event",
+     "weight": "Light Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Keith Richardson 22-11-0",
+     "b": "Derek Brunson 24-9-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Theo Doukas 2-2-0",
+     "b": "Ryan Jett 5-9-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Diego Romo 3-1-0",
+     "b": "Windson Ramos 5-3-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Robert Fichtner 0-0-0",
+     "b": "Brandon Bushaw 6-6-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Austin Coleman 6-8-0",
+     "b": "Alex Eliam 1-3-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Amos Collins 6-7-0",
+     "b": "Ashton Caniglia 8-10-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Maurice Morris 6-6-0",
+     "b": "Lewis Glover 0-2-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "ufc-ufc-qatar",
+   "promotion": "UFC",
+   "title": "UFC Fight Night: Procházka vs. Stirling",
+   "url": "https://next-fight.com/en/event/ufc-qatar",
+   "startMs": 1795284000000,
+   "prelimsMs": 1795273200000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Jiri Prochazka #3 Jiri Prochazka",
+     "b": "Navajo Stirling",
+     "section": "Main Event",
+     "weight": "Light Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Aljamain Sterling #4 Aljamain Sterling",
+     "b": "Kevin Vallejos",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Dan Hooker Dan Hooker",
+     "b": "Brian Ortega",
+     "section": "Main Card",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Kyoji Horiguchi #7 Kyoji Horiguchi",
+     "b": "Asu Almabayev",
+     "section": "Main Card",
+     "weight": "Flyweight",
+     "title": false
+    },
+    {
+     "a": "Ikram Aliskerov #11 Ikram Aliskerov",
+     "b": "Jared Cannonier",
+     "section": "Main Card",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Aleksandre Topuria Aleksandre Topuria",
+     "b": "Santiago Luna",
+     "section": "Main Card",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Shamil Gaziev Shamil Gaziev",
+     "b": "Tallison Teixeira",
+     "section": "Prelims",
+     "weight": "Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Amir Albazi #8 Amir Albazi",
+     "b": "Alessandro Costa",
+     "section": "Prelims",
+     "weight": "Flyweight",
+     "title": false
+    },
+    {
+     "a": "Jake Matthews Jake Matthews",
+     "b": "Tahir Abdullayev",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false
+    },
+    {
+     "a": "Nikolas Motta Nikolas Motta",
+     "b": "Dom Mar Fan",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Diyar Nurgozhay Diyar Nurgozhay",
+     "b": "Alik Lorenz",
+     "section": "Prelims",
+     "weight": "Light Heavyweight",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "raf-raf15",
+   "promotion": "RAF",
+   "title": "Cejudo vs Song - Chicago, IL",
+   "url": "https://next-fight.com/en/raf/raf15",
+   "startMs": 1795910400000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Henry Cejudo Henry Cejudo",
+     "b": "Donald Cerrone",
+     "section": "Main Event",
+     "weight": "Lightweight",
+     "title": true
+    },
+    {
+     "a": "Anthony Pettis Anthony Pettis",
+     "b": "Arman Tsarukyan",
+     "section": "Co-main Event",
+     "weight": "Cruiserweight",
+     "title": true
+    },
+    {
+     "a": "Anthony Pettis Anthony Pettis",
+     "b": "SR",
+     "section": "Co-main Event",
+     "weight": "Middleweight",
+     "title": true
+    },
+    {
+     "a": "Sergio Pettis Sergio Pettis",
+     "b": "Cody Garbrandt",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Raúl Rosas Jr. Raúl Rosas Jr.",
+     "b": "Clay Guida",
+     "section": "Co-main Event",
+     "weight": "Cruiserweight",
+     "title": true
+    },
+    {
+     "a": "Miranda Maverick Miranda Maverick",
+     "b": "Danny Sabatello",
+     "section": "Co-main Event",
+     "weight": "Bantamweight",
+     "title": true
+    },
+    {
+     "a": "Henry Cejudo 16-6-0",
+     "b": "Donald Cerrone 36-17-0",
+     "section": "Co-main Event",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Anthony Pettis 25-14-0",
+     "b": "Arman Tsarukyan 24-3-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Sebastian Rivera 0-0-0",
+     "b": "Sergio Pettis 25-8-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Cody Garbrandt 15-8-0",
+     "b": "Raul Rosas Jr. 13-1-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Clay Guida 38-25-0",
+     "b": "Miranda Maverick 15-6-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "bkfc-bkfc-fight-night-hershey",
+   "promotion": "BKFC",
+   "title": "BKFC Fight Night Hershey Pague vs Richman",
+   "url": "https://next-fight.com/en/bkfc/bkfc-fight-night-hershey",
+   "startMs": 1796432400000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Dustin Pague Dustin Pague",
+     "b": "Mike Richman",
+     "section": "Main Event",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Sam Alvey Sam Alvey",
+     "b": "JM",
+     "section": "Co-main Event",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Michael Manno Michael Manno",
+     "b": "JV",
+     "section": "Co-main Event",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Elijah Harris Elijah Harris",
+     "b": "Jay Haas",
+     "section": "Co-main Event",
+     "weight": "Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Eduardo Peralta Eduardo Peralta",
+     "b": "Hunter Starner",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Blaine Shutt Blaine Shutt",
+     "b": "LL",
+     "section": "Co-main Event",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Tim Yanc Tim Yanc",
+     "b": "MS",
+     "section": "Co-main Event",
+     "weight": "Cruiserweight",
+     "title": false
+    },
+    {
+     "a": "Zachary Shingara Zachary Shingara",
+     "b": "FB",
+     "section": "Co-main Event",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Brian Newman Brian Newman",
+     "b": "Dustin Pague 12-11-0",
+     "section": "Co-main Event",
+     "weight": "Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Mike Richman 18-8-0",
+     "b": "Sam Alvey 34-18-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Jonathan Miller 0-0-0",
+     "b": "Michael Manno 3-4-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Julian Valencia 0-0-0",
+     "b": "Elijah Harris 6-12-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Jay Haas 17-21-0",
+     "b": "Eduardo Peralta 3-4-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Hunter Starner 3-3-0",
+     "b": "Blaine Shutt 8-6-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Lex Ludlow 2-4-0",
+     "b": "Tim Yanc 0-0-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Malcolm Schuyler 1-1-0",
+     "b": "Zachary Shingara 1-1-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Fabricio Berrun 0-0-0",
+     "b": "Brian Newman 0-0-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "bkfc-bkfc-hollywood-3",
+   "promotion": "BKFC",
+   "title": "BKFC 97 Hollywood Henry vs Collard",
+   "url": "https://next-fight.com/en/bkfc/bkfc-hollywood-3",
+   "startMs": 1797033600000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Clay Collard Clay Collard",
+     "b": "Joe Elmore",
+     "section": "Main Event",
+     "weight": "Welterweight",
+     "title": false
+    },
+    {
+     "a": "Jessica Eye Jessica Eye",
+     "b": "Desiree Yanez",
+     "section": "Co-main Event",
+     "weight": "Flyweight",
+     "title": false
+    },
+    {
+     "a": "Francesco Ricchi Francesco Ricchi",
+     "b": "Zeb Vincent",
+     "section": "Co-main Event",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Murat Kazgan Murat Kazgan",
+     "b": "JW",
+     "section": "Co-main Event",
+     "weight": "Welterweight",
+     "title": false
+    },
+    {
+     "a": "Clay Collard 25-15-0",
+     "b": "Joe Elmore 13-12-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Jessica Eye 15-11-0",
+     "b": "Desiree Yanez 7-6-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Francesco Ricchi 1-0-0",
+     "b": "Zeb Vincent 2-1-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Murat Kazgan 4-2-0",
+     "b": "Justin Walters 0-1-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "ufc-ufc-335",
+   "promotion": "UFC",
+   "title": "UFC 335: Oliveira vs. Lopes",
+   "url": "https://next-fight.com/en/event/ufc-335",
+   "startMs": 1797127200000,
+   "prelimsMs": 1797120000000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Charles Oliveira #3 Charles Oliveira",
+     "b": "Diego Lopes",
+     "section": "Main Event",
+     "weight": "Lightweight",
+     "title": true
+    },
+    {
+     "a": "Alex Pereira #1 Alex Pereira",
+     "b": "Sergei Pavlovich",
+     "section": "Co-main Event",
+     "weight": "Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Brandon Moreno #9 Brandon Moreno",
+     "b": "Charles Johnson",
+     "section": "Co-main Event",
+     "weight": "Flyweight",
+     "title": false
+    },
+    {
+     "a": "Yair Rodriguez Yair Rodriguez",
+     "b": "Steve Garcia",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Baisangur Susurkaev Baisangur Susurkaev",
+     "b": "Damian Pinas",
+     "section": "Co-main Event",
+     "weight": "Middleweight",
+     "title": false
+    },
+    {
+     "a": "Angela Hill Angela Hill",
+     "b": "Shanelle Dyer",
+     "section": "Co-main Event",
+     "weight": "Strawweight",
+     "title": false
+    },
+    {
+     "a": "Chase Hooper Chase Hooper",
+     "b": "Chris Padilla",
+     "section": "Co-main Event",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Jacqueline Cavalcanti #6 Jacqueline Cavalcanti",
+     "b": "Michelle Montague",
+     "section": "Co-main Event",
+     "weight": "Bantamweight",
+     "title": false
+    },
+    {
+     "a": "Quentin Pasley Quentin Pasley",
+     "b": "Junior Tafa",
+     "section": "Co-main Event",
+     "weight": "Light Heavyweight",
+     "title": false
+    },
+    {
+     "a": "Ronald Humphrey Ronald Humphrey",
+     "b": "Nikolay Veretennikov",
+     "section": "Co-main Event",
+     "weight": "Welterweight",
+     "title": false
+    },
+    {
+     "a": "Roque Conceicao Moreira Junior Roque Conceicao Moreira Junior",
+     "b": "Nilson Rojas",
+     "section": "Co-main Event",
+     "weight": "Flyweight",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "raf-raf16",
+   "promotion": "RAF",
+   "title": "RAF16 - Long Island, NY",
+   "url": "https://next-fight.com/en/raf/raf16",
+   "startMs": 1797728400000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Bo Nickal Bo Nickal",
+     "b": "Yoel Romero",
+     "section": "Main Event",
+     "weight": "Catchweight Crossover",
+     "title": false
+    },
+    {
+     "a": "Bo Nickal 9-1-0",
+     "b": "Yoel Romero 17-7-0",
+     "section": "Main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "raf-raf17",
+   "promotion": "RAF",
+   "title": "RAF17 - Charlotte, NC",
+   "url": "https://next-fight.com/en/raf/raf17",
+   "startMs": 1800752400000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": []
+  },
+  {
+   "id": "bkfc-bkfsea-bruise-cruise",
+   "promotion": "BKFC",
+   "title": "Bkfsea Bruise Cruise Stewart vs Duran",
+   "url": "https://next-fight.com/en/bkfc/bkfsea-bruise-cruise",
+   "startMs": 1800756000000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Kai Stewart Kai Stewart",
+     "b": "Josh Kuhne",
+     "section": "Main Event",
+     "weight": "Featherweight",
+     "title": true
+    },
+    {
+     "a": "Nathan Rivera Nathan Rivera",
+     "b": "BM",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Gabriel Mota Gabriel Mota",
+     "b": "Joey Gambino",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Matt Denning Matt Denning",
+     "b": "CF",
+     "section": "Co-main Event",
+     "weight": "Featherweight",
+     "title": false
+    },
+    {
+     "a": "Amos Collins Amos Collins",
+     "b": "Kai Stewart 1-0-0",
+     "section": "Co-main Event",
+     "weight": "Lightweight",
+     "title": false
+    },
+    {
+     "a": "Josh Kuhne 4-3-0",
+     "b": "Nathan Rivera 0-0-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Brandon Meneses 1-2-0",
+     "b": "Gabriel Mota 6-8-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Joey Gambino 9-2-0",
+     "b": "Matt Denning 8-24-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    },
+    {
+     "a": "Cole Ferrell 12-2-0",
+     "b": "Amos Collins 6-7-0",
+     "section": "Co-main Event",
+     "weight": "",
+     "title": false
+    }
+   ]
+  },
+  {
+   "id": "bkfc-bkfc-fight-night-palm-desert",
+   "promotion": "BKFC",
+   "title": "BKFC Fight Night Palm Desert",
+   "url": "https://next-fight.com/en/bkfc/bkfc-fight-night-palm-desert",
+   "startMs": 1801879200000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": []
+  },
+  {
+   "id": "bkfc-bkfc-99-sheffield-bonner-vs-franco",
+   "promotion": "BKFC",
+   "title": "BKFC 99 Sheffield Bonner vs Franco",
+   "url": "https://next-fight.com/en/bkfc/bkfc-99-sheffield-bonner-vs-franco",
+   "startMs": 1802545200000,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": []
+  }
+ ]
+}
