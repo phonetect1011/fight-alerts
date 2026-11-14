@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794652497745,
+ "generatedMs": 1794653962841,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -758,8 +758,8 @@
       "fav": "a",
       "pctA": 56,
       "pctB": 44,
-      "oddsA": 1.7,
-      "oddsB": 2.17,
+      "oddsA": 1.71,
+      "oddsB": 2.15,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -872,10 +872,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 62,
-      "pctB": 38,
+      "pctA": 63,
+      "pctB": 37,
       "oddsA": 1.54,
-      "oddsB": 2.5,
+      "oddsB": 2.55,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -2317,7 +2317,9 @@
       "stats": {
        "Age": "24",
        "Height": "5 ft 10 in"
-      }
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/CesarAlvan.jpg/500px-CesarAlvan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "photoCredit": "Photo: Marco Alvan · CC BY 3.0 (Wikimedia Commons)"
      }
     },
     {
@@ -3310,9 +3312,7 @@
      "fa": {
       "name": "Howard Davis",
       "country": "United States",
-      "flag": "🇺🇸",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Howard_Davis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "photoCredit": "Photo: Howard Davis · Public domain (Wikimedia Commons)"
+      "flag": "🇺🇸"
      },
      "fb": {
       "name": "Elvin Brito",
@@ -4159,6 +4159,6 @@
    ]
   }
  ],
- "oddsUpdatedMs": 1794652551597,
- "oddsCreditsLeft": "490"
+ "oddsUpdatedMs": 1794653993086,
+ "oddsCreditsLeft": "486"
 }
