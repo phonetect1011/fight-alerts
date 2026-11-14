@@ -1,0 +1,20 @@
+search_all_leagues Fighting: http=200 count=5
+  4604  Jungle Fight  alt=
+  5341  TKO MMA  alt=TKO Major League MMA
+  5911  MLP  alt=Maple Leaf Pro Wrestling
+  4855  KOPW  alt=King of Pro Wrestling
+  5702  Oktagon MMA  alt=
+
+DAY 2026-11-14: http=200 events=3
+  wXw | 00:00:00 | ts=2026-11-14T00:00:00 | We Love Wrestling Live In Limbach Oberfrohna
+  UFC | 22:00:00 | ts=2026-11-14T22:00:00 | UFC 334 Gane vs Hokit
+  Professional Fighters League | 14:00:00 | ts=2026-11-14T14:00:00 | PFL Dubai Nemkov vs Bilostenniy
+
+DAY 2026-11-18: http=200 events=2
+  ONE | 08:30:00 | ts=2026-11-18T08:30:00 | ONE Samurai 5
+  Sumo | 07:00:00 | ts=2026-11-18T07:00:00 | Kyushu Basho Day 11
+
+DAY 2026-11-21: http=200 events=3
+  wXw | 00:00:00 | ts=2026-11-21T00:00:00 | We Love Wrestling Live In Bad Säckingen
+  KOK | 00:00:00 | ts=2026-11-21T00:00:00 | KOK 130 World Series in Freiburg
+  UFC | 00:00:00 | ts=2026-11-21T00:00:00 | UFC Fight Night 294 Procházka vs Stirling
