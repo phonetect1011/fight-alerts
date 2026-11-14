@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794653962841,
+ "generatedMs": 1794654332863,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -42,8 +42,8 @@
    "title": "RAF Abu Dhabi: Chimaev vs. Weidman",
    "url": "https://en.wikipedia.org/wiki/RAF_Abu_Dhabi",
    "date": "2026-11-14",
-   "startMs": 1794654000000,
-   "timeEstimated": false,
+   "startMs": 1794672000000,
+   "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -3978,8 +3978,8 @@
    "title": "UFC Fight Night: Salkilld vs. Saint Denis",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Salkilld_vs._Saint_Denis",
    "date": "2027-02-07",
-   "startMs": 1801933200000,
-   "timeEstimated": false,
+   "startMs": 1801965600000,
+   "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -4159,6 +4159,6 @@
    ]
   }
  ],
- "oddsUpdatedMs": 1794653993086,
- "oddsCreditsLeft": "486"
+ "oddsUpdatedMs": 1794654347472,
+ "oddsCreditsLeft": "484"
 }
