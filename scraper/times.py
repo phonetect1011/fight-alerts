@@ -38,8 +38,9 @@ import requests
 
 SPORTSDB = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php"
 HEADERS = {"User-Agent": "FightAlertsBot/1.0 (https://github.com/phonetect1011/fight-alerts; personal non-commercial app)"}
-LEAGUE_WORDS = {"UFC": ("ufc",), "ONE": ("one",), "BKFC": ("bkfc", "bare knuckle"), "RAF": ("raf", "real american")}
-STOP = {"vs", "v", "ufc", "one", "bkfc", "raf", "fight", "night", "championship", "fights", "friday", "the", "inner", "circle"}
+LEAGUE_WORDS = {"UFC": ("ufc",), "ONE": ("one",), "BKFC": ("bkfc", "bare knuckle"), "RAF": ("raf", "real american"),
+                "PFL": ("pfl", "professional fighters")}
+STOP = {"vs", "v", "ufc", "one", "bkfc", "raf", "pfl", "professional", "fighters", "league", "fight", "night", "championship", "fights", "friday", "the", "inner", "circle"}
 LOOKAHEAD_DAYS = 14
 MAX_DAYS_PER_RUN = 10      # the shared free key is rate-limited, so keep calls few and spaced out
 CACHE_HOURS = 12
