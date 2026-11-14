@@ -1,21 +1,32 @@
 #!/usr/bin/env python3
-"""Saves trimmed samples of next-fight.com page HTML into data/debug/ so the parser can be fixed."""
+"""Saves Wikipedia wikitext samples into data/debug/ (via the official MediaWiki API) to design the parser."""
 import os
 import re
 
 import requests
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-}
+API = "https://en.wikipedia.org/w/api.php"
+HEADERS = {"User-Agent": "FightAlertsBot/1.0 (https://github.com/phonetect1011/fight-alerts; personal app)"}
 
 
-def slim(s):
-    s = re.sub(r"<svg.*?</svg>", "<svg/>", s, flags=re.S)
-    s = re.sub(r'\s(srcset|srcSet|sizes|style|loading|decoding|data-[\w-]+)="[^"]*"', "", s)
-    s = re.sub(r'<img[^>]*>', '<img/>', s)
-    return s
+def wikitext(page):
+    r = requests.get(API, params={
+        "action": "parse", "page": page, "prop": "wikitext", "format": "json",
+        "formatversion": 2, "redirects": 1,
+    }, headers=HEADERS, timeout=30)
+    j = r.json()
+    if "error" in j:
+        return None, j["error"].get("info")
+    return j["parse"]["title"], j["parse"]["wikitext"]
+
+
+def section(text, heading_rx, limit=14000):
+    m = re.search(r"^==+\s*" + heading_rx + r"\s*==+\s*$", text, re.M | re.I)
+    if not m:
+        return "(section not found)\nHEADINGS: " + " | ".join(re.findall(r"^==+\s*(.*?)\s*==+", text, re.M))[:3000]
+    nxt = re.search(r"^==[^=].*==\s*$", text[m.end():], re.M)
+    end = m.end() + nxt.start() if nxt else len(text)
+    return text[m.start():end][:limit]
 
 
 os.makedirs("data/debug", exist_ok=True)
@@ -23,25 +34,25 @@ for f in os.listdir("data/debug"):
     os.remove(os.path.join("data/debug", f))
 
 out = []
-for url in ["https://next-fight.com/en/pronostics/ufc-334", "https://next-fight.com/en/event/ufc-334"]:
-    html = requests.get(url, headers=HEADERS, timeout=30).text
-    out.append(f"\n######## {url}  len={len(html)}  blocked={'Cloudflare' in html[:3000] and 'blocked' in html}")
-    # every place mentioning favourite / odds / % near a fighter
-    for kw in ["favourite", "favorite", "underdog", "odds", "nf-pred", "pred"]:
-        hits = [m.start() for m in re.finditer(kw, html, re.I)]
-        out.append(f"--- '{kw}': {len(hits)} hits")
-    body = html.find("<body")
-    i = html.find("favourite", body)
-    if i < 0:
-        i = html.find("Favourite", body)
-    if "pronostics" in url:
-        h1 = html.find("<h1", body)
-        out.append("===== FROM H1 =====")
-        out.append(slim(html[h1:h1 + 120000])[:22000])
-    elif i > 0:
-        out.append("===== AROUND FIRST 'favourite' =====")
-        out.append(slim(html[i - 2500:i + 2500]))
+for page, rx in [
+    ("List of UFC events", r"Scheduled events"),
+    ("List of Bare Knuckle Fighting Championship events", r"(Scheduled|Upcoming) events"),
+    ("List of ONE Championship events", r"(Scheduled|Upcoming) events"),
+    ("Real American Freestyle", r"(Scheduled|Upcoming) events|Events"),
+]:
+    title, text = wikitext(page)
+    out.append(f"\n######## LIST: {page} -> {title}")
+    out.append(section(text, rx) if title else f"ERROR: {text}")
 
-with open("data/debug/predictions.txt", "w") as f:
+for page in ["UFC 334", "UFC 335", "BKFC Fight Night Hershey", "ONE Samurai 5"]:
+    title, text = wikitext(page)
+    out.append(f"\n######## EVENT: {page} -> {title}")
+    if not title:
+        out.append(f"ERROR: {text}")
+        continue
+    out.append(text[:1500])
+    out.append("...\n" + section(text, r"Fight card", 9000))
+
+with open("data/debug/wikipedia.txt", "w") as f:
     f.write("\n".join(out))
 print("done")
