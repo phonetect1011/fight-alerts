@@ -129,7 +129,7 @@ import java.util.concurrent.TimeUnit
 
 // ================================================================ data
 
-val PROMOTIONS = listOf("UFC", "BKFC", "ONE", "RAF")
+val PROMOTIONS = listOf("UFC", "PFL", "BKFC", "ONE", "RAF")
 
 data class Fighter(
     val name: String,
@@ -336,8 +336,12 @@ class Prefs(ctx: Context) {
     private val sp = ctx.getSharedPreferences("settings", Context.MODE_PRIVATE)
 
     var promotions: Set<String>
-        get() = sp.getStringSet("promotions", null)?.toSet() ?: PROMOTIONS.toSet()
-        set(v) = sp.edit().putStringSet("promotions", v).apply()
+        get() {
+            val saved = sp.getStringSet("promotions", null)?.toSet() ?: return PROMOTIONS.toSet()
+            val known = sp.getStringSet("knownPromotions", null)?.toSet() ?: setOf("UFC", "BKFC", "ONE", "RAF")
+            return saved + (PROMOTIONS.toSet() - known)   // promotions added in an app update start switched on
+        }
+        set(v) = sp.edit().putStringSet("promotions", v).putStringSet("knownPromotions", PROMOTIONS.toSet()).apply()
 
     var followed: Set<String>
         get() = sp.getStringSet("followed", null)?.toSet() ?: emptySet()
@@ -617,6 +621,7 @@ fun promoColor(p: String): Color = when (p) {
     "BKFC" -> Color(0xFF8E24AA)
     "ONE" -> Color(0xFFF9A825)
     "RAF" -> Color(0xFF1E88E5)
+    "PFL" -> Color(0xFF43A047)
     else -> Color.Gray
 }
 
