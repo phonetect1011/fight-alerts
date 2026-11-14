@@ -679,7 +679,8 @@ def enrich_fighters(events):
 # Wikidata links all language versions of a fighter's page, and its "image" (P18) points at Wikimedia Commons.
 OTHER_WIKIS = ["jawiki", "thwiki", "ptwiki", "ruwiki", "frwiki", "eswiki", "dewiki", "kowiki", "zhwiki",
                "plwiki", "itwiki", "nlwiki", "svwiki", "kawiki", "hywiki", "kkwiki", "uzwiki", "tlwiki"]
-FIGHTER_WORDS = re.compile(r"martial art|mixed martial|kick ?box|boxer|muay thai|wrestler|fighter|grappl|judoka|sambo|lethwei", re.I)
+# Name searches can hit a namesake, so only accept people described as fighters in our sports.
+FIGHTER_WORDS = re.compile(r"mixed martial|martial artist|kick ?box|muay thai|bare[- ]knuckle|mma|lethwei|fighter", re.I)
 CACHE_HIT_DAYS, CACHE_MISS_DAYS, MAX_LOOKUPS = 30, 7, 120
 TIME_BUDGET_S = 240  # never let photo lookups hold up the fight cards; the rest happens on the next run
 
@@ -706,7 +707,7 @@ def wikidata_entities(qids):
                 img = ((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value")
                 if img:
                     break
-            out[q] = {"image": img,
+            out[q] = {"image": img, "dead": bool((ent.get("claims") or {}).get("P570")),
                       "sitelinks": {k: v.get("title") for k, v in (ent.get("sitelinks") or {}).items()}}
     return out
 
@@ -751,22 +752,28 @@ def fill_missing_photos(events, cache_path):
     for name in groups:
         c = cache.get(name)
         fresh = c and now - c.get("checked", 0) < (CACHE_HIT_DAYS if c.get("photo") else CACHE_MISS_DAYS) * day
+        if c and c.get("photo") and "via" not in c:
+            fresh = False  # found before the stricter namesake checks: look again
         if not fresh:
             todo.append(name)
     todo = todo[:MAX_LOOKUPS]
 
     started = time.time()
-    qids, searched = {}, []
+    qids, searched, via = {}, [], {}
     for name in todo:
         if time.time() - started > TIME_BUDGET_S * 0.6:
             print(f"  time budget reached after {len(searched)} lookups; the rest wait for the next run")
             break
         searched.append(name)
-        q = next((f["_qid"] for f in groups[name] if f.get("_qid")), None) or find_qid(name)
+        q = next((f["_qid"] for f in groups[name] if f.get("_qid")), None)
+        via[name] = "page" if q else "search"
+        q = q or find_qid(name)
         if q:
             qids[name] = q
     todo = searched
     ents = wikidata_entities(set(qids.values()))
+    for n in [n for n, q in qids.items() if via[n] == "search" and ents.get(q, {}).get("dead")]:
+        del qids[n]  # a namesake who has died is never the fighter on an upcoming card
 
     found = {}
     # 1) Wikidata's own image
@@ -808,7 +815,7 @@ def fill_missing_photos(events, cache_path):
         found[n]["photoCredit"] = photo_credit(credits.get(fn.replace("_", " "), (None, ""))[1])
 
     for name in todo:
-        cache[name] = {**found.get(name, {}), "checked": now}
+        cache[name] = {**found.get(name, {}), "checked": now, "via": via.get(name, "search")}
     added = 0
     for name, fs in groups.items():
         c = cache.get(name) or {}
