@@ -2,11 +2,18 @@ name: Update fight data
 
 # Fight cards and results come from Wikipedia (official MediaWiki API, CC BY-SA content).
 # Start times: your data/time-overrides.json, then TheSportsDB, then bookmaker times (The Odds API) if close to our estimate.
+#
+# How often it runs:
+#   - A quick check wakes up every 15 minutes.
+#   - On fight night (from 30 min before the first fight until 12 hours after the main card,
+#     while any bout is still missing a result) it scrapes every time, so results show up fast.
+#   - Otherwise it only scrapes when the data is ~2 hours old.
+#   - Odds are downloaded fresh only when the saved odds are 6+ hours old (~240 free credits a month).
 on:
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours, so results appear soon after fights (odds only every 6 hours)
-  workflow_dispatch:          # run it by hand from the Actions tab
-  push:                       # re-run straight away whenever the scrapers change
+    - cron: "7,22,37,52 * * * *"   # every 15 min (off the hour, GitHub delays :00 runs the most)
+  workflow_dispatch:                # run it by hand from the Actions tab
+  push:                             # re-run straight away whenever the scrapers change
     paths:
       - "scraper/wiki.py"
       - "scraper/times.py"
@@ -17,14 +24,87 @@ permissions:
   contents: write
   issues: write
 
-concurrency:                  # a new run replaces one that's still going
-  group: fight-data
-  cancel-in-progress: true
-
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      run: ${{ steps.decide.outputs.run }}
+      fresh_odds: ${{ steps.decide.outputs.fresh_odds }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: data
+          sparse-checkout-cone-mode: true
+
+      - name: Fight night? Data old? Odds old?
+        id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time
+
+          now = int(time.time() * 1000)
+          MIN = 60_000
+          HOUR = 60 * MIN
+          event = os.environ.get("EVENT", "")
+
+          try:
+              with open("data/events.json") as f:
+                  data = json.load(f)
+          except Exception:
+              data = {}
+
+          reasons = []
+
+          # 1) run by hand or scraper changed: always scrape
+          if event != "schedule":
+              reasons.append(f"triggered by {event}")
+
+          # 2) fight night: an event that has started (or is about to) and still has bouts without results
+          for e in data.get("events", []):
+              if e.get("finished"):
+                  continue
+              start = e.get("startMs")
+              if not start:
+                  continue
+              first = min(x for x in (e.get("earlyPrelimsMs"), e.get("prelimsMs"), start) if x)
+              if first - 30 * MIN <= now <= start + 12 * HOUR:
+                  reasons.append(f"fight night: {e.get('title')}")
+
+          # 3) normal pace: data is getting on for 2 hours old
+          gen = data.get("generatedMs") or 0
+          if now - gen >= 110 * MIN:
+              reasons.append(f"data is {(now - gen) // MIN} min old")
+
+          run = bool(reasons)
+
+          # Odds: fresh download when run by hand / scraper changed, or when the saved odds are 6+ hours old
+          fetched = 0
+          try:
+              with open("data/odds-cache.json") as f:
+                  fetched = json.load(f).get("fetchedMs") or 0
+          except Exception:
+              pass
+          fresh_odds = event != "schedule" or now - fetched >= 6 * HOUR - 10 * MIN
+
+          print("Scrape:", "YES" if run else "no", "|", "; ".join(reasons) or "nothing to do")
+          print("Odds:", "fresh download" if fresh_odds else f"use saved (fetched {(now - fetched) // MIN} min ago)")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"run={'true' if run else 'false'}\n")
+              out.write(f"fresh_odds={'true' if fresh_odds else 'false'}\n")
+          PY
+
   update:
+    needs: check
+    if: needs.check.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    concurrency:              # one scrape at a time; a new one waits instead of killing the one running
+      group: fight-data
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
@@ -34,10 +114,6 @@ jobs:
 
       - name: Install libraries
         run: pip install requests
-
-      - name: What hour is it (UTC)
-        id: clock
-        run: echo "hour=$(date -u +%H)" >> "$GITHUB_OUTPUT"
 
       - name: Fight cards from Wikipedia
         id: cards
@@ -50,8 +126,7 @@ jobs:
         continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          # odds cost free credits: fresh download every 6 hours (~240 credits a month), the last download in between
-          ODDS_USE_CACHE: ${{ github.event_name == 'schedule' && !contains(fromJSON('["00","06","12","18"]'), steps.clock.outputs.hour) && '1' || '0' }}
+          ODDS_USE_CACHE: ${{ needs.check.outputs.fresh_odds == 'true' && '0' || '1' }}
         run: python scraper/odds.py data/events.json
 
       - name: Confirmed start times (your overrides + TheSportsDB, then section times)
@@ -69,8 +144,10 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update fight data"
-            git pull --rebase
-            git push
+            for i in 1 2 3; do
+              git pull --rebase -X theirs && git push && break
+              sleep 5
+            done
           fi
 
       - name: Report breakage (opens a GitHub issue)
