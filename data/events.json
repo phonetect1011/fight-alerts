@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794720653709,
+ "generatedMs": 1794721238561,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -6299,16 +6299,51 @@
    "finished": false
   },
   {
-   "id": "ufc-ufc-fight-night-299",
+   "id": "ufc-ufc-fight-night-pyfer-vs-nickal",
    "promotion": "UFC",
-   "title": "UFC Fight Night 299",
-   "url": "https://en.wikipedia.org/wiki/List_of_UFC_events",
+   "title": "UFC Fight Night: Pyfer vs. Nickal",
+   "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Pyfer_vs._Nickal",
    "date": "2027-02-13",
    "startMs": 1802566800000,
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": [],
+   "bouts": [
+    {
+     "a": "Joe Pyfer",
+     "b": "Bo Nickal",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Joe Pyfer",
+      "url": "https://en.wikipedia.org/wiki/Joe_Pyfer",
+      "record": "16-3-0",
+      "stats": {
+       "Age": "30",
+       "Height": "6 ft 1 in",
+       "Reach": "75 in",
+       "Team": "Marquez MMA/Webb Fitness & MMA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/JoePyfer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Checkin' Ringside · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Bo Nickal",
+      "url": "https://en.wikipedia.org/wiki/Bo_Nickal",
+      "record": "9-1-0",
+      "stats": {
+       "Age": "30",
+       "Height": "6 ft 1 in",
+       "Reach": "75 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bo_Nickal_%2852791819473%29.jpg/500px-Bo_Nickal_%2852791819473%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Noah Riffe · Public domain (Wikimedia Commons)"
+     }
+    }
+   ],
    "finished": false
   },
   {
