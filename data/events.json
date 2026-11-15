@@ -1,10 +1,10 @@
 {
- "generatedMs": 1794714637260,
+ "generatedMs": 1794715253947,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
    "ok": true,
-   "events": 9,
+   "events": 10,
    "message": ""
   },
   "BKFC": {
@@ -6523,6 +6523,19 @@
      }
     }
    ],
+   "finished": false
+  },
+  {
+   "id": "ufc-ufc-fight-night-299",
+   "promotion": "UFC",
+   "title": "UFC Fight Night 299",
+   "url": "https://en.wikipedia.org/wiki/List_of_UFC_events",
+   "date": "2027-02-13",
+   "startMs": 1802566800000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [],
    "finished": false
   },
   {
