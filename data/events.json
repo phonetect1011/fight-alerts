@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794721837703,
+ "generatedMs": 1794722452100,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2251,7 +2251,7 @@
      "fb": {
       "name": "Josh Hokit",
       "url": "https://en.wikipedia.org/wiki/Josh_Hokit",
-      "record": "10-0-0",
+      "record": "10-1-0",
       "stats": {
        "Age": "29",
        "Height": "6 ft 1 in",
@@ -2260,6 +2260,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/UFC_Freedom_250_Press_Conference_%289747953%29_%28cropped%29.jpg/500px-UFC_Freedom_250_Press_Conference_%289747953%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: U.S. Army photo by Sgt. 1st Class Brittany Primavera · Public domain (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "5",
+      "time": "5:00"
      },
      "pred": {
       "fav": "a",
@@ -2720,7 +2726,7 @@
      }
     }
    ],
-   "finished": false,
+   "finished": true,
    "earlyPrelimsEstimated": false,
    "prelimsEstimated": true
   },
