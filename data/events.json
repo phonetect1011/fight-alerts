@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794707929842,
+ "generatedMs": 1794708056446,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2791,6 +2791,12 @@
      },
      "fb": {
       "name": "Charles Radtke"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (spinning wheel kick)",
+      "round": "3",
+      "time": "2:54"
      },
      "pred": {
       "fav": "a",
