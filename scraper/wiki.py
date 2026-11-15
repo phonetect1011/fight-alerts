@@ -640,6 +640,8 @@ def fighter_details(text):
     if wins is None and losses is None:  # boxers / bare-knuckle only
         wins, losses, draws = num("wins"), num("losses"), num("draws")
     if wins is None and losses is None:  # kickboxers / Muay Thai (common on ONE cards)
+        wins, losses, draws = tally("kickbox")   # Infobox martial artist: kickbox_win / kickbox_loss
+    if wins is None and losses is None:
         wins, losses, draws = tally("kick")
     if wins is not None or losses is not None:
         out["record"] = f"{wins or 0}-{losses or 0}-{draws or 0}"
