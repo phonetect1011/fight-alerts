@@ -1,10 +1,10 @@
 {
- "generatedMs": 1794706488168,
+ "generatedMs": 1794706748580,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
    "ok": true,
-   "events": 8,
+   "events": 9,
    "message": ""
   },
   "BKFC": {
@@ -24,7 +24,7 @@
   },
   "PFL": {
    "ok": true,
-   "events": 1,
+   "events": 2,
    "message": ""
   }
  },
@@ -2200,6 +2200,837 @@
    "timeSource": "Set by you"
   },
   {
+   "id": "pfl-pfl-dubai-nemkov-vs-bilostenniy",
+   "promotion": "PFL",
+   "title": "PFL Dubai: Nemkov vs. Bilostenniy",
+   "url": "https://en.wikipedia.org/wiki/PFL_Dubai%3A_Nemkov_vs._Bilostenniy",
+   "date": "2026-11-14",
+   "startMs": 1794672000000,
+   "timeEstimated": true,
+   "prelimsMs": 1794664800000,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Sergey Bilostenniy",
+     "b": "Vadim Nemkov",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": true,
+     "notes": "For the PFL Heavyweight Championship.",
+     "fa": {
+      "name": "Sergey Bilostenniy",
+      "url": "https://en.wikipedia.org/wiki/Sergey_Bilostenniy",
+      "record": "16-4-0",
+      "stats": {
+       "Age": "31",
+       "Height": "6 ft 1 in"
+      }
+     },
+     "fb": {
+      "name": "Vadim Nemkov",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Vadim_Nemkov",
+      "record": "20-3-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 0 in",
+       "Team": "American Top Team"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "5",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Patrick Habirora",
+     "b": "Omar El Dafrawy",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Patrick Habirora",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Habirora",
+      "record": "9-0-0",
+      "stats": {
+       "Age": "25",
+       "Height": "6 ft 1 in",
+       "Reach": "75 in",
+       "Team": "Team Sendo"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/PatrickHabiroraNov2022.jpg/500px-PatrickHabiroraNov2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Rayan Kayembe · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Omar El Dafrawy"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical Submission (guillotine choke)",
+      "round": "1",
+      "time": "3:11"
+     }
+    },
+    {
+     "a": "Oleg Popov",
+     "b": "Pouya Rahmani",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Oleg Popov",
+      "url": "https://en.wikipedia.org/wiki/Oleg_Popov_%28fighter%29",
+      "record": "24-2-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 1 in",
+       "Team": "FedorTeam"
+      }
+     },
+     "fb": {
+      "name": "Pouya Rahmani"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Jōji Gotō",
+     "b": "Sergio Pettis",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jōji Gotō"
+     },
+     "fb": {
+      "name": "Sergio Pettis",
+      "url": "https://en.wikipedia.org/wiki/Sergio_Pettis",
+      "record": "25-9-0",
+      "stats": {
+       "Age": "33",
+       "Height": "5 ft 6 in",
+       "Reach": "69 in",
+       "Team": "Roufusport"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Lewis McGrillen",
+     "b": "Nawras Abzakh",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lewis McGrillen"
+     },
+     "fb": {
+      "name": "Nawras Abzakh"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (retirement)",
+      "round": "1",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Connor Hughes",
+     "b": "Shaqueme Rock",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Connor Hughes"
+     },
+     "fb": {
+      "name": "Shaqueme Rock"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "2",
+      "time": "1:04"
+     }
+    },
+    {
+     "a": "Saygid Izagakhmaev",
+     "b": "David Martinez",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Saygid Izagakhmaev"
+     },
+     "fb": {
+      "name": "David Martinez"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "3",
+      "time": "4:27"
+     }
+    },
+    {
+     "a": "Akhmed Magomedov",
+     "b": "Alexei Pergande",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Akhmed Magomedov"
+     },
+     "fb": {
+      "name": "Alexei Pergande"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Ádám Borics",
+     "b": "Khasan Magomedsharipov",
+     "section": "Prelims",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ádám Borics",
+      "url": "https://en.wikipedia.org/wiki/%C3%81d%C3%A1m_Borics",
+      "record": "21-4-0",
+      "stats": {
+       "Age": "33",
+       "Height": "5 ft 11 in",
+       "Reach": "70+1/2 in",
+       "Team": "Kill Cliff FC"
+      }
+     },
+     "fb": {
+      "name": "Khasan Magomedsharipov",
+      "url": "https://en.wikipedia.org/wiki/Khasan_Magomedsharipov",
+      "record": "11-1-0",
+      "stats": {
+       "Age": "26",
+       "Height": "5 ft 11 in",
+       "Reach": "71 in",
+       "Team": "Eagles MMA"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (triangle armbar)",
+      "round": "1",
+      "time": "4:17"
+     }
+    },
+    {
+     "a": "Denis Goltsov",
+     "b": "Maxwell Djantou Nana",
+     "section": "Prelims",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Denis Goltsov",
+      "url": "https://en.wikipedia.org/wiki/Denis_Goltsov",
+      "record": "38-9-0",
+      "stats": {
+       "Age": "36",
+       "Height": "6 ft 5 in",
+       "Team": "Sambo-Piter"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%93%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%D0%B2_%D0%BD%D0%B0_%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%80%D0%B5_%D0%9F%D0%BB%D0%BE%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0_S-70.jpg/500px-%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%93%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%D0%B2_%D0%BD%D0%B0_%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%80%D0%B5_%D0%9F%D0%BB%D0%BE%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0_S-70.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Пресс-служба Президента России · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Maxwell Djantou Nana"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "1",
+      "time": "3:41"
+     }
+    },
+    {
+     "a": "Ernesto Rodriguez",
+     "b": "Rhys McKee",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ernesto Rodriguez"
+     },
+     "fb": {
+      "name": "Rhys McKee",
+      "url": "https://en.wikipedia.org/wiki/Rhys_McKee",
+      "record": "15-8-1",
+      "stats": {
+       "Age": "31",
+       "Height": "6 ft 2 in",
+       "Reach": "78 in",
+       "Team": "Next Generation I.M.M.A."
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "1",
+      "time": "2:28"
+     }
+    },
+    {
+     "a": "Khabib Nabiev",
+     "b": "Styve Ngono Essono",
+     "section": "Prelims",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Khabib Nabiev"
+     },
+     "fb": {
+      "name": "Styve Ngono Essono"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (elbow and punches)",
+      "round": "3",
+      "time": "0:46"
+     }
+    },
+    {
+     "a": "Aleksandra Savicheva",
+     "b": "Jacinta Austin",
+     "section": "Prelims",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Aleksandra Savicheva"
+     },
+     "fb": {
+      "name": "Jacinta Austin"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    }
+   ],
+   "finished": true,
+   "prelimsEstimated": false
+  },
+  {
+   "id": "ufc-ufc-334-gane-vs-hokit",
+   "promotion": "UFC",
+   "title": "UFC 334: Gane vs. Hokit",
+   "url": "https://en.wikipedia.org/wiki/UFC_334",
+   "date": "2026-11-14",
+   "startMs": 1794708900000,
+   "timeEstimated": false,
+   "prelimsMs": 1794701700000,
+   "earlyPrelimsMs": 1794693600000,
+   "bouts": [
+    {
+     "a": "Ciryl Gane",
+     "b": "Josh Hokit",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": true,
+     "notes": "For the UFC Heavyweight Championship.",
+     "fa": {
+      "name": "Ciryl Gane",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Ciryl_Gane",
+      "nickname": "Bon Gamin (Good Kid)",
+      "record": "14-2-0",
+      "stats": {
+       "Age": "36",
+       "Height": "6 ft 5 in",
+       "Reach": "81 in",
+       "Team": "MMA Factory"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/UFC_Freedom_250%2C_the_mixed_martial_arts_event_produced_by_the_Ultimate_Fighting_Championship%2C_Sunday%2C_June_14%2C_2026%2C_in_the_Grand_Foyer_of_the_White_House_-_64%28cropped%29.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Josh Hokit",
+      "url": "https://en.wikipedia.org/wiki/Josh_Hokit",
+      "record": "10-0-0",
+      "stats": {
+       "Age": "29",
+       "Height": "6 ft 1 in",
+       "Reach": "73 in",
+       "Team": "Jackson Wink MMA Academy"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/UFC_Freedom_250_Press_Conference_%289747953%29_%28cropped%29.jpg/500px-UFC_Freedom_250_Press_Conference_%289747953%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: U.S. Army photo by Sgt. 1st Class Brittany Primavera · Public domain (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 65,
+      "pctB": 35,
+      "oddsA": 1.47,
+      "oddsB": 2.77,
+      "tier": "Clear favourite",
+      "why": "",
+      "crowd": "Average of 14 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Kayla Harrison",
+     "b": "Amanda Nunes",
+     "section": "Main card",
+     "weight": "Women's Bantamweight",
+     "title": true,
+     "notes": "For the UFC Women's Bantamweight Championship.",
+     "fa": {
+      "name": "Kayla Harrison",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Kayla_Harrison",
+      "record": "19-1-0",
+      "stats": {
+       "Age": "36",
+       "Height": "5 ft 8 in",
+       "Reach": "66 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/99/President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_%2854577590491%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Amanda Nunes",
+      "url": "https://en.wikipedia.org/wiki/Amanda_Nunes",
+      "record": "23-5-0",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 8 in",
+       "Reach": "175 cm (69 in)",
+       "Team": "American Top Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 59,
+      "pctB": 41,
+      "oddsA": 1.6,
+      "oddsB": 2.36,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 15 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Caio Borralho",
+     "b": "Yousri Belgaroui",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Caio Borralho",
+      "url": "https://en.wikipedia.org/wiki/Caio_Borralho",
+      "record": "18-2-0",
+      "stats": {
+       "Age": "33",
+       "Height": "6 ft 2 in",
+       "Reach": "75 in",
+       "Team": "Fighting Nerds"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Caio_Borralho_2025.jpg/500px-Caio_Borralho_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Sexto Round · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Yousri Belgaroui",
+      "url": "https://en.wikipedia.org/wiki/Yousri_Belgaroui",
+      "record": "11-3-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 5 in",
+       "Team": "Teixeira MMA & Fitness"
+      }
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 59,
+      "pctB": 41,
+      "oddsA": 1.62,
+      "oddsB": 2.32,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 14 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Uroš Medić",
+     "b": "Kevin Holland",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Uroš Medić",
+      "url": "https://en.wikipedia.org/wiki/Uro%C5%A1_Medi%C4%87",
+      "record": "14-3-0",
+      "stats": {
+       "Age": "33",
+       "Height": "6 ft 1 in",
+       "Reach": "71 in",
+       "Team": "Kings MMA"
+      }
+     },
+     "fb": {
+      "name": "Kevin Holland",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Holland",
+      "nickname": "Trailblazer",
+      "record": "29-15-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 3 in",
+       "Reach": "81 in",
+       "Team": "Travis Lutter BJJ"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kevin_Holland_at_UFC_316_%2854576727207%29.jpg/500px-Kevin_Holland_at_UFC_316_%2854576727207%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 59,
+      "pctB": 41,
+      "oddsA": 1.61,
+      "oddsB": 2.37,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 13 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Bilal Hasan",
+     "b": "Luis Gurule",
+     "section": "Main card",
+     "weight": "Flyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bilal Hasan",
+      "url": "https://en.wikipedia.org/wiki/Bilal_Hasan",
+      "record": "10-0-0",
+      "stats": {
+       "Age": "25",
+       "Height": "5 ft 7 in",
+       "Team": "Charlie's Combat Club"
+      }
+     },
+     "fb": {
+      "name": "Luis Gurule"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 87,
+      "pctB": 13,
+      "oddsA": 1.1,
+      "oddsB": 7.88,
+      "tier": "Heavy favourite",
+      "why": "",
+      "crowd": "Average of 14 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Stephen Thompson",
+     "b": "Charles Radtke",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Stephen Thompson",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Thompson_%28fighter%29",
+      "nickname": "Wonderboy",
+      "record": "17-9-1",
+      "stats": {
+       "Age": "43",
+       "Height": "6 ft 0 in",
+       "Reach": "75 in",
+       "Team": "Serra-Longo Fight Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/From_cancer_to_company_commander_130802-M-AR522-306_%28cropped%29.jpg/500px-From_cancer_to_company_commander_130802-M-AR522-306_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Cpl. Devin Nichols · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Charles Radtke"
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 48,
+      "pctB": 52,
+      "oddsA": 1.79,
+      "oddsB": 2.05,
+      "tier": "Pick'em",
+      "why": "",
+      "crowd": "Average of 13 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Chris Duncan",
+     "b": "Drew Dober",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Chris Duncan",
+      "url": "https://en.wikipedia.org/wiki/Chris_Duncan_%28fighter%29",
+      "record": "15-3-0",
+      "stats": {
+       "Age": "33",
+       "Height": "5 ft 10 in",
+       "Reach": "71.5 in",
+       "Team": "American Top Team"
+      }
+     },
+     "fb": {
+      "name": "Drew Dober",
+      "url": "https://en.wikipedia.org/wiki/Drew_Dober",
+      "record": "29-15-0",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 8 in",
+       "Reach": "70 in",
+       "Team": "Elevation Fight Team"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Terrance McKinney",
+     "b": "Jim Miller",
+     "section": "Prelims",
+     "weight": "Catchweight (160.2 lb)",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Terrance McKinney",
+      "url": "https://en.wikipedia.org/wiki/Terrance_McKinney",
+      "record": "19-9-0",
+      "stats": {
+       "Age": "32",
+       "Height": "5 ft 10 in",
+       "Reach": "73 in",
+       "Team": "Warrior Camp MMA"
+      }
+     },
+     "fb": {
+      "name": "Jim Miller",
+      "url": "https://en.wikipedia.org/wiki/Jim_Miller_%28fighter%29",
+      "record": "39-20-0",
+      "stats": {
+       "Age": "43",
+       "Height": "5 ft 8 in",
+       "Reach": "71 in",
+       "Team": "Miller Brothers MMA"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Jim.miller.2.jpg/500px-Jim.miller.2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Aleks Ozolins · CC0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "1",
+      "time": "1:53"
+     }
+    },
+    {
+     "a": "César Almeida",
+     "b": "Donte Johnson",
+     "section": "Prelims",
+     "weight": "Catchweight (190 lb)",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "César Almeida",
+      "url": "https://en.wikipedia.org/wiki/C%C3%A9sar_Almeida_%28fighter%29",
+      "record": "8-3-0",
+      "stats": {
+       "Age": "38",
+       "Height": "6 ft 1 in",
+       "Team": "Superfight Team / Rizzo RVT / Corinthians"
+      }
+     },
+     "fb": {
+      "name": "Donte Johnson"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "1",
+      "time": "3:20"
+     }
+    },
+    {
+     "a": "Melquizael Costa",
+     "b": "Jared Gordon",
+     "section": "Early prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Melquizael Costa",
+      "url": "https://en.wikipedia.org/wiki/Melquizael_Costa",
+      "nickname": "The Dalmatian",
+      "record": "27-8-0",
+      "stats": {
+       "Age": "30",
+       "Height": "5 ft 10 in",
+       "Reach": "71 in"
+      }
+     },
+     "fb": {
+      "name": "Jared Gordon",
+      "url": "https://en.wikipedia.org/wiki/Jared_Gordon",
+      "record": "21-10-0",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 9 in",
+       "Reach": "68 in",
+       "Team": "Kill Cliff FC"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Beatriz Mesquita",
+     "b": "Macy Chiasson",
+     "section": "Early prelims",
+     "weight": "Women's Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Beatriz Mesquita",
+      "url": "https://en.wikipedia.org/wiki/Beatriz_Mesquita",
+      "record": "9-0-0",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 2 in",
+       "Team": "American Top Team"
+      }
+     },
+     "fb": {
+      "name": "Macy Chiasson",
+      "url": "https://en.wikipedia.org/wiki/Macy_Chiasson",
+      "record": "10-7-0",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 11 in",
+       "Team": "MidCity MMA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/16/Macy_Chiasson.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: T.franciotti · CC0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "1",
+      "time": "3:23"
+     }
+    },
+    {
+     "a": "Juan Díaz",
+     "b": "Alateng Heili",
+     "section": "Early prelims",
+     "weight": "Catchweight (136.4 lb)",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Juan Díaz"
+     },
+     "fb": {
+      "name": "Alateng Heili",
+      "url": "https://en.wikipedia.org/wiki/Alateng_Heili",
+      "record": "18-11-2",
+      "stats": {
+       "Age": "34",
+       "Height": "5 ft 6 in",
+       "Reach": "66.5 in",
+       "Team": "Fight Ready"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    },
+    {
+     "a": "Evan Elder",
+     "b": "Samuel Sanches",
+     "section": "Early prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "Sanches was deducted one point in round 3 due to repeated grabbing the fence.",
+     "fa": {
+      "name": "Evan Elder"
+     },
+     "fb": {
+      "name": "Samuel Sanches"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     }
+    }
+   ],
+   "finished": false,
+   "earlyPrelimsEstimated": false,
+   "prelimsEstimated": true
+  },
+  {
    "id": "one-one-samurai-5",
    "promotion": "ONE",
    "title": "ONE Samurai 5",
@@ -2860,7 +3691,7 @@
       "pctA": 43,
       "pctB": 57,
       "oddsA": 2.2,
-      "oddsB": 1.67,
+      "oddsB": 1.68,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 9 bookmakers",
@@ -2949,10 +3780,10 @@
       "pctA": 59,
       "pctB": 41,
       "oddsA": 1.61,
-      "oddsB": 2.32,
+      "oddsB": 2.33,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 7 bookmakers",
+      "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3029,11 +3860,11 @@
       "fav": "b",
       "pctA": 26,
       "pctB": 74,
-      "oddsA": 3.58,
+      "oddsA": 3.6,
       "oddsB": 1.29,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3076,7 +3907,7 @@
       "oddsB": 2.95,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 5 bookmakers",
+      "crowd": "Average of 6 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3120,7 +3951,7 @@
       "oddsB": 2.8,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3153,7 +3984,7 @@
       "oddsB": 1.73,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3188,7 +4019,7 @@
       "oddsB": 2.38,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -4220,8 +5051,8 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.58,
-      "oddsB": 2.41,
+      "oddsA": 1.56,
+      "oddsB": 2.42,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 6 bookmakers",
@@ -5648,6 +6479,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794700638857,
- "oddsCreditsLeft": "470"
+ "oddsUpdatedMs": 1794706936363,
+ "oddsCreditsLeft": "468"
 }
