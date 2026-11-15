@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794711036235,
+ "generatedMs": 1794711653913,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2777,32 +2777,38 @@
      }
     },
     {
-     "a": "Bilal Hasan",
-     "b": "Luis Gurule",
+     "a": "Luis Gurule",
+     "b": "Bilal Hasan",
      "section": "Main card",
      "weight": "Flyweight",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Luis Gurule",
+      "record": "12-4-0"
+     },
+     "fb": {
       "name": "Bilal Hasan",
       "url": "https://en.wikipedia.org/wiki/Bilal_Hasan",
-      "record": "10-0-0",
+      "record": "10-1-0",
       "stats": {
        "Age": "25",
        "Height": "5 ft 7 in",
        "Team": "Charlie's Combat Club"
       }
      },
-     "fb": {
-      "name": "Luis Gurule",
-      "record": "11-4-0"
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
-      "fav": "a",
-      "pctA": 83,
-      "pctB": 17,
-      "oddsA": 1.09,
-      "oddsB": 6.0,
+      "fav": "b",
+      "pctA": 17,
+      "pctB": 83,
+      "oddsA": 6.0,
+      "oddsB": 1.09,
       "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
