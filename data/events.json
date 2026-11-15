@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794744053008,
+ "generatedMs": 1794751255512,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -14,7 +14,7 @@
   },
   "ONE": {
    "ok": true,
-   "events": 7,
+   "events": 8,
    "message": ""
   },
   "RAF": {
@@ -2455,7 +2455,7 @@
      "fa": {
       "name": "Chris Duncan",
       "url": "https://en.wikipedia.org/wiki/Chris_Duncan_%28fighter%29",
-      "record": "15-3-0",
+      "record": "16-3-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 10 in",
@@ -2466,7 +2466,7 @@
      "fb": {
       "name": "Drew Dober",
       "url": "https://en.wikipedia.org/wiki/Drew_Dober",
-      "record": "29-15-0",
+      "record": "29-16-0",
       "stats": {
        "Age": "38",
        "Height": "5 ft 8 in",
@@ -4338,6 +4338,45 @@
       "name": "Shota Tezuka",
       "country": "Japan",
       "flag": "🇯🇵"
+     }
+    }
+   ],
+   "finished": false
+  },
+  {
+   "id": "one-one-friday-fights-181-the-inner-circle-41",
+   "promotion": "ONE",
+   "title": "ONE Friday Fights 181 / The Inner Circle 41",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Friday_Fights_181_%26_The_Inner_Circle_41",
+   "date": "2026-12-04",
+   "startMs": 1796387400000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Songchainoi Kiatsongrit",
+     "b": "Rifdean Masdor",
+     "section": "The Inner Circle 41",
+     "weight": "Atomweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Songchainoi Kiatsongrit",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Songchainoi_Kiatsongrit",
+      "record": "60-21-0",
+      "stats": {
+       "Age": "26",
+       "Height": "156cm",
+       "Team": "Kiatsongrit"
+      }
+     },
+     "fb": {
+      "name": "Rifdean Masdor",
+      "country": "Malaysia",
+      "flag": "🇲🇾"
      }
     }
    ],
