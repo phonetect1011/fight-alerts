@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794709845689,
+ "generatedMs": 1794710416647,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -447,6 +447,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Taiki_Naito",
+      "record": "40-14-0",
       "stats": {
        "Age": "30",
        "Height": "170 cm",
@@ -536,6 +537,7 @@
       "country": "Russia",
       "flag": "🇷🇺",
       "url": "https://en.wikipedia.org/wiki/Mamuka_Usubyan",
+      "record": "24-4-0",
       "stats": {
        "Age": "32",
        "Height": "1.80 m",
@@ -585,6 +587,7 @@
       "country": "Bulgaria",
       "flag": "🇧🇬",
       "url": "https://en.wikipedia.org/wiki/Bogdan_Shumarov",
+      "record": "19-4-0",
       "stats": {
        "Age": "30",
        "Height": "179cm",
@@ -1042,7 +1045,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Elijah Smith"
+      "name": "Elijah Smith",
+      "record": "11-1-0"
      },
      "fb": {
       "name": "Davey Grant",
@@ -1070,7 +1074,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Lucas Fernando"
+      "name": "Lucas Fernando",
+      "record": "15-3-0"
      },
      "fb": {
       "name": "Billy Elekana",
@@ -1098,7 +1103,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Nina Nikolija Milošević"
+      "name": "Nina Nikolija Milošević",
+      "record": "10-1-0"
      },
      "fb": {
       "name": "Priscila Cachoeira",
@@ -1126,10 +1132,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Mitch Raposo"
+      "name": "Mitch Raposo",
+      "record": "12-3-0"
      },
      "fb": {
-      "name": "Marcos Degli"
+      "name": "Marcos Degli",
+      "record": "15-4-0"
      },
      "result": {
       "winner": "a",
@@ -1146,10 +1154,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Ollie Schmid"
+      "name": "Ollie Schmid",
+      "record": "5-3-0"
      },
      "fb": {
-      "name": "Keiichiro Nakamura"
+      "name": "Keiichiro Nakamura",
+      "record": "8-2-0"
      },
      "result": {
       "winner": "a",
@@ -1166,10 +1176,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Thomas Petersen"
+      "name": "Thomas Petersen",
+      "record": "12-5-0"
      },
      "fb": {
-      "name": "Gabriel Lorenço"
+      "name": "Gabriel Lorenço",
+      "record": "8-2-0"
      },
      "result": {
       "winner": "a",
@@ -1197,7 +1209,8 @@
       }
      },
      "fb": {
-      "name": "Gabriella Fernandes"
+      "name": "Gabriella Fernandes",
+      "record": "11-5-0"
      },
      "result": {
       "winner": "a",
@@ -1214,10 +1227,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Murtazali Magomedov"
+      "name": "Murtazali Magomedov",
+      "record": "12-0-0"
      },
      "fb": {
-      "name": "José Mauro Delano"
+      "name": "José Mauro Delano",
+      "record": "17-4-0"
      },
      "result": {
       "winner": "a",
@@ -1234,10 +1249,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Austin Bashi"
+      "name": "Austin Bashi",
+      "record": "15-2-0"
      },
      "fb": {
-      "name": "Carlos Calderon"
+      "name": "Carlos Calderon",
+      "record": "11-5-0"
      },
      "result": {
       "winner": "a",
@@ -1265,7 +1282,8 @@
       }
      },
      "fb": {
-      "name": "Mantas Kondratavičius"
+      "name": "Mantas Kondratavičius",
+      "record": "9-2-0"
      },
      "result": {
       "winner": "a",
@@ -1312,10 +1330,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "José Henrique Souza"
+      "name": "José Henrique Souza",
+      "record": "10-1-0"
      },
      "fb": {
-      "name": "Jonny Parsons"
+      "name": "Jonny Parsons",
+      "record": "9-4-0"
      },
      "result": {
       "winner": "a",
@@ -1542,6 +1562,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Shimon_Yoshinari",
+      "record": "39-4-0",
       "stats": {
        "Age": "22",
        "Height": "175cm",
@@ -1572,6 +1593,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Nong-O_Hama",
+      "record": "269-59-10",
       "stats": {
        "Age": "40",
        "Height": "171 cm",
@@ -1585,6 +1607,7 @@
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Rodtang_Jitmuangnon",
       "nickname": "The Iron Man",
+      "record": "274-45-10",
       "stats": {
        "Age": "29",
        "Height": "168 cm",
@@ -1613,6 +1636,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Por_Tor_Thor_Petchrungruang",
+      "record": "115-26-1",
       "stats": {
        "Age": "29",
        "Height": "178cm",
@@ -2265,7 +2289,8 @@
       "photoCredit": "Photo: Rayan Kayembe · CC BY-SA 4.0 (Wikimedia Commons)"
      },
      "fb": {
-      "name": "Omar El Dafrawy"
+      "name": "Omar El Dafrawy",
+      "record": "16-7-0"
      },
      "result": {
       "winner": "a",
@@ -2292,7 +2317,8 @@
       }
      },
      "fb": {
-      "name": "Pouya Rahmani"
+      "name": "Pouya Rahmani",
+      "record": "6-1-0"
      },
      "result": {
       "winner": "a",
@@ -2309,7 +2335,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Jōji Gotō"
+      "name": "Jōji Gotō",
+      "record": "22-9-1"
      },
      "fb": {
       "name": "Sergio Pettis",
@@ -2337,10 +2364,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Lewis McGrillen"
+      "name": "Lewis McGrillen",
+      "record": "14-2-0"
      },
      "fb": {
-      "name": "Nawras Abzakh"
+      "name": "Nawras Abzakh",
+      "record": "15-7-0"
      },
      "result": {
       "winner": "a",
@@ -2357,10 +2386,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Connor Hughes"
+      "name": "Connor Hughes",
+      "record": "13-3-0"
      },
      "fb": {
-      "name": "Shaqueme Rock"
+      "name": "Shaqueme Rock",
+      "record": "12-4-1"
      },
      "result": {
       "winner": "a",
@@ -2377,10 +2408,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Saygid Izagakhmaev"
+      "name": "Saygid Izagakhmaev",
+      "record": "23-4-0"
      },
      "fb": {
-      "name": "David Martinez"
+      "name": "David Martinez",
+      "record": "17-7-0"
      },
      "result": {
       "winner": "a",
@@ -2397,10 +2430,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Akhmed Magomedov"
+      "name": "Akhmed Magomedov",
+      "record": "12-2-0"
      },
      "fb": {
-      "name": "Alexei Pergande"
+      "name": "Alexei Pergande",
+      "record": "8-1-0"
      },
      "result": {
       "winner": "a",
@@ -2465,7 +2500,8 @@
       "photoCredit": "Photo: Пресс-служба Президента России · CC BY 4.0 (Wikimedia Commons)"
      },
      "fb": {
-      "name": "Maxwell Djantou Nana"
+      "name": "Maxwell Djantou Nana",
+      "record": "9-3-0"
      },
      "result": {
       "winner": "a",
@@ -2482,7 +2518,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Ernesto Rodriguez"
+      "name": "Ernesto Rodriguez",
+      "record": "12-2-0"
      },
      "fb": {
       "name": "Rhys McKee",
@@ -2510,7 +2547,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Khabib Nabiev"
+      "name": "Khabib Nabiev",
+      "record": "13-0-0"
      },
      "fb": {
       "name": "Styve Ngono Essono"
@@ -2530,10 +2568,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Aleksandra Savicheva"
+      "name": "Aleksandra Savicheva",
+      "record": "9-2-0"
      },
      "fb": {
-      "name": "Jacinta Austin"
+      "name": "Jacinta Austin",
+      "record": "9-3-0"
      },
      "result": {
       "winner": "a",
@@ -2552,9 +2592,9 @@
    "title": "UFC 334: Gane vs. Hokit",
    "url": "https://en.wikipedia.org/wiki/UFC_334",
    "date": "2026-11-14",
-   "startMs": 1794708900000,
+   "startMs": 1794709740000,
    "timeEstimated": false,
-   "prelimsMs": 1794701700000,
+   "prelimsMs": 1794702540000,
    "earlyPrelimsMs": 1794693600000,
    "bouts": [
     {
@@ -2726,10 +2766,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
-      "oddsA": 1.6,
-      "oddsB": 2.38,
+      "pctA": 59,
+      "pctB": 41,
+      "oddsA": 1.61,
+      "oddsB": 2.36,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -2754,17 +2794,18 @@
       }
      },
      "fb": {
-      "name": "Luis Gurule"
+      "name": "Luis Gurule",
+      "record": "11-4-0"
      },
      "pred": {
       "fav": "a",
-      "pctA": 87,
-      "pctB": 13,
-      "oddsA": 1.1,
-      "oddsB": 7.88,
+      "pctA": 83,
+      "pctB": 17,
+      "oddsA": 1.09,
+      "oddsB": 6.0,
       "tier": "Heavy favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2790,24 +2831,14 @@
       "photoCredit": "Photo: Cpl. Devin Nichols · Public domain (Wikimedia Commons)"
      },
      "fb": {
-      "name": "Charles Radtke"
+      "name": "Charles Radtke",
+      "record": "12-6-0"
      },
      "result": {
       "winner": "a",
       "method": "TKO (spinning wheel kick)",
       "round": "3",
       "time": "2:54"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 85,
-      "pctB": 15,
-      "oddsA": 1.01,
-      "oddsB": 12.5,
-      "tier": "Heavy favourite",
-      "why": "",
-      "crowd": "Average of 6 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -2902,7 +2933,8 @@
       }
      },
      "fb": {
-      "name": "Donte Johnson"
+      "name": "Donte Johnson",
+      "record": "9-1-0"
      },
      "result": {
       "winner": "a",
@@ -2991,7 +3023,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Juan Díaz"
+      "name": "Juan Díaz",
+      "record": "17-1-1"
      },
      "fb": {
       "name": "Alateng Heili",
@@ -3019,10 +3052,12 @@
      "title": false,
      "notes": "Sanches was deducted one point in round 3 due to repeated grabbing the fence.",
      "fa": {
-      "name": "Evan Elder"
+      "name": "Evan Elder",
+      "record": "11-2-0"
      },
      "fb": {
-      "name": "Samuel Sanches"
+      "name": "Samuel Sanches",
+      "record": "11-2-0"
      },
      "result": {
       "winner": "a",
@@ -3092,6 +3127,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Ryujin_Nasukawa",
+      "record": "19-3-0",
       "stats": {
        "Age": "20",
        "Height": "165cm",
@@ -3143,6 +3179,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Masashi_Kumura",
+      "record": "26-8-0",
       "stats": {
        "Age": "27",
        "Height": "168cm",
@@ -3172,6 +3209,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Petchtanong_Petchfergus",
+      "record": "360-57-1",
       "stats": {
        "Age": "41",
        "Height": "1.74 m",
@@ -3227,6 +3265,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Yugo_Kato",
+      "record": "30-8-0",
       "stats": {
        "Age": "27",
        "Height": "169 cm",
@@ -3340,6 +3379,7 @@
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Asadula_Imangazaliev",
       "nickname": "The Dagestan Ninja",
+      "record": "13-0-0",
       "stats": {
        "Age": "23",
        "Height": "1.80 m",
@@ -3354,6 +3394,7 @@
       "flag": "🇺🇿",
       "url": "https://en.wikipedia.org/wiki/Aslamjon_Ortikov",
       "nickname": "El Pantera",
+      "record": "24-1-0",
       "stats": {
        "Age": "23",
        "Height": "174cm",
@@ -3953,8 +3994,8 @@
       "fav": "a",
       "pctA": 65,
       "pctB": 35,
-      "oddsA": 1.45,
-      "oddsB": 2.75,
+      "oddsA": 1.46,
+      "oddsB": 2.7,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 9 bookmakers",
@@ -3980,7 +4021,8 @@
       }
      },
      "fb": {
-      "name": "Alessandro Costa"
+      "name": "Alessandro Costa",
+      "record": "17-5-0"
      },
      "pred": {
       "fav": "b",
@@ -4015,7 +4057,8 @@
       "photoCredit": "Photo: Realistkilla · CC BY-SA 4.0 (Wikimedia Commons)"
      },
      "fb": {
-      "name": "Tahir Abdullayev"
+      "name": "Tahir Abdullayev",
+      "record": "20-3-0"
      },
      "pred": {
       "fav": "a",
@@ -4056,6 +4099,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Yodkhunpon_Sitmonchai",
+      "record": "105-39-1",
       "stats": {
        "Age": "31",
        "Height": "176cm",
@@ -4081,6 +4125,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Kongklai_Sor.Sommai",
+      "record": "98-34-4",
       "stats": {
        "Age": "28",
        "Height": "173cm",
@@ -4560,6 +4605,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Hiromi_Wajima",
+      "record": "23-7-0",
       "stats": {
        "Age": "31",
        "Height": "1.80 m",
@@ -4571,6 +4617,7 @@
       "country": "Iran",
       "flag": "🇮🇷",
       "url": "https://en.wikipedia.org/wiki/Mohammad_Siasarani",
+      "record": "28-14-0",
       "stats": {
        "Age": "24",
        "Team": "Venum Training Camp"
@@ -4589,6 +4636,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Ryuya_Okuwaki",
+      "record": "42-9-2",
       "stats": {
        "Age": "26",
        "Height": "1.63 m",
@@ -4614,6 +4662,7 @@
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Misaki_Morita",
       "nickname": "Bullet Princess",
+      "record": "27-10-1",
       "stats": {
        "Age": "30",
        "Height": "1.56 m",
@@ -4674,6 +4723,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Taiju_Shiratori",
+      "record": "32-14-1",
       "stats": {
        "Age": "30",
        "Height": "180cm",
@@ -5103,7 +5153,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Levan Chokheli"
+      "name": "Levan Chokheli",
+      "record": "15-3-0"
      },
      "fb": {
       "name": "Islam Dulatov",
@@ -5124,7 +5175,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Mairon Santos"
+      "name": "Mairon Santos",
+      "record": "18-1-0"
      },
      "fb": {
       "name": "Akbar Abdullaev",
@@ -5146,7 +5198,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Magomed Tuchalov"
+      "name": "Magomed Tuchalov",
+      "record": "7-0-0"
      },
      "fb": {
       "name": "Ion Cuțelaba",
@@ -5179,7 +5232,8 @@
       }
      },
      "fb": {
-      "name": "Jafel Filho"
+      "name": "Jafel Filho",
+      "record": "17-5-0"
      }
     },
     {
@@ -5190,10 +5244,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Uran Satybaldiev"
+      "name": "Uran Satybaldiev",
+      "record": "9-1-0"
      },
      "fb": {
-      "name": "Ivan Gnizditskiy"
+      "name": "Ivan Gnizditskiy",
+      "record": "7-0-0"
      }
     },
     {
@@ -5204,7 +5260,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Marco Tulio"
+      "name": "Marco Tulio",
+      "record": "14-3-0"
      },
      "fb": {
       "name": "Park Jun-yong",
@@ -5226,10 +5283,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Pavel Andrusca"
+      "name": "Pavel Andrusca",
+      "record": "9-0-0"
      },
      "fb": {
-      "name": "Mehemmedeli Osmanli"
+      "name": "Mehemmedeli Osmanli",
+      "record": "12-2-0"
      }
     },
     {
@@ -5240,10 +5299,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Modestino Rodrigues"
+      "name": "Modestino Rodrigues",
+      "record": "8-1-0"
      },
      "fb": {
-      "name": "Matthieu Letho Duclos"
+      "name": "Matthieu Letho Duclos",
+      "record": "11-3-0"
      }
     },
     {
@@ -5265,7 +5326,8 @@
       }
      },
      "fb": {
-      "name": "Hecher Sosa"
+      "name": "Hecher Sosa",
+      "record": "15-1-0"
      }
     }
    ],
@@ -5571,7 +5633,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Quentin Pasley"
+      "name": "Quentin Pasley",
+      "record": "4-0-0"
      },
      "fb": {
       "name": "Junior Tafa",
@@ -5728,6 +5791,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Kana_Morimoto",
+      "record": "25-7-0",
       "stats": {
        "Age": "34",
        "Height": "1.60 m",
@@ -5747,6 +5811,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Ferrari_Fairtex",
+      "record": "136-34-2",
       "stats": {
        "Age": "29",
        "Height": "174cm",
@@ -5758,6 +5823,7 @@
       "country": "Brazil",
       "flag": "🇧🇷",
       "url": "https://en.wikipedia.org/wiki/Denis_Souza_Jr.",
+      "record": "17-2-0",
       "stats": {
        "Age": "28",
        "Height": "174cm",
@@ -5811,7 +5877,8 @@
       }
      },
      "fb": {
-      "name": "Mitchell McKee"
+      "name": "Mitchell McKee",
+      "record": "11-0-0"
      }
     },
     {
@@ -5833,7 +5900,8 @@
       }
      },
      "fb": {
-      "name": "Boris Mbarga Atangana"
+      "name": "Boris Mbarga Atangana",
+      "record": "9-0-0"
      }
     },
     {
@@ -5846,10 +5914,12 @@
      "fa": {
       "name": "Abdoul Abdouraguimov",
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Abdoul.abduragimov.jpg/500px-Abdoul.abduragimov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "photoCredit": "Photo: Mustafa32755 · CC BY-SA 4.0 (Wikimedia Commons)"
+      "photoCredit": "Photo: Mustafa32755 · CC BY-SA 4.0 (Wikimedia Commons)",
+      "record": "20-1-0"
      },
      "fb": {
-      "name": "Andreeas Binder"
+      "name": "Andreeas Binder",
+      "record": "12-2-0"
      }
     },
     {
@@ -5887,7 +5957,8 @@
       }
      },
      "fb": {
-      "name": "Ilian Bouafia"
+      "name": "Ilian Bouafia",
+      "record": "8-1-0"
      }
     },
     {
@@ -5898,7 +5969,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Baris Adiguzel"
+      "name": "Baris Adiguzel",
+      "record": "10-2-0"
      },
      "fb": {
       "name": "Jack Cartwright"
@@ -5912,10 +5984,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Bafode Gassama"
+      "name": "Bafode Gassama",
+      "record": "4-0-0"
      },
      "fb": {
-      "name": "Coby Bradford"
+      "name": "Coby Bradford",
+      "record": "6-4-0"
      }
     },
     {
@@ -5971,10 +6045,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Brandon Brachet"
+      "name": "Brandon Brachet",
+      "record": "9-1-0"
      },
      "fb": {
-      "name": "Adam Meskini"
+      "name": "Adam Meskini",
+      "record": "11-3-0"
      }
     },
     {
@@ -5999,10 +6075,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Mathilde Aschenbrenner"
+      "name": "Mathilde Aschenbrenner",
+      "record": "3-0-0"
      },
      "fb": {
-      "name": "Shelda Chipito"
+      "name": "Shelda Chipito",
+      "record": "2-0-0"
      }
     }
    ],
@@ -6402,7 +6480,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Marwan Rahiki"
+      "name": "Marwan Rahiki",
+      "record": "9-1-0"
      },
      "fb": {
       "name": "Yoo Joo-sang"
@@ -6416,7 +6495,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Kaan Ofli"
+      "name": "Kaan Ofli",
+      "record": "15-4-1"
      },
      "fb": {
       "name": "Joanderson Brito",
@@ -6485,6 +6565,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794707966806,
- "oddsCreditsLeft": "466"
+ "oddsUpdatedMs": 1794710441791,
+ "oddsCreditsLeft": "460"
 }
