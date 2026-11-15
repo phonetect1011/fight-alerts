@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794715253947,
+ "generatedMs": 1794715841388,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -6099,16 +6099,113 @@
    "finished": false
   },
   {
-   "id": "ufc-ufc-fight-night-296",
+   "id": "ufc-ufc-fight-night-rodr-guez-vs-garcia",
    "promotion": "UFC",
-   "title": "UFC Fight Night 296",
-   "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night_296",
+   "title": "UFC Fight Night: Rodríguez vs. Garcia",
+   "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Rodr%C3%ADguez_vs._Garcia",
    "date": "2027-01-16",
    "startMs": 1800147600000,
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": [],
+   "bouts": [
+    {
+     "a": "Yair Rodríguez",
+     "b": "Steve Garcia",
+     "section": "Main card",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yair Rodríguez",
+      "url": "https://en.wikipedia.org/wiki/Yair_Rodr%C3%ADguez",
+      "record": "20-5-0",
+      "stats": {
+       "Age": "34",
+       "Height": "5 ft 11 in",
+       "Reach": "71 in",
+       "Team": "Valle Flow Striking"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_%2830657689682%29_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: File:Carrera con Yair \"Pantera\" Rodríguez -i---i- (306576896 · CC0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Steve Garcia",
+      "url": "https://en.wikipedia.org/wiki/Steve_Garcia",
+      "record": "19-6-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 0 in",
+       "Reach": "75 in",
+       "Team": "Jackson Wink"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/UFC_Freedom_250_press_conference_at_the_Lincoln_Memorial_in_Washington%2C_D.C.%2C_Friday%2C_June_12%2C_2026_-_10%28cropped%29.jpg/500px-UFC_Freedom_250_press_conference_at_the_Lincoln_Memorial_in_Washington%2C_D.C.%2C_Friday%2C_June_12%2C_2026_-_10%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Daniel Rodriguez",
+     "b": "Roberto Soldić",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Daniel Rodriguez",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Rodriguez_%28fighter%29",
+      "record": "20-6-0",
+      "stats": {
+       "Age": "39",
+       "Height": "6 ft 0 in",
+       "Reach": "74 in",
+       "Team": "Syndicate MMA"
+      }
+     },
+     "fb": {
+      "name": "Roberto Soldić",
+      "url": "https://en.wikipedia.org/wiki/Roberto_Soldi%C4%87",
+      "record": "22-4-0",
+      "stats": {
+       "Age": "31",
+       "Height": "5 ft 10 in",
+       "Reach": "73.5 in",
+       "Team": "UFD Gym Düsseldorf"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Roberto_Soldi%C4%87.png/500px-Roberto_Soldi%C4%87.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: PIXSELL · CC BY-SA 3.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Chidi Njokuani",
+     "b": "Ignacio Bahamondes",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Chidi Njokuani",
+      "url": "https://en.wikipedia.org/wiki/Chidi_Njokuani",
+      "record": "26-12-0",
+      "stats": {
+       "Age": "37",
+       "Height": "6 ft 3 in",
+       "Reach": "80 in",
+       "Team": "Sergio Penha BJJ"
+      }
+     },
+     "fb": {
+      "name": "Ignacio Bahamondes",
+      "url": "https://en.wikipedia.org/wiki/Ignacio_Bahamondes",
+      "record": "18-7-0",
+      "stats": {
+       "Age": "29",
+       "Height": "6 ft 3 in",
+       "Reach": "75 in",
+       "Team": "Valle Flow Striking"
+      }
+     }
+    }
+   ],
    "finished": false
   },
   {
