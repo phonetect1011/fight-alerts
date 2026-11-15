@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794714038597,
+ "generatedMs": 1794714637260,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2733,17 +2733,28 @@
      }
     },
     {
-     "a": "Kevin Holland",
-     "b": "Uroš Medić",
+     "a": "Uroš Medić",
+     "b": "Kevin Holland",
      "section": "Main card",
      "weight": "Welterweight",
      "title": false,
      "notes": "Medić was deducted one point in round 2 due to repeated groin strikes.",
      "fa": {
+      "name": "Uroš Medić",
+      "url": "https://en.wikipedia.org/wiki/Uro%C5%A1_Medi%C4%87",
+      "record": "14-3-1",
+      "stats": {
+       "Age": "33",
+       "Height": "6 ft 1 in",
+       "Reach": "71 in",
+       "Team": "Kings MMA"
+      }
+     },
+     "fb": {
       "name": "Kevin Holland",
       "url": "https://en.wikipedia.org/wiki/Kevin_Holland",
       "nickname": "Trailblazer",
-      "record": "29-15-0",
+      "record": "29-15-1",
       "stats": {
        "Age": "34",
        "Height": "6 ft 3 in",
@@ -2753,17 +2764,6 @@
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kevin_Holland_at_UFC_316_%2854576727207%29.jpg/500px-Kevin_Holland_at_UFC_316_%2854576727207%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: The White House · Public domain (Wikimedia Commons)"
      },
-     "fb": {
-      "name": "Uroš Medić",
-      "url": "https://en.wikipedia.org/wiki/Uro%C5%A1_Medi%C4%87",
-      "record": "14-3-0",
-      "stats": {
-       "Age": "33",
-       "Height": "6 ft 1 in",
-       "Reach": "71 in",
-       "Team": "Kings MMA"
-      }
-     },
      "result": {
       "winner": "",
       "method": "Draw (majority)",
@@ -2771,11 +2771,11 @@
       "time": "5:00"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 41,
-      "pctB": 59,
-      "oddsA": 2.36,
-      "oddsB": 1.61,
+      "fav": "a",
+      "pctA": 59,
+      "pctB": 41,
+      "oddsA": 1.61,
+      "oddsB": 2.36,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
