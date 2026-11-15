@@ -38,7 +38,7 @@ import os
 import re
 import sys
 import time
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from zoneinfo import ZoneInfo
 
 import requests
@@ -448,8 +448,10 @@ def from_list_page(promo, list_page):
         raise ScrapeError(f"No 'Scheduled events' section on {list_page} (layout changed?)")
     today = dt.datetime.now(ET).date()
     upcoming = sorted([r for r in table_rows(table_src) if r[0] >= today - dt.timedelta(days=1)], key=lambda r: r[0])
+    # "<= today": editors often move an event to Past events while it is still on,
+    # so on fight day it can be in neither list unless today counts as past too.
     past = [r for r in table_rows(section(text, r"Past events"))
-            if today - dt.timedelta(days=RESULTS_DAYS) <= r[0] < today]
+            if today - dt.timedelta(days=RESULTS_DAYS) <= r[0] <= today]
     past = sorted(past, key=lambda r: r[0], reverse=True)[:MAX_RESULTS_PER_PROMO]
     events, seen = [], set()
     for day, ev_cell, city in upcoming[:MAX_EVENTS_PER_PROMO] + past:
@@ -897,6 +899,32 @@ def pfl():
     return from_list_page("PFL", "List of PFL events")
 
 
+def keep_live_events(promo, events, previous, now_ms):
+    """An event that is on right now must never vanish from the app (e.g. editors moving it between
+    tables mid-event). If last run had it and this run lost it, reload its own page directly."""
+    have = {e["id"] for e in events}
+    for ev in previous.get("events", []):
+        if ev.get("promotion") != promo or ev.get("finished") or ev.get("id") in have:
+            continue
+        if not (now_ms - 12 * 3600_000 <= (ev.get("startMs") or 0) <= now_ms + 6 * 3600_000):
+            continue
+        url = ev.get("url", "")
+        if "/wiki/" not in url or "#" in url:
+            continue   # season-page events: the whole page was already read this run
+        title = unquote(url.split("/wiki/", 1)[1]).replace("_", " ")
+        ptitle, ptext = wikitext(title, required=False)
+        if not ptext:
+            continue
+        name = plain(infobox_field(ptext, "name")) or ev.get("title", title)
+        day = parse_date(infobox_field(ptext, "date")) or dt.date.fromisoformat(ev["date"])
+        city = plain(infobox_field(ptext, "city"))
+        new = event_record(promo, name, day, wiki_url(ptitle), parse_card(ptext, name), city)
+        print(f"  {promo}: '{name}' dropped off the list while it's on, loaded its page directly")
+        events.append(new)
+        have.add(new["id"])
+    return events
+
+
 PROMOS = {
     "UFC": lambda: from_list_page("UFC", "List of UFC events"),
     "BKFC": lambda: from_season_pages("BKFC", "{year} in Bare Knuckle Fighting Championship"),
@@ -922,6 +950,10 @@ def main():
             events = fetch()
             if promo == "UFC" and not events:
                 raise ScrapeError("No upcoming UFC events found (layout changed?)")
+            try:
+                events = keep_live_events(promo, events, previous, now_ms)
+            except Exception as e:  # safety net only: never break the promotion over it
+                print(f"[WARN] {promo}: could not check for dropped live events: {e}")
             all_events += events
             nb = sum(len(e["bouts"]) for e in events)
             health[promo] = {"ok": True, "events": len(events), "message": ""}
