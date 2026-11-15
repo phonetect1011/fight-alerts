@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794706748580,
+ "generatedMs": 1794707929842,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2726,10 +2726,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
-      "oddsA": 1.61,
-      "oddsB": 2.37,
+      "pctA": 60,
+      "pctB": 40,
+      "oddsA": 1.6,
+      "oddsB": 2.38,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -2793,14 +2793,14 @@
       "name": "Charles Radtke"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 48,
-      "pctB": 52,
-      "oddsA": 1.79,
-      "oddsB": 2.05,
-      "tier": "Pick'em",
+      "fav": "a",
+      "pctA": 85,
+      "pctB": 15,
+      "oddsA": 1.01,
+      "oddsB": 12.5,
+      "tier": "Heavy favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 6 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3945,10 +3945,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 66,
-      "pctB": 34,
-      "oddsA": 1.44,
-      "oddsB": 2.8,
+      "pctA": 65,
+      "pctB": 35,
+      "oddsA": 1.45,
+      "oddsB": 2.75,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 9 bookmakers",
@@ -5052,7 +5052,7 @@
       "pctA": 61,
       "pctB": 39,
       "oddsA": 1.56,
-      "oddsB": 2.42,
+      "oddsB": 2.45,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 6 bookmakers",
@@ -6479,6 +6479,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794706936363,
- "oddsCreditsLeft": "468"
+ "oddsUpdatedMs": 1794707966806,
+ "oddsCreditsLeft": "466"
 }
