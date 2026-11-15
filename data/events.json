@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794751255512,
+ "generatedMs": 1794758455384,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1907,7 +1907,7 @@
      "fa": {
       "name": "Patrick Habirora",
       "url": "https://en.wikipedia.org/wiki/Patrick_Habirora",
-      "record": "9-0-0",
+      "record": "10-0-0",
       "stats": {
        "Age": "25",
        "Height": "6 ft 1 in",
@@ -3339,10 +3339,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 43,
-      "pctB": 57,
-      "oddsA": 2.2,
-      "oddsB": 1.68,
+      "pctA": 42,
+      "pctB": 58,
+      "oddsA": 2.25,
+      "oddsB": 1.65,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -3382,10 +3382,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 45,
-      "pctB": 55,
+      "pctA": 46,
+      "pctB": 54,
       "oddsA": 2.1,
-      "oddsB": 1.74,
+      "oddsB": 1.75,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -3598,8 +3598,8 @@
       "fav": "a",
       "pctA": 65,
       "pctB": 35,
-      "oddsA": 1.48,
-      "oddsB": 2.7,
+      "oddsA": 1.46,
+      "oddsB": 2.78,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -3669,7 +3669,7 @@
       "pctA": 61,
       "pctB": 39,
       "oddsA": 1.57,
-      "oddsB": 2.38,
+      "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -4709,11 +4709,11 @@
       "fav": "a",
       "pctA": 58,
       "pctB": 42,
-      "oddsA": 1.65,
-      "oddsB": 2.27,
+      "oddsA": 1.64,
+      "oddsB": 2.28,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4750,11 +4750,11 @@
       "fav": "a",
       "pctA": 62,
       "pctB": 38,
-      "oddsA": 1.55,
-      "oddsB": 2.47,
+      "oddsA": 1.54,
+      "oddsB": 2.48,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -6321,10 +6321,10 @@
       "pctA": 69,
       "pctB": 31,
       "oddsA": 1.38,
-      "oddsB": 3.15,
+      "oddsB": 3.14,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 5 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -6364,11 +6364,11 @@
       "fav": "b",
       "pctA": 44,
       "pctB": 56,
-      "oddsA": 2.2,
+      "oddsA": 2.19,
       "oddsB": 1.71,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 3 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -6513,6 +6513,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794737029610,
- "oddsCreditsLeft": "458"
+ "oddsUpdatedMs": 1794758478515,
+ "oddsCreditsLeft": "456"
 }
