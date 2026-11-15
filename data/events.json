@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794729651558,
+ "generatedMs": 1794736857521,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -24,7 +24,7 @@
   },
   "PFL": {
    "ok": true,
-   "events": 2,
+   "events": 4,
    "message": ""
   }
  },
@@ -2221,9 +2221,9 @@
    "title": "UFC 334: Gane vs. Hokit",
    "url": "https://en.wikipedia.org/wiki/UFC_334",
    "date": "2026-11-14",
-   "startMs": 1794709740000,
-   "timeEstimated": false,
-   "prelimsMs": 1794702540000,
+   "startMs": 1794708000000,
+   "timeEstimated": true,
+   "prelimsMs": 1794700800000,
    "earlyPrelimsMs": 1794693600000,
    "bouts": [
     {
@@ -2266,17 +2266,6 @@
       "method": "Decision (unanimous)",
       "round": "5",
       "time": "5:00"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 65,
-      "pctB": 35,
-      "oddsA": 1.47,
-      "oddsB": 2.77,
-      "tier": "Clear favourite",
-      "why": "",
-      "crowd": "Average of 14 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -2318,17 +2307,6 @@
       "method": "Submission (rear-naked choke)",
       "round": "4",
       "time": "1:29"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
-      "oddsA": 1.6,
-      "oddsB": 2.36,
-      "tier": "Slight favourite",
-      "why": "",
-      "crowd": "Average of 15 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -2366,17 +2344,6 @@
       "method": "Decision (unanimous)",
       "round": "3",
       "time": "5:00"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
-      "oddsA": 1.62,
-      "oddsB": 2.32,
-      "tier": "Slight favourite",
-      "why": "",
-      "crowd": "Average of 14 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -2416,17 +2383,6 @@
       "method": "Draw (majority)",
       "round": "3",
       "time": "5:00"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
-      "oddsA": 1.61,
-      "oddsB": 2.36,
-      "tier": "Slight favourite",
-      "why": "",
-      "crowd": "Average of 13 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -2455,17 +2411,6 @@
       "method": "Decision (split)",
       "round": "3",
       "time": "5:00"
-     },
-     "pred": {
-      "fav": "b",
-      "pctA": 17,
-      "pctB": 83,
-      "oddsA": 6.0,
-      "oddsB": 1.09,
-      "tier": "Heavy favourite",
-      "why": "",
-      "crowd": "Average of 13 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -3400,7 +3345,7 @@
       "oddsB": 1.68,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3439,11 +3384,11 @@
       "fav": "b",
       "pctA": 45,
       "pctB": 55,
-      "oddsA": 2.12,
-      "oddsB": 1.73,
+      "oddsA": 2.1,
+      "oddsB": 1.74,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3485,11 +3430,11 @@
       "fav": "a",
       "pctA": 59,
       "pctB": 41,
-      "oddsA": 1.61,
-      "oddsB": 2.33,
+      "oddsA": 1.62,
+      "oddsB": 2.32,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3570,7 +3515,7 @@
       "oddsB": 1.29,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3607,13 +3552,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 68,
-      "pctB": 32,
-      "oddsA": 1.4,
-      "oddsB": 2.95,
+      "pctA": 67,
+      "pctB": 33,
+      "oddsA": 1.42,
+      "oddsB": 2.92,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 10 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3653,11 +3598,11 @@
       "fav": "a",
       "pctA": 65,
       "pctB": 35,
-      "oddsA": 1.46,
+      "oddsA": 1.48,
       "oddsB": 2.7,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3687,11 +3632,11 @@
       "fav": "b",
       "pctA": 45,
       "pctB": 55,
-      "oddsA": 2.12,
-      "oddsB": 1.73,
+      "oddsA": 2.1,
+      "oddsB": 1.74,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3721,13 +3666,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
-      "oddsA": 1.58,
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.57,
       "oddsB": 2.38,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -4764,10 +4709,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 61,
-      "pctB": 39,
-      "oddsA": 1.56,
-      "oddsB": 2.45,
+      "pctA": 62,
+      "pctB": 38,
+      "oddsA": 1.55,
+      "oddsB": 2.47,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 6 bookmakers",
@@ -5144,6 +5089,131 @@
       "name": "Justin Walters",
       "country": "United States",
       "flag": "🇺🇸"
+     }
+    }
+   ],
+   "finished": false
+  },
+  {
+   "id": "pfl-pfl-mena-12",
+   "promotion": "PFL",
+   "title": "PFL MENA 12",
+   "url": "https://en.wikipedia.org/wiki/List_of_Professional_Fighters_League_events",
+   "date": "2026-12-11",
+   "startMs": 1797037200000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [],
+   "finished": false
+  },
+  {
+   "id": "pfl-pfl-africa-4-kigali",
+   "promotion": "PFL",
+   "title": "PFL Africa 4: Kigali",
+   "url": "https://en.wikipedia.org/wiki/PFL_Africa_4_%282026%29",
+   "date": "2026-12-12",
+   "startMs": 1797123600000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Shido Boris Esperança",
+     "b": "David Samuel",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "2026 PFL Africa Welterweight Tournament Final.",
+     "fa": {
+      "name": "Shido Boris Esperança"
+     },
+     "fb": {
+      "name": "David Samuel"
+     }
+    },
+    {
+     "a": "Patrick Ocheme",
+     "b": "Demba Seck",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "2026 PFL Africa Lightweight Tournament Final.",
+     "fa": {
+      "name": "Patrick Ocheme"
+     },
+     "fb": {
+      "name": "Demba Seck"
+     }
+    },
+    {
+     "a": "Dwight Joseph",
+     "b": "Raphael Uchegbu",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "2026 PFL Africa Bantamweight Tournament Final.",
+     "fa": {
+      "name": "Dwight Joseph"
+     },
+     "fb": {
+      "name": "Raphael Uchegbu"
+     }
+    },
+    {
+     "a": "Juliet Ukah",
+     "b": "Benita van Rooij",
+     "section": "Main card",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Juliet Ukah"
+     },
+     "fb": {
+      "name": "Benita van Rooij"
+     }
+    },
+    {
+     "a": "Boule Godogo",
+     "b": "Ridouan Errami",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Boule Godogo"
+     },
+     "fb": {
+      "name": "Ridouan Errami"
+     }
+    },
+    {
+     "a": "Emmanuel Lamptey",
+     "b": "Jordan Cabrel Fongno",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Emmanuel Lamptey"
+     },
+     "fb": {
+      "name": "Jordan Cabrel Fongno"
+     }
+    },
+    {
+     "a": "Felista Mugo",
+     "b": "Sephora Kiala",
+     "section": "Main card",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Felista Mugo"
+     },
+     "fb": {
+      "name": "Sephora Kiala"
      }
     }
    ],
@@ -6404,6 +6474,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794710441791,
- "oddsCreditsLeft": "460"
+ "oddsUpdatedMs": 1794737029610,
+ "oddsCreditsLeft": "458"
 }

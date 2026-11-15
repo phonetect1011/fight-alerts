@@ -1,4 +1,4 @@
-ESPN records: filled 68, still missing 10
+ESPN records: filled 68, still missing 24
 
   + Elijah Smith: 11-1-0  (UFC Fight Night: Cortes-Acosta vs. Walker)
   + Lucas Fernando: 15-3-0  (UFC Fight Night: Cortes-Acosta vs. Walker)
@@ -55,6 +55,21 @@ ESPN records: filled 68, still missing 10
   + Modestino Rodrigues: 8-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Matthieu Letho Duclos: 11-3-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Hecher Sosa: 15-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
+PFL Africa 4: Kigali: ESPN has no bouts for 2026-12-12
+  - Shido Boris Esperança: not found on ESPN  (PFL Africa 4: Kigali)
+  - David Samuel: not found on ESPN  (PFL Africa 4: Kigali)
+  - Patrick Ocheme: not found on ESPN  (PFL Africa 4: Kigali)
+  - Demba Seck: not found on ESPN  (PFL Africa 4: Kigali)
+  - Dwight Joseph: not found on ESPN  (PFL Africa 4: Kigali)
+  - Raphael Uchegbu: not found on ESPN  (PFL Africa 4: Kigali)
+  - Juliet Ukah: not found on ESPN  (PFL Africa 4: Kigali)
+  - Benita van Rooij: not found on ESPN  (PFL Africa 4: Kigali)
+  - Boule Godogo: not found on ESPN  (PFL Africa 4: Kigali)
+  - Ridouan Errami: not found on ESPN  (PFL Africa 4: Kigali)
+  - Emmanuel Lamptey: not found on ESPN  (PFL Africa 4: Kigali)
+  - Jordan Cabrel Fongno: not found on ESPN  (PFL Africa 4: Kigali)
+  - Felista Mugo: not found on ESPN  (PFL Africa 4: Kigali)
+  - Sephora Kiala: not found on ESPN  (PFL Africa 4: Kigali)
   + Quentin Pasley: 4-0-0  (UFC 335: Oliveira vs. Lopes)
   + Mitchell McKee: 11-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Boris Mbarga Atangana: 9-0-0  (PFL Lyon: Lapilus vs. McKee)
