@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794709976388,
+ "generatedMs": 1794710112198,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -447,6 +447,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Taiki_Naito",
+      "record": "40-14-0",
       "stats": {
        "Age": "30",
        "Height": "170 cm",
@@ -536,6 +537,7 @@
       "country": "Russia",
       "flag": "🇷🇺",
       "url": "https://en.wikipedia.org/wiki/Mamuka_Usubyan",
+      "record": "24-4-0",
       "stats": {
        "Age": "32",
        "Height": "1.80 m",
@@ -585,6 +587,7 @@
       "country": "Bulgaria",
       "flag": "🇧🇬",
       "url": "https://en.wikipedia.org/wiki/Bogdan_Shumarov",
+      "record": "19-4-0",
       "stats": {
        "Age": "30",
        "Height": "179cm",
@@ -1559,6 +1562,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Shimon_Yoshinari",
+      "record": "39-4-0",
       "stats": {
        "Age": "22",
        "Height": "175cm",
@@ -1589,6 +1593,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Nong-O_Hama",
+      "record": "269-59-10",
       "stats": {
        "Age": "40",
        "Height": "171 cm",
@@ -1602,6 +1607,7 @@
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Rodtang_Jitmuangnon",
       "nickname": "The Iron Man",
+      "record": "274-45-10",
       "stats": {
        "Age": "29",
        "Height": "168 cm",
@@ -1630,6 +1636,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Por_Tor_Thor_Petchrungruang",
+      "record": "115-26-1",
       "stats": {
        "Age": "29",
        "Height": "178cm",
@@ -2792,8 +2799,8 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 86,
-      "pctB": 14,
+      "pctA": 82,
+      "pctB": 18,
       "oddsA": 1.09,
       "oddsB": 7.0,
       "tier": "Heavy favourite",
@@ -3120,6 +3127,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Ryujin_Nasukawa",
+      "record": "19-3-0",
       "stats": {
        "Age": "20",
        "Height": "165cm",
@@ -3171,6 +3179,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Masashi_Kumura",
+      "record": "26-8-0",
       "stats": {
        "Age": "27",
        "Height": "168cm",
@@ -3200,6 +3209,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Petchtanong_Petchfergus",
+      "record": "360-57-1",
       "stats": {
        "Age": "41",
        "Height": "1.74 m",
@@ -3255,6 +3265,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Yugo_Kato",
+      "record": "30-8-0",
       "stats": {
        "Age": "27",
        "Height": "169 cm",
@@ -3368,6 +3379,7 @@
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Asadula_Imangazaliev",
       "nickname": "The Dagestan Ninja",
+      "record": "13-0-0",
       "stats": {
        "Age": "23",
        "Height": "1.80 m",
@@ -3382,6 +3394,7 @@
       "flag": "🇺🇿",
       "url": "https://en.wikipedia.org/wiki/Aslamjon_Ortikov",
       "nickname": "El Pantera",
+      "record": "24-1-0",
       "stats": {
        "Age": "23",
        "Height": "174cm",
@@ -4086,6 +4099,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Yodkhunpon_Sitmonchai",
+      "record": "105-39-1",
       "stats": {
        "Age": "31",
        "Height": "176cm",
@@ -4111,6 +4125,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Kongklai_Sor.Sommai",
+      "record": "98-34-4",
       "stats": {
        "Age": "28",
        "Height": "173cm",
@@ -4590,6 +4605,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Hiromi_Wajima",
+      "record": "23-7-0",
       "stats": {
        "Age": "31",
        "Height": "1.80 m",
@@ -4601,6 +4617,7 @@
       "country": "Iran",
       "flag": "🇮🇷",
       "url": "https://en.wikipedia.org/wiki/Mohammad_Siasarani",
+      "record": "28-14-0",
       "stats": {
        "Age": "24",
        "Team": "Venum Training Camp"
@@ -4619,6 +4636,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Ryuya_Okuwaki",
+      "record": "42-9-2",
       "stats": {
        "Age": "26",
        "Height": "1.63 m",
@@ -4644,6 +4662,7 @@
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Misaki_Morita",
       "nickname": "Bullet Princess",
+      "record": "27-10-1",
       "stats": {
        "Age": "30",
        "Height": "1.56 m",
@@ -4704,6 +4723,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Taiju_Shiratori",
+      "record": "32-14-1",
       "stats": {
        "Age": "30",
        "Height": "180cm",
@@ -5771,6 +5791,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Kana_Morimoto",
+      "record": "25-7-0",
       "stats": {
        "Age": "34",
        "Height": "1.60 m",
@@ -5790,6 +5811,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Ferrari_Fairtex",
+      "record": "136-34-2",
       "stats": {
        "Age": "29",
        "Height": "174cm",
@@ -5801,6 +5823,7 @@
       "country": "Brazil",
       "flag": "🇧🇷",
       "url": "https://en.wikipedia.org/wiki/Denis_Souza_Jr.",
+      "record": "17-2-0",
       "stats": {
        "Age": "28",
        "Height": "174cm",
@@ -6542,6 +6565,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794709998036,
- "oddsCreditsLeft": "464"
+ "oddsUpdatedMs": 1794710134108,
+ "oddsCreditsLeft": "462"
 }
