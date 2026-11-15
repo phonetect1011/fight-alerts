@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794718237085,
+ "generatedMs": 1794718855774,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -14,7 +14,7 @@
   },
   "ONE": {
    "ok": true,
-   "events": 8,
+   "events": 7,
    "message": ""
   },
   "RAF": {
@@ -29,377 +29,6 @@
   }
  },
  "events": [
-  {
-   "id": "one-one-friday-fights-177-isannuea-vs-jack-the-inner-circle-37",
-   "promotion": "ONE",
-   "title": "ONE Friday Fights 177: Isannuea vs. Jack / The Inner Circle 37",
-   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Friday_Fights_177_%26_The_Inner_Circle_37",
-   "date": "2026-11-06",
-   "startMs": 1793968200000,
-   "timeEstimated": true,
-   "prelimsMs": null,
-   "earlyPrelimsMs": null,
-   "bouts": [
-    {
-     "a": "Jack Siatarnyokkrok P.K",
-     "b": "Isannuea Chotbangsaen",
-     "section": "ONE Friday Fights 177",
-     "weight": "Bantamweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Jack Siatarnyokkrok P.K",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Isannuea Chotbangsaen",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Superball Sit Chor.",
-     "b": "Saksri SuperlekMuaythai",
-     "section": "ONE Friday Fights 177",
-     "weight": "Flyweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Superball Sit Chor.",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Saksri SuperlekMuaythai",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "result": {
-      "winner": "a",
-      "method": "KO (punches)",
-      "round": "1",
-      "time": "1:42"
-     }
-    },
-    {
-     "a": "Chatpet Suablackmuaythai",
-     "b": "Saipetlek CoachnatSamartmuaythai",
-     "section": "ONE Friday Fights 177",
-     "weight": "Atomweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Chatpet Suablackmuaythai",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Saipetlek CoachnatSamartmuaythai",
-      "country": "LAO"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Chaisongkram Looksuan",
-     "b": "Petdam BS.Muaythai",
-     "section": "ONE Friday Fights 177",
-     "weight": "Atomweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Chaisongkram Looksuan",
-      "country": "LAO"
-     },
-     "fb": {
-      "name": "Petdam BS.Muaythai",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Klinphaka Por.Thaisong",
-     "b": "Ran Longshu",
-     "section": "ONE Friday Fights 177",
-     "weight": "Women's Atomweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Klinphaka Por.Thaisong",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Ran Longshu",
-      "country": "China",
-      "flag": "🇨🇳"
-     },
-     "result": {
-      "winner": "a",
-      "method": "KO (punch to the body)",
-      "round": "2",
-      "time": "0:57"
-     }
-    },
-    {
-     "a": "Kazuteru Yamazaki",
-     "b": "Phun SueaMuang",
-     "section": "ONE Friday Fights 177",
-     "weight": "Flyweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Kazuteru Yamazaki",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Phun SueaMuang",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Bos Chayut",
-     "b": "Kentaro Okumura",
-     "section": "ONE Friday Fights 177",
-     "weight": "Bantamweight MMA",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Bos Chayut",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Kentaro Okumura",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "TKO (knees and punches)",
-      "round": "3",
-      "time": "1:21"
-     }
-    },
-    {
-     "a": "Yuto",
-     "b": "Okazaki Silkmuaythai",
-     "section": "ONE Friday Fights 177",
-     "weight": "Atomweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Yuto",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Okazaki Silkmuaythai",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Marats Jankovskis",
-     "b": "Retsu Sashida",
-     "section": "ONE Friday Fights 177",
-     "weight": "Flyweight Kickboxing",
-     "title": false,
-     "notes": "|}",
-     "fa": {
-      "name": "Marats Jankovskis",
-      "country": "Latvia",
-      "flag": "🇱🇻"
-     },
-     "fb": {
-      "name": "Retsu Sashida",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Tye Ruotolo",
-     "b": "Christian Lee",
-     "section": "The Inner Circle 37",
-     "weight": "Lightweight MMA",
-     "title": true,
-     "notes": "For the ONE Lightweight World Championship.",
-     "fa": {
-      "name": "Tye Ruotolo",
-      "country": "United States",
-      "flag": "🇺🇸",
-      "url": "https://en.wikipedia.org/wiki/Tye_Ruotolo",
-      "record": "3-0-0",
-      "stats": {
-       "Age": "23",
-       "Height": "5 ft 10 in",
-       "Reach": "77 in",
-       "Team": "Art of Jiu Jitsu (AOJ) Combat Submission Wrestling"
-      }
-     },
-     "fb": {
-      "name": "Christian Lee",
-      "country": "United States",
-      "flag": "🇺🇸",
-      "rank": "C",
-      "url": "https://en.wikipedia.org/wiki/Christian_Lee_%28fighter%29",
-      "nickname": "The Warrior",
-      "record": "18-5-0",
-      "stats": {
-       "Age": "28",
-       "Height": "5 ft 10 in",
-       "Reach": "76 in",
-       "Team": "United MMA"
-      }
-     },
-     "result": {
-      "winner": "a",
-      "method": "Submission (rear-naked choke)",
-      "round": "1",
-      "time": "2:08"
-     }
-    },
-    {
-     "a": "Yodphupa Petkiatpet",
-     "b": "Komawut FA.Group",
-     "section": "The Inner Circle 37",
-     "weight": "Bantamweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Yodphupa Petkiatpet",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Komawut FA.Group",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (split)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Tantawy Ahmed Hafez",
-     "b": "Kongchai Chanaidonmuang",
-     "section": "The Inner Circle 37",
-     "weight": "Flyweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Tantawy Ahmed Hafez",
-      "country": "Egypt",
-      "flag": "🇪🇬"
-     },
-     "fb": {
-      "name": "Kongchai Chanaidonmuang",
-      "country": "Thailand",
-      "flag": "🇹🇭",
-      "url": "https://en.wikipedia.org/wiki/Kongchai_Chanaidonmuang",
-      "stats": {
-       "Age": "24",
-       "Height": "167cm"
-      }
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Titus Proctor",
-     "b": "Maciej Karpinski",
-     "section": "The Inner Circle 37",
-     "weight": "Lightweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Titus Proctor",
-      "country": "New Zealand",
-      "flag": "🇳🇿"
-     },
-     "fb": {
-      "name": "Maciej Karpinski",
-      "country": "Poland",
-      "flag": "🇵🇱"
-     },
-     "result": {
-      "winner": "a",
-      "method": "KO (punch to the body)",
-      "round": "3",
-      "time": "1:27"
-     }
-    },
-    {
-     "a": "Dabdam PorTorThor.Thongtawee",
-     "b": "Cal Cook",
-     "section": "The Inner Circle 37",
-     "weight": "Strawweight Muay Thai",
-     "title": false,
-     "notes": "|}",
-     "fa": {
-      "name": "Dabdam PorTorThor.Thongtawee",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Cal Cook",
-      "country": "United Kingdom",
-      "flag": "🇬🇧"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    }
-   ],
-   "finished": true
-  },
   {
    "id": "one-one-fight-night-49-gabriel-vs-magomedov",
    "promotion": "ONE",
@@ -2655,7 +2284,7 @@
       "name": "Kayla Harrison",
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Kayla_Harrison",
-      "record": "19-1-0",
+      "record": "20-1-0",
       "stats": {
        "Age": "36",
        "Height": "5 ft 8 in",
@@ -2668,7 +2297,7 @@
      "fb": {
       "name": "Amanda Nunes",
       "url": "https://en.wikipedia.org/wiki/Amanda_Nunes",
-      "record": "23-5-0",
+      "record": "23-6-0",
       "stats": {
        "Age": "38",
        "Height": "5 ft 8 in",
@@ -2677,6 +2306,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "4",
+      "time": "1:29"
      },
      "pred": {
       "fav": "a",
