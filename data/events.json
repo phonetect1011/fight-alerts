@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794715841388,
+ "generatedMs": 1794716444732,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2719,6 +2719,12 @@
        "Height": "6 ft 5 in",
        "Team": "Teixeira MMA & Fitness"
       }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
       "fav": "a",
@@ -6209,16 +6215,51 @@
    "finished": false
   },
   {
-   "id": "ufc-ufc-fight-night-297",
+   "id": "ufc-ufc-fight-night-bonfim-vs-brady",
    "promotion": "UFC",
-   "title": "UFC Fight Night 297",
-   "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
+   "title": "UFC Fight Night: Bonfim vs. Brady",
+   "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Brady",
    "date": "2027-01-23",
    "startMs": 1800752400000,
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": [],
+   "bouts": [
+    {
+     "a": "Gabriel Bonfim",
+     "b": "Sean Brady",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Gabriel Bonfim",
+      "url": "https://en.wikipedia.org/wiki/Gabriel_Bonfim",
+      "record": "20-1-0",
+      "stats": {
+       "Age": "29",
+       "Height": "6 ft 1 in",
+       "Reach": "72 in",
+       "Team": "Bonfim Brothers Academy"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Gabriel_Bonfim_2025.jpg/500px-Gabriel_Bonfim_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Sexto Round · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Sean Brady",
+      "url": "https://en.wikipedia.org/wiki/Sean_Brady_%28fighter%29",
+      "record": "19-2-0",
+      "stats": {
+       "Age": "33",
+       "Height": "5 ft 9 in",
+       "Reach": "72 in",
+       "Team": "Renzo Gracie Philly"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/SeanBrady.jpg/500px-SeanBrady.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: WEIGHING IN · CC BY 3.0 (Wikimedia Commons)"
+     }
+    }
+   ],
    "finished": false
   },
   {
