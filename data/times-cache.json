@@ -130,5 +130,28 @@
     "strTimestamp": "2026-11-27T00:00:00"
    }
   ]
+ },
+ "2026-11-28": {
+  "checked": 1794706502241,
+  "events": [
+   {
+    "strEvent": "X IWI",
+    "strLeague": "wXw",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-28T00:00:00"
+   },
+   {
+    "strEvent": "Survivor Series WarGames",
+    "strLeague": "WWE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-11-28T00:00:00"
+   },
+   {
+    "strEvent": "Agit Kabayel vs Nelson Hysa",
+    "strLeague": "Boxing",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-11-28T00:00:00"
+   }
+  ]
  }
 }
