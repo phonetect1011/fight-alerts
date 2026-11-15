@@ -9,10 +9,17 @@ name: Update fight data
 #     while any bout is still missing a result) it scrapes every time, so results show up fast.
 #   - Otherwise it only scrapes when the data is ~2 hours old.
 #   - Odds are downloaded fresh only when the saved odds are 6+ hours old (~240 free credits a month).
+#   - cron-job.org also starts it every 10 min with auto=true (GitHub's own schedule often runs late).
+#     Those runs follow the same rules as the schedule above; a run by hand always scrapes.
 on:
   schedule:
     - cron: "7,22,37,52 * * * *"   # every 15 min (off the hour, GitHub delays :00 runs the most)
-  workflow_dispatch:                # run it by hand from the Actions tab
+  workflow_dispatch:                # run it by hand from the Actions tab (or cron-job.org with auto=true)
+    inputs:
+      auto:
+        description: "Started by cron-job.org (leave unticked when running by hand)"
+        type: boolean
+        default: false
   push:                             # re-run straight away whenever the scrapers change
     paths:
       - "scraper/wiki.py"
@@ -41,6 +48,7 @@ jobs:
         id: decide
         env:
           EVENT: ${{ github.event_name }}
+          AUTO: ${{ github.event.inputs.auto }}
         run: |
           python3 - <<'PY'
           import json, os, time
@@ -49,6 +57,8 @@ jobs:
           MIN = 60_000
           HOUR = 60 * MIN
           event = os.environ.get("EVENT", "")
+          if event == "workflow_dispatch" and os.environ.get("AUTO") == "true":
+              event = "schedule"    # cron-job.org: same rules as GitHub's schedule
 
           try:
               with open("data/events.json") as f:
