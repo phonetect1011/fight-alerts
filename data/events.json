@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794824226455,
+ "generatedMs": 1794831043732,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1514,7 +1514,7 @@
      "section": "ONE Friday Fights 179",
      "weight": "Bantamweight Muay Thai",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Wuttikrai Wor.Chakrawut",
       "country": "Thailand",
@@ -1524,6 +1524,131 @@
       "name": "Superjeng Torfunfarm",
       "country": "Thailand",
       "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Sunvo Torfunfarm",
+     "b": "Rahim Tcherchaiko",
+     "section": "ONE Friday Fights 179",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Sunvo Torfunfarm",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Rahim Tcherchaiko",
+      "country": "Belgium",
+      "flag": "🇧🇪"
+     }
+    },
+    {
+     "a": "Natty Dodds",
+     "b": "Chalamkaw VenumMuaythai",
+     "section": "ONE Friday Fights 179",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Natty Dodds",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Chalamkaw VenumMuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Mirmehti Miriyev",
+     "b": "Waldimir Britez",
+     "section": "ONE Friday Fights 179",
+     "weight": "Bantamweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Mirmehti Miriyev",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿"
+     },
+     "fb": {
+      "name": "Waldimir Britez",
+      "country": "PRY"
+     }
+    },
+    {
+     "a": "Chalamdam Yotharakmuaythai",
+     "b": "Chaiheng Patcharagym",
+     "section": "ONE Friday Fights 179",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Chalamdam Yotharakmuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Chaiheng Patcharagym",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Kang Min-sung",
+     "b": "Hero Marco Manguray",
+     "section": "ONE Friday Fights 179",
+     "weight": "Lightweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kang Min-sung",
+      "country": "South Korea",
+      "flag": "🇰🇷"
+     },
+     "fb": {
+      "name": "Hero Marco Manguray",
+      "country": "Philippines",
+      "flag": "🇵🇭"
+     }
+    },
+    {
+     "a": "Kwankhao Pitaknongrua",
+     "b": "Kana Oshikawa",
+     "section": "ONE Friday Fights 179",
+     "weight": "Women's Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kwankhao Pitaknongrua",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Kana Oshikawa",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
+     "a": "Sheng Yiyang",
+     "b": "Fuga Tokoro",
+     "section": "ONE Friday Fights 179",
+     "weight": "Strawweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Sheng Yiyang",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "fb": {
+      "name": "Fuga Tokoro",
+      "country": "Japan",
+      "flag": "🇯🇵"
      }
     },
     {
@@ -4850,6 +4975,7 @@
      "fa": {
       "name": "Quillan Salkilld",
       "url": "https://en.wikipedia.org/wiki/Quillan_Salkilld",
+      "nickname": "The Inventor of Sex",
       "record": "13-1-0",
       "stats": {
        "Age": "26",
