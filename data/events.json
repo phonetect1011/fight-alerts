@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794852643001,
+ "generatedMs": 1794859261035,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -19,7 +19,7 @@
   },
   "RAF": {
    "ok": true,
-   "events": 2,
+   "events": 4,
    "message": ""
   },
   "PFL": {
@@ -408,6 +408,501 @@
     }
    ],
    "finished": true
+  },
+  {
+   "id": "raf-raf-abu-dhabi-chimaev-vs-weidman",
+   "promotion": "RAF",
+   "title": "RAF Abu Dhabi: Chimaev vs. Weidman",
+   "url": "https://en.wikipedia.org/wiki/RAF_Abu_Dhabi",
+   "date": "2026-11-14",
+   "startMs": 1794672000000,
+   "timeEstimated": false,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Khamzat Chimaev",
+     "b": "Chris Weidman",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": true,
+     "notes": "For the inaugural RAF Light Heavyweight Crossover Championship.",
+     "fa": {
+      "name": "Khamzat Chimaev",
+      "country": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
+      "record": "15-1-0",
+      "stats": {
+       "Age": "32",
+       "Height": "6 ft 2 in",
+       "Reach": "75 in",
+       "Team": "Fight Club Akhmat"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Khamzat_Chimaev_2022_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Chris Weidman",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Chris_Weidman",
+      "record": "16-8-0",
+      "stats": {
+       "Age": "42",
+       "Height": "6 ft 2 in",
+       "Reach": "78 in",
+       "Team": "Gym-O"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Chris_Weidman_at_UFC_230.jpg/500px-Chris_Weidman_at_UFC_230.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "2",
+      "time": "0:13"
+     }
+    },
+    {
+     "a": "Arman Tsarukyan",
+     "b": "Neiman Gracie",
+     "section": "Main card",
+     "weight": "Catchweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Arman Tsarukyan",
+      "country": "Armenia",
+      "flag": "🇦🇲",
+      "url": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
+      "nickname": "Batman",
+      "record": "24-3-0",
+      "stats": {
+       "Age": "30",
+       "Height": "5 ft 7 in",
+       "Reach": "72.5 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Arman_Tsarukyan_2019.jpg/500px-Arman_Tsarukyan_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: inFocus media · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Neiman Gracie",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "url": "https://en.wikipedia.org/wiki/Neiman_Gracie",
+      "record": "13-6-0",
+      "stats": {
+       "Age": "37",
+       "Height": "6 ft 0 in",
+       "Reach": "74 in",
+       "Team": "Kings MMA"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Neimangracie_Adxc.webp/500px-Neimangracie_Adxc.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Gjiujitsu · CC0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "1",
+      "time": "1:56"
+     }
+    },
+    {
+     "a": "Zabit Magomedsharipov",
+     "b": "Giga Chikadze",
+     "section": "Main card",
+     "weight": "Catchweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zabit Magomedsharipov",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "url": "https://en.wikipedia.org/wiki/Zabit_Magomedsharipov",
+      "record": "18-1-0",
+      "stats": {
+       "Age": "35",
+       "Height": "6 ft 1 in",
+       "Reach": "73 in",
+       "Team": "Nick Catone MMA"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Zabit_Magomedsharipov_at_UFC_Fight_Night_136.jpg/500px-Zabit_Magomedsharipov_at_UFC_Fight_Night_136.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Giga Chikadze",
+      "country": "Georgia",
+      "flag": "🇬🇪",
+      "url": "https://en.wikipedia.org/wiki/Giga_Chikadze",
+      "nickname": "Ninja",
+      "record": "15-7-0",
+      "stats": {
+       "Age": "38",
+       "Height": "6 ft 0 in",
+       "Reach": "74 in",
+       "Team": "Kings MMA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Giga_Chikadze_post_fight_interview_at_UFC_Fight_Night_160_in_Copenhagen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Pinfall",
+      "round": "2",
+      "time": "1:06"
+     }
+    },
+    {
+     "a": "Abdulrashid Sadulaev",
+     "b": "Dauren Kurugliev",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Abdulrashid Sadulaev",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "url": "https://en.wikipedia.org/wiki/Abdulrashid_Sadulaev",
+      "nickname": "The Russian Tank",
+      "stats": {
+       "Age": "30",
+       "Height": "1.77 m"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Abdulrashid_Sadulaev_2021.jpg/500px-Abdulrashid_Sadulaev_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Unknown (RIA Novosti) · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Dauren Kurugliev",
+      "country": "Greece",
+      "flag": "🇬🇷",
+      "url": "https://en.wikipedia.org/wiki/Dauren_Kurugliev",
+      "stats": {
+       "Age": "34",
+       "Height": "1.78 m"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/%D0%9A%D1%83%D1%80%D1%83%D0%B3%D0%BB%D0%B8%D0%B5%D0%B2.jpg/500px-%D0%9A%D1%83%D1%80%D1%83%D0%B3%D0%BB%D0%B8%D0%B5%D0%B2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Новости Дагестан · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Kyle Dake",
+     "b": "Alp Arslan Begenjov",
+     "section": "Main card",
+     "weight": "Cruiserweight",
+     "title": true,
+     "notes": "For the RAF Cruiserweight Championship.",
+     "fa": {
+      "name": "Kyle Dake",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Kyle_Dake",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 10 in",
+       "Team": "USA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Wrestling_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_freestyle_74_kg_Award_Ceremony_%E2%80%93_Kyle_Dake_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: National Olympic Committee of the Republic of Uzbekistan · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Alp Arslan Begenjov",
+      "country": "Turkmenistan",
+      "flag": "🇹🇲"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "3",
+      "time": "1:48"
+     }
+    },
+    {
+     "a": "Saba Lazishvili",
+     "b": "Urijah Faber",
+     "section": "Main card",
+     "weight": "Catchweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Saba Lazishvili",
+      "country": "Georgia",
+      "flag": "🇬🇪"
+     },
+     "fb": {
+      "name": "Urijah Faber",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Urijah_Faber",
+      "record": "35-11-0",
+      "stats": {
+       "Age": "47",
+       "Height": "5 ft 5 in",
+       "Reach": "67 in",
+       "Team": "Team Alpha Male"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Urijah_Faber_24_July_2009.jpg/500px-Urijah_Faber_24_July_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Kelly Bailey · CC BY 2.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Jordan Burroughs",
+     "b": "Azamat Nurykau",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jordan Burroughs",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Burroughs",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 7 in",
+       "Team": "USA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/41/Jordan_Burroughs_at_2017_Men%27s_freestyle_Wrestling_World_Cup%2C_Kermanshah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Meghdad Madadi · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Azamat Nurykau",
+      "country": "Belarus",
+      "flag": "🇧🇾"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Kyle Snyder",
+     "b": "Shamil Erdogan",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": true,
+     "notes": "For the RAF Light Heavyweight Championship.",
+     "fa": {
+      "name": "Kyle Snyder",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Kyle_Snyder_%28wrestler%29",
+      "stats": {
+       "Age": "30",
+       "Height": "5 ft 11 in",
+       "Team": "USA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kyle_Snyder_official_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: U.S. Department of Health and Human Services · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Shamil Erdogan",
+      "country": "Turkey",
+      "flag": "🇹🇷"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "3",
+      "time": "0:45"
+     }
+    },
+    {
+     "a": "Murtaza Talha",
+     "b": "Osama Elsaidy",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Murtaza Talha",
+      "country": "Bahrain",
+      "flag": "🇧🇭"
+     },
+     "fb": {
+      "name": "Osama Elsaidy",
+      "country": "Egypt",
+      "flag": "🇪🇬"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Diana Avsaragova",
+     "b": "Julianna Peña",
+     "section": "Main card",
+     "weight": "Women's Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Diana Avsaragova",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "url": "https://en.wikipedia.org/wiki/Diana_Avsaragova",
+      "record": "6-2-0",
+      "stats": {
+       "Age": "28",
+       "Height": "5 ft 7 in",
+       "Reach": "65+1/2 in",
+       "Team": "Akhmat Fight Club"
+      }
+     },
+     "fb": {
+      "name": "Julianna Peña",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Julianna_Pe%C3%B1a",
+      "record": "12-6-0",
+      "stats": {
+       "Age": "37",
+       "Height": "5ft 7in",
+       "Team": "Gregory Boxing & Muay Thai"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_-_YouTube_-_0_23_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Pinfall",
+      "round": "1",
+      "time": "1:33"
+     }
+    },
+    {
+     "a": "Merab Dvalishvili",
+     "b": "Marlon Moraes",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Merab Dvalishvili",
+      "country": "Georgia",
+      "flag": "🇬🇪",
+      "url": "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+      "record": "21-6-0",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 5 in",
+       "Team": "Serra-Longo Fight Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Merab_Dvalishvili_at_UFC_316_%28cropped%29.jpg/500px-Merab_Dvalishvili_at_UFC_316_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Margo Martin · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Marlon Moraes",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "url": "https://en.wikipedia.org/wiki/Marlon_Moraes",
+      "record": "24-13-1",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 6 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Marlon_Moraes.jpg/500px-Marlon_Moraes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Sambo1096 · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Pinfall",
+      "round": "1",
+      "time": "1:30"
+     }
+    },
+    {
+     "a": "Zahid Valencia",
+     "b": "Khidir Saipudinov",
+     "section": "Main card",
+     "weight": "Cruiserweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zahid Valencia",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Zahid_Valencia",
+      "stats": {
+       "Age": "29",
+       "Height": "1.85 m"
+      }
+     },
+     "fb": {
+      "name": "Khidir Saipudinov",
+      "country": "Bahrain",
+      "flag": "🇧🇭",
+      "url": "https://en.wikipedia.org/wiki/Khidir_Saipudinov",
+      "stats": {
+       "Age": "23",
+       "Height": "1.85 m"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Wrestling_at_the_2025_Islamic_Solidarity_Games_57_-_Khidir_Saipudinov%28cropped%29.jpg/500px-Wrestling_at_the_2025_Islamic_Solidarity_Games_57_-_Khidir_Saipudinov%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Dilaver Najafov · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision",
+      "round": "3",
+      "time": "2:00"
+     }
+    },
+    {
+     "a": "Kennedy Blades",
+     "b": "Bella Mir",
+     "section": "Main card",
+     "weight": "Women's Middleweight",
+     "title": true,
+     "notes": "For the RAF Women's Middleweight Championship.",
+     "fa": {
+      "name": "Kennedy Blades",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Kennedy_Blades",
+      "stats": {
+       "Age": "23",
+       "Height": "5 ft 11 in"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kennedy_Blades_at_the_2025_Zagreb_Open.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Wrestling Time · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Bella Mir",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Technical fall",
+      "round": "1",
+      "time": "1:30"
+     }
+    }
+   ],
+   "finished": true,
+   "timeSource": "Set by you"
   },
   {
    "id": "pfl-pfl-dubai-nemkov-vs-bilostenniy",
@@ -4938,6 +5433,19 @@
      }
     }
    ],
+   "finished": false
+  },
+  {
+   "id": "raf-raf-17",
+   "promotion": "RAF",
+   "title": "RAF 17",
+   "url": "https://en.wikipedia.org/wiki/Real_American_Freestyle",
+   "date": "2027-01-23",
+   "startMs": 1800752400000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [],
    "finished": false
   },
   {
