@@ -1,29 +1,6 @@
 {
- "2026-11-13": {
-  "checked": 1794654842617,
-  "events": [
-   {
-    "strEvent": "We Love Wrestling Live In Magdeburg",
-    "strLeague": "wXw",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-13T00:00:00"
-   },
-   {
-    "strEvent": "Kyushu Basho Day 6",
-    "strLeague": "Sumo",
-    "strTimeLocal": "16:00:00",
-    "strTimestamp": "2026-11-13T07:00:00"
-   },
-   {
-    "strEvent": "Viernes Espectacular",
-    "strLeague": "CMLL",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-13T00:00:00"
-   }
-  ]
- },
  "2026-11-14": {
-  "checked": 1794744079510,
+  "checked": 1794787281481,
   "events": [
    {
     "strEvent": "We Love Wrestling Live In Limbach Oberfrohna",
@@ -46,7 +23,7 @@
   ]
  },
  "2026-11-18": {
-  "checked": 1794744079510,
+  "checked": 1794787281481,
   "events": [
    {
     "strEvent": "ONE Samurai 5",
@@ -63,7 +40,7 @@
   ]
  },
  "2026-11-20": {
-  "checked": 1794744079510,
+  "checked": 1794787281481,
   "events": [
    {
     "strEvent": "SmackDown #1422",
@@ -86,7 +63,7 @@
   ]
  },
  "2026-11-21": {
-  "checked": 1794744079510,
+  "checked": 1794787281481,
   "events": [
    {
     "strEvent": "We Love Wrestling Live In Bad Säckingen",
@@ -109,7 +86,7 @@
   ]
  },
  "2026-11-27": {
-  "checked": 1794744079510,
+  "checked": 1794787281481,
   "events": [
    {
     "strEvent": "SmackDown #1423",
