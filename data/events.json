@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794831043732,
+ "generatedMs": 1794837662515,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3042,7 +3042,7 @@
      "section": "The Inner Circle 41",
      "weight": "Atomweight Muay Thai",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Songchainoi Kiatsongrit",
       "country": "Thailand",
@@ -3059,6 +3059,40 @@
       "name": "Rifdean Masdor",
       "country": "Malaysia",
       "flag": "🇲🇾"
+     }
+    },
+    {
+     "a": "Lamnamoonlek Or.Atchariya",
+     "b": "Panpayak Jitmuangnon",
+     "section": "The Inner Circle 41",
+     "weight": "Flyweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Lamnamoonlek Or.Atchariya",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Lamnamoonlek_Or.Atchariya",
+      "record": "107-31-2",
+      "stats": {
+       "Age": "28",
+       "Height": "169cm",
+       "Team": "Tded99 วันของโอมMBK"
+      }
+     },
+     "fb": {
+      "name": "Panpayak Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Panpayak_Jitmuangnon",
+      "nickname": "The Three-Time Fighter of the Year (ยอดมวย 3 พ.ศ.)",
+      "record": "251-43-3",
+      "stats": {
+       "Age": "30",
+       "Height": "174 cm",
+       "Reach": "175 cm",
+       "Team": "Phuket Fight Club"
+      }
      }
     }
    ],
@@ -3855,7 +3889,7 @@
     },
     {
      "a": "Patrick Ocheme",
-     "b": "Demba Seck",
+     "b": "Hussain Al Kurdi",
      "section": "Main card",
      "weight": "Lightweight",
      "title": false,
@@ -3864,7 +3898,7 @@
       "name": "Patrick Ocheme"
      },
      "fb": {
-      "name": "Demba Seck"
+      "name": "Hussain Al Kurdi"
      }
     },
     {
@@ -3910,6 +3944,20 @@
      }
     },
     {
+     "a": "Justin Clarke",
+     "b": "Kevin Odongo",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Justin Clarke"
+     },
+     "fb": {
+      "name": "Kevin Odongo"
+     }
+    },
+    {
      "a": "Emmanuel Lamptey",
      "b": "Jordan Cabrel Fongno",
      "section": "Main card",
@@ -3935,6 +3983,48 @@
      },
      "fb": {
       "name": "Sephora Kiala"
+     }
+    },
+    {
+     "a": "Yahaya Yahuza",
+     "b": "Eslam Abdul Baset",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yahaya Yahuza"
+     },
+     "fb": {
+      "name": "Eslam Abdul Baset"
+     }
+    },
+    {
+     "a": "Dona Salim Zigui",
+     "b": "Berci Noel Moufouha",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Dona Salim Zigui"
+     },
+     "fb": {
+      "name": "Berci Noel Moufouha"
+     }
+    },
+    {
+     "a": "Bilal Lamkhanat",
+     "b": "Isaac Omeda",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bilal Lamkhanat"
+     },
+     "fb": {
+      "name": "Isaac Omeda"
      }
     }
    ],
