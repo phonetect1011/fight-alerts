@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794888071876,
+ "generatedMs": 1794895256195,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2522,7 +2522,7 @@
       "oddsB": 1.62,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2561,11 +2561,11 @@
       "fav": "b",
       "pctA": 45,
       "pctB": 55,
-      "oddsA": 2.11,
+      "oddsA": 2.12,
       "oddsB": 1.73,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2608,10 +2608,10 @@
       "pctA": 62,
       "pctB": 38,
       "oddsA": 1.53,
-      "oddsB": 2.54,
+      "oddsB": 2.53,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2692,7 +2692,7 @@
       "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2732,10 +2732,10 @@
       "pctA": 71,
       "pctB": 29,
       "oddsA": 1.34,
-      "oddsB": 3.25,
+      "oddsB": 3.3,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2775,11 +2775,11 @@
       "fav": "a",
       "pctA": 64,
       "pctB": 36,
-      "oddsA": 1.5,
+      "oddsA": 1.49,
       "oddsB": 2.65,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2813,7 +2813,7 @@
       "oddsB": 1.92,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2845,11 +2845,11 @@
       "fav": "a",
       "pctA": 67,
       "pctB": 33,
-      "oddsA": 1.42,
-      "oddsB": 2.91,
+      "oddsA": 1.41,
+      "oddsB": 2.9,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -3918,13 +3918,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
-      "oddsA": 1.63,
-      "oddsB": 2.26,
+      "pctA": 57,
+      "pctB": 43,
+      "oddsA": 1.64,
+      "oddsB": 2.25,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3959,13 +3959,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 62,
-      "pctB": 38,
-      "oddsA": 1.55,
-      "oddsB": 2.49,
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.56,
+      "oddsB": 2.48,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4521,6 +4521,20 @@
      "fb": {
       "name": "Isaac Omeda"
      }
+    },
+    {
+     "a": "Cornel Thompson",
+     "b": "Mor Dieye",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Cornel Thompson"
+     },
+     "fb": {
+      "name": "Mor Dieye"
+     }
     }
    ],
    "finished": false
@@ -4574,11 +4588,11 @@
       "fav": "a",
       "pctA": 58,
       "pctB": 42,
-      "oddsA": 1.65,
+      "oddsA": 1.64,
       "oddsB": 2.25,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 10 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4620,11 +4634,11 @@
       "fav": "a",
       "pctA": 63,
       "pctB": 37,
-      "oddsA": 1.5,
-      "oddsB": 2.59,
+      "oddsA": 1.48,
+      "oddsB": 2.6,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4999,7 +5013,7 @@
    "date": "2026-12-19",
    "startMs": 1797728400000,
    "timeEstimated": true,
-   "prelimsMs": null,
+   "prelimsMs": 1797721200000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -5108,7 +5122,7 @@
     {
      "a": "Baris Adiguzel",
      "b": "Jack Cartwright",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
@@ -5123,7 +5137,7 @@
     {
      "a": "Bafode Gassama",
      "b": "Coby Bradford",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Light Heavyweight",
      "title": false,
      "notes": "",
@@ -5139,7 +5153,7 @@
     {
      "a": "Dean Garnett",
      "b": "Bryce Meredith",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
@@ -5162,7 +5176,7 @@
     {
      "a": "Jan Ciepłowski",
      "b": "Mauricio Partida",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
@@ -5184,7 +5198,7 @@
     {
      "a": "Brandon Brachet",
      "b": "Adam Meskini",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
@@ -5200,7 +5214,7 @@
     {
      "a": "Zakaria Hamou",
      "b": "Amin Bouazza",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Featherweight",
      "title": false,
      "notes": "",
@@ -5214,7 +5228,7 @@
     {
      "a": "Mathilde Aschenbrenner",
      "b": "Shelda Chipito",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Women's Strawweight",
      "title": false,
      "notes": "",
@@ -5228,7 +5242,8 @@
      }
     }
    ],
-   "finished": false
+   "finished": false,
+   "prelimsEstimated": true
   },
   {
    "id": "ufc-ufc-fight-night-rodr-guez-vs-garcia",
@@ -5604,13 +5619,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 54,
-      "pctB": 46,
+      "pctA": 53,
+      "pctB": 47,
       "oddsA": 1.77,
-      "oddsB": 2.09,
+      "oddsB": 2.08,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5651,10 +5666,10 @@
       "pctA": 60,
       "pctB": 40,
       "oddsA": 1.6,
-      "oddsB": 2.37,
+      "oddsB": 2.35,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5761,13 +5776,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 69,
-      "pctB": 31,
-      "oddsA": 1.38,
-      "oddsB": 3.14,
+      "pctA": 71,
+      "pctB": 29,
+      "oddsA": 1.33,
+      "oddsB": 3.45,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 5 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5807,11 +5822,11 @@
       "fav": "b",
       "pctA": 44,
       "pctB": 56,
-      "oddsA": 2.19,
-      "oddsB": 1.71,
+      "oddsA": 2.18,
+      "oddsB": 1.7,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 3 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5956,6 +5971,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794873698333,
- "oddsCreditsLeft": "444"
+ "oddsUpdatedMs": 1794895301204,
+ "oddsCreditsLeft": "442"
 }

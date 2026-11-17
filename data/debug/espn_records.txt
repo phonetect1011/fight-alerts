@@ -1,4 +1,4 @@
-ESPN records: filled 51, still missing 38
+ESPN records: filled 51, still missing 40
 
   + Omar El Dafrawy: 16-7-0  (PFL Dubai: Nemkov vs. Bilostenniy)
   + Pouya Rahmani: 6-1-0  (PFL Dubai: Nemkov vs. Bilostenniy)
@@ -60,6 +60,8 @@ PFL Africa 4: Kigali: ESPN has no bouts for 2026-12-12
   - Berci Noel Moufouha: not found on ESPN  (PFL Africa 4: Kigali)
   - Bilal Lamkhanat: not found on ESPN  (PFL Africa 4: Kigali)
   - Isaac Omeda: not found on ESPN  (PFL Africa 4: Kigali)
+  - Cornel Thompson: not found on ESPN  (PFL Africa 4: Kigali)
+  - Mor Dieye: not found on ESPN  (PFL Africa 4: Kigali)
   - Ethyn Ewing: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
   + Quentin Pasley: 4-0-0  (UFC 335: Oliveira vs. Lopes)
   - Baisangur Susurkaev: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
