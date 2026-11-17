@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794931261602,
+ "generatedMs": 1794938459888,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2518,11 +2518,11 @@
       "fav": "b",
       "pctA": 41,
       "pctB": 59,
-      "oddsA": 2.34,
+      "oddsA": 2.3,
       "oddsB": 1.62,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2559,13 +2559,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 45,
-      "pctB": 55,
-      "oddsA": 2.1,
-      "oddsB": 1.73,
+      "pctA": 46,
+      "pctB": 54,
+      "oddsA": 2.08,
+      "oddsB": 1.75,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2608,10 +2608,10 @@
       "pctA": 62,
       "pctB": 38,
       "oddsA": 1.53,
-      "oddsB": 2.51,
+      "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2688,11 +2688,11 @@
       "fav": "b",
       "pctA": 28,
       "pctB": 72,
-      "oddsA": 3.45,
+      "oddsA": 3.4,
       "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2735,7 +2735,7 @@
       "oddsB": 3.25,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 12 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2776,10 +2776,10 @@
       "pctA": 64,
       "pctB": 36,
       "oddsA": 1.49,
-      "oddsB": 2.66,
+      "oddsB": 2.6,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2813,7 +2813,7 @@
       "oddsB": 1.94,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2845,11 +2845,11 @@
       "fav": "a",
       "pctA": 68,
       "pctB": 32,
-      "oddsA": 1.41,
-      "oddsB": 2.96,
+      "oddsA": 1.4,
+      "oddsB": 3.0,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -3938,11 +3938,11 @@
       "fav": "a",
       "pctA": 59,
       "pctB": 41,
-      "oddsA": 1.63,
-      "oddsB": 2.26,
+      "oddsA": 1.64,
+      "oddsB": 2.25,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3979,11 +3979,11 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.55,
-      "oddsB": 2.49,
+      "oddsA": 1.56,
+      "oddsB": 2.48,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4606,11 +4606,11 @@
       "fav": "a",
       "pctA": 58,
       "pctB": 42,
-      "oddsA": 1.65,
+      "oddsA": 1.64,
       "oddsB": 2.25,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 10 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5640,13 +5640,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 54,
-      "pctB": 46,
+      "pctA": 53,
+      "pctB": 47,
       "oddsA": 1.77,
-      "oddsB": 2.09,
+      "oddsB": 2.08,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5687,10 +5687,10 @@
       "pctA": 60,
       "pctB": 40,
       "oddsA": 1.6,
-      "oddsB": 2.37,
+      "oddsB": 2.35,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5797,13 +5797,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 72,
-      "pctB": 28,
-      "oddsA": 1.29,
-      "oddsB": 3.79,
+      "pctA": 71,
+      "pctB": 29,
+      "oddsA": 1.33,
+      "oddsB": 3.45,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 5 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5843,11 +5843,11 @@
       "fav": "b",
       "pctA": 44,
       "pctB": 56,
-      "oddsA": 2.19,
-      "oddsB": 1.71,
+      "oddsA": 2.18,
+      "oddsB": 1.7,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 3 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5992,6 +5992,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794916887884,
- "oddsCreditsLeft": "440"
+ "oddsUpdatedMs": 1794938487462,
+ "oddsCreditsLeft": "438"
 }
