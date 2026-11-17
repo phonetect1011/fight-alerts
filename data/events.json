@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794873663805,
+ "generatedMs": 1794880869043,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1265,7 +1265,7 @@
     }
    ],
    "finished": true,
-   "prelimsEstimated": false
+   "prelimsEstimated": true
   },
   {
    "id": "ufc-ufc-334-gane-vs-hokit",
@@ -1724,8 +1724,8 @@
     }
    ],
    "finished": true,
-   "earlyPrelimsEstimated": false,
-   "prelimsEstimated": true
+   "prelimsEstimated": true,
+   "earlyPrelimsEstimated": true
   },
   {
    "id": "one-one-samurai-5",
