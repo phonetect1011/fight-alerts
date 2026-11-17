@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794880869043,
+ "generatedMs": 1794888071876,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4661,6 +4661,28 @@
      }
     },
     {
+     "a": "Kyler Phillips",
+     "b": "Ethyn Ewing",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kyler Phillips",
+      "url": "https://en.wikipedia.org/wiki/Kyler_Phillips",
+      "record": "12-5-0",
+      "stats": {
+       "Age": "31",
+       "Height": "5 ft 8 in",
+       "Reach": "72 in",
+       "Team": "MMA Lab"
+      }
+     },
+     "fb": {
+      "name": "Ethyn Ewing"
+     }
+    },
+    {
      "a": "Quentin Pasley",
      "b": "Junior Tafa",
      "section": "Main card",
@@ -4682,6 +4704,28 @@
        "Reach": "72 in",
        "Team": "Soma Fight Club"
       }
+     }
+    },
+    {
+     "a": "Damian Pinas",
+     "b": "Baisangur Susurkaev",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Damian Pinas",
+      "url": "https://en.wikipedia.org/wiki/Damian_Pinas",
+      "record": "11-1-0",
+      "stats": {
+       "Age": "24",
+       "Height": "6 ft 1 in",
+       "Reach": "79 in",
+       "Team": "Stay Thai Fit"
+      }
+     },
+     "fb": {
+      "name": "Baisangur Susurkaev"
      }
     }
    ],
@@ -5612,6 +5656,59 @@
       "why": "",
       "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Lance Gibson Jr.",
+     "b": "Michael Johnson",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lance Gibson Jr."
+     },
+     "fb": {
+      "name": "Michael Johnson",
+      "url": "https://en.wikipedia.org/wiki/Michael_Johnson_%28fighter%29",
+      "nickname": "The Menace",
+      "record": "24-20-0",
+      "stats": {
+       "Age": "40",
+       "Height": "5 ft 10 in",
+       "Reach": "73 in",
+       "Team": "Blackzilians/Kill Cliff FC"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Michael_Johnson_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Richard Norris · CC BY-SA 4.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Serhiy Sidey",
+     "b": "Louis Lee Scott",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Serhiy Sidey"
+     },
+     "fb": {
+      "name": "Louis Lee Scott"
+     }
+    },
+    {
+     "a": "Cameron Nelson",
+     "b": "Sean Clancy Jr.",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Cameron Nelson"
+     },
+     "fb": {
+      "name": "Sean Clancy Jr."
      }
     }
    ],
