@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794902463776,
+ "generatedMs": 1794909658989,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4757,36 +4757,21 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Kade Ruotolo",
-     "b": "Ok Rae-yoon",
+     "a": "Bampara Kouyate",
+     "b": "Ricardo Bravo",
      "section": "Main card",
-     "weight": "Lightweight MMA",
+     "weight": "Featherweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Kade Ruotolo",
-      "country": "United States",
-      "flag": "🇺🇸",
-      "url": "https://en.wikipedia.org/wiki/Kade_Ruotolo",
-      "record": "4-0-0",
-      "stats": {
-       "Age": "23",
-       "Height": "5 ft 11 in",
-       "Team": "Art of Jiu Jitsu (AOJ) Combat Submission Wrestling"
-      }
+      "name": "Bampara Kouyate",
+      "country": "France",
+      "flag": "🇫🇷"
      },
      "fb": {
-      "name": "Ok Rae-yoon",
-      "country": "South Korea",
-      "flag": "🇰🇷",
-      "url": "https://en.wikipedia.org/wiki/Ok_Rae-yoon",
-      "record": "17-6-0",
-      "stats": {
-       "Age": "35",
-       "Height": "6 ft 0 in",
-       "Reach": "75 in",
-       "Team": "Busan Team MAD"
-      }
+      "name": "Ricardo Bravo",
+      "country": "Argentina",
+      "flag": "🇦🇷"
      }
     },
     {
@@ -4830,24 +4815,6 @@
       "name": "Jhordan Estupiñan",
       "country": "Colombia",
       "flag": "🇨🇴"
-     }
-    },
-    {
-     "a": "Bampara Kouyate",
-     "b": "Ricardo Bravo",
-     "section": "Main card",
-     "weight": "Featherweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Bampara Kouyate",
-      "country": "France",
-      "flag": "🇫🇷"
-     },
-     "fb": {
-      "name": "Ricardo Bravo",
-      "country": "Argentina",
-      "flag": "🇦🇷"
      }
     },
     {
@@ -4922,6 +4889,42 @@
        "Height": "174cm",
        "Team": "Coliseu Fight Club"
       }
+     }
+    },
+    {
+     "a": "Antonio Cesar",
+     "b": "Viet Anh Do",
+     "section": "Main card",
+     "weight": "Flyweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Antonio Cesar",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     },
+     "fb": {
+      "name": "Viet Anh Do",
+      "country": "Vietnam",
+      "flag": "🇻🇳"
+     }
+    },
+    {
+     "a": "João Pedro Dantas",
+     "b": "Adlan Umarov",
+     "section": "Main card",
+     "weight": "Featherweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "João Pedro Dantas",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     },
+     "fb": {
+      "name": "Adlan Umarov",
+      "country": "Kazakhstan",
+      "flag": "🇰🇿"
      }
     }
    ],
