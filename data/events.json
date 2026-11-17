@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794916865252,
+ "generatedMs": 1794924057409,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3562,7 +3562,7 @@
      "section": "The Inner Circle 41",
      "weight": "Flyweight Kickboxing",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Lamnamoonlek Or.Atchariya",
       "country": "Thailand",
@@ -3588,6 +3588,24 @@
        "Reach": "175 cm",
        "Team": "Phuket Fight Club"
       }
+     }
+    },
+    {
+     "a": "Abdessamie Rhenimi",
+     "b": "Yonis Anane",
+     "section": "The Inner Circle 41",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Abdessamie Rhenimi",
+      "country": "Morocco",
+      "flag": "🇲🇦"
+     },
+     "fb": {
+      "name": "Yonis Anane",
+      "country": "France",
+      "flag": "🇫🇷"
      }
     }
    ],
