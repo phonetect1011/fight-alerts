@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794866457349,
+ "generatedMs": 1794873663805,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2516,9 +2516,9 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 42,
-      "pctB": 58,
-      "oddsA": 2.3,
+      "pctA": 41,
+      "pctB": 59,
+      "oddsA": 2.35,
       "oddsB": 1.62,
       "tier": "Slight favourite",
       "why": "",
@@ -2561,8 +2561,8 @@
       "fav": "b",
       "pctA": 45,
       "pctB": 55,
-      "oddsA": 2.1,
-      "oddsB": 1.74,
+      "oddsA": 2.11,
+      "oddsB": 1.73,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2688,7 +2688,7 @@
       "fav": "b",
       "pctA": 28,
       "pctB": 72,
-      "oddsA": 3.46,
+      "oddsA": 3.4,
       "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
@@ -2729,10 +2729,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 69,
-      "pctB": 31,
-      "oddsA": 1.38,
-      "oddsB": 3.05,
+      "pctA": 71,
+      "pctB": 29,
+      "oddsA": 1.34,
+      "oddsB": 3.25,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -2773,11 +2773,11 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 65,
-      "pctB": 35,
-      "oddsA": 1.49,
-      "oddsB": 2.67,
-      "tier": "Clear favourite",
+      "pctA": 64,
+      "pctB": 36,
+      "oddsA": 1.5,
+      "oddsB": 2.65,
+      "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
@@ -2806,11 +2806,11 @@
       "record": "17-5-0"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 48,
-      "pctB": 52,
-      "oddsA": 1.98,
-      "oddsB": 1.83,
+      "fav": "a",
+      "pctA": 50,
+      "pctB": 50,
+      "oddsA": 1.87,
+      "oddsB": 1.92,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2846,10 +2846,10 @@
       "pctA": 67,
       "pctB": 33,
       "oddsA": 1.42,
-      "oddsB": 2.89,
+      "oddsB": 2.91,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -3920,7 +3920,7 @@
       "fav": "a",
       "pctA": 59,
       "pctB": 41,
-      "oddsA": 1.64,
+      "oddsA": 1.63,
       "oddsB": 2.26,
       "tier": "Slight favourite",
       "why": "",
@@ -3940,7 +3940,7 @@
       "url": "https://en.wikipedia.org/wiki/Ian_Machado_Garry",
       "record": "17-2-0",
       "stats": {
-       "Age": "28",
+       "Age": "29",
        "Height": "6 ft 3 in",
        "Reach": "74 in",
        "Team": "Bangtao Muay Thai & MMA"
@@ -4572,8 +4572,8 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
+      "pctA": 58,
+      "pctB": 42,
       "oddsA": 1.65,
       "oddsB": 2.25,
       "tier": "Slight favourite",
@@ -4873,13 +4873,78 @@
    "id": "raf-raf-16",
    "promotion": "RAF",
    "title": "RAF 16",
-   "url": "https://en.wikipedia.org/wiki/Real_American_Freestyle",
+   "url": "https://en.wikipedia.org/wiki/RAF_16",
    "date": "2026-12-19",
    "startMs": 1797728400000,
    "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
-   "bouts": [],
+   "bouts": [
+    {
+     "a": "Bo Nickal",
+     "b": "Yoel Romero",
+     "section": "Main card",
+     "weight": "Catchweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bo Nickal",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Bo_Nickal",
+      "record": "9-1-0",
+      "stats": {
+       "Age": "30",
+       "Height": "6 ft 1 in",
+       "Reach": "75 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bo_Nickal_%2852791819473%29.jpg/500px-Bo_Nickal_%2852791819473%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Noah Riffe · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Yoel Romero",
+      "country": "Cuba",
+      "flag": "🇨🇺",
+      "url": "https://en.wikipedia.org/wiki/Yoel_Romero",
+      "record": "17-7-0",
+      "stats": {
+       "Age": "49",
+       "Height": "5 ft 10 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Yoel_Romero.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Эркек · CC0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Merab Dvalishvili",
+     "b": "Kenzo Biyong",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Merab Dvalishvili",
+      "country": "Georgia",
+      "flag": "🇬🇪",
+      "url": "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+      "record": "21-6-0",
+      "stats": {
+       "Age": "35",
+       "Height": "5 ft 5 in",
+       "Team": "Serra-Longo Fight Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Merab_Dvalishvili_at_UFC_316_%28cropped%29.jpg/500px-Merab_Dvalishvili_at_UFC_316_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Margo Martin · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Kenzo Biyong",
+      "country": "Netherlands",
+      "flag": "🇳🇱"
+     }
+    }
+   ],
    "finished": false
   },
   {
@@ -5794,6 +5859,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794845779706,
- "oddsCreditsLeft": "446"
+ "oddsUpdatedMs": 1794873698333,
+ "oddsCreditsLeft": "444"
 }
