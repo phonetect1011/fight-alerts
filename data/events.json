@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794994255579,
+ "generatedMs": 1794994840047,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1950,6 +1950,12 @@
       "name": "Shuto Inui",
       "country": "Japan",
       "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
