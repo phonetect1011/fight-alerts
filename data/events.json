@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794974457263,
+ "generatedMs": 1794981656474,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1854,7 +1854,7 @@
      "section": "Main card",
      "weight": "Featherweight Kickboxing",
      "title": false,
-     "notes": "",
+     "notes": "Only 150 lbs limit, Asahi missed weight (152 lb).",
      "fa": {
       "name": "Yutaro Asahi",
       "country": "Japan",
@@ -1940,7 +1940,7 @@
      "section": "Main card",
      "weight": "Bantamweight Kickboxing",
      "title": false,
-     "notes": "",
+     "notes": "Gump missed weight (148 lb).",
      "fa": {
       "name": "Gump",
       "country": "Japan",
@@ -2522,7 +2522,7 @@
       "oddsB": 1.62,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2562,10 +2562,10 @@
       "pctA": 46,
       "pctB": 54,
       "oddsA": 2.08,
-      "oddsB": 1.76,
+      "oddsB": 1.75,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2692,7 +2692,7 @@
       "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2735,7 +2735,7 @@
       "oddsB": 3.25,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2775,11 +2775,11 @@
       "fav": "a",
       "pctA": 64,
       "pctB": 36,
-      "oddsA": 1.49,
-      "oddsB": 2.6,
+      "oddsA": 1.5,
+      "oddsB": 2.62,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2809,11 +2809,11 @@
       "fav": "a",
       "pctA": 51,
       "pctB": 49,
-      "oddsA": 1.86,
+      "oddsA": 1.87,
       "oddsB": 1.94,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2849,7 +2849,7 @@
       "oddsB": 3.0,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2882,7 +2882,7 @@
       "oddsB": 1.63,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2906,10 +2906,10 @@
       "pctA": 68,
       "pctB": 32,
       "oddsA": 1.4,
-      "oddsB": 3.02,
+      "oddsB": 3.0,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -3999,10 +3999,10 @@
       "pctA": 59,
       "pctB": 41,
       "oddsA": 1.62,
-      "oddsB": 2.28,
+      "oddsB": 2.29,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 10 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4037,13 +4037,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 61,
-      "pctB": 39,
-      "oddsA": 1.54,
-      "oddsB": 2.48,
+      "pctA": 62,
+      "pctB": 38,
+      "oddsA": 1.53,
+      "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 9 bookmakers",
+      "crowd": "Average of 12 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -6116,6 +6116,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794960137452,
- "oddsCreditsLeft": "436"
+ "oddsUpdatedMs": 1794981684703,
+ "oddsCreditsLeft": "434"
 }
