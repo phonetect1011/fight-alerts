@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795006241393,
+ "generatedMs": 1795006861464,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1769,6 +1769,12 @@
        "Height": "5 ft 1 in",
        "Team": "Reversal Gym Shinjuku Me, We"
       }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (arm-triangle choke)",
+      "round": "4",
+      "time": "4:17"
      }
     },
     {
@@ -2025,7 +2031,7 @@
      }
     }
    ],
-   "finished": false,
+   "finished": true,
    "timeSource": "TheSportsDB"
   },
   {
