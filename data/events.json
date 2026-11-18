@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795004441112,
+ "generatedMs": 1795005053903,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1794,6 +1794,12 @@
       "name": "Raichi Nagai",
       "country": "Japan",
       "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "1",
+      "time": "0:36"
      }
     },
     {
@@ -1808,7 +1814,7 @@
       "country": "United States",
       "flag": "🇺🇸",
       "url": "https://en.wikipedia.org/wiki/Jarred_Brooks",
-      "record": "21-6-0",
+      "record": "22-6-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 3 in",
