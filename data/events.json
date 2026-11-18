@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794993040776,
+ "generatedMs": 1794993643334,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1968,6 +1968,12 @@
       "name": "Takuya Shibamura",
       "country": "Japan",
       "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      }
     }
    ],
