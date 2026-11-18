@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794998446546,
+ "generatedMs": 1794999050156,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1889,6 +1889,12 @@
       "name": "Brandon Hashimoto",
       "country": "Japan",
       "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "1",
+      "time": "0:23"
      }
     },
     {
