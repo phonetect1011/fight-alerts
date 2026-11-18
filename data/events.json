@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795014061026,
+ "generatedMs": 1795021259763,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4017,7 +4017,7 @@
    "date": "2026-12-05",
    "startMs": 1796490000000,
    "timeEstimated": false,
-   "prelimsMs": null,
+   "prelimsMs": 1796479200000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -4208,7 +4208,7 @@
     {
      "a": "Bruno Gustavo da Silva",
      "b": "Jafel Filho",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Flyweight",
      "title": false,
      "notes": "",
@@ -4231,7 +4231,7 @@
     {
      "a": "Uran Satybaldiev",
      "b": "Ivan Gnizditskiy",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Light Heavyweight",
      "title": false,
      "notes": "",
@@ -4247,7 +4247,7 @@
     {
      "a": "Marco Tulio",
      "b": "Park Jun-yong",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Middleweight",
      "title": false,
      "notes": "",
@@ -4270,7 +4270,7 @@
     {
      "a": "Pavel Andrusca",
      "b": "Mehemmedeli Osmanli",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
@@ -4286,7 +4286,7 @@
     {
      "a": "Modestino Rodrigues",
      "b": "Matthieu Letho Duclos",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Middleweight",
      "title": false,
      "notes": "",
@@ -4302,7 +4302,7 @@
     {
      "a": "Abdul Hussein",
      "b": "Hecher Sosa",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
@@ -4323,7 +4323,8 @@
      }
     }
    ],
-   "finished": false
+   "finished": false,
+   "prelimsEstimated": true
   },
   {
    "id": "bkfc-bkfc-97-hollywood-fl-henry-vs-collard",
