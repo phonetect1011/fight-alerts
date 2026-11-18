@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794997240731,
+ "generatedMs": 1794997859848,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1907,16 +1907,27 @@
       "name": "Rui Botelho",
       "country": "Portugal",
       "flag": "🇵🇹"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
-     "a": "Yugo Kato",
-     "b": "Jurai Ishii",
+     "a": "Jurai Ishii",
+     "b": "Yugo Kato",
      "section": "Main card",
      "weight": "Strawweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Jurai Ishii",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
       "name": "Yugo Kato",
       "country": "Japan",
       "flag": "🇯🇵",
@@ -1927,11 +1938,6 @@
        "Height": "169 cm",
        "Team": "RIKIX"
       }
-     },
-     "fb": {
-      "name": "Jurai Ishii",
-      "country": "Japan",
-      "flag": "🇯🇵"
      },
      "result": {
       "winner": "a",
