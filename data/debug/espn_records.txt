@@ -1,4 +1,4 @@
-ESPN records: filled 51, still missing 40
+ESPN records: filled 54, still missing 40
 
   + Omar El Dafrawy: 16-7-0  (PFL Dubai: Nemkov vs. Bilostenniy)
   + Pouya Rahmani: 6-1-0  (PFL Dubai: Nemkov vs. Bilostenniy)
@@ -25,6 +25,9 @@ ESPN records: filled 51, still missing 40
   + Samuel Sanches: 11-2-0  (UFC 334: Gane vs. Hokit)
   + Alessandro Costa: 17-5-0  (UFC Fight Night: Procházka vs. Stirling)
   + Tahir Abdullayev: 20-3-0  (UFC Fight Night: Procházka vs. Stirling)
+  + Dom Mar Fan: 9-3-0  (UFC Fight Night: Procházka vs. Stirling)
+  + Diyar Nurgozhay: 12-2-0  (UFC Fight Night: Procházka vs. Stirling)
+  + Alik Lorenz: 8-2-0  (UFC Fight Night: Procházka vs. Stirling)
   + Levan Chokheli: 15-3-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Mairon Santos: 18-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Magomed Tuchalov: 7-0-0  (UFC Fight Night: Adesanya vs. Magomedov)
