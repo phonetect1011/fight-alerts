@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795000247631,
+ "generatedMs": 1795000845296,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1871,6 +1871,12 @@
        "Height": "1.74 m",
        "Reach": "68.5 in"
       }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
