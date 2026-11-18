@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794960065295,
+ "generatedMs": 1794967255675,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -5009,9 +5009,9 @@
    "finished": false
   },
   {
-   "id": "raf-raf-16",
+   "id": "raf-raf-16-chimaev-vs-evans",
    "promotion": "RAF",
-   "title": "RAF 16",
+   "title": "RAF 16: Chimaev vs. Evans",
    "url": "https://en.wikipedia.org/wiki/RAF_16",
    "date": "2026-12-19",
    "startMs": 1797728400000,
@@ -5019,6 +5019,45 @@
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
+    {
+     "a": "Khamzat Chimaev",
+     "b": "Rashad Evans",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": true,
+     "notes": "For the RAF Light Heavyweight Crossover Championship.",
+     "fa": {
+      "name": "Khamzat Chimaev",
+      "country": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
+      "record": "15-1-0",
+      "stats": {
+       "Age": "32",
+       "Height": "6 ft 2 in",
+       "Reach": "75 in",
+       "Team": "Fight Club Akhmat"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Khamzat_Chimaev_2022_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Rashad Evans",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Rashad_Evans",
+      "nickname": "Suga",
+      "record": "20-8-1",
+      "stats": {
+       "Age": "47",
+       "Height": "5 ft 11 in",
+       "Team": "Kill Cliff FC"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Rashad_Evans_joins_Fleet_Week_Miami_2024_%282%29_%28cropped%29.jpg/500px-Rashad_Evans_joins_Fleet_Week_Miami_2024_%282%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Mass Communication Specialist 2nd Class Erik Melgar · Public domain (Wikimedia Commons)"
+     }
+    },
     {
      "a": "Bo Nickal",
      "b": "Yoel Romero",
@@ -5081,6 +5120,31 @@
       "name": "Kenzo Biyong",
       "country": "Netherlands",
       "flag": "🇳🇱"
+     }
+    },
+    {
+     "a": "David Baev",
+     "b": "Quincy Monday",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "David Baev",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "url": "https://en.wikipedia.org/wiki/David_Baev",
+      "stats": {
+       "Age": "29",
+       "Height": "172 cm"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/David_Baev.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: МССУОР №1 · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Quincy Monday",
+      "country": "United States",
+      "flag": "🇺🇸"
      }
     }
    ],
