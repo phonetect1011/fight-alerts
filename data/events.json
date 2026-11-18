@@ -1,5 +1,5 @@
 {
- "generatedMs": 1794995448026,
+ "generatedMs": 1794996062591,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1921,7 +1921,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Yugo_Kato",
-      "record": "30-8-0",
+      "record": "30-10-0",
       "stats": {
        "Age": "27",
        "Height": "169 cm",
@@ -1932,6 +1932,12 @@
       "name": "Jurai Ishii",
       "country": "Japan",
       "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
