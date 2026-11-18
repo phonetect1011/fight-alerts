@@ -86,7 +86,7 @@
   ]
  },
  "2026-11-28": {
-  "checked": 1794945688681,
+  "checked": 1794988890554,
   "events": [
    {
     "strEvent": "X IWI",
@@ -105,6 +105,23 @@
     "strLeague": "Boxing",
     "strTimeLocal": null,
     "strTimestamp": "2026-11-28T00:00:00"
+   }
+  ]
+ },
+ "2026-12-02": {
+  "checked": 1794988890554,
+  "events": [
+   {
+    "strEvent": "ONE Samurai 6",
+    "strLeague": "ONE",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-12-02T00:00:00"
+   },
+   {
+    "strEvent": "World Tag League Day 8",
+    "strLeague": "NJPW",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-02T00:00:00"
    }
   ]
  }
