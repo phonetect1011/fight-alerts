@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795002644446,
+ "generatedMs": 1795003265816,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1783,7 +1783,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Ryujin_Nasukawa",
-      "record": "19-3-0",
+      "record": "20-3-0",
       "stats": {
        "Age": "20",
        "Height": "165cm",
@@ -1797,18 +1797,13 @@
      }
     },
     {
-     "a": "Tatsumitsu Wada",
-     "b": "Jarred Brooks",
+     "a": "Jarred Brooks",
+     "b": "Tatsumitsu Wada",
      "section": "Main card",
      "weight": "Strawweight MMA",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Tatsumitsu Wada",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
       "name": "Jarred Brooks",
       "country": "United States",
       "flag": "🇺🇸",
@@ -1821,6 +1816,17 @@
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jarred_Brooks_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Tatsumitsu Wada",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "5:00"
      }
     },
     {
@@ -1846,6 +1852,12 @@
       "name": "Ellis Badr Barboza",
       "country": "United Kingdom",
       "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (3 knockdowns)",
+      "round": "1",
+      "time": "2:58"
      }
     },
     {
@@ -2554,7 +2566,7 @@
       "fav": "b",
       "pctA": 41,
       "pctB": 59,
-      "oddsA": 2.3,
+      "oddsA": 2.33,
       "oddsB": 1.62,
       "tier": "Slight favourite",
       "why": "",
@@ -2597,7 +2609,7 @@
       "fav": "b",
       "pctA": 46,
       "pctB": 54,
-      "oddsA": 2.08,
+      "oddsA": 2.09,
       "oddsB": 1.75,
       "tier": "Pick'em",
       "why": "",
@@ -2644,7 +2656,7 @@
       "pctA": 62,
       "pctB": 38,
       "oddsA": 1.53,
-      "oddsB": 2.52,
+      "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -2722,8 +2734,8 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 28,
-      "pctB": 72,
+      "pctA": 29,
+      "pctB": 71,
       "oddsA": 3.35,
       "oddsB": 1.33,
       "tier": "Clear favourite",
@@ -2845,8 +2857,8 @@
       "fav": "a",
       "pctA": 51,
       "pctB": 49,
-      "oddsA": 1.87,
-      "oddsB": 1.94,
+      "oddsA": 1.85,
+      "oddsB": 1.95,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -6152,6 +6164,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1794981684703,
- "oddsCreditsLeft": "434"
+ "oddsUpdatedMs": 1795003292324,
+ "oddsCreditsLeft": "432"
 }
