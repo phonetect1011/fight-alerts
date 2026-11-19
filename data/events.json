@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795122056439,
+ "generatedMs": 1795129258189,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2982,7 +2982,7 @@
      "notes": "",
      "fa": {
       "name": "Shoaib Yousaf",
-      "record": "10-3-0"
+      "record": "14-3-0"
      },
      "fb": {
       "name": "John Mitchell",
@@ -5564,6 +5564,38 @@
      }
     },
     {
+     "a": "Geoff Neal",
+     "b": "Chris Curtis",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Geoff Neal",
+      "url": "https://en.wikipedia.org/wiki/Geoff_Neal",
+      "record": "16-8-0",
+      "stats": {
+       "Age": "36",
+       "Height": "5 ft 11 in",
+       "Reach": "75 in",
+       "Team": "Fortis MMA"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Geoff_Neal_at_UFC_228.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Chris Curtis",
+      "url": "https://en.wikipedia.org/wiki/Chris_Curtis_%28fighter%29",
+      "record": "32-13-0",
+      "stats": {
+       "Age": "39",
+       "Height": "5 ft 10 in",
+       "Reach": "75 in",
+       "Team": "Xtreme Couture"
+      }
+     }
+    },
+    {
      "a": "Chidi Njokuani",
      "b": "Ignacio Bahamondes",
      "section": "Main card",
@@ -5591,6 +5623,182 @@
        "Reach": "75 in",
        "Team": "Valle Flow Striking"
       }
+     }
+    },
+    {
+     "a": "Ryan Spann",
+     "b": "Louie Sutherland",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ryan Spann",
+      "url": "https://en.wikipedia.org/wiki/Ryan_Spann",
+      "record": "24-12-0",
+      "stats": {
+       "Age": "35",
+       "Height": "6 ft 5 in",
+       "Reach": "79 in",
+       "Team": "Fortis MMA"
+      }
+     },
+     "fb": {
+      "name": "Louie Sutherland"
+     }
+    },
+    {
+     "a": "Kennedy Nzechukwu",
+     "b": "Elisha Ellison",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Kennedy Nzechukwu",
+      "url": "https://en.wikipedia.org/wiki/Kennedy_Nzechukwu",
+      "record": "14-7-1",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 5 in",
+       "Reach": "83 in",
+       "Team": "War Room MMA"
+      }
+     },
+     "fb": {
+      "name": "Elisha Ellison"
+     }
+    },
+    {
+     "a": "Gilbert Urbina",
+     "b": "Robert Valentin",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Gilbert Urbina"
+     },
+     "fb": {
+      "name": "Robert Valentin"
+     }
+    },
+    {
+     "a": "Alden Coria",
+     "b": "Michael Aljarouj",
+     "section": "Main card",
+     "weight": "Flyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Alden Coria"
+     },
+     "fb": {
+      "name": "Michael Aljarouj"
+     }
+    },
+    {
+     "a": "Carlos Diego Ferreira",
+     "b": "MarQuel Mederos",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Carlos Diego Ferreira",
+      "url": "https://en.wikipedia.org/wiki/Carlos_Diego_Ferreira",
+      "record": "20-7-0",
+      "stats": {
+       "Age": "41",
+       "Height": "5 ft 9 in",
+       "Team": "Fortis MMA"
+      }
+     },
+     "fb": {
+      "name": "MarQuel Mederos"
+     }
+    },
+    {
+     "a": "Magomed Zaynukov",
+     "b": "Piero Guaylupo",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Magomed Zaynukov",
+      "url": "https://en.wikipedia.org/wiki/Magomed_Zaynukov",
+      "record": "9-0-0",
+      "stats": {
+       "Age": "31",
+       "Height": "5 ft 10 in",
+       "Reach": "68 in",
+       "Team": "Abdulmanap Nurmagomedov School"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/%D0%97%D0%B0%D0%B9%D0%BD%D1%83%D0%BA%D0%BE%D0%B2_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D0%B4_%D0%91%D0%B5%D0%BA%D1%88%D0%B8%D0%B5%D0%B2%D0%B8%D1%87.jpg/500px-%D0%97%D0%B0%D0%B9%D0%BD%D1%83%D0%BA%D0%BE%D0%B2_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D0%B4_%D0%91%D0%B5%D0%BA%D1%88%D0%B8%D0%B5%D0%B2%D0%B8%D1%87.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Alidesign05 · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Piero Guaylupo"
+     }
+    },
+    {
+     "a": "John Garza",
+     "b": "Toshiomi Kazama",
+     "section": "Main card",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "John Garza"
+     },
+     "fb": {
+      "name": "Toshiomi Kazama"
+     }
+    },
+    {
+     "a": "Steven Asplund",
+     "b": "Gökhan Saricam",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Steven Asplund"
+     },
+     "fb": {
+      "name": "Gökhan Saricam"
+     }
+    },
+    {
+     "a": "Sam Hughes",
+     "b": "Karolina Kowalkiewicz",
+     "section": "Main card",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Sam Hughes",
+      "url": "https://en.wikipedia.org/wiki/Sam_Hughes_%28fighter%29",
+      "record": "11-7-0",
+      "stats": {
+       "Age": "34",
+       "Height": "5 ft 5 in",
+       "Reach": "64 in",
+       "Team": "Fortis MMA"
+      }
+     },
+     "fb": {
+      "name": "Karolina Kowalkiewicz",
+      "url": "https://en.wikipedia.org/wiki/Karolina_Kowalkiewicz",
+      "record": "16-10-0",
+      "stats": {
+       "Age": "41",
+       "Height": "5 ft 3 in",
+       "Team": "Shark Top Team Łódź"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Karolina_Kowalkiewicz_wa%C5%BCenie_KSW_30.jpg/500px-Karolina_Kowalkiewicz_wa%C5%BCenie_KSW_30.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Roger Gor · CC BY 3.0 (Wikimedia Commons)"
      }
     }
    ],
@@ -6068,6 +6276,20 @@
       "why": "",
       "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Jonathan Micallef",
+     "b": "Sam Patterson",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jonathan Micallef"
+     },
+     "fb": {
+      "name": "Sam Patterson"
      }
     },
     {
