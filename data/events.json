@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795042857677,
+ "generatedMs": 1795050059310,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2576,10 +2576,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 41,
-      "pctB": 59,
-      "oddsA": 2.34,
-      "oddsB": 1.62,
+      "pctA": 40,
+      "pctB": 60,
+      "oddsA": 2.4,
+      "oddsB": 1.59,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2621,7 +2621,7 @@
       "fav": "b",
       "pctA": 46,
       "pctB": 54,
-      "oddsA": 2.07,
+      "oddsA": 2.08,
       "oddsB": 1.76,
       "tier": "Pick'em",
       "why": "",
@@ -2665,10 +2665,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 62,
-      "pctB": 38,
-      "oddsA": 1.53,
-      "oddsB": 2.52,
+      "pctA": 63,
+      "pctB": 37,
+      "oddsA": 1.52,
+      "oddsB": 2.54,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -2746,9 +2746,9 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 29,
-      "pctB": 71,
-      "oddsA": 3.33,
+      "pctA": 28,
+      "pctB": 72,
+      "oddsA": 3.35,
       "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
@@ -2869,8 +2869,8 @@
       "fav": "a",
       "pctA": 51,
       "pctB": 49,
-      "oddsA": 1.85,
-      "oddsB": 1.95,
+      "oddsA": 1.87,
+      "oddsB": 1.94,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2903,10 +2903,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 69,
-      "pctB": 31,
-      "oddsA": 1.39,
-      "oddsB": 3.04,
+      "pctA": 68,
+      "pctB": 32,
+      "oddsA": 1.4,
+      "oddsB": 3.0,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -5294,12 +5294,14 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Oualy Tandia"
+      "name": "Oualy Tandia",
+      "record": "6-0-0"
      },
      "fb": {
       "name": "Alex Lohoré",
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Alex_Lohore.png/500px-Alex_Lohore.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: MMAnytt · CC BY 4.0 (Wikimedia Commons)"
+      "photoCredit": "Photo: MMAnytt · CC BY 4.0 (Wikimedia Commons)",
+      "record": "26-12-0"
      }
     },
     {
@@ -5337,7 +5339,8 @@
       "record": "10-2-0"
      },
      "fb": {
-      "name": "Jack Cartwright"
+      "name": "Jack Cartwright",
+      "record": "14-2-0"
      }
     },
     {
@@ -5364,7 +5367,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Dean Garnett"
+      "name": "Dean Garnett",
+      "record": "15-4-1"
      },
      "fb": {
       "name": "Bryce Meredith",
@@ -5398,7 +5402,8 @@
       }
      },
      "fb": {
-      "name": "Mauricio Partida"
+      "name": "Mauricio Partida",
+      "record": "0-0-0"
      }
     },
     {
@@ -5425,10 +5430,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Zakaria Hamou"
+      "name": "Zakaria Hamou",
+      "record": "0-0-0"
      },
      "fb": {
-      "name": "Amin Bouazza"
+      "name": "Amin Bouazza",
+      "record": "0-0-0"
      }
     },
     {
@@ -5985,10 +5992,10 @@
       "pctA": 72,
       "pctB": 28,
       "oddsA": 1.29,
-      "oddsB": 3.79,
+      "oddsB": 3.55,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 5 bookmakers",
+      "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -6026,13 +6033,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 44,
-      "pctB": 56,
-      "oddsA": 2.19,
-      "oddsB": 1.71,
+      "pctA": 43,
+      "pctB": 57,
+      "oddsA": 2.2,
+      "oddsB": 1.67,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -6177,6 +6184,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795028490070,
- "oddsCreditsLeft": "430"
+ "oddsUpdatedMs": 1795050083401,
+ "oddsCreditsLeft": "428"
 }
