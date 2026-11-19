@@ -1,4 +1,4 @@
-ESPN records: filled 61, still missing 33
+ESPN records: filled 63, still missing 33
 
   + Omar El Dafrawy: 16-7-0  (PFL Dubai: Nemkov vs. Bilostenniy)
   + Pouya Rahmani: 6-1-0  (PFL Dubai: Nemkov vs. Bilostenniy)
@@ -28,6 +28,8 @@ ESPN records: filled 61, still missing 33
   + Dom Mar Fan: 9-3-0  (UFC Fight Night: Procházka vs. Stirling)
   + Diyar Nurgozhay: 12-2-0  (UFC Fight Night: Procházka vs. Stirling)
   + Alik Lorenz: 8-2-0  (UFC Fight Night: Procházka vs. Stirling)
+  + Shoaib Yousaf: 10-3-0  (UFC Fight Night: Procházka vs. Stirling)
+  + John Mitchell: 11-3-0  (UFC Fight Night: Procházka vs. Stirling)
   + Levan Chokheli: 15-3-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Mairon Santos: 18-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Magomed Tuchalov: 7-0-0  (UFC Fight Night: Adesanya vs. Magomedov)
@@ -66,8 +68,8 @@ PFL Africa 4: Kigali: ESPN has no bouts for 2026-12-12
   - Cornel Thompson: not found on ESPN  (PFL Africa 4: Kigali)
   - Mor Dieye: not found on ESPN  (PFL Africa 4: Kigali)
   - Ethyn Ewing: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
-  + Quentin Pasley: 4-0-0  (UFC 335: Oliveira vs. Lopes)
   - Baisangur Susurkaev: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
+  + Quentin Pasley: 4-0-0  (UFC 335: Oliveira vs. Lopes)
   + Mitchell McKee: 11-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Boris Mbarga Atangana: 9-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Abdoul Abdouraguimov: 20-1-0  (PFL Lyon: Lapilus vs. McKee)

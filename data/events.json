@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795114860366,
+ "generatedMs": 1795122056439,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2972,6 +2972,33 @@
       "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
+    },
+    {
+     "a": "Shoaib Yousaf",
+     "b": "John Mitchell",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Shoaib Yousaf",
+      "record": "10-3-0"
+     },
+     "fb": {
+      "name": "John Mitchell",
+      "record": "11-3-0"
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 44,
+      "pctB": 56,
+      "oddsA": 2.15,
+      "oddsB": 1.71,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 13 bookmakers",
+      "source": "Bookmaker odds"
+     }
     }
    ],
    "finished": false,
@@ -4686,7 +4713,7 @@
    "date": "2026-12-12",
    "startMs": 1797129000000,
    "timeEstimated": false,
-   "prelimsMs": null,
+   "prelimsMs": 1797121800000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -4836,30 +4863,6 @@
      }
     },
     {
-     "a": "Quentin Pasley",
-     "b": "Junior Tafa",
-     "section": "Main card",
-     "weight": "Light Heavyweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Quentin Pasley",
-      "record": "4-0-0"
-     },
-     "fb": {
-      "name": "Junior Tafa",
-      "url": "https://en.wikipedia.org/wiki/Junior_Tafa",
-      "nickname": "The Juggernaut",
-      "record": "7-6-0",
-      "stats": {
-       "Age": "30",
-       "Height": "6 ft 3 in",
-       "Reach": "72 in",
-       "Team": "Soma Fight Club"
-      }
-     }
-    },
-    {
      "a": "Damian Pinas",
      "b": "Baisangur Susurkaev",
      "section": "Main card",
@@ -4880,9 +4883,34 @@
      "fb": {
       "name": "Baisangur Susurkaev"
      }
+    },
+    {
+     "a": "Quentin Pasley",
+     "b": "Junior Tafa",
+     "section": "Prelims",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Quentin Pasley",
+      "record": "4-0-0"
+     },
+     "fb": {
+      "name": "Junior Tafa",
+      "url": "https://en.wikipedia.org/wiki/Junior_Tafa",
+      "nickname": "The Juggernaut",
+      "record": "7-6-0",
+      "stats": {
+       "Age": "30",
+       "Height": "6 ft 3 in",
+       "Reach": "72 in",
+       "Team": "Soma Fight Club"
+      }
+     }
     }
    ],
-   "finished": false
+   "finished": false,
+   "prelimsEstimated": true
   },
   {
    "id": "one-one-fight-night-50",
