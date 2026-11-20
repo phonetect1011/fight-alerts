@@ -124,5 +124,28 @@
     "strTimestamp": "2026-12-02T00:00:00"
    }
   ]
+ },
+ "2026-12-04": {
+  "checked": 1795177876797,
+  "events": [
+   {
+    "strEvent": "SmackDown #1424",
+    "strLeague": "WWE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-04T00:00:00"
+   },
+   {
+    "strEvent": "BKFC Fight Night Hershey Pague vs Richman",
+    "strLeague": "BKFC",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-12-04T00:00:00"
+   },
+   {
+    "strEvent": "World Tag League Day 9",
+    "strLeague": "NJPW",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-04T00:00:00"
+   }
+  ]
  }
 }
