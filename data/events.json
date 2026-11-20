@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795207852788,
+ "generatedMs": 1795215040135,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3101,6 +3101,23 @@
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
+    {
+     "a": "Denkriangkrai MavinnMuaythai",
+     "b": "Thway Lin Hiet",
+     "section": "ONE Friday Fights 180",
+     "weight": "Strawweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Denkriangkrai MavinnMuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Thway Lin Hiet",
+      "country": "MMR"
+     }
+    },
     {
      "a": "Yodkhunpon Sitmonchai",
      "b": "Detchawalit Silkmuaythai",
