@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795164646200,
+ "generatedMs": 1795171858541,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2540,9 +2540,9 @@
    "title": "UFC Fight Night: Procházka vs. Stirling",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Proch%C3%A1zka_vs._Stirling",
    "date": "2026-11-21",
-   "startMs": 1795284900000,
+   "startMs": 1795298400000,
    "timeEstimated": false,
-   "prelimsMs": 1795274100000,
+   "prelimsMs": 1795287600000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -3003,6 +3003,7 @@
     }
    ],
    "finished": false,
+   "timeSource": "TheSportsDB",
    "prelimsEstimated": true
   },
   {

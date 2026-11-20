@@ -17,14 +17,8 @@
   ]
  },
  "2026-11-20": {
-  "checked": 1795122102916,
+  "checked": 1795171888824,
   "events": [
-   {
-    "strEvent": "SmackDown #1422",
-    "strLeague": "WWE",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-20T00:00:00"
-   },
    {
     "strEvent": "Kyushu Basho Day 13",
     "strLeague": "Sumo",
@@ -32,15 +26,21 @@
     "strTimestamp": "2026-11-20T07:00:00"
    },
    {
-    "strEvent": "BKFC Fight Night Myrtle Beach Richardson vs Oxendine",
-    "strLeague": "BKFC",
-    "strTimeLocal": null,
-    "strTimestamp": "2026-11-20T00:00:00"
+    "strEvent": "Bound For Unbound",
+    "strLeague": "NJPW",
+    "strTimeLocal": "18:30:00",
+    "strTimestamp": "2026-11-20T09:30:00"
+   },
+   {
+    "strEvent": "Amari Jones vs DeAundre Pettus",
+    "strLeague": "Boxing",
+    "strTimeLocal": "14:00:00",
+    "strTimestamp": "2026-11-20T22:00:00"
    }
   ]
  },
  "2026-11-21": {
-  "checked": 1795122102916,
+  "checked": 1795171888824,
   "events": [
    {
     "strEvent": "We Love Wrestling Live In Bad Säckingen",
@@ -51,19 +51,19 @@
    {
     "strEvent": "KOK 130 World Series in Freiburg",
     "strLeague": "KOK",
-    "strTimeLocal": null,
-    "strTimestamp": "2026-11-21T00:00:00"
+    "strTimeLocal": "18:00:00",
+    "strTimestamp": "2026-11-21T17:00:00"
    },
    {
     "strEvent": "UFC Fight Night 294 Procházka vs Stirling",
     "strLeague": "UFC",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-21T00:00:00"
+    "strTimeLocal": "17:00:00",
+    "strTimestamp": "2026-11-21T22:00:00"
    }
   ]
  },
  "2026-11-27": {
-  "checked": 1795122102916,
+  "checked": 1795171888824,
   "events": [
    {
     "strEvent": "SmackDown #1423",
