@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795136111619,
+ "generatedMs": 1795143040407,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4531,7 +4531,7 @@
    "date": "2026-12-12",
    "startMs": 1797123600000,
    "timeEstimated": true,
-   "prelimsMs": null,
+   "prelimsMs": 1797116400000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -4591,20 +4591,6 @@
      }
     },
     {
-     "a": "Boule Godogo",
-     "b": "Ridouan Errami",
-     "section": "Main card",
-     "weight": "Bantamweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Boule Godogo"
-     },
-     "fb": {
-      "name": "Ridouan Errami"
-     }
-    },
-    {
      "a": "Justin Clarke",
      "b": "Kevin Odongo",
      "section": "Main card",
@@ -4621,7 +4607,7 @@
     {
      "a": "Emmanuel Lamptey",
      "b": "Jordan Cabrel Fongno",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Middleweight",
      "title": false,
      "notes": "",
@@ -4633,9 +4619,23 @@
      }
     },
     {
+     "a": "Mouhamed Ba",
+     "b": "Rivaldo Pereira",
+     "section": "Prelims",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Mouhamed Ba"
+     },
+     "fb": {
+      "name": "Rivaldo Pereira"
+     }
+    },
+    {
      "a": "Felista Mugo",
      "b": "Sephora Kiala",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Women's Strawweight",
      "title": false,
      "notes": "",
@@ -4647,23 +4647,9 @@
      }
     },
     {
-     "a": "Yahaya Yahuza",
-     "b": "Eslam Abdul Baset",
-     "section": "Main card",
-     "weight": "Middleweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Yahaya Yahuza"
-     },
-     "fb": {
-      "name": "Eslam Abdul Baset"
-     }
-    },
-    {
      "a": "Dona Salim Zigui",
      "b": "Berci Noel Moufouha",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Welterweight",
      "title": false,
      "notes": "",
@@ -4675,23 +4661,37 @@
      }
     },
     {
-     "a": "Bilal Lamkhanat",
-     "b": "Isaac Omeda",
-     "section": "Main card",
+     "a": "Boule Godogo",
+     "b": "Ridouan Errami",
+     "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Bilal Lamkhanat"
+      "name": "Boule Godogo"
      },
      "fb": {
-      "name": "Isaac Omeda"
+      "name": "Ridouan Errami"
+     }
+    },
+    {
+     "a": "Yahaya Yahuza",
+     "b": "Eslam Abdul Baset",
+     "section": "Prelims",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yahaya Yahuza"
+     },
+     "fb": {
+      "name": "Eslam Abdul Baset"
      }
     },
     {
      "a": "Cornel Thompson",
      "b": "Mor Dieye",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Lightweight",
      "title": false,
      "notes": "",
@@ -4701,9 +4701,24 @@
      "fb": {
       "name": "Mor Dieye"
      }
+    },
+    {
+     "a": "Bilal Lamkhanat",
+     "b": "Isaac Omeda",
+     "section": "Prelims",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Bilal Lamkhanat"
+     },
+     "fb": {
+      "name": "Isaac Omeda"
+     }
     }
    ],
-   "finished": false
+   "finished": false,
+   "prelimsEstimated": true
   },
   {
    "id": "ufc-ufc-335-oliveira-vs-lopes",
