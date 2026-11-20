@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795192844956,
+ "generatedMs": 1795193439014,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2046,93 +2046,123 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Chartpayak Saksatoon",
-     "b": "Klarob Nuikafeboran",
+     "a": "Klarob Nuikafeboran",
+     "b": "Chartpayak Saksatoon",
      "section": "ONE Friday Fights 179",
      "weight": "Flyweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Klarob Nuikafeboran",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
       "name": "Chartpayak Saksatoon",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
-     "fb": {
-      "name": "Klarob Nuikafeboran",
-      "country": "Thailand",
-      "flag": "🇹🇭"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
-     "a": "Wuttikrai Wor.Chakrawut",
-     "b": "Superjeng Torfunfarm",
+     "a": "Superjeng Torfunfarm",
+     "b": "Wuttikrai Wor.Chakrawut",
      "section": "ONE Friday Fights 179",
      "weight": "Bantamweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Wuttikrai Wor.Chakrawut",
+      "name": "Superjeng Torfunfarm",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
      "fb": {
-      "name": "Superjeng Torfunfarm",
+      "name": "Wuttikrai Wor.Chakrawut",
       "country": "Thailand",
       "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "2",
+      "time": "2:37"
      }
     },
     {
-     "a": "Sunvo Torfunfarm",
-     "b": "Rahim Tcherchaiko",
+     "a": "Rahim Tcherchaiko",
+     "b": "Sunvo Torfunfarm",
      "section": "ONE Friday Fights 179",
      "weight": "Flyweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Rahim Tcherchaiko",
+      "country": "Belgium",
+      "flag": "🇧🇪"
+     },
+     "fb": {
       "name": "Sunvo Torfunfarm",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
-     "fb": {
-      "name": "Rahim Tcherchaiko",
-      "country": "Belgium",
-      "flag": "🇧🇪"
+     "result": {
+      "winner": "a",
+      "method": "KO (knee)",
+      "round": "2",
+      "time": "1:36"
      }
     },
     {
-     "a": "Natty Dodds",
-     "b": "Chalamkaw VenumMuaythai",
+     "a": "Chalamkaw VenumMuaythai",
+     "b": "Natty Dodds",
      "section": "ONE Friday Fights 179",
      "weight": "Bantamweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Natty Dodds",
+      "name": "Chalamkaw VenumMuaythai",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
      "fb": {
-      "name": "Chalamkaw VenumMuaythai",
+      "name": "Natty Dodds",
       "country": "Thailand",
       "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (head kick)",
+      "round": "1",
+      "time": "0:24"
      }
     },
     {
-     "a": "Mirmehti Miriyev",
-     "b": "Lutfullo Sohibnazarov",
+     "a": "Lutfullo Sohibnazarov",
+     "b": "Mirmehti Miriyev",
      "section": "ONE Friday Fights 179",
      "weight": "Bantamweight MMA",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Lutfullo Sohibnazarov",
+      "country": "Tajikistan",
+      "flag": "🇹🇯"
+     },
+     "fb": {
       "name": "Mirmehti Miriyev",
       "country": "Azerbaijan",
       "flag": "🇦🇿"
      },
-     "fb": {
-      "name": "Lutfullo Sohibnazarov",
-      "country": "Tajikistan",
-      "flag": "🇹🇯"
+     "result": {
+      "winner": "a",
+      "method": "Submission (arm-triangle choke)",
+      "round": "3",
+      "time": "3:30"
      }
     },
     {
@@ -2151,60 +2181,84 @@
       "name": "Chaiheng Patcharagym",
       "country": "Thailand",
       "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
-     "a": "Kang Min-sung",
-     "b": "Hero Marco Manguray",
+     "a": "Hero Marco Manguray",
+     "b": "Kang Min-sung",
      "section": "ONE Friday Fights 179",
      "weight": "Lightweight MMA",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Hero Marco Manguray",
+      "country": "Philippines",
+      "flag": "🇵🇭"
+     },
+     "fb": {
       "name": "Kang Min-sung",
       "country": "South Korea",
       "flag": "🇰🇷"
      },
-     "fb": {
-      "name": "Hero Marco Manguray",
-      "country": "Philippines",
-      "flag": "🇵🇭"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      }
     },
     {
-     "a": "Kwankhao Pitaknongrua",
-     "b": "Kana Oshikawa",
+     "a": "Kana Oshikawa",
+     "b": "Kwankhao Pitaknongrua",
      "section": "ONE Friday Fights 179",
      "weight": "Women's Atomweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Kana Oshikawa",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
       "name": "Kwankhao Pitaknongrua",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
-     "fb": {
-      "name": "Kana Oshikawa",
-      "country": "Japan",
-      "flag": "🇯🇵"
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "1",
+      "time": "1:35"
      }
     },
     {
-     "a": "Sheng Yiyang",
-     "b": "Fuga Tokoro",
+     "a": "Fuga Tokoro",
+     "b": "Sheng Yiyang",
      "section": "ONE Friday Fights 179",
      "weight": "Strawweight Kickboxing",
      "title": false,
      "notes": "|}",
      "fa": {
+      "name": "Fuga Tokoro",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
       "name": "Sheng Yiyang",
       "country": "China",
       "flag": "🇨🇳"
      },
-     "fb": {
-      "name": "Fuga Tokoro",
-      "country": "Japan",
-      "flag": "🇯🇵"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
@@ -2351,7 +2405,7 @@
      }
     }
    ],
-   "finished": false
+   "finished": true
   },
   {
    "id": "bkfc-bkfc-fight-night-myrtle-beach-richardson-vs-oxendine",
