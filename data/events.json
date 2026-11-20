@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795180842624,
+ "generatedMs": 1795181452285,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2221,7 +2221,7 @@
       "rank": "C",
       "url": "https://en.wikipedia.org/wiki/Asadula_Imangazaliev",
       "nickname": "The Dagestan Ninja",
-      "record": "13-0-0",
+      "record": "14-0-0",
       "stats": {
        "Age": "23",
        "Height": "1.80 m",
@@ -2236,30 +2236,42 @@
       "flag": "🇺🇿",
       "url": "https://en.wikipedia.org/wiki/Aslamjon_Ortikov",
       "nickname": "El Pantera",
-      "record": "24-1-0",
+      "record": "24-2-0",
       "stats": {
        "Age": "23",
        "Height": "174cm",
        "Team": "Sport Club Shakhriyor / TC Muaythai"
       }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "5",
+      "time": "3:00"
      }
     },
     {
-     "a": "Black Panther VenumMuaythai",
-     "b": "Ubaid Hussain",
+     "a": "Ubaid Hussain",
+     "b": "Black Panther VenumMuaythai",
      "section": "The Inner Circle 39",
      "weight": "Flyweight Muay Thai",
      "title": false,
      "notes": "For the ONE Flyweight Muay Thai World Grand Prix Quarter-Finals.",
      "fa": {
+      "name": "Ubaid Hussain",
+      "country": "Pakistan",
+      "flag": "🇵🇰"
+     },
+     "fb": {
       "name": "Black Panther VenumMuaythai",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
-     "fb": {
-      "name": "Ubaid Hussain",
-      "country": "Pakistan",
-      "flag": "🇵🇰"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
@@ -2277,6 +2289,12 @@
      "fb": {
       "name": "Petnamkhong Sor.Maneekhot",
       "country": "LAO"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
@@ -2295,16 +2313,26 @@
       "name": "Uzair Ismoiljonov",
       "country": "Uzbekistan",
       "flag": "🇺🇿"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (3 knockdowns)",
+      "round": "2",
+      "time": "1:09"
      }
     },
     {
-     "a": "Rak Erawan",
-     "b": "Salai Htan Khee Shein",
+     "a": "Salai Htan Khee Shein",
+     "b": "Rak Erawan",
      "section": "The Inner Circle 39",
      "weight": "Atomweight Muay Thai",
      "title": false,
      "notes": "|}",
      "fa": {
+      "name": "Salai Htan Khee Shein",
+      "country": "MMR"
+     },
+     "fb": {
       "name": "Rak Erawan",
       "country": "Thailand",
       "flag": "🇹🇭",
@@ -2315,9 +2343,11 @@
        "Team": "Erawan"
       }
      },
-     "fb": {
-      "name": "Salai Htan Khee Shein",
-      "country": "MMR"
+     "result": {
+      "winner": "a",
+      "method": "KO (punches)",
+      "round": "2",
+      "time": "1:09"
      }
     }
    ],
