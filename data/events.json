@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795294184526,
+ "generatedMs": 1795294238372,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2629,13 +2629,24 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Jiří Procházka",
-     "b": "Navajo Stirling",
+     "a": "Navajo Stirling",
+     "b": "Jiří Procházka",
      "section": "Main card",
      "weight": "Light Heavyweight",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Navajo Stirling",
+      "url": "https://en.wikipedia.org/wiki/Navajo_Stirling",
+      "record": "11-0-0",
+      "stats": {
+       "Age": "29",
+       "Height": "6 ft 4 in",
+       "Reach": "79 in",
+       "Team": "City Kickboxing"
+      }
+     },
+     "fb": {
       "name": "Jiří Procházka",
       "url": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Proch%C3%A1zka",
       "record": "32-6-1",
@@ -2647,23 +2658,18 @@
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/JiriProchazka2022.png/500px-JiriProchazka2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Show Jana Krause · CC BY 3.0 (Wikimedia Commons)"
      },
-     "fb": {
-      "name": "Navajo Stirling",
-      "url": "https://en.wikipedia.org/wiki/Navajo_Stirling",
-      "record": "11-0-0",
-      "stats": {
-       "Age": "29",
-       "Height": "6 ft 4 in",
-       "Reach": "79 in",
-       "Team": "City Kickboxing"
-      }
+     "result": {
+      "winner": "a",
+      "method": "KO (punch)",
+      "round": "2",
+      "time": "4:58"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 46,
-      "pctB": 54,
-      "oddsA": 1.94,
-      "oddsB": 1.84,
+      "fav": "a",
+      "pctA": 54,
+      "pctB": 46,
+      "oddsA": 1.84,
+      "oddsB": 1.94,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 8 bookmakers",
@@ -3041,7 +3047,7 @@
      }
     }
    ],
-   "finished": false,
+   "finished": true,
    "timeSource": "TheSportsDB",
    "prelimsEstimated": true
   },
@@ -5863,7 +5869,7 @@
      },
      "fb": {
       "name": "Amin Bouazza",
-      "record": "0-0-0"
+      "record": "4-0-0"
      }
     },
     {
