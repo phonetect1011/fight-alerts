@@ -214,6 +214,10 @@ data class FightEvent(
 ) {
     val hasResults: Boolean get() = bouts.any { it.result != null }
 
+    /** True once any bout in that card section has a result, i.e. the section has already started. */
+    fun sectionStarted(label: String): Boolean =
+        bouts.any { it.result != null && it.section.equals(label, ignoreCase = true) }
+
     /** Card sections with start times, earliest first: (label, time, isEstimate). */
     fun slots(): List<Triple<String, Long, Boolean>> = listOfNotNull(
         earlyPrelims?.let { Triple("Early prelims", it, earlyPrelimsEstimated) },
@@ -412,6 +416,7 @@ object Alarms {
 
         for (e in data.events) {
             if (e.promotion !in enabled) continue
+            if (e.finished) continue   // never alert for an event that's already over
             val followedHere = e.bouts.flatMap { listOf(it.a.name, it.b.name) }.filter { it in followed }.distinct()
             if (prefs.onlyFollowed && followedHere.isEmpty()) continue
 
@@ -423,6 +428,7 @@ object Alarms {
             for ((label, startTime) in slots) {
                 val at = startTime - lead
                 if (at <= now) continue
+                if (e.sectionStarted(label)) continue   // results are in, so it has already started
                 val code = (e.id + label).hashCode()
                 val title = if (leadMin == 0) "${e.promotion}: $label starting now"
                 else "${e.promotion}: $label starts in $leadMin min"
@@ -433,6 +439,8 @@ object Alarms {
                 }
                 val intent = Intent(ctx, AlarmReceiver::class.java)
                     .putExtra("id", code)
+                    .putExtra("eventId", e.id)
+                    .putExtra("label", label)
                     .putExtra("title", title)
                     .putExtra("body", body)
                 val pi = PendingIntent.getBroadcast(
@@ -488,6 +496,19 @@ object Notify {
 
 class AlarmReceiver : BroadcastReceiver() {
     override fun onReceive(ctx: Context, intent: Intent) {
+        // The alarm was set from older data. Check the latest data before alerting:
+        // skip it if the event is over, that section already has results, or it really
+        // started more than 10 minutes ago (the start time was wrong when the alarm was set).
+        val eventId = intent.getStringExtra("eventId")
+        val label = intent.getStringExtra("label")
+        if (eventId != null && label != null) {
+            val e = Repo.loadCached(ctx)?.events?.firstOrNull { it.id == eventId }
+            if (e != null) {
+                val started = e.sectionTime(label)?.first
+                val now = System.currentTimeMillis()
+                if (e.finished || e.sectionStarted(label) || (started != null && now > started + 10 * 60_000L)) return
+            }
+        }
         Notify.show(
             ctx,
             intent.getIntExtra("id", 0),
@@ -1542,7 +1563,7 @@ fun SettingsScreen(
                 SettingsDivider()
                 InfoRow("Fight cards & results", "Wikipedia (CC BY-SA)")
                 SettingsDivider()
-                InfoRow("Start times", "TheSportsDB + bookmakers")
+                InfoRow("Start times", "UFC.com + TheSportsDB")
                 SettingsDivider()
                 InfoRow("Odds", "The Odds API")
                 SettingsDivider()
@@ -1671,7 +1692,7 @@ fun StatusRow(title: String, ok: Boolean, action: String, onAction: () -> Unit, 
         if (ok) {
             Text("✓ Allowed", color = c.green, fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
         } else {
-            TextButton(onClick = onAction) { Text(action, color = RED, fontWeight = FontWeight.Bold) }
+            TextButton(onClick = { onAction() }) { Text(action, color = RED, fontWeight = FontWeight.Bold) }
         }
     }
 }
