@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795263048728,
+ "generatedMs": 1795263640189,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -5447,13 +5447,178 @@
      }
     },
     {
-     "a": "David Baev",
-     "b": "Quincy Monday",
+     "a": "Abdulrashid Sadulaev",
+     "b": "Trent Hidlay",
+     "section": "Main card",
+     "weight": "Light Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Abdulrashid Sadulaev",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "url": "https://en.wikipedia.org/wiki/Abdulrashid_Sadulaev",
+      "nickname": "The Russian Tank",
+      "stats": {
+       "Age": "30",
+       "Height": "1.77 m"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Abdulrashid_Sadulaev_2021.jpg/500px-Abdulrashid_Sadulaev_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Unknown (RIA Novosti) · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Trent Hidlay",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Trent_Hidlay",
+      "stats": {
+       "Age": "27"
+      }
+     }
+    },
+    {
+     "a": "Sean O'Malley",
+     "b": "Marlon Moraes",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Sean O'Malley",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Sean_O%27Malley_%28fighter%29",
+      "nickname": "Suga",
+      "record": "20-3-0",
+      "stats": {
+       "Age": "32",
+       "Height": "5 ft 11 in",
+       "Team": "The MMA Lab"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/UFC_Freedom_250_on_the_South_Lawn_of_the_White_House_in_Washington%2C_D.C._on_June_14%2C_2026_-_29%28cropped%29.png/500px-UFC_Freedom_250_on_the_South_Lawn_of_the_White_House_in_Washington%2C_D.C._on_June_14%2C_2026_-_29%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: U.S. Department of the Interior · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Marlon Moraes",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "url": "https://en.wikipedia.org/wiki/Marlon_Moraes",
+      "record": "24-13-1",
+      "stats": {
+       "Age": "38",
+       "Height": "5 ft 6 in",
+       "Team": "American Top Team"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Marlon_Moraes.jpg/500px-Marlon_Moraes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Sambo1096 · CC BY-SA 4.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Zain Retherford",
+     "b": "Shamil Mamedov",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zain Retherford",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Zain_Retherford",
+      "stats": {
+       "Age": "31",
+       "Height": "5 ft 8 in"
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Zain_Retherford_%2852791819473%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Noah Riffe · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Shamil Mamedov",
+      "country": "Bulgaria",
+      "flag": "🇧🇬",
+      "url": "https://en.wikipedia.org/wiki/Shamil_Mamedov",
+      "stats": {
+       "Age": "25",
+       "Height": "1.70 m"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Shamil_Mamedov.jpg/500px-Shamil_Mamedov.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Magomedmix91 · CC BY-SA 4.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Jimmie Rivera",
+     "b": "Raul Rosas Jr.",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jimmie Rivera",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Jimmie_Rivera",
+      "record": "23-5-0",
+      "stats": {
+       "Age": "37",
+       "Height": "5 ft 4 in",
+       "Reach": "68 in",
+       "Team": "Team Tiger Schulmann"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Jimmie_Rivera_at_UFC_Fight_Night_143.jpg/500px-Jimmie_Rivera_at_UFC_Fight_Night_143.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Raul Rosas Jr.",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "url": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr.",
+      "record": "13-1-0",
+      "stats": {
+       "Age": "22",
+       "Height": "5 ft 9 in",
+       "Reach": "67 in",
+       "Team": "10th Planet Jiu Jitsu"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ra%C3%BAl_Rosas_Jr._2024.png/500px-Ra%C3%BAl_Rosas_Jr._2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Chamatkar Sandhu · CC BY 3.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Chris Foca",
+     "b": "Magomed Ramazanov",
+     "section": "Main card",
+     "weight": "Cruiserweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Chris Foca",
+      "country": "Dominican Republic",
+      "flag": "🇩🇴"
+     },
+     "fb": {
+      "name": "Magomed Ramazanov",
+      "country": "Bulgaria",
+      "flag": "🇧🇬",
+      "url": "https://en.wikipedia.org/wiki/Magomed_Ramazanov",
+      "stats": {
+       "Age": "33",
+       "Height": "1.72 m"
+      }
+     }
+    },
+    {
+     "a": "Quincy Monday",
+     "b": "David Baev",
      "section": "Main card",
      "weight": "Welterweight",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Quincy Monday",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "fb": {
       "name": "David Baev",
       "country": "Russia",
       "flag": "🇷🇺",
@@ -5464,9 +5629,52 @@
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/David_Baev.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: МССУОР №1 · CC BY 3.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Jayden James",
+     "b": "Tajmuraz Salkazanov",
+     "section": "Main card",
+     "weight": "Catchweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jayden James",
+      "country": "United States",
+      "flag": "🇺🇸"
      },
      "fb": {
-      "name": "Quincy Monday",
+      "name": "Tajmuraz Salkazanov",
+      "country": "Slovakia",
+      "flag": "🇸🇰",
+      "url": "https://en.wikipedia.org/wiki/Tajmuraz_Salkazanov",
+      "stats": {
+       "Age": "30",
+       "Height": "172 cm"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tajmuraz_Salkazanov.JPG/500px-Tajmuraz_Salkazanov.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Jørgen Løken · CC BY-SA 4.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Ridge Lovett",
+     "b": "Jacori Teemer",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": true,
+     "notes": "For the RAF Lightweight Championship.",
+     "fa": {
+      "name": "Ridge Lovett",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Ridge_Lovett",
+      "stats": {
+       "Age": "26"
+      }
+     },
+     "fb": {
+      "name": "Jacori Teemer",
       "country": "United States",
       "flag": "🇺🇸"
      }
