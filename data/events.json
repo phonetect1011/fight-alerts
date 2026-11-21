@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795261835506,
+ "generatedMs": 1795262454234,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3172,9 +3172,9 @@
    "finished": false
   },
   {
-   "id": "raf-raf-15-tsarukyan-vs-pettis",
+   "id": "raf-raf-15-cejudo-vs-song",
    "promotion": "RAF",
-   "title": "RAF 15: Tsarukyan vs. Pettis",
+   "title": "RAF 15: Cejudo vs. Song",
    "url": "https://en.wikipedia.org/wiki/RAF_15",
    "date": "2026-11-28",
    "startMs": 1795914000000,
@@ -3182,6 +3182,45 @@
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
+    {
+     "a": "Henry Cejudo",
+     "b": "Song Yadong",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": true,
+     "notes": "For the RAF Lightweight Crossover Championship.",
+     "fa": {
+      "name": "Henry Cejudo",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Henry_Cejudo",
+      "record": "16-6-0",
+      "stats": {
+       "Age": "39",
+       "Height": "5 ft 4 in",
+       "Reach": "64 in",
+       "Team": "Fight Ready"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Henry_Cejudo_%2854235464255%29_%28cropped%29.jpg/500px-Henry_Cejudo_%2854235464255%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Gage Skidmore from Surprise, AZ, United States of America · CC BY-SA 2.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Song Yadong",
+      "country": "China",
+      "flag": "🇨🇳",
+      "url": "https://en.wikipedia.org/wiki/Song_Yadong",
+      "record": "24-9-1",
+      "stats": {
+       "Age": "28",
+       "Height": "5 ft 8 in",
+       "Reach": "67 in",
+       "Team": "Team Alpha Male"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Song_Yadong_at_UFC_Macau.jpg/500px-Song_Yadong_at_UFC_Macau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Bandysputed · CC BY 4.0 (Wikimedia Commons)"
+     }
+    },
     {
      "a": "Arman Tsarukyan",
      "b": "Anthony Pettis",
@@ -3221,45 +3260,6 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/USO_Spring_2016_Entertainment_Tour_%28cropped%29.jpg/500px-USO_Spring_2016_Entertainment_Tour_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Airman 1st Class Christopher R. Morales of Joint Base Elmend · Public domain (Wikimedia Commons)"
-     }
-    },
-    {
-     "a": "Henry Cejudo",
-     "b": "Song Yadong",
-     "section": "Main card",
-     "weight": "Lightweight",
-     "title": true,
-     "notes": "For the RAF Lightweight Crossover Championship.",
-     "fa": {
-      "name": "Henry Cejudo",
-      "country": "United States",
-      "flag": "🇺🇸",
-      "rank": "C",
-      "url": "https://en.wikipedia.org/wiki/Henry_Cejudo",
-      "record": "16-6-0",
-      "stats": {
-       "Age": "39",
-       "Height": "5 ft 4 in",
-       "Reach": "64 in",
-       "Team": "Fight Ready"
-      },
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Henry_Cejudo_%2854235464255%29_%28cropped%29.jpg/500px-Henry_Cejudo_%2854235464255%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: Gage Skidmore from Surprise, AZ, United States of America · CC BY-SA 2.0 (Wikimedia Commons)"
-     },
-     "fb": {
-      "name": "Song Yadong",
-      "country": "China",
-      "flag": "🇨🇳",
-      "url": "https://en.wikipedia.org/wiki/Song_Yadong",
-      "record": "24-9-1",
-      "stats": {
-       "Age": "28",
-       "Height": "5 ft 8 in",
-       "Reach": "67 in",
-       "Team": "Team Alpha Male"
-      },
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Song_Yadong_at_UFC_Macau.jpg/500px-Song_Yadong_at_UFC_Macau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: Bandysputed · CC BY 4.0 (Wikimedia Commons)"
      }
     },
     {
@@ -3580,6 +3580,34 @@
      },
      "fb": {
       "name": "Jacob Schultz",
+      "country": "United States",
+      "flag": "🇺🇸"
+     }
+    },
+    {
+     "a": "Clay Guida",
+     "b": "Lucas Valente",
+     "section": "Main card",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Clay Guida",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "url": "https://en.wikipedia.org/wiki/Clay_Guida",
+      "record": "38-25-0",
+      "stats": {
+       "Age": "44",
+       "Height": "5 ft 7 in",
+       "Reach": "70 in",
+       "Team": "Team Alpha Male"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Clay_Guida.png/500px-Clay_Guida.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: The original uploader was East718 at English Wikipedia. · CC BY-SA 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Lucas Valente",
       "country": "United States",
       "flag": "🇺🇸"
      }
