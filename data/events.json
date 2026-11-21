@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795294238372,
+ "generatedMs": 1795301440716,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2638,7 +2638,7 @@
      "fa": {
       "name": "Navajo Stirling",
       "url": "https://en.wikipedia.org/wiki/Navajo_Stirling",
-      "record": "11-0-0",
+      "record": "12-0-0",
       "stats": {
        "Age": "29",
        "Height": "6 ft 4 in",
@@ -2649,7 +2649,7 @@
      "fb": {
       "name": "Jiří Procházka",
       "url": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_Proch%C3%A1zka",
-      "record": "32-6-1",
+      "record": "32-7-1",
       "stats": {
        "Age": "34",
        "Height": "6 ft 4 in",
@@ -2660,7 +2660,7 @@
      },
      "result": {
       "winner": "a",
-      "method": "KO (punch)",
+      "method": "KO (punches)",
       "round": "2",
       "time": "4:58"
      },
