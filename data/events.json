@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795258856046,
+ "generatedMs": 1795259438248,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -14,7 +14,7 @@
   },
   "ONE": {
    "ok": true,
-   "events": 7,
+   "events": 8,
    "message": ""
   },
   "RAF": {
@@ -4607,6 +4607,94 @@
       "name": "Justin Walters",
       "country": "United States",
       "flag": "🇺🇸"
+     }
+    }
+   ],
+   "finished": false
+  },
+  {
+   "id": "one-one-174",
+   "promotion": "ONE",
+   "title": "ONE 174",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_174",
+   "date": "2026-12-12",
+   "startMs": 1797037200000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Tang Kai",
+     "b": "Enkh-Orgil Baatarkhuu",
+     "section": "Main card",
+     "weight": "Featherweight MMA",
+     "title": true,
+     "notes": "For the ONE Featherweight World Championship.",
+     "fa": {
+      "name": "Tang Kai",
+      "country": "China",
+      "flag": "🇨🇳",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Tang_Kai",
+      "record": "20-3-0",
+      "stats": {
+       "Age": "30",
+       "Height": "5 ft 10 in",
+       "Reach": "72.4 in",
+       "Team": "Tiger Muay Thai"
+      }
+     },
+     "fb": {
+      "name": "Enkh-Orgil Baatarkhuu",
+      "country": "Mongolia",
+      "flag": "🇲🇳",
+      "url": "https://en.wikipedia.org/wiki/Enkh-Orgil_Baatarkhuu",
+      "record": "14-4-0",
+      "stats": {
+       "Age": "37",
+       "Height": "5 ft 6 in",
+       "Reach": "69 in",
+       "Team": "Team Tungaa"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Enkh-orgil_%28cropped%29.jpg/500px-Enkh-orgil_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Unknown authorUnknown author · CC0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Jonathan Di Bella",
+     "b": "Wang Junguang",
+     "section": "Main card",
+     "weight": "Strawweight Kickboxing",
+     "title": true,
+     "notes": "For the ONE Strawweight Kickboxing World Championship. |}",
+     "fa": {
+      "name": "Jonathan Di Bella",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "rank": "C",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Di_Bella",
+      "record": "16-1-0",
+      "stats": {
+       "Age": "30",
+       "Height": "1.75 m",
+       "Reach": "68 in",
+       "Team": "Di Bella Kickboxing"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Jonathan_Di_Bella.jpg/500px-Jonathan_Di_Bella.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: JDiBella18 · CC BY-SA 4.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Wang Junguang",
+      "country": "China",
+      "flag": "🇨🇳",
+      "url": "https://en.wikipedia.org/wiki/Wang_Junguang",
+      "nickname": "Golden Boy",
+      "record": "31-7-1",
+      "stats": {
+       "Age": "31",
+       "Height": "168cm",
+       "Team": "Tianjin Afu Fight Club"
+      }
      }
     }
    ],
