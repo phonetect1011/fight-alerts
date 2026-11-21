@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795291840254,
+ "generatedMs": 1795292439471,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2671,16 +2671,27 @@
      }
     },
     {
-     "a": "Aljamain Sterling",
-     "b": "Kevin Vallejos",
+     "a": "Kevin Vallejos",
+     "b": "Aljamain Sterling",
      "section": "Main card",
      "weight": "Featherweight",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Kevin Vallejos",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Vallejos",
+      "record": "19-1-0",
+      "stats": {
+       "Age": "24",
+       "Height": "5 ft 7 in",
+       "Reach": "68 in",
+       "Team": "Brothers of Life MMA"
+      }
+     },
+     "fb": {
       "name": "Aljamain Sterling",
       "url": "https://en.wikipedia.org/wiki/Aljamain_Sterling",
-      "record": "26-5-0",
+      "record": "26-6-0",
       "stats": {
        "Age": "37",
        "Height": "5 ft 7 in",
@@ -2690,23 +2701,18 @@
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Alijamain_Sterling_at_UFC_228.jpg/500px-Alijamain_Sterling_at_UFC_228.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
      },
-     "fb": {
-      "name": "Kevin Vallejos",
-      "url": "https://en.wikipedia.org/wiki/Kevin_Vallejos",
-      "record": "18-1-0",
-      "stats": {
-       "Age": "24",
-       "Height": "5 ft 7 in",
-       "Reach": "68 in",
-       "Team": "Brothers of Life MMA"
-      }
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 47,
-      "pctB": 53,
-      "oddsA": 2.04,
-      "oddsB": 1.8,
+      "fav": "a",
+      "pctA": 53,
+      "pctB": 47,
+      "oddsA": 1.8,
+      "oddsB": 2.04,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 14 bookmakers",
