@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795294070344,
+ "generatedMs": 1795294184526,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2660,13 +2660,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 45,
-      "pctB": 55,
-      "oddsA": 2.0,
-      "oddsB": 1.77,
+      "pctA": 46,
+      "pctB": 54,
+      "oddsA": 1.94,
+      "oddsB": 1.84,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 11 bookmakers",
+      "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -5863,7 +5863,7 @@
      },
      "fb": {
       "name": "Amin Bouazza",
-      "record": "4-0-0"
+      "record": "0-0-0"
      }
     },
     {
@@ -6852,6 +6852,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795294097757,
- "oddsCreditsLeft": "404"
+ "oddsUpdatedMs": 1795294210327,
+ "oddsCreditsLeft": "402"
 }
