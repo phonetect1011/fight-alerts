@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795221641321,
+ "generatedMs": 1795222249481,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2660,13 +2660,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 40,
-      "pctB": 60,
-      "oddsA": 2.41,
-      "oddsB": 1.58,
+      "pctA": 39,
+      "pctB": 61,
+      "oddsA": 2.45,
+      "oddsB": 1.56,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2703,13 +2703,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 45,
-      "pctB": 55,
-      "oddsA": 2.1,
-      "oddsB": 1.75,
+      "pctA": 46,
+      "pctB": 54,
+      "oddsA": 2.07,
+      "oddsB": 1.76,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2752,7 +2752,7 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.53,
-      "oddsB": 2.54,
+      "oddsB": 2.56,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -2830,13 +2830,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 29,
-      "pctB": 71,
-      "oddsA": 3.35,
-      "oddsB": 1.34,
+      "pctA": 28,
+      "pctB": 72,
+      "oddsA": 3.5,
+      "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2873,13 +2873,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 72,
-      "pctB": 28,
+      "pctA": 71,
+      "pctB": 29,
       "oddsA": 1.35,
-      "oddsB": 3.35,
+      "oddsB": 3.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 12 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2917,13 +2917,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 64,
-      "pctB": 36,
+      "pctA": 63,
+      "pctB": 37,
       "oddsA": 1.5,
-      "oddsB": 2.62,
+      "oddsB": 2.6,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2957,7 +2957,7 @@
       "oddsB": 1.91,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2993,7 +2993,7 @@
       "oddsB": 3.0,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3020,13 +3020,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 41,
-      "pctB": 59,
-      "oddsA": 2.37,
-      "oddsB": 1.61,
+      "pctA": 40,
+      "pctB": 60,
+      "oddsA": 2.4,
+      "oddsB": 1.57,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3049,11 +3049,11 @@
       "fav": "a",
       "pctA": 69,
       "pctB": 31,
-      "oddsA": 1.39,
-      "oddsB": 3.05,
+      "oddsA": 1.38,
+      "oddsB": 3.06,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3077,10 +3077,10 @@
       "pctA": 44,
       "pctB": 56,
       "oddsA": 2.15,
-      "oddsB": 1.71,
+      "oddsB": 1.72,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     }
@@ -4188,10 +4188,10 @@
       "pctA": 60,
       "pctB": 40,
       "oddsA": 1.6,
-      "oddsB": 2.3,
+      "oddsB": 2.33,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 12 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4228,11 +4228,11 @@
       "fav": "a",
       "pctA": 62,
       "pctB": 38,
-      "oddsA": 1.52,
+      "oddsA": 1.53,
       "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4976,7 +4976,8 @@
       }
      },
      "fb": {
-      "name": "Ethyn Ewing"
+      "name": "Ethyn Ewing",
+      "record": "10-2-0"
      }
     },
     {
@@ -4998,7 +4999,8 @@
       }
      },
      "fb": {
-      "name": "Baisangur Susurkaev"
+      "name": "Baisangur Susurkaev",
+      "record": "12-0-0"
      }
     },
     {
@@ -6259,7 +6261,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Lance Gibson Jr."
+      "name": "Lance Gibson Jr.",
+      "record": "10-2-0"
      },
      "fb": {
       "name": "Michael Johnson",
@@ -6284,10 +6287,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Serhiy Sidey"
+      "name": "Serhiy Sidey",
+      "record": "12-2-0"
      },
      "fb": {
-      "name": "Louis Lee Scott"
+      "name": "Louis Lee Scott",
+      "record": "10-0-0"
      }
     },
     {
@@ -6298,10 +6303,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Cameron Nelson"
+      "name": "Cameron Nelson",
+      "record": "8-1-0"
      },
      "fb": {
-      "name": "Sean Clancy Jr."
+      "name": "Sean Clancy Jr.",
+      "record": "9-0-0"
      }
     }
    ],
@@ -6415,10 +6422,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Jonathan Micallef"
+      "name": "Jonathan Micallef",
+      "record": "10-1-0"
      },
      "fb": {
-      "name": "Sam Patterson"
+      "name": "Sam Patterson",
+      "record": "15-3-1"
      }
     },
     {
@@ -6562,6 +6571,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795200671281,
- "oddsCreditsLeft": "414"
+ "oddsUpdatedMs": 1795222276436,
+ "oddsCreditsLeft": "412"
 }
