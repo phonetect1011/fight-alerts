@@ -1,6 +1,6 @@
 {
  "2026-11-20": {
-  "checked": 1795221075350,
+  "checked": 1795264296341,
   "events": [
    {
     "strEvent": "Kyushu Basho Day 13",
@@ -23,7 +23,7 @@
   ]
  },
  "2026-11-21": {
-  "checked": 1795221075350,
+  "checked": 1795264296341,
   "events": [
    {
     "strEvent": "We Love Wrestling Live In Bad Säckingen",
@@ -46,7 +46,7 @@
   ]
  },
  "2026-11-27": {
-  "checked": 1795221075350,
+  "checked": 1795264296341,
   "events": [
    {
     "strEvent": "SmackDown #1423",
@@ -69,7 +69,7 @@
   ]
  },
  "2026-11-28": {
-  "checked": 1795221075350,
+  "checked": 1795264296341,
   "events": [
    {
     "strEvent": "X IWI",
@@ -86,13 +86,13 @@
    {
     "strEvent": "Agit Kabayel vs Nelson Hysa",
     "strLeague": "Boxing",
-    "strTimeLocal": null,
-    "strTimestamp": "2026-11-28T00:00:00"
+    "strTimeLocal": "19:00:00",
+    "strTimestamp": "2026-11-28T18:00:00"
    }
   ]
  },
  "2026-12-02": {
-  "checked": 1795221075350,
+  "checked": 1795264296341,
   "events": [
    {
     "strEvent": "ONE Samurai 6",
