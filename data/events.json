@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795272640720,
+ "generatedMs": 1795279846207,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2962,13 +2962,17 @@
      }
     },
     {
-     "a": "Jake Matthews",
-     "b": "Tahir Abdullayev",
+     "a": "Tahir Abdullayev",
+     "b": "Jake Matthews",
      "section": "Prelims",
      "weight": "Catchweight (172 lb)",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Tahir Abdullayev",
+      "record": "21-3-0"
+     },
+     "fb": {
       "name": "Jake Matthews",
       "url": "https://en.wikipedia.org/wiki/Jake_Matthews_%28fighter%29",
       "record": "23-8-0",
@@ -2981,16 +2985,18 @@
       "photo": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jake_Mattews_%26_Jon_Jones_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: Realistkilla · CC BY-SA 4.0 (Wikimedia Commons)"
      },
-     "fb": {
-      "name": "Tahir Abdullayev",
-      "record": "20-3-0"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
-      "fav": "a",
-      "pctA": 69,
-      "pctB": 31,
-      "oddsA": 1.4,
-      "oddsB": 3.0,
+      "fav": "b",
+      "pctA": 31,
+      "pctB": 69,
+      "oddsA": 3.0,
+      "oddsB": 1.4,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2998,32 +3004,38 @@
      }
     },
     {
-     "a": "Nikolas Motta",
-     "b": "Dom Mar Fan",
+     "a": "Dom Mar Fan",
+     "b": "Nikolas Motta",
      "section": "Prelims",
      "weight": "Lightweight",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Dom Mar Fan",
+      "record": "10-3-0"
+     },
+     "fb": {
       "name": "Nikolas Motta",
       "url": "https://en.wikipedia.org/wiki/Nikolas_Motta",
-      "record": "15-6-0",
+      "record": "15-7-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 9 in",
        "Team": "Xtreme Couture"
       }
      },
-     "fb": {
-      "name": "Dom Mar Fan",
-      "record": "9-3-0"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 40,
-      "pctB": 60,
-      "oddsA": 2.4,
-      "oddsB": 1.59,
+      "fav": "a",
+      "pctA": 60,
+      "pctB": 40,
+      "oddsA": 1.59,
+      "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -3039,11 +3051,17 @@
      "notes": "",
      "fa": {
       "name": "Diyar Nurgozhay",
-      "record": "12-2-0"
+      "record": "13-2-0"
      },
      "fb": {
       "name": "Alik Lorenz",
-      "record": "8-2-0"
+      "record": "8-3-0"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (head kick and punches)",
+      "round": "2",
+      "time": "0:24"
      },
      "pred": {
       "fav": "a",
@@ -3058,26 +3076,32 @@
      }
     },
     {
-     "a": "Shoaib Yousaf",
-     "b": "John Mitchell",
+     "a": "John Mitchell",
+     "b": "Shoaib Yousaf",
      "section": "Prelims",
      "weight": "Lightweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Shoaib Yousaf",
-      "record": "14-3-0"
+      "name": "John Mitchell",
+      "record": "12-3-0"
      },
      "fb": {
-      "name": "John Mitchell",
-      "record": "11-3-0"
+      "name": "Shoaib Yousaf",
+      "record": "14-4-0"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (knee and punches)",
+      "round": "1",
+      "time": "3:50"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 44,
-      "pctB": 56,
-      "oddsA": 2.15,
-      "oddsB": 1.71,
+      "fav": "a",
+      "pctA": 56,
+      "pctB": 44,
+      "oddsA": 1.71,
+      "oddsB": 2.15,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
