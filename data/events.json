@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795290039974,
+ "generatedMs": 1795290220147,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2746,6 +2746,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Brian_Ortega_on_MMAnytt.jpg/500px-Brian_Ortega_on_MMAnytt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
       "fav": "a",
