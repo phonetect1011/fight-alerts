@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795221048056,
+ "generatedMs": 1795221641321,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1733,8 +1733,8 @@
    "title": "ONE Samurai 5",
    "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Samurai_5",
    "date": "2026-11-18",
-   "startMs": 1794990600000,
-   "timeEstimated": false,
+   "startMs": 1794988800000,
+   "timeEstimated": true,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -2031,8 +2031,7 @@
      }
     }
    ],
-   "finished": true,
-   "timeSource": "TheSportsDB"
+   "finished": true
   },
   {
    "id": "one-one-friday-fights-179-chartpayak-vs-klarob-the-inner-circle-39",
@@ -4977,8 +4976,7 @@
       }
      },
      "fb": {
-      "name": "Ethyn Ewing",
-      "record": "10-2-0"
+      "name": "Ethyn Ewing"
      }
     },
     {
@@ -5000,8 +4998,7 @@
       }
      },
      "fb": {
-      "name": "Baisangur Susurkaev",
-      "record": "12-0-0"
+      "name": "Baisangur Susurkaev"
      }
     },
     {
@@ -6262,8 +6259,7 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Lance Gibson Jr.",
-      "record": "10-2-0"
+      "name": "Lance Gibson Jr."
      },
      "fb": {
       "name": "Michael Johnson",
@@ -6288,12 +6284,10 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Serhiy Sidey",
-      "record": "12-2-0"
+      "name": "Serhiy Sidey"
      },
      "fb": {
-      "name": "Louis Lee Scott",
-      "record": "10-0-0"
+      "name": "Louis Lee Scott"
      }
     },
     {
@@ -6304,12 +6298,10 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Cameron Nelson",
-      "record": "8-1-0"
+      "name": "Cameron Nelson"
      },
      "fb": {
-      "name": "Sean Clancy Jr.",
-      "record": "9-0-0"
+      "name": "Sean Clancy Jr."
      }
     }
    ],
@@ -6423,12 +6415,10 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Jonathan Micallef",
-      "record": "10-1-0"
+      "name": "Jonathan Micallef"
      },
      "fb": {
-      "name": "Sam Patterson",
-      "record": "15-3-1"
+      "name": "Sam Patterson"
      }
     },
     {
