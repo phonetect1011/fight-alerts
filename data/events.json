@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795215040135,
+ "generatedMs": 1795221048056,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4977,7 +4977,8 @@
       }
      },
      "fb": {
-      "name": "Ethyn Ewing"
+      "name": "Ethyn Ewing",
+      "record": "10-2-0"
      }
     },
     {
@@ -4999,7 +5000,8 @@
       }
      },
      "fb": {
-      "name": "Baisangur Susurkaev"
+      "name": "Baisangur Susurkaev",
+      "record": "12-0-0"
      }
     },
     {
@@ -5577,7 +5579,7 @@
      "notes": "",
      "fa": {
       "name": "Zakaria Hamou",
-      "record": "0-0-0"
+      "record": "4-0-0"
      },
      "fb": {
       "name": "Amin Bouazza",
@@ -6260,7 +6262,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Lance Gibson Jr."
+      "name": "Lance Gibson Jr.",
+      "record": "10-2-0"
      },
      "fb": {
       "name": "Michael Johnson",
@@ -6285,10 +6288,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Serhiy Sidey"
+      "name": "Serhiy Sidey",
+      "record": "12-2-0"
      },
      "fb": {
-      "name": "Louis Lee Scott"
+      "name": "Louis Lee Scott",
+      "record": "10-0-0"
      }
     },
     {
@@ -6299,10 +6304,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Cameron Nelson"
+      "name": "Cameron Nelson",
+      "record": "8-1-0"
      },
      "fb": {
-      "name": "Sean Clancy Jr."
+      "name": "Sean Clancy Jr.",
+      "record": "9-0-0"
      }
     }
    ],
@@ -6416,10 +6423,12 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Jonathan Micallef"
+      "name": "Jonathan Micallef",
+      "record": "10-1-0"
      },
      "fb": {
-      "name": "Sam Patterson"
+      "name": "Sam Patterson",
+      "record": "15-3-1"
      }
     },
     {
