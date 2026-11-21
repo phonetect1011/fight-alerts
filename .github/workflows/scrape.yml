@@ -1,7 +1,8 @@
 name: Update fight data
 
 # Fight cards and results come from Wikipedia (official MediaWiki API, CC BY-SA content).
-# Start times: your data/time-overrides.json, then TheSportsDB, then bookmaker times (The Odds API) if close to our estimate.
+# Start times: your data/time-overrides.json, then UFC.com (UFC events), then TheSportsDB,
+# then bookmaker times (The Odds API) if close to our estimate.
 #
 # How often it runs:
 #   - A quick check wakes up every 15 minutes.
@@ -146,7 +147,7 @@ jobs:
           ODDS_USE_CACHE: ${{ needs.check.outputs.fresh_odds == 'true' && '0' || '1' }}
         run: python scraper/odds.py data/events.json
 
-      - name: Confirmed start times (your overrides + TheSportsDB, then section times)
+      - name: Confirmed start times (your overrides + UFC.com + TheSportsDB, then section times)
         continue-on-error: true
         timeout-minutes: 5
         run: python scraper/times.py data/events.json
@@ -157,7 +158,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/events.json
           git add data/photo-cache.json data/times-cache.json data/odds-cache.json 2>/dev/null || true
-          git add data/debug/espn_records.txt 2>/dev/null || true
+          git add data/debug/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes"
           else
