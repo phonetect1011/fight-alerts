@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795287670239,
+ "generatedMs": 1795288246593,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2793,6 +2793,12 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/AsuAlmabayev.png/500px-AsuAlmabayev.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Qazaq Stand Up · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      }
     },
     {
