@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795293645405,
+ "generatedMs": 1795294070344,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2660,13 +2660,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 37,
-      "pctB": 63,
-      "oddsA": 2.62,
-      "oddsB": 1.5,
-      "tier": "Slight favourite",
+      "pctA": 45,
+      "pctB": 55,
+      "oddsA": 2.0,
+      "oddsB": 1.77,
+      "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2706,17 +2706,6 @@
       "method": "Decision (unanimous)",
       "round": "3",
       "time": "5:00"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 53,
-      "pctB": 47,
-      "oddsA": 1.8,
-      "oddsB": 2.04,
-      "tier": "Pick'em",
-      "why": "",
-      "crowd": "Average of 14 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -2758,17 +2747,6 @@
       "method": "Decision (unanimous)",
       "round": "3",
       "time": "5:00"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 64,
-      "pctB": 36,
-      "oddsA": 1.49,
-      "oddsB": 2.7,
-      "tier": "Slight favourite",
-      "why": "",
-      "crowd": "Average of 13 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -4150,9 +4128,9 @@
    "title": "UFC Fight Night: Adesanya vs. Magomedov",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Adesanya_vs._Magomedov",
    "date": "2026-12-05",
-   "startMs": 1796490000000,
-   "timeEstimated": true,
-   "prelimsMs": 1796479200000,
+   "startMs": 1796493600000,
+   "timeEstimated": false,
+   "prelimsMs": 1796482800000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -4193,11 +4171,11 @@
       "fav": "a",
       "pctA": 60,
       "pctB": 40,
-      "oddsA": 1.59,
-      "oddsB": 2.3,
+      "oddsA": 1.6,
+      "oddsB": 2.33,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4234,11 +4212,11 @@
       "fav": "a",
       "pctA": 62,
       "pctB": 38,
-      "oddsA": 1.52,
+      "oddsA": 1.53,
       "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 12 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4459,7 +4437,8 @@
     }
    ],
    "finished": false,
-   "prelimsEstimated": true
+   "prelimsEstimated": false,
+   "timeSource": "UFC.com"
   },
   {
    "id": "bkfc-bkfc-97-hollywood-fl-henry-vs-collard",
@@ -6873,6 +6852,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795287066291,
- "oddsCreditsLeft": "406"
+ "oddsUpdatedMs": 1795294097757,
+ "oddsCreditsLeft": "404"
 }

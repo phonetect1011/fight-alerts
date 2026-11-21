@@ -153,5 +153,143 @@
     "strTimestamp": "2026-12-05T00:00:00"
    }
   ]
+ },
+ "_ufc_com": {
+  "cards": [
+   {
+    "times": {
+     "main": 1795284000000,
+     "prelims": 1795273200000
+    },
+    "title": "See these athletes in action at  UFC Fight Night",
+    "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026"
+   },
+   {
+    "times": {
+     "main": 1796493600000,
+     "prelims": 1796482800000
+    },
+    "title": "Adesanya vs Magomedov",
+    "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026"
+   },
+   {
+    "times": {
+     "early": 1797112800000,
+     "main": 1797127200000,
+     "prelims": 1797120000000
+    },
+    "title": "Oliveira vs Lopes",
+    "url": "https://www.ufc.com/event/ufc-335"
+   },
+   {
+    "times": {
+     "main": 1800147600000,
+     "prelims": 1800136800000
+    },
+    "title": "Rodriguez vs Garcia",
+    "url": "https://www.ufc.com/event/ufc-fight-night-january-16-2027"
+   },
+   {
+    "times": {
+     "main": 1800752400000,
+     "prelims": 1800741600000
+    },
+    "title": "Bonfim vs Brady",
+    "url": "https://www.ufc.com/event/ufc-fight-night-january-23-2027"
+   },
+   {
+    "times": {
+     "early": 1801346400000,
+     "main": 1801360800000,
+     "prelims": 1801353600000
+    },
+    "title": "Van vs Kape",
+    "url": "https://www.ufc.com/event/ufc-336"
+   },
+   {
+    "times": {
+     "main": 1801951200000,
+     "prelims": 1801944000000
+    },
+    "title": "Salkilld vs Saint Denis",
+    "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027"
+   },
+   {
+    "times": {
+     "main": 1802556000000,
+     "prelims": 1802548800000
+    },
+    "title": "Pyfer vs Nickal",
+    "url": "https://www.ufc.com/event/ufc-fight-night-february-13-2027"
+   },
+   {
+    "times": {
+     "early": 1794693600000,
+     "main": 1794708000000,
+     "prelims": 1794700800000
+    },
+    "title": "Gane vs Hokit",
+    "url": "https://www.ufc.com/event/ufc-334"
+   },
+   {
+    "times": {
+     "main": 1794099600000,
+     "prelims": 1794088800000
+    },
+    "title": "Cortes Acosta vs Walker",
+    "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026"
+   },
+   {
+    "times": {
+     "main": 1793491200000,
+     "prelims": 1793480400000
+    },
+    "title": "Moicano vs Nolan",
+    "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026"
+   },
+   {
+    "times": {
+     "early": 1792850400000,
+     "main": 1792864800000,
+     "prelims": 1792857600000
+    },
+    "title": "Volkanovski vs Evloev",
+    "url": "https://www.ufc.com/event/ufc-333"
+   },
+   {
+    "times": {
+     "main": 1792281600000,
+     "prelims": 1792270800000
+    },
+    "title": "Buckley vs Malott",
+    "url": "https://www.ufc.com/event/ufc-fight-night-october-17-2026"
+   },
+   {
+    "times": {
+     "main": 1791676800000,
+     "prelims": 1791666000000
+    },
+    "title": "Allen vs Duncan",
+    "url": "https://www.ufc.com/event/ufc-fight-night-october-10-2026"
+   },
+   {
+    "times": {
+     "early": 1791057600000,
+     "main": 1791072000000,
+     "prelims": 1791064800000
+    },
+    "title": "Silva vs Wang",
+    "url": "https://www.ufc.com/event/ufc-332"
+   },
+   {
+    "times": {
+     "main": 1790467200000,
+     "prelims": 1790456400000
+    },
+    "title": "Rosas Jr. vs Barcelos",
+    "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026"
+   }
+  ],
+  "checked": 1795294097926
  }
 }
