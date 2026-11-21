@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795285848066,
+ "generatedMs": 1795286440879,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2796,26 +2796,13 @@
      }
     },
     {
-     "a": "Jared Cannonier",
-     "b": "Ikram Aliskerov",
+     "a": "Ikram Aliskerov",
+     "b": "Jared Cannonier",
      "section": "Main card",
      "weight": "Middleweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Jared Cannonier",
-      "url": "https://en.wikipedia.org/wiki/Jared_Cannonier",
-      "record": "18-10-0",
-      "stats": {
-       "Age": "42",
-       "Height": "6 ft 0 in",
-       "Reach": "77+1/2 in",
-       "Team": "MMA Lab"
-      },
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg/500px-Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
-     },
-     "fb": {
       "name": "Ikram Aliskerov",
       "url": "https://en.wikipedia.org/wiki/Ikram_Aliskerov",
       "record": "18-2-0",
@@ -2828,12 +2815,31 @@
       "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ikram_Aliskerov_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: Sexto Round · CC BY 3.0 (Wikimedia Commons)"
      },
+     "fb": {
+      "name": "Jared Cannonier",
+      "url": "https://en.wikipedia.org/wiki/Jared_Cannonier",
+      "record": "18-10-0",
+      "stats": {
+       "Age": "42",
+       "Height": "6 ft 0 in",
+       "Reach": "77+1/2 in",
+       "Team": "MMA Lab"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg/500px-Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     },
      "pred": {
-      "fav": "b",
-      "pctA": 28,
-      "pctB": 72,
-      "oddsA": 3.4,
-      "oddsB": 1.33,
+      "fav": "a",
+      "pctA": 72,
+      "pctB": 28,
+      "oddsA": 1.33,
+      "oddsB": 3.4,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -5916,7 +5922,7 @@
      },
      "fb": {
       "name": "Mauricio Partida",
-      "record": "0-0-0"
+      "record": "11-0-0"
      }
     },
     {
