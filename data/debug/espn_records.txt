@@ -23,7 +23,7 @@ ESPN records: filled 84, still missing 28
   + Juan Díaz: 17-1-1  (UFC 334: Gane vs. Hokit)
   + Evan Elder: 11-2-0  (UFC 334: Gane vs. Hokit)
   + Samuel Sanches: 11-2-0  (UFC 334: Gane vs. Hokit)
-  + Alessandro Costa: 17-5-0  (UFC Fight Night: Procházka vs. Stirling)
+  + Alessandro Costa: 17-6-0  (UFC Fight Night: Procházka vs. Stirling)
   + Tahir Abdullayev: 21-3-0  (UFC Fight Night: Procházka vs. Stirling)
   + Dom Mar Fan: 10-3-0  (UFC Fight Night: Procházka vs. Stirling)
   + Diyar Nurgozhay: 13-2-0  (UFC Fight Night: Procházka vs. Stirling)

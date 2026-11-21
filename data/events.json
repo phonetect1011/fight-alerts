@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795279846207,
+ "generatedMs": 1795285848066,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2841,16 +2841,27 @@
      }
     },
     {
-     "a": "Aleksandre Topuria",
-     "b": "Santiago Luna",
+     "a": "Santiago Luna",
+     "b": "Aleksandre Topuria",
      "section": "Prelims",
      "weight": "Bantamweight",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Santiago Luna",
+      "url": "https://en.wikipedia.org/wiki/Santiago_Luna_%28fighter%29",
+      "record": "9-1-0",
+      "stats": {
+       "Age": "22",
+       "Height": "5 ft 8 in",
+       "Reach": "74 in",
+       "Team": "Entram Gym"
+      }
+     },
+     "fb": {
       "name": "Aleksandre Topuria",
       "url": "https://en.wikipedia.org/wiki/Aleksandre_Topuria",
-      "record": "7-1-0",
+      "record": "7-2-0",
       "stats": {
        "Age": "30",
        "Height": "5 ft 7 in",
@@ -2860,23 +2871,18 @@
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg/500px-Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: U.S. Army photo by Sgt. 1st Class Brittany Primavera · Public domain (Wikimedia Commons)"
      },
-     "fb": {
-      "name": "Santiago Luna",
-      "url": "https://en.wikipedia.org/wiki/Santiago_Luna_%28fighter%29",
-      "record": "8-1-0",
-      "stats": {
-       "Age": "22",
-       "Height": "5 ft 8 in",
-       "Reach": "74 in",
-       "Team": "Entram Gym"
-      }
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "5:00"
      },
      "pred": {
-      "fav": "a",
-      "pctA": 71,
-      "pctB": 29,
-      "oddsA": 1.35,
-      "oddsB": 3.3,
+      "fav": "b",
+      "pctA": 29,
+      "pctB": 71,
+      "oddsA": 3.3,
+      "oddsB": 1.35,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2884,28 +2890,17 @@
      }
     },
     {
-     "a": "Shamil Gaziev",
-     "b": "Tallison Teixeira",
+     "a": "Tallison Teixeira",
+     "b": "Shamil Gaziev",
      "section": "Prelims",
      "weight": "Heavyweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Shamil Gaziev",
-      "url": "https://en.wikipedia.org/wiki/Shamil_Gaziev",
-      "record": "15-3-0",
-      "stats": {
-       "Age": "36",
-       "Height": "6 ft 3 in",
-       "Reach": "78.5 in",
-       "Team": "KHK MMA Team"
-      }
-     },
-     "fb": {
       "name": "Tallison Teixeira",
       "url": "https://en.wikipedia.org/wiki/Tallison_Teixeira",
       "nickname": "Xicão",
-      "record": "9-2-0",
+      "record": "10-2-0",
       "stats": {
        "Age": "26",
        "Height": "6 ft 8 in",
@@ -2915,12 +2910,29 @@
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tallison_Teixeira_2025.jpg/500px-Tallison_Teixeira_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Sexto Round · CC BY 3.0 (Wikimedia Commons)"
      },
+     "fb": {
+      "name": "Shamil Gaziev",
+      "url": "https://en.wikipedia.org/wiki/Shamil_Gaziev",
+      "record": "15-3-0",
+      "stats": {
+       "Age": "36",
+       "Height": "6 ft 4 in",
+       "Reach": "78.5 in",
+       "Team": "KHK MMA Team"
+      }
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
+     },
      "pred": {
-      "fav": "a",
-      "pctA": 63,
-      "pctB": 37,
-      "oddsA": 1.5,
-      "oddsB": 2.6,
+      "fav": "b",
+      "pctA": 37,
+      "pctB": 63,
+      "oddsA": 2.6,
+      "oddsB": 1.5,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2933,11 +2945,11 @@
      "section": "Prelims",
      "weight": "Flyweight",
      "title": false,
-     "notes": "",
+     "notes": "Albazi was deducted one point in round 2 due to grabbing the fence.",
      "fa": {
       "name": "Amir Albazi",
       "url": "https://en.wikipedia.org/wiki/Amir_Albazi",
-      "record": "17-3-0",
+      "record": "18-3-0",
       "stats": {
        "Age": "33",
        "Height": "5 ft 5 in",
@@ -2947,7 +2959,13 @@
      },
      "fb": {
       "name": "Alessandro Costa",
-      "record": "17-5-0"
+      "record": "17-6-0"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Submission (rear-naked choke)",
+      "round": "3",
+      "time": "4:34"
      },
      "pred": {
       "fav": "b",

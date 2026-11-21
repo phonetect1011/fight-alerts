@@ -130,5 +130,28 @@
     "strTimestamp": "2026-12-04T00:00:00"
    }
   ]
+ },
+ "2026-12-05": {
+  "checked": 1795285885235,
+  "events": [
+   {
+    "strEvent": "Contenders",
+    "strLeague": "RevPro",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-05T00:00:00"
+   },
+   {
+    "strEvent": "Oktagon 99 Aras vs Flores",
+    "strLeague": "Oktagon MMA",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-05T00:00:00"
+   },
+   {
+    "strEvent": "Conah Walker vs Alexis Rocha",
+    "strLeague": "Boxing",
+    "strTimeLocal": null,
+    "strTimestamp": "2026-12-05T00:00:00"
+   }
+  ]
  }
 }
