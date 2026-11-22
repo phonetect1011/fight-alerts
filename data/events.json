@@ -1,10 +1,10 @@
 {
- "generatedMs": 1795301440716,
+ "generatedMs": 1795308642156,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
    "ok": true,
-   "events": 9,
+   "events": 10,
    "message": ""
   },
   "BKFC": {
@@ -2738,7 +2738,7 @@
       "name": "Brian Ortega",
       "url": "https://en.wikipedia.org/wiki/Brian_Ortega",
       "nickname": "T-City",
-      "record": "16-5-0",
+      "record": "16-6-0",
       "stats": {
        "Age": "35",
        "Height": "5 ft 9 in",
@@ -2899,7 +2899,7 @@
      "fb": {
       "name": "Shamil Gaziev",
       "url": "https://en.wikipedia.org/wiki/Shamil_Gaziev",
-      "record": "15-3-0",
+      "record": "15-4-0",
       "stats": {
        "Age": "36",
        "Height": "6 ft 4 in",
@@ -2957,7 +2957,7 @@
      "fb": {
       "name": "Jake Matthews",
       "url": "https://en.wikipedia.org/wiki/Jake_Matthews_%28fighter%29",
-      "record": "23-8-0",
+      "record": "23-9-0",
       "stats": {
        "Age": "32",
        "Height": "5 ft 11 in",
@@ -6855,6 +6855,19 @@
      }
     }
    ],
+   "finished": false
+  },
+  {
+   "id": "ufc-ufc-337",
+   "promotion": "UFC",
+   "title": "UFC 337",
+   "url": "https://en.wikipedia.org/wiki/UFC_337",
+   "date": "2027-02-20",
+   "startMs": 1803175200000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [],
    "finished": false
   }
  ],
