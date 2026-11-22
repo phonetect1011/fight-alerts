@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795351841075,
+ "generatedMs": 1795359036005,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -14,7 +14,7 @@
   },
   "ONE": {
    "ok": true,
-   "events": 7,
+   "events": 8,
    "message": ""
   },
   "RAF": {
@@ -2063,6 +2063,12 @@
       "name": "Joshua Oxendine",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (punches)",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
@@ -2090,60 +2096,36 @@
       "name": "Theo Doukas",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (punches)",
+      "round": "2",
+      "time": "0:36"
      }
     },
     {
-     "a": "Ryan Jett",
-     "b": "Rodney Hinton",
+     "a": "Rodney Hinton",
+     "b": "Ryan Jett",
      "section": "Main card",
      "weight": "Welterweight 75 kg",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Rodney Hinton",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "fb": {
       "name": "Ryan Jett",
       "country": "United States",
       "flag": "🇺🇸"
      },
-     "fb": {
-      "name": "Rodney Hinton",
-      "country": "United States",
-      "flag": "🇺🇸"
-     }
-    },
-    {
-     "a": "Evan Pierce",
-     "b": "Diego Romo",
-     "section": "Main card",
-     "weight": "Middleweight 79 kg",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Evan Pierce",
-      "country": "United States",
-      "flag": "🇺🇸"
-     },
-     "fb": {
-      "name": "Diego Romo",
-      "country": "Ecuador",
-      "flag": "🇪🇨"
-     }
-    },
-    {
-     "a": "Windson Ramos",
-     "b": "Robert Fichtner",
-     "section": "Main card",
-     "weight": "Bantamweight 61 kg",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Windson Ramos",
-      "country": "Brazil",
-      "flag": "🇧🇷"
-     },
-     "fb": {
-      "name": "Robert Fichtner",
-      "country": "United States",
-      "flag": "🇺🇸"
+     "result": {
+      "winner": "a",
+      "method": "Decision (majority)",
+      "round": "5",
+      "time": "2:00"
      }
     },
     {
@@ -2162,6 +2144,60 @@
       "name": "Joshua Claudio",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "4",
+      "time": "1:02"
+     }
+    },
+    {
+     "a": "Windson Ramos",
+     "b": "Robert Fichtner",
+     "section": "Main card",
+     "weight": "Bantamweight 61 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Windson Ramos",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     },
+     "fb": {
+      "name": "Robert Fichtner",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO",
+      "round": "2",
+      "time": "0:39"
+     }
+    },
+    {
+     "a": "Evan Pierce",
+     "b": "Diego Romo",
+     "section": "Main card",
+     "weight": "Middleweight 79 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Evan Pierce",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "fb": {
+      "name": "Diego Romo",
+      "country": "Ecuador",
+      "flag": "🇪🇨"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (corner stoppage)",
+      "round": "4",
+      "time": "2:00"
      }
     },
     {
@@ -2180,42 +2216,60 @@
       "name": "Alex Eliam",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO",
+      "round": "1",
+      "time": "1:30"
      }
     },
     {
-     "a": "Amos Collins",
-     "b": "Ashton Caniglia",
+     "a": "Ashton Caniglia",
+     "b": "Amos Collins",
      "section": "Main card",
      "weight": "Featherweight 66 kg",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Amos Collins",
+      "name": "Ashton Caniglia",
       "country": "United States",
       "flag": "🇺🇸"
      },
      "fb": {
-      "name": "Ashton Caniglia",
+      "name": "Amos Collins",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
-     "a": "Justin Howell",
-     "b": "Brian Maxwell",
+     "a": "Brian Maxwell",
+     "b": "Justin Howell",
      "section": "Main card",
      "weight": "Light Heavyweight 84 kg",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Justin Howell",
+      "name": "Brian Maxwell",
       "country": "United States",
       "flag": "🇺🇸"
      },
      "fb": {
-      "name": "Brian Maxwell",
+      "name": "Justin Howell",
       "country": "United States",
       "flag": "🇺🇸"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "2:00"
      }
     },
     {
@@ -2234,10 +2288,16 @@
       "name": "Lewis Glover",
       "country": "United Kingdom",
       "flag": "🇬🇧"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "2:00"
      }
     }
    ],
-   "finished": false
+   "finished": true
   },
   {
    "id": "ufc-ufc-fight-night-proch-zka-vs-stirling",
@@ -3827,8 +3887,8 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 61,
-      "pctB": 39,
+      "pctA": 60,
+      "pctB": 40,
       "oddsA": 1.53,
       "oddsB": 2.5,
       "tier": "Slight favourite",
@@ -4056,6 +4116,73 @@
    "finished": false,
    "prelimsEstimated": false,
    "timeSource": "UFC.com"
+  },
+  {
+   "id": "one-one-friday-fights-182-the-inner-circle-42",
+   "promotion": "ONE",
+   "title": "ONE Friday Fights 182 / The Inner Circle 42",
+   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Friday_Fights_182_%26_The_Inner_Circle_42",
+   "date": "2026-12-11",
+   "startMs": 1796992200000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Johan Ghazali",
+     "b": "Johan Estupiñan",
+     "section": "The Inner Circle 42",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Johan Ghazali",
+      "country": "Malaysia",
+      "flag": "🇲🇾",
+      "url": "https://en.wikipedia.org/wiki/Johan_Ghazali",
+      "nickname": "Jojo Ghazali",
+      "record": "7-3-0",
+      "stats": {
+       "Age": "20",
+       "Height": "170 cm",
+       "Reach": "165 cm",
+       "Team": "Rentap Muaythai Gym"
+      }
+     },
+     "fb": {
+      "name": "Johan Estupiñan",
+      "country": "Colombia",
+      "flag": "🇨🇴"
+     }
+    },
+    {
+     "a": "Sangarthit Looksaikongdin",
+     "b": "Zhao Chongyang",
+     "section": "The Inner Circle 42",
+     "weight": "Bantamweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Sangarthit Looksaikongdin",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Zhao Chongyang",
+      "country": "China",
+      "flag": "🇨🇳",
+      "url": "https://en.wikipedia.org/wiki/Zhao_Chongyang",
+      "nickname": "The Harvester",
+      "record": "41-19-0",
+      "stats": {
+       "Age": "29",
+       "Height": "1.72 m",
+       "Team": "X-Level Fighting Club"
+      }
+     }
+    }
+   ],
+   "finished": false
   },
   {
    "id": "bkfc-bkfc-97-hollywood-fl-henry-vs-collard",
@@ -6486,6 +6613,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795337465982,
- "oddsCreditsLeft": "398"
+ "oddsUpdatedMs": 1795359062531,
+ "oddsCreditsLeft": "396"
 }
