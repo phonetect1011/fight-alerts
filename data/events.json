@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795359036005,
+ "generatedMs": 1795366241555,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -9,7 +9,7 @@
   },
   "BKFC": {
    "ok": true,
-   "events": 5,
+   "events": 6,
    "message": ""
   },
   "ONE": {
@@ -2036,7 +2036,7 @@
    "date": "2026-11-20",
    "startMs": 1795222800000,
    "timeEstimated": true,
-   "prelimsMs": null,
+   "prelimsMs": 1795215600000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -2227,7 +2227,7 @@
     {
      "a": "Ashton Caniglia",
      "b": "Amos Collins",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Featherweight 66 kg",
      "title": false,
      "notes": "",
@@ -2251,7 +2251,7 @@
     {
      "a": "Brian Maxwell",
      "b": "Justin Howell",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Light Heavyweight 84 kg",
      "title": false,
      "notes": "",
@@ -2275,7 +2275,7 @@
     {
      "a": "Maurice Morris",
      "b": "Lewis Glover",
-     "section": "Main card",
+     "section": "Prelims",
      "weight": "Cruiserweight 93 kg",
      "title": false,
      "notes": "|}",
@@ -2297,7 +2297,8 @@
      }
     }
    ],
-   "finished": true
+   "finished": true,
+   "prelimsEstimated": true
   },
   {
    "id": "ufc-ufc-fight-night-proch-zka-vs-stirling",
@@ -4267,6 +4268,24 @@
      }
     },
     {
+     "a": "Francesco Ricchi",
+     "b": "Zeb Vincent",
+     "section": "Main card",
+     "weight": "Middleweight 79 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Francesco Ricchi",
+      "country": "Italy",
+      "flag": "🇮🇹"
+     },
+     "fb": {
+      "name": "Zeb Vincent",
+      "country": "United States",
+      "flag": "🇺🇸"
+     }
+    },
+    {
      "a": "Brandon Alfano",
      "b": "Alex Davis",
      "section": "Main card",
@@ -6069,6 +6088,24 @@
      }
     },
     {
+     "a": "Nathan Rivera",
+     "b": "Brandon Meneses",
+     "section": "Main card",
+     "weight": "Featherweight 66 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Nathan Rivera",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "fb": {
+      "name": "Brandon Meneses",
+      "country": "United States",
+      "flag": "🇺🇸"
+     }
+    },
+    {
      "a": "Julio Perez Rodriguez",
      "b": "Gabriel Mota",
      "section": "Main card",
@@ -6082,6 +6119,42 @@
      },
      "fb": {
       "name": "Gabriel Mota",
+      "country": "United States",
+      "flag": "🇺🇸"
+     }
+    },
+    {
+     "a": "Ramiro Figueroa",
+     "b": "Mick Whitehead",
+     "section": "Main card",
+     "weight": "Featherweight 66 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ramiro Figueroa",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "fb": {
+      "name": "Mick Whitehead",
+      "country": "Australia",
+      "flag": "🇦🇺"
+     }
+    },
+    {
+     "a": "Famez",
+     "b": "Josh Marer",
+     "section": "Main card",
+     "weight": "Lightweight 70 kg",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Famez",
+      "country": "United States",
+      "flag": "🇺🇸"
+     },
+     "fb": {
+      "name": "Josh Marer",
       "country": "United States",
       "flag": "🇺🇸"
      }
@@ -6105,62 +6178,19 @@
      }
     },
     {
-     "a": "Stephen Townsel",
-     "b": "Brady Meister",
+     "a": "Cole Ferrell",
+     "b": "Amos Collins",
      "section": "Main card",
-     "weight": "Ironweight 102 kg",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Stephen Townsel",
-      "country": "United States",
-      "flag": "🇺🇸"
-     },
-     "fb": {
-      "name": "Brady Meister",
-      "country": "United States",
-      "flag": "🇺🇸"
-     }
-    },
-    {
-     "a": "Nathan Rivera",
-     "b": "Brandon Meneses",
-     "section": "Main card",
-     "weight": "Featherweight 66 kg",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Nathan Rivera",
-      "country": "United States",
-      "flag": "🇺🇸"
-     },
-     "fb": {
-      "name": "Brandon Meneses",
-      "country": "United States",
-      "flag": "🇺🇸"
-     }
-    },
-    {
-     "a": "Gustavo Balart",
-     "b": "Justyn Martinez",
-     "section": "Main card",
-     "weight": "Flyweight 57 kg",
+     "weight": "Lightweight 70 kg",
      "title": false,
      "notes": "|}",
      "fa": {
-      "name": "Gustavo Balart",
-      "country": "Cuba",
-      "flag": "🇨🇺",
-      "url": "https://en.wikipedia.org/wiki/Gustavo_Balart",
-      "record": "12-5-0",
-      "stats": {
-       "Age": "39",
-       "Height": "4 ft 11 in",
-       "Team": "American Top Team Kendall"
-      }
+      "name": "Cole Ferrell",
+      "country": "United States",
+      "flag": "🇺🇸"
      },
      "fb": {
-      "name": "Justyn Martinez",
+      "name": "Amos Collins",
       "country": "United States",
       "flag": "🇺🇸"
      }
@@ -6338,6 +6368,38 @@
      "fb": {
       "name": "Sean Clancy Jr.",
       "record": "9-0-0"
+     }
+    }
+   ],
+   "finished": false
+  },
+  {
+   "id": "bkfc-bkfc-fight-night-palm-desert-kurdanov-vs-peralta",
+   "promotion": "BKFC",
+   "title": "BKFC Fight Night Palm Desert: Kurdanov vs. Peralta",
+   "url": "https://en.wikipedia.org/wiki/2027_in_Bare_Knuckle_Fighting_Championship#BKFC_Fight_Night_Palm_Desert%3A_Kurdanov_vs._Peralta",
+   "date": "2027-02-05",
+   "startMs": 1801875600000,
+   "timeEstimated": true,
+   "prelimsMs": null,
+   "earlyPrelimsMs": null,
+   "bouts": [
+    {
+     "a": "Abdulkarim Kurdanov",
+     "b": "Robbie Peralta",
+     "section": "Main card",
+     "weight": "TBA",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Abdulkarim Kurdanov",
+      "country": "Russia",
+      "flag": "🇷🇺"
+     },
+     "fb": {
+      "name": "Robbie Peralta",
+      "country": "United States",
+      "flag": "🇺🇸"
      }
     }
    ],
