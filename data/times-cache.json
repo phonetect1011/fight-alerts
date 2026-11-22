@@ -132,7 +132,7 @@
   ]
  },
  "2026-12-05": {
-  "checked": 1795285885235,
+  "checked": 1795330261431,
   "events": [
    {
     "strEvent": "Contenders",
@@ -157,11 +157,16 @@
  "_ufc_com": {
   "cards": [
    {
+    "times": {},
+    "title": "See these athletes in action at  UFC Fight Night",
+    "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026"
+   },
+   {
     "times": {
      "main": 1795284000000,
      "prelims": 1795273200000
     },
-    "title": "See these athletes in action at  UFC Fight Night",
+    "title": "Prochazka vs Stirling",
     "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026"
    },
    {
@@ -290,6 +295,6 @@
     "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026"
    }
   ],
-  "checked": 1795323074126
+  "checked": 1795330261431
  }
 }
