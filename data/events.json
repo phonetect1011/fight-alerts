@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795315838979,
+ "generatedMs": 1795323046258,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -928,7 +928,9 @@
       "record": "16-4-0",
       "stats": {
        "Age": "31",
-       "Height": "6 ft 1 in"
+       "Height": "6 ft 1 in",
+       "Reach": "75 in",
+       "Team": "Raty Team"
       }
      },
      "fb": {
@@ -6017,7 +6019,9 @@
        "Height": "6 ft 3 in",
        "Reach": "75 in",
        "Team": "Valle Flow Striking"
-      }
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Ignacio-Bahamondes-e1774272916557-3905x2198.webp/500px-Ignacio-Bahamondes-e1774272916557-3905x2198.webp?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Kloze333 · CC BY 4.0 (Wikimedia Commons)"
      }
     },
     {
