@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795373437137,
+ "generatedMs": 1795380638061,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3948,6 +3948,17 @@
        "Height": "6 ft 3 in",
        "Reach": "75 in"
       }
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 31,
+      "pctB": 69,
+      "oddsA": 3.05,
+      "oddsB": 1.38,
+      "tier": "Clear favourite",
+      "why": "",
+      "crowd": "Average of 3 bookmakers",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -3971,6 +3982,17 @@
        "Reach": "70 in",
        "Team": "Tiger Muay Thai"
       }
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 33,
+      "pctB": 67,
+      "oddsA": 2.9,
+      "oddsB": 1.42,
+      "tier": "Clear favourite",
+      "why": "",
+      "crowd": "Average of 3 bookmakers",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -3994,6 +4016,17 @@
        "Reach": "75 in",
        "Team": "MMA Factory"
       }
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 64,
+      "pctB": 36,
+      "oddsA": 1.48,
+      "oddsB": 2.65,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 3 bookmakers",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -4017,6 +4050,17 @@
      "fb": {
       "name": "Jafel Filho",
       "record": "17-5-0"
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 44,
+      "pctB": 56,
+      "oddsA": 2.1,
+      "oddsB": 1.71,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 3 bookmakers",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -6675,6 +6719,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795359062531,
- "oddsCreditsLeft": "396"
+ "oddsUpdatedMs": 1795380662889,
+ "oddsCreditsLeft": "394"
 }
