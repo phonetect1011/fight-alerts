@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795380638061,
+ "generatedMs": 1795387837598,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2306,9 +2306,9 @@
    "title": "UFC Fight Night: Procházka vs. Stirling",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Proch%C3%A1zka_vs._Stirling",
    "date": "2026-11-21",
-   "startMs": 1795284000000,
+   "startMs": 1795298400000,
    "timeEstimated": false,
-   "prelimsMs": 1795273200000,
+   "prelimsMs": 1795287600000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -2720,8 +2720,8 @@
     }
    ],
    "finished": true,
-   "timeSource": "UFC.com",
-   "prelimsEstimated": false
+   "timeSource": "TheSportsDB",
+   "prelimsEstimated": true
   },
   {
    "id": "one-one-friday-fights-180-the-inner-circle-40",
