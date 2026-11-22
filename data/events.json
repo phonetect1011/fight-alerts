@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795330236609,
+ "generatedMs": 1795337441016,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3788,7 +3788,7 @@
       "fav": "a",
       "pctA": 59,
       "pctB": 41,
-      "oddsA": 1.62,
+      "oddsA": 1.61,
       "oddsB": 2.3,
       "tier": "Slight favourite",
       "why": "",
@@ -6484,6 +6484,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795316035128,
- "oddsCreditsLeft": "400"
+ "oddsUpdatedMs": 1795337465982,
+ "oddsCreditsLeft": "398"
 }
