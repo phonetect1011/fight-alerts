@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795308642156,
+ "generatedMs": 1795315838979,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2663,17 +2663,6 @@
       "method": "KO (punches)",
       "round": "2",
       "time": "4:58"
-     },
-     "pred": {
-      "fav": "a",
-      "pctA": 54,
-      "pctB": 46,
-      "oddsA": 1.84,
-      "oddsB": 1.94,
-      "tier": "Pick'em",
-      "why": "",
-      "crowd": "Average of 8 bookmakers",
-      "source": "Bookmaker odds"
      }
     },
     {
@@ -4175,10 +4164,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
-      "oddsA": 1.6,
-      "oddsB": 2.33,
+      "pctA": 59,
+      "pctB": 41,
+      "oddsA": 1.62,
+      "oddsB": 2.3,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -4216,13 +4205,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 62,
-      "pctB": 38,
+      "pctA": 61,
+      "pctB": 39,
       "oddsA": 1.53,
       "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 13 bookmakers",
+      "crowd": "Average of 14 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4951,7 +4940,7 @@
       "pctA": 56,
       "pctB": 44,
       "oddsA": 1.65,
-      "oddsB": 2.24,
+      "oddsB": 2.23,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -4997,7 +4986,7 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.5,
-      "oddsB": 2.6,
+      "oddsB": 2.59,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 10 bookmakers",
@@ -6530,10 +6519,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
-      "oddsA": 1.6,
-      "oddsB": 2.35,
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.54,
+      "oddsB": 2.42,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 11 bookmakers",
@@ -6871,6 +6860,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795294210327,
- "oddsCreditsLeft": "402"
+ "oddsUpdatedMs": 1795316035128,
+ "oddsCreditsLeft": "400"
 }
