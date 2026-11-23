@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795467040709,
+ "generatedMs": 1795474237184,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2714,9 +2714,9 @@
    "title": "UFC Fight Night: Adesanya vs. Magomedov",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Adesanya_vs._Magomedov",
    "date": "2026-12-05",
-   "startMs": 1796493600000,
+   "startMs": 1796482800000,
    "timeEstimated": false,
-   "prelimsMs": 1796482800000,
+   "prelimsMs": 1796472000000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -3089,8 +3089,7 @@
     }
    ],
    "finished": false,
-   "prelimsEstimated": false,
-   "timeSource": "UFC.com"
+   "prelimsEstimated": true
   },
   {
    "id": "one-one-friday-fights-182-the-inner-circle-42",

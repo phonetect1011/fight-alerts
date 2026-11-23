@@ -109,7 +109,7 @@
   ]
  },
  "2026-12-05": {
-  "checked": 1795423867701,
+  "checked": 1795474258283,
   "events": [
    {
     "strEvent": "Contenders",
@@ -134,24 +134,11 @@
  "_ufc_com": {
   "cards": [
    {
-    "times": {},
-    "title": "See these athletes in action at  UFC Fight Night",
-    "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026"
-   },
-   {
-    "times": {
-     "main": 1795284000000,
-     "prelims": 1795273200000
-    },
-    "title": "Prochazka vs Stirling",
-    "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026"
-   },
-   {
     "times": {
      "main": 1796493600000,
      "prelims": 1796482800000
     },
-    "title": "Adesanya vs Magomedov",
+    "title": "See these athletes in action at  UFC Fight Night",
     "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026"
    },
    {
@@ -206,6 +193,22 @@
    },
    {
     "times": {
+     "main": 1803160800000,
+     "prelims": 1803153600000
+    },
+    "title": "TBD vs TBD",
+    "url": "https://www.ufc.com/event/ufc-337"
+   },
+   {
+    "times": {
+     "main": 1795284000000,
+     "prelims": 1795273200000
+    },
+    "title": "Prochazka vs Stirling",
+    "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026"
+   },
+   {
+    "times": {
      "early": 1794693600000,
      "main": 1794708000000,
      "prelims": 1794700800000
@@ -256,22 +259,12 @@
    },
    {
     "times": {
-     "early": 1791057600000,
-     "main": 1791072000000,
-     "prelims": 1791064800000
+     "main": 1791072000000
     },
     "title": "Silva vs Wang",
     "url": "https://www.ufc.com/event/ufc-332"
-   },
-   {
-    "times": {
-     "main": 1790467200000,
-     "prelims": 1790456400000
-    },
-    "title": "Rosas Jr. vs Barcelos",
-    "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026"
    }
   ],
-  "checked": 1795467062027
+  "checked": 1795474258283
  }
 }

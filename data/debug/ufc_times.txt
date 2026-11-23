@@ -1,2 +1,2 @@
-UFC.com events list: HTTP 200, 17 events found
-  UFC Fight Night: Adesanya vs. Magomedov <- Adesanya vs Magomedov: main Sat 05 Dec 18:00 UTC, prelims Sat 05 Dec 15:00 UTC
+UFC.com events list: HTTP 200, 16 events found
+  no UFC.com match for UFC Fight Night: Adesanya vs. Magomedov
