@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795438249178,
+ "generatedMs": 1795445449102,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2327,6 +2327,30 @@
    "earlyPrelimsMs": null,
    "bouts": [
     {
+     "a": "Gingsanglek Tor.Laksong",
+     "b": "Petmuangsri Torfunfarm",
+     "section": "ONE Friday Fights 181",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Gingsanglek Tor.Laksong",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Gingsanglek_Tor.Laksong",
+      "stats": {
+       "Age": "26",
+       "Height": "168cm",
+       "Team": "Phor.Pinnapat Gym"
+      }
+     },
+     "fb": {
+      "name": "Petmuangsri Torfunfarm",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     }
+    },
+    {
      "a": "Songchainoi Kiatsongrit",
      "b": "Rifdean Masdor",
      "section": "The Inner Circle 41",
@@ -2731,10 +2755,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 61,
-      "pctB": 39,
+      "pctA": 60,
+      "pctB": 40,
       "oddsA": 1.59,
-      "oddsB": 2.35,
+      "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -2837,11 +2861,11 @@
       "fav": "b",
       "pctA": 32,
       "pctB": 68,
-      "oddsA": 2.98,
-      "oddsB": 1.4,
+      "oddsA": 2.95,
+      "oddsB": 1.41,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 5 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2869,13 +2893,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 31,
-      "pctB": 69,
-      "oddsA": 3.1,
-      "oddsB": 1.38,
+      "pctA": 30,
+      "pctB": 70,
+      "oddsA": 3.3,
+      "oddsB": 1.36,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 5 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2905,11 +2929,11 @@
       "fav": "a",
       "pctA": 63,
       "pctB": 37,
-      "oddsA": 1.52,
-      "oddsB": 2.59,
+      "oddsA": 1.53,
+      "oddsB": 2.58,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 5 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2937,13 +2961,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 44,
-      "pctB": 56,
-      "oddsA": 2.17,
-      "oddsB": 1.7,
+      "pctA": 43,
+      "pctB": 57,
+      "oddsA": 2.25,
+      "oddsB": 1.69,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 5 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3005,11 +3029,11 @@
       "fav": "a",
       "pctA": 55,
       "pctB": 45,
-      "oddsA": 1.75,
-      "oddsB": 2.12,
+      "oddsA": 1.73,
+      "oddsB": 2.11,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 1 bookmaker",
+      "crowd": "Average of 2 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3030,13 +3054,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 43,
-      "pctB": 57,
+      "pctA": 42,
+      "pctB": 58,
       "oddsA": 2.26,
-      "oddsB": 1.68,
+      "oddsB": 1.66,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 2 bookmakers",
+      "crowd": "Average of 3 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4571,7 +4595,7 @@
      "a": "Brandon Brachet",
      "b": "Adam Meskini",
      "section": "Prelims",
-     "weight": "Bantamweight",
+     "weight": "Featherweight",
      "title": false,
      "notes": "",
      "fa": {
@@ -4581,6 +4605,20 @@
      "fb": {
       "name": "Adam Meskini",
       "record": "11-3-0"
+     }
+    },
+    {
+     "a": "Ciarán Clarke",
+     "b": "Mate Sanikidze",
+     "section": "Prelims",
+     "weight": "Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ciarán Clarke"
+     },
+     "fb": {
+      "name": "Mate Sanikidze"
      }
     },
     {
@@ -4597,6 +4635,22 @@
      "fb": {
       "name": "Amin Bouazza",
       "record": "4-0-0"
+     }
+    },
+    {
+     "a": "Lorenzo Parente",
+     "b": "Stiven Shehu",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Lorenzo Parente",
+      "record": "4-0-0"
+     },
+     "fb": {
+      "name": "Stiven Shehu",
+      "record": "4-1-0"
      }
     },
     {
@@ -5249,7 +5303,7 @@
       "record": "24-7-0",
       "stats": {
        "Age": "33",
-       "Height": "6 ft 1 in",
+       "Height": "6 ft 2 in",
        "Reach": "78 in",
        "Team": "Vale Top Team / Fighting Nerds"
       },
@@ -5262,7 +5316,7 @@
       "record": "19-0-0",
       "stats": {
        "Age": "27",
-       "Height": "6 ft 0 in",
+       "Height": "6 ft 2 in",
        "Team": "Entram Gym"
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_%28cropped%29.jpg/500px-Michael_Morales._QUITO%2C_27_DE_MAYO_DEL_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5643,6 +5697,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795423867519,
- "oddsCreditsLeft": "390"
+ "oddsUpdatedMs": 1795445476735,
+ "oddsCreditsLeft": "388"
 }

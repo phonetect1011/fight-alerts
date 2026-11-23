@@ -1,4 +1,4 @@
-ESPN records: filled 62, still missing 27
+ESPN records: filled 64, still missing 29
 
   + Alessandro Costa: 17-6-0  (UFC Fight Night: Procházka vs. Stirling)
   + Tahir Abdullayev: 21-3-0  (UFC Fight Night: Procházka vs. Stirling)
@@ -64,8 +64,12 @@ PFL Africa 4: Kigali: ESPN has no bouts for 2026-12-12
   + Mauricio Partida: 11-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Brandon Brachet: 9-1-0  (PFL Lyon: Lapilus vs. McKee)
   + Adam Meskini: 11-3-0  (PFL Lyon: Lapilus vs. McKee)
+  - Ciarán Clarke: not found on ESPN  (PFL Lyon: Lapilus vs. McKee)
+  - Mate Sanikidze: not found on ESPN  (PFL Lyon: Lapilus vs. McKee)
   + Zakaria Hamou: 4-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Amin Bouazza: 4-0-0  (PFL Lyon: Lapilus vs. McKee)
+  + Lorenzo Parente: 4-0-0  (PFL Lyon: Lapilus vs. McKee)
+  + Stiven Shehu: 4-1-0  (PFL Lyon: Lapilus vs. McKee)
   + Mathilde Aschenbrenner: 3-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Shelda Chipito: 2-0-0  (PFL Lyon: Lapilus vs. McKee)
   + Louie Sutherland: 11-6-0  (UFC Fight Night: Rodríguez vs. Garcia)
