@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795395038285,
+ "generatedMs": 1795402240553,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3847,10 +3847,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 59,
-      "pctB": 41,
-      "oddsA": 1.61,
-      "oddsB": 2.3,
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.54,
+      "oddsB": 2.45,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -3888,9 +3888,9 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
-      "oddsA": 1.53,
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.52,
       "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
@@ -3951,13 +3951,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 31,
-      "pctB": 69,
-      "oddsA": 3.05,
-      "oddsB": 1.38,
+      "pctA": 32,
+      "pctB": 68,
+      "oddsA": 3.02,
+      "oddsB": 1.4,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 3 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3985,13 +3985,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 33,
-      "pctB": 67,
-      "oddsA": 2.9,
-      "oddsB": 1.42,
+      "pctA": 31,
+      "pctB": 69,
+      "oddsA": 3.05,
+      "oddsB": 1.39,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 3 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4019,13 +4019,13 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 64,
-      "pctB": 36,
-      "oddsA": 1.48,
-      "oddsB": 2.65,
+      "pctA": 63,
+      "pctB": 37,
+      "oddsA": 1.52,
+      "oddsB": 2.6,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 3 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4055,11 +4055,11 @@
       "fav": "b",
       "pctA": 44,
       "pctB": 56,
-      "oddsA": 2.1,
+      "oddsA": 2.16,
       "oddsB": 1.71,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 3 bookmakers",
+      "crowd": "Average of 4 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4132,6 +4132,17 @@
      "fb": {
       "name": "Matthieu Letho Duclos",
       "record": "11-3-0"
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 43,
+      "pctB": 57,
+      "oddsA": 2.25,
+      "oddsB": 1.69,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 2 bookmakers",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -4800,7 +4811,7 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.5,
-      "oddsB": 2.59,
+      "oddsB": 2.6,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 10 bookmakers",
@@ -6719,6 +6730,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795380662889,
- "oddsCreditsLeft": "394"
+ "oddsUpdatedMs": 1795402271200,
+ "oddsCreditsLeft": "392"
 }
