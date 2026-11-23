@@ -1,27 +1,4 @@
 {
- "2026-11-20": {
-  "checked": 1795308671135,
-  "events": [
-   {
-    "strEvent": "Kyushu Basho Day 13",
-    "strLeague": "Sumo",
-    "strTimeLocal": "16:00:00",
-    "strTimestamp": "2026-11-20T07:00:00"
-   },
-   {
-    "strEvent": "Bound For Unbound",
-    "strLeague": "NJPW",
-    "strTimeLocal": "18:30:00",
-    "strTimestamp": "2026-11-20T09:30:00"
-   },
-   {
-    "strEvent": "Amari Jones vs DeAundre Pettus",
-    "strLeague": "Boxing",
-    "strTimeLocal": "14:00:00",
-    "strTimestamp": "2026-11-20T22:00:00"
-   }
-  ]
- },
  "2026-11-21": {
   "checked": 1795351871345,
   "events": [
@@ -295,6 +272,6 @@
     "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026"
    }
   ],
-  "checked": 1795387866663
+  "checked": 1795395063151
  }
 }
