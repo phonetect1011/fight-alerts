@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795416637422,
+ "generatedMs": 1795423837126,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1416,19 +1416,163 @@
    "bouts": [
     {
      "a": "Denkriangkrai MavinnMuaythai",
-     "b": "Thway Lin Hiet",
+     "b": "Thway Lin Htet",
      "section": "ONE Friday Fights 180",
      "weight": "Strawweight Muay Thai",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Denkriangkrai MavinnMuaythai",
       "country": "Thailand",
       "flag": "🇹🇭"
      },
      "fb": {
-      "name": "Thway Lin Hiet",
+      "name": "Thway Lin Htet",
       "country": "MMR"
+     }
+    },
+    {
+     "a": "Nuatoranee Jitmuangnon",
+     "b": "Yodchanachai Tor.Pitakchai",
+     "section": "ONE Friday Fights 180",
+     "weight": "Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Nuatoranee Jitmuangnon",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Yodchanachai Tor.Pitakchai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Saencherngnoi Tor.Muangsema",
+     "b": "Petthanawat Sor.Jaruwan",
+     "section": "ONE Friday Fights 180",
+     "weight": "Featherweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Saencherngnoi Tor.Muangsema",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Petthanawat Sor.Jaruwan",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Jaxson Hayman",
+     "b": "Sixten Larsson",
+     "section": "ONE Friday Fights 180",
+     "weight": "Lightweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jaxson Hayman",
+      "country": "Australia",
+      "flag": "🇦🇺"
+     },
+     "fb": {
+      "name": "Sixten Larsson",
+      "country": "Sweden",
+      "flag": "🇸🇪"
+     }
+    },
+    {
+     "a": "Alistair Fitzharris",
+     "b": "Bhupen Mutum",
+     "section": "ONE Friday Fights 180",
+     "weight": "Flyweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Alistair Fitzharris",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
+      "name": "Bhupen Mutum",
+      "country": "India",
+      "flag": "🇮🇳"
+     }
+    },
+    {
+     "a": "Panpet Sor.Dechapan",
+     "b": "Youssef Erraji",
+     "section": "ONE Friday Fights 180",
+     "weight": "Flyweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Panpet Sor.Dechapan",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Youssef Erraji",
+      "country": "Morocco",
+      "flag": "🇲🇦"
+     }
+    },
+    {
+     "a": "Aarti Khatri",
+     "b": "Norika Ryu",
+     "section": "ONE Friday Fights 180",
+     "weight": "Women's Atomweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Aarti Khatri",
+      "country": "India",
+      "flag": "🇮🇳"
+     },
+     "fb": {
+      "name": "Norika Ryu",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
+     "a": "Efe Caliskan",
+     "b": "Fuga Onodera",
+     "section": "ONE Friday Fights 180",
+     "weight": "Featherweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Efe Caliskan",
+      "country": "Turkey",
+      "flag": "🇹🇷"
+     },
+     "fb": {
+      "name": "Fuga Onodera",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
+     "a": "Chen Jiayi",
+     "b": "Taku Takaiwa",
+     "section": "ONE Friday Fights 180",
+     "weight": "Flyweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Chen Jiayi",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "fb": {
+      "name": "Taku Takaiwa",
+      "country": "Japan",
+      "flag": "🇯🇵"
      }
     },
     {
@@ -1463,7 +1607,7 @@
      "section": "The Inner Circle 40",
      "weight": "Bantamweight Muay Thai",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Kongklai Sor.Sommai",
       "country": "Thailand",
@@ -1480,6 +1624,66 @@
       "name": "Worapon Lukjaoporongtom",
       "country": "Thailand",
       "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Rungrawee Sitsongpeenong",
+     "b": "Harry Purvis",
+     "section": "The Inner Circle 40",
+     "weight": "Lightweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Rungrawee Sitsongpeenong",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Rungrawee_Sitsongpeenong",
+      "record": "158-50-2",
+      "stats": {
+       "Age": "30",
+       "Height": "179 cm",
+       "Team": "P.K.Saenchai"
+      }
+     },
+     "fb": {
+      "name": "Harry Purvis",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     }
+    },
+    {
+     "a": "Tom Keogh",
+     "b": "Abdelali Zahidi",
+     "section": "The Inner Circle 40",
+     "weight": "Featherweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Tom Keogh",
+      "country": "IRE"
+     },
+     "fb": {
+      "name": "Abdelali Zahidi",
+      "country": "Morocco",
+      "flag": "🇲🇦"
+     }
+    },
+    {
+     "a": "Petprapaporn Sor.Dechapan",
+     "b": "Enzo Clarisse",
+     "section": "The Inner Circle 40",
+     "weight": "Strawweight Muay Thai",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Petprapaporn Sor.Dechapan",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
+      "name": "Enzo Clarisse",
+      "country": "France",
+      "flag": "🇫🇷"
      }
     }
    ],
@@ -2529,11 +2733,11 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.54,
-      "oddsB": 2.45,
+      "oddsA": 1.59,
+      "oddsB": 2.35,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2574,7 +2778,7 @@
       "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 14 bookmakers",
+      "crowd": "Average of 13 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2633,7 +2837,7 @@
       "fav": "b",
       "pctA": 32,
       "pctB": 68,
-      "oddsA": 3.02,
+      "oddsA": 2.98,
       "oddsB": 1.4,
       "tier": "Clear favourite",
       "why": "",
@@ -2667,8 +2871,8 @@
       "fav": "b",
       "pctA": 31,
       "pctB": 69,
-      "oddsA": 3.05,
-      "oddsB": 1.39,
+      "oddsA": 3.1,
+      "oddsB": 1.38,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 4 bookmakers",
@@ -2702,7 +2906,7 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.52,
-      "oddsB": 2.6,
+      "oddsB": 2.59,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 4 bookmakers",
@@ -2735,8 +2939,8 @@
       "fav": "b",
       "pctA": 44,
       "pctB": 56,
-      "oddsA": 2.16,
-      "oddsB": 1.71,
+      "oddsA": 2.17,
+      "oddsB": 1.7,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 4 bookmakers",
@@ -2796,6 +3000,17 @@
      "fb": {
       "name": "Mehemmedeli Osmanli",
       "record": "12-2-0"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 55,
+      "pctB": 45,
+      "oddsA": 1.75,
+      "oddsB": 2.12,
+      "tier": "Pick'em",
+      "why": "",
+      "crowd": "Average of 1 bookmaker",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -2817,8 +3032,8 @@
       "fav": "b",
       "pctA": 43,
       "pctB": 57,
-      "oddsA": 2.25,
-      "oddsB": 1.69,
+      "oddsA": 2.26,
+      "oddsB": 1.68,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 2 bookmakers",
@@ -3491,7 +3706,7 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.5,
-      "oddsB": 2.6,
+      "oddsB": 2.59,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 10 bookmakers",
@@ -5410,6 +5625,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795402271200,
- "oddsCreditsLeft": "392"
+ "oddsUpdatedMs": 1795423867519,
+ "oddsCreditsLeft": "390"
 }
