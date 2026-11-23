@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795423837126,
+ "generatedMs": 1795431040173,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3112,7 +3112,7 @@
      "section": "The Inner Circle 42",
      "weight": "Bantamweight Kickboxing",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Sangarthit Looksaikongdin",
       "country": "Thailand",
@@ -3130,6 +3130,24 @@
        "Height": "1.72 m",
        "Team": "X-Level Fighting Club"
       }
+     }
+    },
+    {
+     "a": "Aziz Calim",
+     "b": "Idzham Ramlan",
+     "section": "The Inner Circle 42",
+     "weight": "Strawweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Aziz Calim",
+      "country": "Indonesia",
+      "flag": "🇮🇩"
+     },
+     "fb": {
+      "name": "Idzham Ramlan",
+      "country": "Malaysia",
+      "flag": "🇲🇾"
      }
     }
    ],
