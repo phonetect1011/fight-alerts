@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795503039817,
+ "generatedMs": 1795510244515,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1695,7 +1695,7 @@
    "url": "https://en.wikipedia.org/wiki/RAF_15",
    "date": "2026-11-28",
    "startMs": 1795914000000,
-   "timeEstimated": true,
+   "timeEstimated": false,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -1736,6 +1736,17 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Song_Yadong_at_UFC_Macau.jpg/500px-Song_Yadong_at_UFC_Macau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Bandysputed · CC BY 4.0 (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 86,
+      "pctB": 14,
+      "oddsA": 1.1,
+      "oddsB": 6.5,
+      "tier": "Heavy favourite",
+      "why": "",
+      "crowd": "Average of 1 bookmaker",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -1777,6 +1788,17 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/USO_Spring_2016_Entertainment_Tour_%28cropped%29.jpg/500px-USO_Spring_2016_Entertainment_Tour_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: Airman 1st Class Christopher R. Morales of Joint Base Elmend · Public domain (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 92,
+      "pctB": 8,
+      "oddsA": 1.02,
+      "oddsB": 11.0,
+      "tier": "Heavy favourite",
+      "why": "",
+      "crowd": "Average of 1 bookmaker",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -1870,6 +1892,17 @@
       },
       "photo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cody_Garbrandt.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoCredit": "Photo: MiggyTube TV · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 23,
+      "pctB": 77,
+      "oddsA": 4.0,
+      "oddsB": 1.2,
+      "tier": "Clear favourite",
+      "why": "",
+      "crowd": "Average of 1 bookmaker",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -2754,10 +2787,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
-      "oddsA": 1.6,
-      "oddsB": 2.35,
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.58,
+      "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -5325,8 +5358,8 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.54,
-      "oddsB": 2.42,
+      "oddsA": 1.55,
+      "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 11 bookmakers",
@@ -5696,6 +5729,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795488660707,
- "oddsCreditsLeft": "384"
+ "oddsUpdatedMs": 1795510269563,
+ "oddsCreditsLeft": "382"
 }
