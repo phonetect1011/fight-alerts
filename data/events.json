@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795481437380,
+ "generatedMs": 1795488636547,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -986,9 +986,9 @@
    "title": "UFC Fight Night: Procházka vs. Stirling",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Proch%C3%A1zka_vs._Stirling",
    "date": "2026-11-21",
-   "startMs": 1795298400000,
-   "timeEstimated": false,
-   "prelimsMs": 1795287600000,
+   "startMs": 1795280400000,
+   "timeEstimated": true,
+   "prelimsMs": 1795269600000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
@@ -1400,7 +1400,6 @@
     }
    ],
    "finished": true,
-   "timeSource": "TheSportsDB",
    "prelimsEstimated": true
   },
   {
@@ -2757,8 +2756,8 @@
       "fav": "a",
       "pctA": 60,
       "pctB": 40,
-      "oddsA": 1.59,
-      "oddsB": 2.4,
+      "oddsA": 1.6,
+      "oddsB": 2.35,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2799,7 +2798,7 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.52,
-      "oddsB": 2.5,
+      "oddsB": 2.52,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2861,11 +2860,11 @@
       "fav": "b",
       "pctA": 33,
       "pctB": 67,
-      "oddsA": 2.88,
-      "oddsB": 1.42,
+      "oddsA": 2.86,
+      "oddsB": 1.43,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2929,11 +2928,11 @@
       "fav": "a",
       "pctA": 63,
       "pctB": 37,
-      "oddsA": 1.54,
-      "oddsB": 2.56,
+      "oddsA": 1.53,
+      "oddsB": 2.55,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2963,11 +2962,11 @@
       "fav": "b",
       "pctA": 43,
       "pctB": 57,
-      "oddsA": 2.25,
-      "oddsB": 1.68,
+      "oddsA": 2.26,
+      "oddsB": 1.67,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3027,11 +3026,11 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 56,
-      "pctB": 44,
+      "pctA": 55,
+      "pctB": 45,
       "oddsA": 1.71,
-      "oddsB": 2.16,
-      "tier": "Slight favourite",
+      "oddsB": 2.13,
+      "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 2 bookmakers",
       "source": "Bookmaker odds"
@@ -5697,6 +5696,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795467061920,
- "oddsCreditsLeft": "386"
+ "oddsUpdatedMs": 1795488660707,
+ "oddsCreditsLeft": "384"
 }
