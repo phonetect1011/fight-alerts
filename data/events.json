@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795546237354,
+ "generatedMs": 1795553439455,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1741,8 +1741,8 @@
       "fav": "a",
       "pctA": 86,
       "pctB": 14,
-      "oddsA": 1.1,
-      "oddsB": 6.5,
+      "oddsA": 1.08,
+      "oddsB": 6.75,
       "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
@@ -2850,7 +2850,7 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.57,
+      "oddsA": 1.58,
       "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
@@ -2922,11 +2922,11 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 33,
-      "pctB": 67,
-      "oddsA": 2.83,
-      "oddsB": 1.44,
-      "tier": "Clear favourite",
+      "pctA": 36,
+      "pctB": 64,
+      "oddsA": 2.63,
+      "oddsB": 1.51,
+      "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
@@ -2992,7 +2992,7 @@
       "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 7 bookmakers",
+      "crowd": "Average of 9 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3023,10 +3023,10 @@
       "pctA": 62,
       "pctB": 38,
       "oddsA": 1.53,
-      "oddsB": 2.51,
+      "oddsB": 2.5,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 8 bookmakers",
+      "crowd": "Average of 10 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3053,7 +3053,7 @@
       "oddsB": 2.3,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3107,11 +3107,11 @@
       "record": "7-0-0"
      },
      "pred": {
-      "fav": "b",
-      "pctA": 50,
-      "pctB": 50,
-      "oddsA": 1.91,
-      "oddsB": 1.91,
+      "fav": "a",
+      "pctA": 51,
+      "pctB": 49,
+      "oddsA": 1.87,
+      "oddsB": 1.95,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 7 bookmakers",
@@ -3185,13 +3185,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 43,
-      "pctB": 57,
-      "oddsA": 2.25,
-      "oddsB": 1.67,
+      "pctA": 44,
+      "pctB": 56,
+      "oddsA": 2.19,
+      "oddsB": 1.69,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4024,10 +4024,10 @@
       "pctA": 63,
       "pctB": 37,
       "oddsA": 1.5,
-      "oddsB": 2.59,
+      "oddsB": 2.58,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 10 bookmakers",
+      "crowd": "Average of 11 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -4064,6 +4064,29 @@
      }
     },
     {
+     "a": "Damian Pinas",
+     "b": "Baisangur Susurkaev",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Damian Pinas",
+      "url": "https://en.wikipedia.org/wiki/Damian_Pinas",
+      "record": "11-1-0",
+      "stats": {
+       "Age": "24",
+       "Height": "6 ft 1 in",
+       "Reach": "79 in",
+       "Team": "Stay Thai Fit"
+      }
+     },
+     "fb": {
+      "name": "Baisangur Susurkaev",
+      "record": "12-0-0"
+     }
+    },
+    {
      "a": "Kyler Phillips",
      "b": "Ethyn Ewing",
      "section": "Main card",
@@ -4087,26 +4110,25 @@
      }
     },
     {
-     "a": "Damian Pinas",
-     "b": "Baisangur Susurkaev",
-     "section": "Main card",
-     "weight": "Middleweight",
+     "a": "Jacqueline Cavalcanti",
+     "b": "Michelle Montague",
+     "section": "Prelims",
+     "weight": "Women's Bantamweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Damian Pinas",
-      "url": "https://en.wikipedia.org/wiki/Damian_Pinas",
-      "record": "11-1-0",
+      "name": "Jacqueline Cavalcanti",
+      "url": "https://en.wikipedia.org/wiki/Jacqueline_Cavalcanti",
+      "record": "10-2-0",
       "stats": {
-       "Age": "24",
-       "Height": "6 ft 1 in",
-       "Reach": "79 in",
-       "Team": "Stay Thai Fit"
+       "Age": "29",
+       "Height": "5 ft 8 in",
+       "Reach": "70 in",
+       "Team": "Reborn Fight Team"
       }
      },
      "fb": {
-      "name": "Baisangur Susurkaev",
-      "record": "12-0-0"
+      "name": "Michelle Montague"
      }
     },
     {
@@ -4131,6 +4153,20 @@
        "Reach": "72 in",
        "Team": "Soma Fight Club"
       }
+     }
+    },
+    {
+     "a": "Roque Conceição Jr.",
+     "b": "Nilson Rojas",
+     "section": "Prelims",
+     "weight": "Flyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Roque Conceição Jr."
+     },
+     "fb": {
+      "name": "Nilson Rojas"
      }
     }
    ],
@@ -5638,6 +5674,76 @@
      }
     },
     {
+     "a": "Tanner Boser",
+     "b": "José Montanha",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Tanner Boser",
+      "url": "https://en.wikipedia.org/wiki/Tanner_Boser",
+      "record": "23-11-1",
+      "stats": {
+       "Age": "35",
+       "Height": "6 ft 2 in",
+       "Reach": "75.5 in",
+       "Team": "Frank Lee's Muay Thai"
+      }
+     },
+     "fb": {
+      "name": "José Montanha",
+      "record": "7-1-0"
+     }
+    },
+    {
+     "a": "Marc-André Barriault",
+     "b": "Tresean Gore",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Marc-André Barriault",
+      "url": "https://en.wikipedia.org/wiki/Marc-Andr%C3%A9_Barriault",
+      "record": "18-11-0",
+      "stats": {
+       "Age": "36",
+       "Height": "6 ft 1 in",
+       "Team": "Sanford MMA"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Marc-Andr%C3%A9_Barriault.png/500px-Marc-Andr%C3%A9_Barriault.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: MM-eh · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Tresean Gore",
+      "record": "8-4-0"
+     }
+    },
+    {
+     "a": "Gable Steveson",
+     "b": "Terrance Chatman",
+     "section": "Main card",
+     "weight": "Heavyweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Gable Steveson",
+      "url": "https://en.wikipedia.org/wiki/Gable_Steveson",
+      "stats": {
+       "Age": "26",
+       "Height": "6 ft 1 in"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gable_Steveson_%28USA%29_2018.jpg/500px-Gable_Steveson_%28USA%29_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Chris Hunkeler from Carlsbad, California, USA · CC BY-SA 2.0 (Wikimedia Commons)",
+      "record": "4-1-0"
+     },
+     "fb": {
+      "name": "Terrance Chatman",
+      "record": "5-2-0"
+     }
+    },
+    {
      "a": "Serhiy Sidey",
      "b": "Louis Lee Scott",
      "section": "Main card",
@@ -5667,6 +5773,22 @@
      "fb": {
       "name": "Sean Clancy Jr.",
       "record": "9-0-0"
+     }
+    },
+    {
+     "a": "Julien Leblanc",
+     "b": "Vlasto Čepo",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Julien Leblanc",
+      "record": "10-4-0"
+     },
+     "fb": {
+      "name": "Vlasto Čepo",
+      "record": "14-4-0"
      }
     }
    ],
@@ -5974,6 +6096,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795531936365,
- "oddsCreditsLeft": "380"
+ "oddsUpdatedMs": 1795553466031,
+ "oddsCreditsLeft": "378"
 }
