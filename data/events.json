@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795524636357,
+ "generatedMs": 1795531844241,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2789,7 +2789,7 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.58,
+      "oddsA": 1.57,
       "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
@@ -2839,6 +2839,39 @@
      }
     },
     {
+     "a": "Levan Chokheli",
+     "b": "Islam Dulatov",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Levan Chokheli",
+      "record": "15-3-0"
+     },
+     "fb": {
+      "name": "Islam Dulatov",
+      "url": "https://en.wikipedia.org/wiki/Islam_Dulatov",
+      "record": "12-1-0",
+      "stats": {
+       "Age": "28",
+       "Height": "6 ft 3 in",
+       "Reach": "75 in"
+      }
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 33,
+      "pctB": 67,
+      "oddsA": 2.83,
+      "oddsB": 1.44,
+      "tier": "Clear favourite",
+      "why": "",
+      "crowd": "Average of 8 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
      "a": "Serghei Spivac",
      "b": "Mário Pinto",
      "section": "Main card",
@@ -2869,39 +2902,6 @@
      }
     },
     {
-     "a": "Levan Chokheli",
-     "b": "Islam Dulatov",
-     "section": "Main card",
-     "weight": "Welterweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Levan Chokheli",
-      "record": "15-3-0"
-     },
-     "fb": {
-      "name": "Islam Dulatov",
-      "url": "https://en.wikipedia.org/wiki/Islam_Dulatov",
-      "record": "12-1-0",
-      "stats": {
-       "Age": "28",
-       "Height": "6 ft 3 in",
-       "Reach": "75 in"
-      }
-     },
-     "pred": {
-      "fav": "b",
-      "pctA": 33,
-      "pctB": 67,
-      "oddsA": 2.86,
-      "oddsB": 1.43,
-      "tier": "Clear favourite",
-      "why": "",
-      "crowd": "Average of 7 bookmakers",
-      "source": "Bookmaker odds"
-     }
-    },
-    {
      "a": "Mairon Santos",
      "b": "Akbar Abdullaev",
      "section": "Main card",
@@ -2925,13 +2925,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 30,
-      "pctB": 70,
-      "oddsA": 3.35,
-      "oddsB": 1.35,
+      "pctA": 28,
+      "pctB": 72,
+      "oddsA": 3.45,
+      "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
-      "crowd": "Average of 6 bookmakers",
+      "crowd": "Average of 7 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2959,13 +2959,40 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 63,
-      "pctB": 37,
+      "pctA": 62,
+      "pctB": 38,
       "oddsA": 1.53,
-      "oddsB": 2.55,
+      "oddsB": 2.51,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 7 bookmakers",
+      "crowd": "Average of 8 bookmakers",
+      "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Luke Riley",
+     "b": "Gabriel Santos",
+     "section": "Prelims",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Luke Riley",
+      "record": "14-0-0"
+     },
+     "fb": {
+      "name": "Gabriel Santos",
+      "record": "12-2-0"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 58,
+      "pctB": 42,
+      "oddsA": 1.62,
+      "oddsB": 2.3,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 6 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -2999,7 +3026,7 @@
       "oddsB": 1.67,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 7 bookmakers",
+      "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3017,6 +3044,17 @@
      "fb": {
       "name": "Ivan Gnizditskiy",
       "record": "7-0-0"
+     },
+     "pred": {
+      "fav": "b",
+      "pctA": 50,
+      "pctB": 50,
+      "oddsA": 1.91,
+      "oddsB": 1.91,
+      "tier": "Pick'em",
+      "why": "",
+      "crowd": "Average of 7 bookmakers",
+      "source": "Bookmaker odds"
      }
     },
     {
@@ -3061,11 +3099,11 @@
       "fav": "a",
       "pctA": 55,
       "pctB": 45,
-      "oddsA": 1.71,
-      "oddsB": 2.13,
+      "oddsA": 1.73,
+      "oddsB": 2.14,
       "tier": "Pick'em",
       "why": "",
-      "crowd": "Average of 2 bookmakers",
+      "crowd": "Average of 5 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3086,13 +3124,13 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 42,
-      "pctB": 58,
-      "oddsA": 2.26,
+      "pctA": 43,
+      "pctB": 57,
+      "oddsA": 2.25,
       "oddsB": 1.67,
       "tier": "Slight favourite",
       "why": "",
-      "crowd": "Average of 4 bookmakers",
+      "crowd": "Average of 6 bookmakers",
       "source": "Bookmaker odds"
      }
     },
@@ -3117,6 +3155,29 @@
      "fb": {
       "name": "Hecher Sosa",
       "record": "15-1-0"
+     }
+    },
+    {
+     "a": "Mateusz Rębecki",
+     "b": "Elves Brener",
+     "section": "Prelims",
+     "weight": "Lightweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Mateusz Rębecki",
+      "url": "https://en.wikipedia.org/wiki/Mateusz_R%C4%99becki",
+      "record": "21-5-0",
+      "stats": {
+       "Age": "34",
+       "Height": "5 ft 7 in",
+       "Reach": "66 in",
+       "Team": "American Top Team"
+      }
+     },
+     "fb": {
+      "name": "Elves Brener",
+      "record": "17-6-0"
      }
     }
    ],
@@ -5852,6 +5913,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795510269563,
- "oddsCreditsLeft": "382"
+ "oddsUpdatedMs": 1795531936365,
+ "oddsCreditsLeft": "380"
 }

@@ -1,4 +1,4 @@
-ESPN records: filled 65, still missing 28
+ESPN records: filled 68, still missing 28
 
   + Alessandro Costa: 17-6-0  (UFC Fight Night: Procházka vs. Stirling)
   + Tahir Abdullayev: 21-3-0  (UFC Fight Night: Procházka vs. Stirling)
@@ -10,6 +10,8 @@ ESPN records: filled 65, still missing 28
   + Levan Chokheli: 15-3-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Mairon Santos: 18-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Magomed Tuchalov: 7-0-0  (UFC Fight Night: Adesanya vs. Magomedov)
+  + Luke Riley: 14-0-0  (UFC Fight Night: Adesanya vs. Magomedov)
+  + Gabriel Santos: 12-2-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Jafel Filho: 17-5-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Uran Satybaldiev: 9-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Ivan Gnizditskiy: 7-0-0  (UFC Fight Night: Adesanya vs. Magomedov)
@@ -19,6 +21,7 @@ ESPN records: filled 65, still missing 28
   + Modestino Rodrigues: 8-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Matthieu Letho Duclos: 11-3-0  (UFC Fight Night: Adesanya vs. Magomedov)
   + Hecher Sosa: 15-1-0  (UFC Fight Night: Adesanya vs. Magomedov)
+  + Elves Brener: 17-6-0  (UFC Fight Night: Adesanya vs. Magomedov)
 PFL Africa 4: Kigali: ESPN has no bouts for 2026-12-12
   - Shido Boris Esperança: not found on ESPN  (PFL Africa 4: Kigali)
   - David Samuel: not found on ESPN  (PFL Africa 4: Kigali)
