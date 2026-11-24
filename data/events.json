@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795531844241,
+ "generatedMs": 1795539041266,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2244,7 +2244,7 @@
       "country": "Japan",
       "flag": "🇯🇵",
       "url": "https://en.wikipedia.org/wiki/Ryuya_Okuwaki",
-      "record": "42-9-2",
+      "record": "42-10-2",
       "stats": {
        "Age": "26",
        "Height": "1.63 m",
@@ -2325,7 +2325,7 @@
      "section": "Main card",
      "weight": "Bantamweight Kickboxing",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Taiju Shiratori",
       "country": "Japan",
@@ -2340,6 +2340,67 @@
      },
      "fb": {
       "name": "Shota Tezuka",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
+     "a": "Ranma",
+     "b": "Masahito Okuyama",
+     "section": "Main card",
+     "weight": "Bantamweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ranma",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
+      "name": "Masahito Okuyama",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
+     "a": "Sora Tanazawa",
+     "b": "Shosuke Iwanaga",
+     "section": "Main card",
+     "weight": "Strawweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Sora Tanazawa",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "url": "https://en.wikipedia.org/wiki/Sora_Tanazawa",
+      "record": "13-1-0",
+      "stats": {
+       "Age": "19",
+       "Height": "1.64 m",
+       "Team": "Teppen Gym Osaka"
+      }
+     },
+     "fb": {
+      "name": "Shosuke Iwanaga",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
+     "a": "Kojiro Shiba",
+     "b": "King Rikuto",
+     "section": "Main card",
+     "weight": "Strawweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Kojiro Shiba",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
+      "name": "King Rikuto",
       "country": "Japan",
       "flag": "🇯🇵"
      }
