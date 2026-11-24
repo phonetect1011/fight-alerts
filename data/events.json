@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795474237184,
+ "generatedMs": 1795481437380,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4614,7 +4614,8 @@
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Ciarán Clarke"
+      "name": "Ciarán Clarke",
+      "record": "10-1-0"
      },
      "fb": {
       "name": "Mate Sanikidze"

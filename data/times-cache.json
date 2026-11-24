@@ -1,27 +1,4 @@
 {
- "2026-11-21": {
-  "checked": 1795351871345,
-  "events": [
-   {
-    "strEvent": "We Love Wrestling Live In Bad Säckingen",
-    "strLeague": "wXw",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-21T00:00:00"
-   },
-   {
-    "strEvent": "KOK 130 World Series in Freiburg",
-    "strLeague": "KOK",
-    "strTimeLocal": "18:00:00",
-    "strTimestamp": "2026-11-21T17:00:00"
-   },
-   {
-    "strEvent": "UFC Fight Night 294 Procházka vs Stirling",
-    "strLeague": "UFC",
-    "strTimeLocal": "17:00:00",
-    "strTimestamp": "2026-11-21T22:00:00"
-   }
-  ]
- },
  "2026-11-27": {
   "checked": 1795445476876,
   "events": [
@@ -265,6 +242,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795474258283
+  "checked": 1795481471628
  }
 }
