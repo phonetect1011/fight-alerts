@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795517440552,
+ "generatedMs": 1795524636357,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3437,7 +3437,7 @@
      "section": "Main card",
      "weight": "Strawweight Kickboxing",
      "title": true,
-     "notes": "For the ONE Strawweight Kickboxing World Championship. |}",
+     "notes": "For the ONE Strawweight Kickboxing World Championship.",
      "fa": {
       "name": "Jonathan Di Bella",
       "country": "Italy",
@@ -3466,6 +3466,129 @@
        "Height": "168cm",
        "Team": "Tianjin Afu Fight Club"
       }
+     }
+    },
+    {
+     "a": "Liu Mengyang",
+     "b": "Abolfazl Alipourandi",
+     "section": "Main card",
+     "weight": "Featherweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Liu Mengyang",
+      "country": "China",
+      "flag": "🇨🇳",
+      "url": "https://en.wikipedia.org/wiki/Liu_Mengyang",
+      "nickname": "Spirit Dragon",
+      "record": "2-0-0",
+      "stats": {
+       "Age": "23",
+       "Height": "183 cm",
+       "Team": "Shunyuan Fighting Club"
+      }
+     },
+     "fb": {
+      "name": "Abolfazl Alipourandi",
+      "country": "Iran",
+      "flag": "🇮🇷"
+     }
+    },
+    {
+     "a": "Zhang Peimian",
+     "b": "Elmehdi El Jamari",
+     "section": "Main card",
+     "weight": "Strawweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zhang Peimian",
+      "country": "China",
+      "flag": "🇨🇳",
+      "url": "https://en.wikipedia.org/wiki/Zhang_Peimian",
+      "record": "19-6-1",
+      "stats": {
+       "Age": "23",
+       "Height": "1.64 m",
+       "Team": "Shengli Fight Club"
+      }
+     },
+     "fb": {
+      "name": "Elmehdi El Jamari",
+      "country": "Morocco",
+      "flag": "🇲🇦"
+     }
+    },
+    {
+     "a": "Zhang Lipeng",
+     "b": "Chase Mann",
+     "section": "Main card",
+     "weight": "Welterweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Zhang Lipeng",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "fb": {
+      "name": "Chase Mann",
+      "country": "United States",
+      "flag": "🇺🇸"
+     }
+    },
+    {
+     "a": "Yu Yau Pui",
+     "b": "Giada Lo Verso",
+     "section": "Main card",
+     "weight": "Women's Atomweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yu Yau Pui",
+      "country": "Hong Kong",
+      "flag": "🇭🇰"
+     },
+     "fb": {
+      "name": "Giada Lo Verso",
+      "country": "Italy",
+      "flag": "🇮🇹"
+     }
+    },
+    {
+     "a": "Yi Yuxuan",
+     "b": "Vladimir Kuzmin",
+     "section": "Main card",
+     "weight": "Bantamweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yi Yuxuan",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "fb": {
+      "name": "Vladimir Kuzmin",
+      "country": "Russia",
+      "flag": "🇷🇺"
+     }
+    },
+    {
+     "a": "Zhou Jiaqiang",
+     "b": "James Conde",
+     "section": "Main card",
+     "weight": "Featherweight Kickboxing",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Zhou Jiaqiang",
+      "country": "China",
+      "flag": "🇨🇳"
+     },
+     "fb": {
+      "name": "James Conde",
+      "country": "France",
+      "flag": "🇫🇷"
      }
     }
    ],
