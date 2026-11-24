@@ -1,6 +1,6 @@
 {
  "2026-11-27": {
-  "checked": 1795495945653,
+  "checked": 1795546259943,
   "events": [
    {
     "strEvent": "SmackDown #1423",
@@ -17,13 +17,13 @@
    {
     "strEvent": "World Tag League Day 4",
     "strLeague": "NJPW",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-27T00:00:00"
+    "strTimeLocal": "19:00:00",
+    "strTimestamp": "2026-11-27T10:00:00"
    }
   ]
  },
  "2026-11-28": {
-  "checked": 1795495945653,
+  "checked": 1795546259943,
   "events": [
    {
     "strEvent": "X IWI",
@@ -46,7 +46,7 @@
   ]
  },
  "2026-12-02": {
-  "checked": 1795495945653,
+  "checked": 1795546259943,
   "events": [
    {
     "strEvent": "ONE Samurai 6",
@@ -57,13 +57,13 @@
    {
     "strEvent": "World Tag League Day 8",
     "strLeague": "NJPW",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-12-02T00:00:00"
+    "strTimeLocal": "18:30:00",
+    "strTimestamp": "2026-12-02T09:30:00"
    }
   ]
  },
  "2026-12-04": {
-  "checked": 1795495945653,
+  "checked": 1795546259943,
   "events": [
    {
     "strEvent": "SmackDown #1424",
@@ -80,8 +80,8 @@
    {
     "strEvent": "World Tag League Day 9",
     "strLeague": "NJPW",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-12-04T00:00:00"
+    "strTimeLocal": "18:30:00",
+    "strTimestamp": "2026-12-04T09:30:00"
    }
   ]
  },
@@ -242,6 +242,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795539075941
+  "checked": 1795546259943
  }
 }
