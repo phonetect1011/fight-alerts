@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795575050489,
+ "generatedMs": 1795582238037,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -3701,7 +3701,7 @@
      "section": "Main card",
      "weight": "Featherweight Kickboxing",
      "title": false,
-     "notes": "|}",
+     "notes": "",
      "fa": {
       "name": "Zhou Jiaqiang",
       "country": "China",
@@ -3711,6 +3711,66 @@
       "name": "James Conde",
       "country": "France",
       "flag": "🇫🇷"
+     }
+    },
+    {
+     "a": "Rambolek Chor.Ajalaboon",
+     "b": "Akif Guluzada",
+     "section": "Main card",
+     "weight": "Bantamweight Muay Thai",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Rambolek Chor.Ajalaboon",
+      "country": "Thailand",
+      "flag": "🇹🇭",
+      "url": "https://en.wikipedia.org/wiki/Rambolek_Chor.Ajalaboon",
+      "stats": {
+       "Age": "23",
+       "Height": "173cm",
+       "Team": "Superbon Training Center"
+      }
+     },
+     "fb": {
+      "name": "Akif Guluzada",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿"
+     }
+    },
+    {
+     "a": "Karen Ghazaryan",
+     "b": "Gilbert Nakatani",
+     "section": "Main card",
+     "weight": "Strawweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Karen Ghazaryan",
+      "country": "Armenia",
+      "flag": "🇦🇲"
+     },
+     "fb": {
+      "name": "Gilbert Nakatani",
+      "country": "United States",
+      "flag": "🇺🇸"
+     }
+    },
+    {
+     "a": "Ben Tynan",
+     "b": "Marlon Godoy",
+     "section": "Main card",
+     "weight": "Heavyweight MMA",
+     "title": false,
+     "notes": "|}",
+     "fa": {
+      "name": "Ben Tynan",
+      "country": "Canada",
+      "flag": "🇨🇦"
+     },
+     "fb": {
+      "name": "Marlon Godoy",
+      "country": "Brazil",
+      "flag": "🇧🇷"
      }
     }
    ],
