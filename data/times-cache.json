@@ -1,6 +1,6 @@
 {
  "2026-11-27": {
-  "checked": 1795589464786,
+  "checked": 1795639859099,
   "events": [
    {
     "strEvent": "SmackDown #1423",
@@ -23,7 +23,7 @@
   ]
  },
  "2026-11-28": {
-  "checked": 1795589464786,
+  "checked": 1795639859099,
   "events": [
    {
     "strEvent": "X IWI",
@@ -46,13 +46,13 @@
   ]
  },
  "2026-12-02": {
-  "checked": 1795589464786,
+  "checked": 1795639859099,
   "events": [
    {
     "strEvent": "ONE Samurai 6",
     "strLeague": "ONE",
-    "strTimeLocal": null,
-    "strTimestamp": "2026-12-02T00:00:00"
+    "strTimeLocal": "17:30:00",
+    "strTimestamp": "2026-12-02T08:30:00"
    },
    {
     "strEvent": "World Tag League Day 8",
@@ -63,7 +63,7 @@
   ]
  },
  "2026-12-04": {
-  "checked": 1795589464786,
+  "checked": 1795639859099,
   "events": [
    {
     "strEvent": "SmackDown #1424",
@@ -242,6 +242,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795632659343
+  "checked": 1795639859099
  }
 }

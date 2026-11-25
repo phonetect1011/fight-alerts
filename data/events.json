@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795632637865,
+ "generatedMs": 1795639837678,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1739,10 +1739,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 86,
-      "pctB": 14,
-      "oddsA": 1.08,
-      "oddsB": 6.75,
+      "pctA": 90,
+      "pctB": 10,
+      "oddsA": 1.07,
+      "oddsB": 9.74,
       "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
@@ -1794,7 +1794,7 @@
       "pctA": 95,
       "pctB": 5,
       "oddsA": 1.01,
-      "oddsB": 21.0,
+      "oddsB": 19.87,
       "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
@@ -1895,11 +1895,11 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 23,
-      "pctB": 77,
-      "oddsA": 4.0,
-      "oddsB": 1.2,
-      "tier": "Clear favourite",
+      "pctA": 18,
+      "pctB": 82,
+      "oddsA": 5.25,
+      "oddsB": 1.17,
+      "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
       "source": "Bookmaker odds"
@@ -2171,8 +2171,8 @@
    "title": "ONE Samurai 6",
    "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Samurai_6",
    "date": "2026-12-02",
-   "startMs": 1796198400000,
-   "timeEstimated": true,
+   "startMs": 1796200200000,
+   "timeEstimated": false,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -2406,7 +2406,8 @@
      }
     }
    ],
-   "finished": false
+   "finished": false,
+   "timeSource": "TheSportsDB"
   },
   {
    "id": "one-one-friday-fights-181-the-inner-circle-41",
@@ -2850,8 +2851,8 @@
       "fav": "a",
       "pctA": 60,
       "pctB": 40,
-      "oddsA": 1.58,
-      "oddsB": 2.42,
+      "oddsA": 1.6,
+      "oddsB": 2.38,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -2922,10 +2923,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 37,
-      "pctB": 63,
-      "oddsA": 2.55,
-      "oddsB": 1.52,
+      "pctA": 38,
+      "pctB": 62,
+      "oddsA": 2.5,
+      "oddsB": 1.54,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -2988,8 +2989,8 @@
       "fav": "b",
       "pctA": 28,
       "pctB": 72,
-      "oddsA": 3.38,
-      "oddsB": 1.32,
+      "oddsA": 3.35,
+      "oddsB": 1.33,
       "tier": "Clear favourite",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -3049,8 +3050,8 @@
       "fav": "a",
       "pctA": 58,
       "pctB": 42,
-      "oddsA": 1.63,
-      "oddsB": 2.27,
+      "oddsA": 1.64,
+      "oddsB": 2.25,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 10 bookmakers",
@@ -3084,7 +3085,7 @@
       "pctA": 44,
       "pctB": 56,
       "oddsA": 2.18,
-      "oddsB": 1.69,
+      "oddsB": 1.68,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 13 bookmakers",
@@ -3111,7 +3112,7 @@
       "pctA": 53,
       "pctB": 47,
       "oddsA": 1.8,
-      "oddsB": 2.01,
+      "oddsB": 2.02,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -3160,8 +3161,8 @@
       "fav": "a",
       "pctA": 52,
       "pctB": 48,
-      "oddsA": 1.81,
-      "oddsB": 1.98,
+      "oddsA": 1.83,
+      "oddsB": 1.99,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -3185,10 +3186,10 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 43,
-      "pctB": 57,
-      "oddsA": 2.2,
-      "oddsB": 1.67,
+      "pctA": 44,
+      "pctB": 56,
+      "oddsA": 2.19,
+      "oddsB": 1.69,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 8 bookmakers",
@@ -5384,8 +5385,8 @@
    "title": "UFC Fight Night: Bonfim vs. Brady",
    "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Brady",
    "date": "2027-01-23",
-   "startMs": 1800752400000,
-   "timeEstimated": true,
+   "startMs": 1800745200000,
+   "timeEstimated": false,
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
@@ -5421,6 +5422,17 @@
       },
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/SeanBrady.jpg/500px-SeanBrady.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: WEIGHING IN · CC BY 3.0 (Wikimedia Commons)"
+     },
+     "pred": {
+      "fav": "a",
+      "pctA": 61,
+      "pctB": 39,
+      "oddsA": 1.57,
+      "oddsB": 2.49,
+      "tier": "Slight favourite",
+      "why": "",
+      "crowd": "Average of 1 bookmaker",
+      "source": "Bookmaker odds"
      }
     }
    ],
@@ -5655,8 +5667,8 @@
       "fav": "a",
       "pctA": 54,
       "pctB": 46,
-      "oddsA": 1.75,
-      "oddsB": 2.1,
+      "oddsA": 1.77,
+      "oddsB": 2.08,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 11 bookmakers",
@@ -5699,8 +5711,8 @@
       "fav": "a",
       "pctA": 61,
       "pctB": 39,
-      "oddsA": 1.54,
-      "oddsB": 2.42,
+      "oddsA": 1.55,
+      "oddsB": 2.4,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 11 bookmakers",
@@ -6156,6 +6168,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795618264145,
- "oddsCreditsLeft": "372"
+ "oddsUpdatedMs": 1795639858921,
+ "oddsCreditsLeft": "370"
 }
