@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795654236539,
+ "generatedMs": 1795661436573,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1742,7 +1742,7 @@
       "pctA": 90,
       "pctB": 10,
       "oddsA": 1.07,
-      "oddsB": 9.74,
+      "oddsB": 9.17,
       "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
@@ -2849,10 +2849,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 60,
-      "pctB": 40,
+      "pctA": 59,
+      "pctB": 41,
       "oddsA": 1.6,
-      "oddsB": 2.38,
+      "oddsB": 2.33,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 14 bookmakers",
@@ -3161,8 +3161,8 @@
       "fav": "a",
       "pctA": 52,
       "pctB": 48,
-      "oddsA": 1.83,
-      "oddsB": 1.99,
+      "oddsA": 1.81,
+      "oddsB": 2.0,
       "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 12 bookmakers",
@@ -5425,10 +5425,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 61,
-      "pctB": 39,
-      "oddsA": 1.57,
-      "oddsB": 2.49,
+      "pctA": 58,
+      "pctB": 42,
+      "oddsA": 1.66,
+      "oddsB": 2.3,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
@@ -6359,6 +6359,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795639858921,
- "oddsCreditsLeft": "370"
+ "oddsUpdatedMs": 1795661459627,
+ "oddsCreditsLeft": "368"
 }
