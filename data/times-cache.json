@@ -1,7 +1,13 @@
 {
  "2026-11-27": {
-  "checked": 1795639859099,
+  "checked": 1795683062771,
   "events": [
+   {
+    "strEvent": "Collision #172 Thanksgiving",
+    "strLeague": "AEW",
+    "strTimeLocal": "18:00:00",
+    "strTimestamp": "2026-11-27T01:00:00"
+   },
    {
     "strEvent": "SmackDown #1423",
     "strLeague": "WWE",
@@ -13,17 +19,11 @@
     "strLeague": "Cage Warriors",
     "strTimeLocal": null,
     "strTimestamp": "2026-11-27T00:00:00"
-   },
-   {
-    "strEvent": "World Tag League Day 4",
-    "strLeague": "NJPW",
-    "strTimeLocal": "19:00:00",
-    "strTimestamp": "2026-11-27T10:00:00"
    }
   ]
  },
  "2026-11-28": {
-  "checked": 1795639859099,
+  "checked": 1795683062771,
   "events": [
    {
     "strEvent": "X IWI",
@@ -46,7 +46,7 @@
   ]
  },
  "2026-12-02": {
-  "checked": 1795639859099,
+  "checked": 1795683062771,
   "events": [
    {
     "strEvent": "ONE Samurai 6",
@@ -63,7 +63,7 @@
   ]
  },
  "2026-12-04": {
-  "checked": 1795639859099,
+  "checked": 1795683062771,
   "events": [
    {
     "strEvent": "SmackDown #1424",
@@ -242,6 +242,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795675863130
+  "checked": 1795683062771
  }
 }
