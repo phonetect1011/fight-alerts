@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795683039680,
+ "generatedMs": 1795690238031,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -2233,6 +2233,31 @@
      }
     },
     {
+     "a": "Taiju Shiratori",
+     "b": "Shota Tezuka",
+     "section": "Main card",
+     "weight": "Bantamweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Taiju Shiratori",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "url": "https://en.wikipedia.org/wiki/Taiju_Shiratori",
+      "record": "32-14-1",
+      "stats": {
+       "Age": "30",
+       "Height": "180cm",
+       "Team": "Team Teppen"
+      }
+     },
+     "fb": {
+      "name": "Shota Tezuka",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     }
+    },
+    {
      "a": "Ryuya Okuwaki",
      "b": "Thongpoon P.K.Saenchai",
      "section": "Main card",
@@ -2255,6 +2280,42 @@
       "name": "Thongpoon P.K.Saenchai",
       "country": "Thailand",
       "flag": "🇹🇭"
+     }
+    },
+    {
+     "a": "Hiroba Minowa",
+     "b": "Fabio Henrique",
+     "section": "Main card",
+     "weight": "Strawweight MMA",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Hiroba Minowa",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
+      "name": "Fabio Henrique",
+      "country": "Brazil",
+      "flag": "🇧🇷"
+     }
+    },
+    {
+     "a": "Ranma",
+     "b": "Masahito Okuyama",
+     "section": "Main card",
+     "weight": "Bantamweight Kickboxing",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ranma",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
+      "name": "Masahito Okuyama",
+      "country": "Japan",
+      "flag": "🇯🇵"
      }
     },
     {
@@ -2297,67 +2358,6 @@
      },
      "fb": {
       "name": "Ryo Hirayama",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     }
-    },
-    {
-     "a": "Hiroba Minowa",
-     "b": "Fabio Henrique",
-     "section": "Main card",
-     "weight": "Strawweight MMA",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Hiroba Minowa",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Fabio Henrique",
-      "country": "Brazil",
-      "flag": "🇧🇷"
-     }
-    },
-    {
-     "a": "Taiju Shiratori",
-     "b": "Shota Tezuka",
-     "section": "Main card",
-     "weight": "Bantamweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Taiju Shiratori",
-      "country": "Japan",
-      "flag": "🇯🇵",
-      "url": "https://en.wikipedia.org/wiki/Taiju_Shiratori",
-      "record": "32-14-1",
-      "stats": {
-       "Age": "30",
-       "Height": "180cm",
-       "Team": "Team Teppen"
-      }
-     },
-     "fb": {
-      "name": "Shota Tezuka",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     }
-    },
-    {
-     "a": "Ranma",
-     "b": "Masahito Okuyama",
-     "section": "Main card",
-     "weight": "Bantamweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Ranma",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Masahito Okuyama",
       "country": "Japan",
       "flag": "🇯🇵"
      }
