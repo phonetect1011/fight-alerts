@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795668655667,
+ "generatedMs": 1795675839402,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -6314,14 +6314,14 @@
      "notes": "For the BKFC Lightweight Championship.",
      "fa": {
       "name": "Ben Bonner",
-      "country": "United Kingdom",
-      "flag": "🇬🇧",
+      "country": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "rank": "C"
      },
      "fb": {
       "name": "Rico Franco",
-      "country": "United States",
-      "flag": "🇺🇸"
+      "country": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
      }
     },
     {
@@ -6338,8 +6338,8 @@
      },
      "fb": {
       "name": "James Lilley",
-      "country": "United Kingdom",
-      "flag": "🇬🇧"
+      "country": "Wales",
+      "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
      }
     }
    ],
