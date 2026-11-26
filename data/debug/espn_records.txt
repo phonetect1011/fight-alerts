@@ -1,4 +1,4 @@
-ESPN records: filled 74, still missing 31
+ESPN records: filled 74, still missing 45
 
   + Alessandro Costa: 17-6-0  (UFC Fight Night: Procházka vs. Stirling)
   + Tahir Abdullayev: 21-3-0  (UFC Fight Night: Procházka vs. Stirling)
@@ -90,6 +90,20 @@ PFL Africa 4: Kigali: ESPN has no bouts for 2026-12-12
   + Toshiomi Kazama: 11-5-0  (UFC Fight Night: Rodríguez vs. Garcia)
   + Steven Asplund: 8-2-0  (UFC Fight Night: Rodríguez vs. Garcia)
   + Gökhan Saricam: 12-2-0  (UFC Fight Night: Rodríguez vs. Garcia)
+  - Daniil Donchenko: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Eric McConico: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Yadier del Valle: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Ezra Elliott: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Trent Miller: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Nick Klein: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Ramon Taveras: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Roman Puga: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Ramiro Jiménez: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Anna Melisano: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Marina Spasić: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Ty Miller: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Christopher Alvidrez: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
+  - Melissa Mullins: not found on ESPN  (UFC Fight Night: Bonfim vs. Brady)
   + Lance Gibson Jr.: 10-2-0  (UFC 336: Van vs. Kape)
   + José Montanha: 7-1-0  (UFC 336: Van vs. Kape)
   + Tresean Gore: 8-4-0  (UFC 336: Van vs. Kape)

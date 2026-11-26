@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795647036506,
+ "generatedMs": 1795654236539,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -5433,6 +5433,197 @@
       "why": "",
       "crowd": "Average of 1 bookmaker",
       "source": "Bookmaker odds"
+     }
+    },
+    {
+     "a": "Pat Sabatini",
+     "b": "Vinicius Oliveira",
+     "section": "Main card",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Pat Sabatini",
+      "url": "https://en.wikipedia.org/wiki/Pat_Sabatini",
+      "record": "22-5-0",
+      "stats": {
+       "Age": "36",
+       "Height": "5 ft 9 in",
+       "Reach": "70 in",
+       "Team": "MPR Endurance MMA"
+      }
+     },
+     "fb": {
+      "name": "Vinicius Oliveira",
+      "url": "https://en.wikipedia.org/wiki/Vinicius_Oliveira",
+      "record": "24-4-0",
+      "stats": {
+       "Age": "30",
+       "Height": "5 ft 9 in",
+       "Team": "Sombra Team MMA"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Vinicius_Oliveira_2026.jpg/500px-Vinicius_Oliveira_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Sexto Round · CC BY 3.0 (Wikimedia Commons)"
+     }
+    },
+    {
+     "a": "Neil Magny",
+     "b": "Daniil Donchenko",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Neil Magny",
+      "url": "https://en.wikipedia.org/wiki/Neil_Magny",
+      "record": "32-14-0",
+      "stats": {
+       "Age": "39",
+       "Height": "6 ft 3 in",
+       "Reach": "80 in",
+       "Team": "Easton Training Center"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Neil_Magny.jpg/500px-Neil_Magny.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: 3d U.S. Infantry Regiment \"The Old Guard\" · Public domain (Wikimedia Commons)"
+     },
+     "fb": {
+      "name": "Daniil Donchenko"
+     }
+    },
+    {
+     "a": "Azamat Bekoev",
+     "b": "Eric McConico",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Azamat Bekoev",
+      "url": "https://en.wikipedia.org/wiki/Azamat_Bekoev",
+      "record": "20-5-0",
+      "stats": {
+       "Age": "30",
+       "Height": "6 ft 0 in",
+       "Reach": "72 in",
+       "Team": "American Top Team"
+      }
+     },
+     "fb": {
+      "name": "Eric McConico"
+     }
+    },
+    {
+     "a": "Yadier del Valle",
+     "b": "Ezra Elliott",
+     "section": "Main card",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Yadier del Valle"
+     },
+     "fb": {
+      "name": "Ezra Elliott"
+     }
+    },
+    {
+     "a": "Trent Miller",
+     "b": "Nick Klein",
+     "section": "Main card",
+     "weight": "Middleweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Trent Miller"
+     },
+     "fb": {
+      "name": "Nick Klein"
+     }
+    },
+    {
+     "a": "Ramon Taveras",
+     "b": "Roman Puga",
+     "section": "Main card",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ramon Taveras"
+     },
+     "fb": {
+      "name": "Roman Puga"
+     }
+    },
+    {
+     "a": "Jamall Emmers",
+     "b": "Ramiro Jiménez",
+     "section": "Main card",
+     "weight": "Featherweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Jamall Emmers",
+      "url": "https://en.wikipedia.org/wiki/Jamall_Emmers",
+      "nickname": "Prettyboy",
+      "record": "23-8-0",
+      "stats": {
+       "Age": "37",
+       "Height": "5 ft 10 in",
+       "Reach": "74 in",
+       "Team": "Pinnacle MMA"
+      }
+     },
+     "fb": {
+      "name": "Ramiro Jiménez"
+     }
+    },
+    {
+     "a": "Anna Melisano",
+     "b": "Marina Spasić",
+     "section": "Main card",
+     "weight": "Women's Strawweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Anna Melisano"
+     },
+     "fb": {
+      "name": "Marina Spasić"
+     }
+    },
+    {
+     "a": "Ty Miller",
+     "b": "Christopher Alvidrez",
+     "section": "Main card",
+     "weight": "Welterweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Ty Miller"
+     },
+     "fb": {
+      "name": "Christopher Alvidrez"
+     }
+    },
+    {
+     "a": "Smilla Sundell",
+     "b": "Melissa Mullins",
+     "section": "Main card",
+     "weight": "Women's Bantamweight",
+     "title": false,
+     "notes": "",
+     "fa": {
+      "name": "Smilla Sundell",
+      "url": "https://en.wikipedia.org/wiki/Smilla_Sundell",
+      "record": "3-0-0",
+      "stats": {
+       "Age": "22",
+       "Height": "5 ft 10 in",
+       "Team": "Diaz Combat Sports"
+      }
+     },
+     "fb": {
+      "name": "Melissa Mullins"
      }
     }
    ],
