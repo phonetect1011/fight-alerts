@@ -108,6 +108,29 @@
    }
   ]
  },
+ "2026-12-11": {
+  "checked": 1795782673449,
+  "events": [
+   {
+    "strEvent": "Tyson Fury vs Anthony Joshua",
+    "strLeague": "Boxing",
+    "strTimeLocal": "20:00:00",
+    "strTimestamp": "2026-12-11T20:00:00"
+   },
+   {
+    "strEvent": "SmackDown #1425",
+    "strLeague": "WWE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-11T00:00:00"
+   },
+   {
+    "strEvent": "158 A Night On The Naughty List",
+    "strLeague": "EVE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-11T00:00:00"
+   }
+  ]
+ },
  "_ufc_com": {
   "cards": [
    {
