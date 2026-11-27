@@ -1,4 +1,4 @@
-ESPN records: filled 52, still missing 36
+ESPN records: filled 54, still missing 34
 
   + Alessandro Costa: 17-6-0  (UFC Fight Night: Procházka vs. Stirling)
   + Tahir Abdullayev: 21-3-0  (UFC Fight Night: Procházka vs. Stirling)
@@ -43,10 +43,10 @@ PFL MENA 12: MMA's Most Wanted: ESPN has no bouts for 2026-12-11
   - Lilia Osmani: not found on ESPN  (PFL MENA 12: MMA's Most Wanted)
   + Baisangur Susurkaev: 12-0-0  (UFC 335: Oliveira vs. Lopes)
   + Ethyn Ewing: 10-2-0  (UFC 335: Oliveira vs. Lopes)
-  - Michelle Montague: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
+  + Michelle Montague: 8-0-0  (UFC 335: Oliveira vs. Lopes)
   + Quentin Pasley: 4-0-0  (UFC 335: Oliveira vs. Lopes)
   - Roque Conceição Jr.: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
-  - Nilson Rojas: not found on ESPN  (UFC 335: Oliveira vs. Lopes)
+  + Nilson Rojas: 9-1-0  (UFC 335: Oliveira vs. Lopes)
   + Louie Sutherland: 11-6-0  (UFC Fight Night: Rodríguez vs. Garcia)
   + Elisha Ellison: 5-3-0  (UFC Fight Night: Rodríguez vs. Garcia)
   + Gilbert Urbina: 8-5-0  (UFC Fight Night: Rodríguez vs. Garcia)
