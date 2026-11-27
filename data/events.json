@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795796445717,
+ "generatedMs": 1795797047973,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1122,6 +1122,12 @@
      "fb": {
       "name": "Thway Lin Htet",
       "country": "MMR"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
@@ -1140,6 +1146,12 @@
       "name": "Petthanawat Sor.Jaruwan",
       "country": "Thailand",
       "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
@@ -1158,6 +1170,12 @@
       "name": "Sixten Larsson",
       "country": "Sweden",
       "flag": "🇸🇪"
+     },
+     "result": {
+      "winner": "a",
+      "method": "TKO (elbows and punches)",
+      "round": "3",
+      "time": "2:20"
      }
     },
     {
@@ -1176,6 +1194,12 @@
       "name": "Bhupen Mutum",
       "country": "India",
       "flag": "🇮🇳"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "5:00"
      }
     },
     {
@@ -1184,7 +1208,7 @@
      "section": "ONE Friday Fights 180",
      "weight": "Flyweight Muay Thai",
      "title": false,
-     "notes": "",
+     "notes": "An illegal knee to the head to a downed Panpet being knocked unconscious.",
      "fa": {
       "name": "Panpet Sor.Dechapan",
       "country": "Thailand",
@@ -1194,60 +1218,84 @@
       "name": "Youssef Erraji",
       "country": "Morocco",
       "flag": "🇲🇦"
+     },
+     "result": {
+      "winner": "a",
+      "method": "DQ (illegal knee to the head)",
+      "round": "1",
+      "time": "2:54"
      }
     },
     {
-     "a": "Aarti Khatri",
-     "b": "Norika Ryu",
+     "a": "Norika Ryu",
+     "b": "Aarti Khatri",
      "section": "ONE Friday Fights 180",
      "weight": "Women's Atomweight MMA",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Norika Ryu",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
       "name": "Aarti Khatri",
       "country": "India",
       "flag": "🇮🇳"
      },
-     "fb": {
-      "name": "Norika Ryu",
-      "country": "Japan",
-      "flag": "🇯🇵"
+     "result": {
+      "winner": "a",
+      "method": "Submission (americana)",
+      "round": "3",
+      "time": "1:35"
      }
     },
     {
-     "a": "Efe Caliskan",
-     "b": "Fuga Onodera",
+     "a": "Fuga Onodera",
+     "b": "Efe Caliskan",
      "section": "ONE Friday Fights 180",
      "weight": "Featherweight Muay Thai",
      "title": false,
      "notes": "Caliskan missed weight (157.8 lb).",
      "fa": {
+      "name": "Fuga Onodera",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
       "name": "Efe Caliskan",
       "country": "Turkey",
       "flag": "🇹🇷"
      },
-     "fb": {
-      "name": "Fuga Onodera",
-      "country": "Japan",
-      "flag": "🇯🇵"
+     "result": {
+      "winner": "a",
+      "method": "KO (punch to the body)",
+      "round": "2",
+      "time": "0:46"
      }
     },
     {
-     "a": "Chen Jiayi",
-     "b": "Taku Takaiwa",
+     "a": "Taku Takaiwa",
+     "b": "Chen Jiayi",
      "section": "ONE Friday Fights 180",
      "weight": "Flyweight Kickboxing",
      "title": false,
      "notes": "|}",
      "fa": {
+      "name": "Taku Takaiwa",
+      "country": "Japan",
+      "flag": "🇯🇵"
+     },
+     "fb": {
       "name": "Chen Jiayi",
       "country": "China",
       "flag": "🇨🇳"
      },
-     "fb": {
-      "name": "Taku Takaiwa",
-      "country": "Japan",
-      "flag": "🇯🇵"
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
@@ -1392,7 +1440,7 @@
      }
     }
    ],
-   "finished": false
+   "finished": true
   },
   {
    "id": "raf-raf-15-cejudo-vs-song",
