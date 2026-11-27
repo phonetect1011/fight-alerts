@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795785041533,
+ "generatedMs": 1795785648621,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -24,7 +24,7 @@
   },
   "PFL": {
    "ok": true,
-   "events": 3,
+   "events": 1,
    "message": ""
   }
  },
@@ -3454,211 +3454,140 @@
    "finished": false
   },
   {
-   "id": "pfl-pfl-mena-12",
+   "id": "pfl-pfl-mena-12-mma-s-most-wanted",
    "promotion": "PFL",
-   "title": "PFL MENA 12",
-   "url": "https://en.wikipedia.org/wiki/List_of_Professional_Fighters_League_events",
+   "title": "PFL MENA 12: MMA's Most Wanted",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Professional_Fighters_League#PFL_MENA_12%3A_MMA%27s_Most_Wanted",
    "date": "2026-12-11",
    "startMs": 1797037200000,
    "timeEstimated": true,
-   "prelimsMs": null,
-   "earlyPrelimsMs": null,
-   "bouts": [],
-   "finished": false
-  },
-  {
-   "id": "pfl-pfl-africa-4-kigali",
-   "promotion": "PFL",
-   "title": "PFL Africa 4: Kigali",
-   "url": "https://en.wikipedia.org/wiki/PFL_Africa_4_%282026%29",
-   "date": "2026-12-12",
-   "startMs": 1797123600000,
-   "timeEstimated": true,
-   "prelimsMs": 1797116400000,
+   "prelimsMs": 1797030000000,
    "earlyPrelimsMs": null,
    "bouts": [
     {
-     "a": "Shido Boris Esperança",
-     "b": "David Samuel",
+     "a": "Badreddine Diani",
+     "b": "Abdelkrim Zouad",
      "section": "Main card",
      "weight": "Welterweight",
      "title": false,
-     "notes": "2026 PFL Africa Welterweight Tournament Final.",
+     "notes": "2026 PFL MENA Welterweight Tournament Final.",
      "fa": {
-      "name": "Shido Boris Esperança"
+      "name": "Badreddine Diani"
      },
      "fb": {
-      "name": "David Samuel",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/76/David_S._Goyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "photoCredit": "Photo: RoadTrain · CC BY-SA 3.0 (Wikimedia Commons)"
+      "name": "Abdelkrim Zouad"
      }
     },
     {
-     "a": "Patrick Ocheme",
-     "b": "Hussain Al Kurdi",
+     "a": "Ylies Djiroun",
+     "b": "Mohammad Fahmi",
      "section": "Main card",
      "weight": "Lightweight",
      "title": false,
-     "notes": "2026 PFL Africa Lightweight Tournament Final.",
+     "notes": "2026 PFL MENA Lightweight Tournament Final.",
      "fa": {
-      "name": "Patrick Ocheme"
+      "name": "Ylies Djiroun"
      },
      "fb": {
-      "name": "Hussain Al Kurdi"
+      "name": "Mohammad Fahmi"
      }
     },
     {
-     "a": "Dwight Joseph",
-     "b": "Raphael Uchegbu",
+     "a": "Ahmed Albrahim",
+     "b": "Hassan Ahmed Mohamed",
      "section": "Main card",
-     "weight": "Bantamweight",
-     "title": false,
-     "notes": "2026 PFL Africa Bantamweight Tournament Final.",
-     "fa": {
-      "name": "Dwight Joseph"
-     },
-     "fb": {
-      "name": "Raphael Uchegbu"
-     }
-    },
-    {
-     "a": "Juliet Ukah",
-     "b": "Benita van Rooij",
-     "section": "Main card",
-     "weight": "Women's Strawweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Juliet Ukah"
-     },
-     "fb": {
-      "name": "Benita van Rooij"
-     }
-    },
-    {
-     "a": "Justin Clarke",
-     "b": "Kevin Odongo",
-     "section": "Main card",
-     "weight": "Heavyweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Justin Clarke"
-     },
-     "fb": {
-      "name": "Kevin Odongo"
-     }
-    },
-    {
-     "a": "Emmanuel Lamptey",
-     "b": "Jordan Cabrel Fongno",
-     "section": "Prelims",
-     "weight": "Middleweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Emmanuel Lamptey"
-     },
-     "fb": {
-      "name": "Jordan Cabrel Fongno"
-     }
-    },
-    {
-     "a": "Mouhamed Ba",
-     "b": "Rivaldo Pereira",
-     "section": "Prelims",
      "weight": "Welterweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Mouhamed Ba"
+      "name": "Ahmed Albrahim"
      },
      "fb": {
-      "name": "Rivaldo Pereira"
+      "name": "Hassan Ahmed Mohamed"
      }
     },
     {
-     "a": "Felista Mugo",
-     "b": "Sephora Kiala",
-     "section": "Prelims",
-     "weight": "Women's Strawweight",
+     "a": "Elias Boudegzdame",
+     "b": "Mehdi Saadi",
+     "section": "Main card",
+     "weight": "Featherweight",
      "title": false,
-     "notes": "",
+     "notes": "2026 PFL MENA Featherweight Tournament Final.",
      "fa": {
-      "name": "Felista Mugo"
+      "name": "Elias Boudegzdame"
      },
      "fb": {
-      "name": "Sephora Kiala"
+      "name": "Mehdi Saadi"
      }
     },
     {
-     "a": "Dona Salim Zigui",
-     "b": "Berci Noel Moufouha",
+     "a": "Malik Basahel",
+     "b": "Ahmed Taha",
      "section": "Prelims",
-     "weight": "Welterweight",
+     "weight": "Flyweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Dona Salim Zigui"
+      "name": "Malik Basahel"
      },
      "fb": {
-      "name": "Berci Noel Moufouha"
+      "name": "Ahmed Taha"
      }
     },
     {
-     "a": "Boule Godogo",
-     "b": "Ridouan Errami",
+     "a": "Talal Alqallaf",
+     "b": "Moaz Altadmori",
      "section": "Prelims",
-     "weight": "Bantamweight",
+     "weight": "Catchweight (150 lb)",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Boule Godogo"
+      "name": "Talal Alqallaf"
      },
      "fb": {
-      "name": "Ridouan Errami"
+      "name": "Moaz Altadmori"
      }
     },
     {
-     "a": "Yahaya Yahuza",
-     "b": "Eslam Abdul Baset",
+     "a": "Fatima Al Ammari",
+     "b": "Anna Wakim",
      "section": "Prelims",
-     "weight": "Middleweight",
+     "weight": "Catchweight (139 lb) (Amateur)",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Yahaya Yahuza"
+      "name": "Fatima Al Ammari"
      },
      "fb": {
-      "name": "Eslam Abdul Baset"
+      "name": "Anna Wakim"
      }
     },
     {
-     "a": "Cornel Thompson",
-     "b": "Mor Dieye",
+     "a": "Hamad Marhoon",
+     "b": "Ayoub Grimes",
      "section": "Prelims",
-     "weight": "Lightweight",
+     "weight": "Flyweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Cornel Thompson"
+      "name": "Hamad Marhoon"
      },
      "fb": {
-      "name": "Mor Dieye"
+      "name": "Ayoub Grimes"
      }
     },
     {
-     "a": "Bilal Lamkhanat",
-     "b": "Isaac Omeda",
+     "a": "Zamzam Al Hammadi",
+     "b": "Lilia Osmani",
      "section": "Prelims",
-     "weight": "Bantamweight",
+     "weight": "Women's Strawweight (Amateur)",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Bilal Lamkhanat"
+      "name": "Zamzam Al Hammadi"
      },
      "fb": {
-      "name": "Isaac Omeda"
+      "name": "Lilia Osmani"
      }
     }
    ],
@@ -4444,284 +4373,6 @@
     }
    ],
    "finished": false
-  },
-  {
-   "id": "pfl-pfl-lyon-lapilus-vs-mckee",
-   "promotion": "PFL",
-   "title": "PFL Lyon: Lapilus vs. McKee",
-   "url": "https://en.wikipedia.org/wiki/PFL_Lyon%3A_Lapilus_vs._McKee",
-   "date": "2026-12-19",
-   "startMs": 1797728400000,
-   "timeEstimated": true,
-   "prelimsMs": 1797721200000,
-   "earlyPrelimsMs": null,
-   "bouts": [
-    {
-     "a": "Taylor Lapilus",
-     "b": "Mitchell McKee",
-     "section": "Main card",
-     "weight": "Bantamweight",
-     "title": true,
-     "notes": "For the inaugural PFL Bantamweight Championship.",
-     "fa": {
-      "name": "Taylor Lapilus",
-      "url": "https://en.wikipedia.org/wiki/Taylor_Lapilus",
-      "record": "24-4-0",
-      "stats": {
-       "Age": "34",
-       "Height": "5 ft 6 in",
-       "Reach": "73 in",
-       "Team": "SBG Ireland"
-      }
-     },
-     "fb": {
-      "name": "Mitchell McKee",
-      "record": "11-0-0"
-     }
-    },
-    {
-     "a": "Bryan Battle",
-     "b": "Boris Mbarga Atangana",
-     "section": "Main card",
-     "weight": "Middleweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Bryan Battle",
-      "url": "https://en.wikipedia.org/wiki/Bryan_Battle",
-      "record": "13-3-0",
-      "stats": {
-       "Age": "32",
-       "Height": "6 ft 2 in",
-       "Reach": "77 in",
-       "Team": "Carolina Combat Sports and Fitness"
-      }
-     },
-     "fb": {
-      "name": "Boris Mbarga Atangana",
-      "record": "9-0-0"
-     }
-    },
-    {
-     "a": "Abdoul Abdouraguimov",
-     "b": "Andreeas Binder",
-     "section": "Main card",
-     "weight": "Welterweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Abdoul Abdouraguimov",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Abdoul.abduragimov.jpg/500px-Abdoul.abduragimov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "photoCredit": "Photo: Mustafa32755 · CC BY-SA 4.0 (Wikimedia Commons)",
-      "record": "20-1-0"
-     },
-     "fb": {
-      "name": "Andreeas Binder",
-      "record": "12-2-0"
-     }
-    },
-    {
-     "a": "Oualy Tandia",
-     "b": "Alex Lohoré",
-     "section": "Main card",
-     "weight": "Welterweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Oualy Tandia",
-      "record": "6-0-0"
-     },
-     "fb": {
-      "name": "Alex Lohoré",
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Alex_Lohore.png/500px-Alex_Lohore.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: MMAnytt · CC BY 4.0 (Wikimedia Commons)",
-      "record": "26-12-0"
-     }
-    },
-    {
-     "a": "Fabian Edwards",
-     "b": "Ilian Bouafia",
-     "section": "Main card",
-     "weight": "Middleweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Fabian Edwards",
-      "url": "https://en.wikipedia.org/wiki/Fabian_Edwards",
-      "record": "16-5-0",
-      "stats": {
-       "Age": "33",
-       "Height": "6 ft 1 in",
-       "Reach": "79+1/2 in",
-       "Team": "Ultimate Training Centre"
-      }
-     },
-     "fb": {
-      "name": "Ilian Bouafia",
-      "record": "8-1-0"
-     }
-    },
-    {
-     "a": "Baris Adiguzel",
-     "b": "Jack Cartwright",
-     "section": "Prelims",
-     "weight": "Bantamweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Baris Adiguzel",
-      "record": "10-2-0"
-     },
-     "fb": {
-      "name": "Jack Cartwright",
-      "record": "14-2-0"
-     }
-    },
-    {
-     "a": "Bafode Gassama",
-     "b": "Coby Bradford",
-     "section": "Prelims",
-     "weight": "Light Heavyweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Bafode Gassama",
-      "record": "4-0-0"
-     },
-     "fb": {
-      "name": "Coby Bradford",
-      "record": "6-4-0"
-     }
-    },
-    {
-     "a": "Dean Garnett",
-     "b": "Bryce Meredith",
-     "section": "Prelims",
-     "weight": "Bantamweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Dean Garnett",
-      "record": "15-4-1"
-     },
-     "fb": {
-      "name": "Bryce Meredith",
-      "url": "https://en.wikipedia.org/wiki/Bryce_Meredith",
-      "record": "8-1-0",
-      "stats": {
-       "Age": "31",
-       "Height": "5 ft 8 in",
-       "Team": "MMA Lab"
-      },
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Bryce_Meredith_in_2018.png/500px-Bryce_Meredith_in_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: GOhioCasts · CC BY 3.0 (Wikimedia Commons)"
-     }
-    },
-    {
-     "a": "Jan Ciepłowski",
-     "b": "Mauricio Partida",
-     "section": "Prelims",
-     "weight": "Bantamweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Jan Ciepłowski",
-      "url": "https://en.wikipedia.org/wiki/Jan_Ciep%C5%82owski",
-      "record": "11-1-0",
-      "stats": {
-       "Age": "27",
-       "Height": "5 ft 8 in",
-       "Reach": "65 in",
-       "Team": "Fight Factor Łódź"
-      }
-     },
-     "fb": {
-      "name": "Mauricio Partida",
-      "record": "11-0-0"
-     }
-    },
-    {
-     "a": "Brandon Brachet",
-     "b": "Adam Meskini",
-     "section": "Prelims",
-     "weight": "Featherweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Brandon Brachet",
-      "record": "9-1-0"
-     },
-     "fb": {
-      "name": "Adam Meskini",
-      "record": "11-3-0"
-     }
-    },
-    {
-     "a": "Ciarán Clarke",
-     "b": "Mate Sanikidze",
-     "section": "Prelims",
-     "weight": "Bantamweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Ciarán Clarke",
-      "record": "10-1-0"
-     },
-     "fb": {
-      "name": "Mate Sanikidze"
-     }
-    },
-    {
-     "a": "Zakaria Hamou",
-     "b": "Amin Bouazza",
-     "section": "Prelims",
-     "weight": "Featherweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Zakaria Hamou",
-      "record": "4-0-0"
-     },
-     "fb": {
-      "name": "Amin Bouazza",
-      "record": "4-0-0"
-     }
-    },
-    {
-     "a": "Lorenzo Parente",
-     "b": "Stiven Shehu",
-     "section": "Prelims",
-     "weight": "Lightweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Lorenzo Parente",
-      "record": "4-0-0"
-     },
-     "fb": {
-      "name": "Stiven Shehu",
-      "record": "4-1-0"
-     }
-    },
-    {
-     "a": "Mathilde Aschenbrenner",
-     "b": "Shelda Chipito",
-     "section": "Prelims",
-     "weight": "Women's Strawweight",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Mathilde Aschenbrenner",
-      "record": "3-0-0"
-     },
-     "fb": {
-      "name": "Shelda Chipito",
-      "record": "2-0-0"
-     }
-    }
-   ],
-   "finished": false,
-   "prelimsEstimated": true
   },
   {
    "id": "ufc-ufc-fight-night-rodr-guez-vs-garcia",
