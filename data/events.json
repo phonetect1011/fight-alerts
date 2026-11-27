@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795786258529,
+ "generatedMs": 1795786841189,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1251,13 +1251,18 @@
      }
     },
     {
-     "a": "Yodkhunpon Sitmonchai",
-     "b": "Detchawalit Silkmuaythai",
+     "a": "Detchawalit Silkmuaythai",
+     "b": "Yodkhunpon Sitmonchai",
      "section": "The Inner Circle 40",
      "weight": "Bantamweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Detchawalit Silkmuaythai",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+     },
+     "fb": {
       "name": "Yodkhunpon Sitmonchai",
       "country": "Thailand",
       "flag": "🇹🇭",
@@ -1270,10 +1275,11 @@
        "Team": "Sitmonchai"
       }
      },
-     "fb": {
-      "name": "Detchawalit Silkmuaythai",
-      "country": "Thailand",
-      "flag": "🇹🇭"
+     "result": {
+      "winner": "a",
+      "method": "TKO (3 knockdowns)",
+      "round": "2",
+      "time": "1:03"
      }
     },
     {
@@ -1299,16 +1305,27 @@
       "name": "Worapon Lukjaoporongtom",
       "country": "Thailand",
       "flag": "🇹🇭"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (split)",
+      "round": "3",
+      "time": "3:00"
      }
     },
     {
-     "a": "Rungrawee Sitsongpeenong",
-     "b": "Harry Purvis",
+     "a": "Harry Purvis",
+     "b": "Rungrawee Sitsongpeenong",
      "section": "The Inner Circle 40",
      "weight": "Lightweight Muay Thai",
      "title": false,
      "notes": "",
      "fa": {
+      "name": "Harry Purvis",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+     },
+     "fb": {
       "name": "Rungrawee Sitsongpeenong",
       "country": "Thailand",
       "flag": "🇹🇭",
@@ -1320,10 +1337,11 @@
        "Team": "P.K.Saenchai"
       }
      },
-     "fb": {
-      "name": "Harry Purvis",
-      "country": "United Kingdom",
-      "flag": "🇬🇧"
+     "result": {
+      "winner": "a",
+      "method": "KO (punch to the body)",
+      "round": "3",
+      "time": "0:57"
      }
     },
     {
@@ -1341,6 +1359,12 @@
       "name": "Abdelali Zahidi",
       "country": "Morocco",
       "flag": "🇲🇦"
+     },
+     "result": {
+      "winner": "a",
+      "method": "KO (spinning back elbow)",
+      "round": "2",
+      "time": "2:22"
      }
     },
     {
@@ -1359,6 +1383,12 @@
       "name": "Enzo Clarisse",
       "country": "France",
       "flag": "🇫🇷"
+     },
+     "result": {
+      "winner": "a",
+      "method": "Decision (unanimous)",
+      "round": "3",
+      "time": "3:00"
      }
     }
    ],
