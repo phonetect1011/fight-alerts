@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795755040765,
+ "generatedMs": 1795762239614,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -14,7 +14,7 @@
   },
   "ONE": {
    "ok": true,
-   "events": 8,
+   "events": 7,
    "message": ""
   },
   "RAF": {
@@ -29,312 +29,6 @@
   }
  },
  "events": [
-  {
-   "id": "one-one-samurai-5",
-   "promotion": "ONE",
-   "title": "ONE Samurai 5",
-   "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Samurai_5",
-   "date": "2026-11-18",
-   "startMs": 1794988800000,
-   "timeEstimated": true,
-   "prelimsMs": null,
-   "earlyPrelimsMs": null,
-   "bouts": [
-    {
-     "a": "Joshua Pacio",
-     "b": "Keito Yamakita",
-     "section": "Main card",
-     "weight": "Strawweight MMA",
-     "title": true,
-     "notes": "For the ONE Strawweight World Championship.",
-     "fa": {
-      "name": "Joshua Pacio",
-      "country": "Philippines",
-      "flag": "🇵🇭",
-      "rank": "C",
-      "url": "https://en.wikipedia.org/wiki/Joshua_Pacio",
-      "record": "25-5-0",
-      "stats": {
-       "Age": "30",
-       "Height": "165 cm",
-       "Team": "Lions Nation MMA"
-      }
-     },
-     "fb": {
-      "name": "Keito Yamakita",
-      "country": "Japan",
-      "flag": "🇯🇵",
-      "url": "https://en.wikipedia.org/wiki/Keito_Yamakita",
-      "record": "13-2-0",
-      "stats": {
-       "Age": "30",
-       "Height": "5 ft 1 in",
-       "Team": "Reversal Gym Shinjuku Me, We"
-      }
-     },
-     "result": {
-      "winner": "a",
-      "method": "Submission (arm-triangle choke)",
-      "round": "4",
-      "time": "4:17"
-     }
-    },
-    {
-     "a": "Ryujin Nasukawa",
-     "b": "Raichi Nagai",
-     "section": "Main card",
-     "weight": "Strawweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Ryujin Nasukawa",
-      "country": "Japan",
-      "flag": "🇯🇵",
-      "url": "https://en.wikipedia.org/wiki/Ryujin_Nasukawa",
-      "record": "20-3-0",
-      "stats": {
-       "Age": "20",
-       "Height": "165cm",
-       "Team": "Team TEPPEN"
-      }
-     },
-     "fb": {
-      "name": "Raichi Nagai",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "KO (punch)",
-      "round": "1",
-      "time": "0:36"
-     }
-    },
-    {
-     "a": "Jarred Brooks",
-     "b": "Tatsumitsu Wada",
-     "section": "Main card",
-     "weight": "Strawweight MMA",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Jarred Brooks",
-      "country": "United States",
-      "flag": "🇺🇸",
-      "url": "https://en.wikipedia.org/wiki/Jarred_Brooks",
-      "record": "22-6-0",
-      "stats": {
-       "Age": "33",
-       "Height": "5 ft 3 in",
-       "Team": "Roots Combat Club"
-      },
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jarred_Brooks_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "photoCredit": "Photo: MMAnytt · CC BY 3.0 (Wikimedia Commons)"
-     },
-     "fb": {
-      "name": "Tatsumitsu Wada",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (split)",
-      "round": "3",
-      "time": "5:00"
-     }
-    },
-    {
-     "a": "Masashi Kumura",
-     "b": "Ellis Badr Barboza",
-     "section": "Main card",
-     "weight": "Strawweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Masashi Kumura",
-      "country": "Japan",
-      "flag": "🇯🇵",
-      "url": "https://en.wikipedia.org/wiki/Masashi_Kumura",
-      "record": "27-8-0",
-      "stats": {
-       "Age": "27",
-       "Height": "168cm",
-       "Team": "999"
-      }
-     },
-     "fb": {
-      "name": "Ellis Badr Barboza",
-      "country": "United Kingdom",
-      "flag": "🇬🇧"
-     },
-     "result": {
-      "winner": "a",
-      "method": "TKO (3 knockdowns)",
-      "round": "1",
-      "time": "2:58"
-     }
-    },
-    {
-     "a": "Yutaro Asahi",
-     "b": "Petchtanong Petchfergus",
-     "section": "Main card",
-     "weight": "Featherweight Kickboxing",
-     "title": false,
-     "notes": "Only 150 lbs limit, Asahi missed weight (152 lb).",
-     "fa": {
-      "name": "Yutaro Asahi",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Petchtanong Petchfergus",
-      "country": "Thailand",
-      "flag": "🇹🇭",
-      "url": "https://en.wikipedia.org/wiki/Petchtanong_Petchfergus",
-      "record": "360-58-1",
-      "stats": {
-       "Age": "41",
-       "Height": "1.74 m",
-       "Reach": "68.5 in"
-      }
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Ryugo Takeuchi",
-     "b": "Brandon Hashimoto",
-     "section": "Main card",
-     "weight": "Heavyweight MMA",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Ryugo Takeuchi",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Brandon Hashimoto",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "TKO (punches)",
-      "round": "1",
-      "time": "0:23"
-     }
-    },
-    {
-     "a": "Reiji Takaki",
-     "b": "Rui Botelho",
-     "section": "Main card",
-     "weight": "Strawweight Kickboxing",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Reiji Takaki",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Rui Botelho",
-      "country": "Portugal",
-      "flag": "🇵🇹"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Jurai Ishii",
-     "b": "Yugo Kato",
-     "section": "Main card",
-     "weight": "Strawweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Jurai Ishii",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Yugo Kato",
-      "country": "Japan",
-      "flag": "🇯🇵",
-      "url": "https://en.wikipedia.org/wiki/Yugo_Kato",
-      "record": "30-10-0",
-      "stats": {
-       "Age": "27",
-       "Height": "169 cm",
-       "Team": "RIKIX"
-      }
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Gump",
-     "b": "Shuto Inui",
-     "section": "Main card",
-     "weight": "Bantamweight Kickboxing",
-     "title": false,
-     "notes": "Gump missed weight (148 lb).",
-     "fa": {
-      "name": "Gump",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Shuto Inui",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "3:00"
-     }
-    },
-    {
-     "a": "Shosuke Kinoshita",
-     "b": "Takuya Shibamura",
-     "section": "Main card",
-     "weight": "Featherweight MMA",
-     "title": false,
-     "notes": "|}",
-     "fa": {
-      "name": "Shosuke Kinoshita",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "fb": {
-      "name": "Takuya Shibamura",
-      "country": "Japan",
-      "flag": "🇯🇵"
-     },
-     "result": {
-      "winner": "a",
-      "method": "Decision (unanimous)",
-      "round": "3",
-      "time": "5:00"
-     }
-    }
-   ],
-   "finished": true
-  },
   {
    "id": "one-one-friday-fights-179-chartpayak-vs-klarob-the-inner-circle-39",
    "promotion": "ONE",
@@ -1403,9 +1097,9 @@
    "prelimsEstimated": true
   },
   {
-   "id": "one-one-friday-fights-180-the-inner-circle-40",
+   "id": "one-one-friday-fights-180-denkriangkrai-vs-thway-lin-htet-the-inner-circle-40",
    "promotion": "ONE",
-   "title": "ONE Friday Fights 180 / The Inner Circle 40",
+   "title": "ONE Friday Fights 180: Denkriangkrai vs. Thway Lin Htet / The Inner Circle 40",
    "url": "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Friday_Fights_180_%26_The_Inner_Circle_40",
    "date": "2026-11-27",
    "startMs": 1795782600000,
@@ -1428,24 +1122,6 @@
      "fb": {
       "name": "Thway Lin Htet",
       "country": "MMR"
-     }
-    },
-    {
-     "a": "Nuatoranee Jitmuangnon",
-     "b": "Yodchanachai Tor.Pitakchai",
-     "section": "ONE Friday Fights 180",
-     "weight": "Atomweight Muay Thai",
-     "title": false,
-     "notes": "",
-     "fa": {
-      "name": "Nuatoranee Jitmuangnon",
-      "country": "Thailand",
-      "flag": "🇹🇭"
-     },
-     "fb": {
-      "name": "Yodchanachai Tor.Pitakchai",
-      "country": "Thailand",
-      "flag": "🇹🇭"
      }
     },
     {
@@ -1544,7 +1220,7 @@
      "section": "ONE Friday Fights 180",
      "weight": "Featherweight Muay Thai",
      "title": false,
-     "notes": "",
+     "notes": "Caliskan missed weight (157.8 lb).",
      "fa": {
       "name": "Efe Caliskan",
       "country": "Turkey",
