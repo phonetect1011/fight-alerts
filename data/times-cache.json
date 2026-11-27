@@ -1,6 +1,6 @@
 {
  "2026-11-27": {
-  "checked": 1795733483951,
+  "checked": 1795780897641,
   "events": [
    {
     "strEvent": "Collision #172 Thanksgiving",
@@ -11,8 +11,8 @@
    {
     "strEvent": "SmackDown #1423",
     "strLeague": "WWE",
-    "strTimeLocal": "",
-    "strTimestamp": "2026-11-27T00:00:00"
+    "strTimeLocal": "20:00:00",
+    "strTimestamp": "2026-11-27T01:00:00"
    },
    {
     "strEvent": "Cage Warriors 214 Unplugged",
@@ -23,7 +23,7 @@
   ]
  },
  "2026-11-28": {
-  "checked": 1795733483951,
+  "checked": 1795780897641,
   "events": [
    {
     "strEvent": "X IWI",
@@ -46,7 +46,7 @@
   ]
  },
  "2026-12-02": {
-  "checked": 1795733483951,
+  "checked": 1795780897641,
   "events": [
    {
     "strEvent": "ONE Samurai 6",
@@ -63,7 +63,7 @@
   ]
  },
  "2026-12-04": {
-  "checked": 1795733483951,
+  "checked": 1795780897641,
   "events": [
    {
     "strEvent": "SmackDown #1424",
@@ -242,6 +242,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795776664829
+  "checked": 1795780897641
  }
 }
