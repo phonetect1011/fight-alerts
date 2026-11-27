@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795811448861,
+ "generatedMs": 1795818649520,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1315,7 +1315,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Yodkhunpon_Sitmonchai",
-      "record": "105-39-1",
+      "record": "105-40-1",
       "stats": {
        "Age": "32",
        "Height": "176cm",
@@ -1342,7 +1342,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Kongklai_Sor.Sommai",
-      "record": "98-34-4",
+      "record": "99-34-4",
       "stats": {
        "Age": "28",
        "Height": "173cm",
@@ -1378,7 +1378,7 @@
       "country": "Thailand",
       "flag": "🇹🇭",
       "url": "https://en.wikipedia.org/wiki/Rungrawee_Sitsongpeenong",
-      "record": "158-50-2",
+      "record": "158-51-2",
       "stats": {
        "Age": "30",
        "Height": "179 cm",
@@ -5766,6 +5766,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795791062586,
- "oddsCreditsLeft": "356"
+ "oddsUpdatedMs": 1795818669815,
+ "oddsCreditsLeft": "354"
 }
