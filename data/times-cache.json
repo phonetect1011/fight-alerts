@@ -23,7 +23,7 @@
   ]
  },
  "2026-11-28": {
-  "checked": 1795825868501,
+  "checked": 1795869114428,
   "events": [
    {
     "strEvent": "X IWI",
@@ -46,7 +46,7 @@
   ]
  },
  "2026-12-02": {
-  "checked": 1795825868501,
+  "checked": 1795869114428,
   "events": [
    {
     "strEvent": "ONE Samurai 6",
@@ -63,7 +63,7 @@
   ]
  },
  "2026-12-04": {
-  "checked": 1795825868501,
+  "checked": 1795869114428,
   "events": [
    {
     "strEvent": "SmackDown #1424",
@@ -288,6 +288,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795861886251
+  "checked": 1795869114428
  }
 }
