@@ -109,7 +109,7 @@
   ]
  },
  "2026-12-11": {
-  "checked": 1795833069513,
+  "checked": 1795876275206,
   "events": [
    {
     "strEvent": "Tyson Fury vs Anthony Joshua",
@@ -132,7 +132,7 @@
   ]
  },
  "2026-12-12": {
-  "checked": 1795833069513,
+  "checked": 1795876275206,
   "events": [
    {
     "strEvent": "Caged Steel 44",
@@ -288,6 +288,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795869114428
+  "checked": 1795876275206
  }
 }

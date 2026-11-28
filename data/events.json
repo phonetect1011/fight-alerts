@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795869051441,
+ "generatedMs": 1795876249026,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -4350,7 +4350,9 @@
       "stats": {
        "Age": "33",
        "Height": "1.72 m"
-      }
+      },
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/10/MagomedRamazanov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "photoCredit": "Photo: Wrestling Time · CC BY 3.0 (Wikimedia Commons)"
      }
     },
     {
