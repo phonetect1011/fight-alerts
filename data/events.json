@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795854656045,
+ "generatedMs": 1795861854140,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1493,10 +1493,10 @@
      },
      "pred": {
       "fav": "a",
-      "pctA": 89,
-      "pctB": 11,
-      "oddsA": 1.08,
-      "oddsB": 8.54,
+      "pctA": 84,
+      "pctB": 16,
+      "oddsA": 1.14,
+      "oddsB": 6.05,
       "tier": "Heavy favourite",
       "why": "",
       "crowd": "Average of 1 bookmaker",
@@ -2915,11 +2915,11 @@
      },
      "pred": {
       "fav": "b",
-      "pctA": 44,
-      "pctB": 56,
-      "oddsA": 2.15,
+      "pctA": 45,
+      "pctB": 55,
+      "oddsA": 2.14,
       "oddsB": 1.7,
-      "tier": "Slight favourite",
+      "tier": "Pick'em",
       "why": "",
       "crowd": "Average of 8 bookmakers",
       "source": "Bookmaker odds"
@@ -3705,26 +3705,13 @@
      }
     },
     {
-     "a": "Sergei Pavlovich",
-     "b": "Alex Pereira",
+     "a": "Alex Pereira",
+     "b": "Sergei Pavlovich",
      "section": "Main card",
      "weight": "Heavyweight",
      "title": false,
      "notes": "",
      "fa": {
-      "name": "Sergei Pavlovich",
-      "url": "https://en.wikipedia.org/wiki/Sergei_Pavlovich",
-      "record": "21-3-0",
-      "stats": {
-       "Age": "34",
-       "Height": "6 ft 3 in",
-       "Reach": "84 in.",
-       "Team": "Eagles MMA Moscow"
-      },
-      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/SergeiPavlovich2018.png/500px-SergeiPavlovich2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "photoCredit": "Photo: Страна FM · CC BY 3.0 (Wikimedia Commons)"
-     },
-     "fb": {
       "name": "Alex Pereira",
       "url": "https://en.wikipedia.org/wiki/Alex_Pereira",
       "nickname": "Poatan",
@@ -3738,12 +3725,25 @@
       "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Freedom_250_press_conference_at_the_Lincoln_Memorial_on_June_12%2C_2026_-_26%28cropped%29.jpg/500px-Freedom_250_press_conference_at_the_Lincoln_Memorial_on_June_12%2C_2026_-_26%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoCredit": "Photo: U.S. Department of the Interior · Public domain (Wikimedia Commons)"
      },
+     "fb": {
+      "name": "Sergei Pavlovich",
+      "url": "https://en.wikipedia.org/wiki/Sergei_Pavlovich",
+      "record": "21-3-0",
+      "stats": {
+       "Age": "34",
+       "Height": "6 ft 3 in",
+       "Reach": "84 in.",
+       "Team": "Eagles MMA Moscow"
+      },
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/SergeiPavlovich2018.png/500px-SergeiPavlovich2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoCredit": "Photo: Страна FM · CC BY 3.0 (Wikimedia Commons)"
+     },
      "pred": {
-      "fav": "a",
-      "pctA": 63,
-      "pctB": 37,
-      "oddsA": 1.5,
-      "oddsB": 2.6,
+      "fav": "b",
+      "pctA": 37,
+      "pctB": 63,
+      "oddsA": 2.6,
+      "oddsB": 1.5,
       "tier": "Slight favourite",
       "why": "",
       "crowd": "Average of 11 bookmakers",
@@ -5741,6 +5741,6 @@
    "finished": false
   }
  ],
- "oddsUpdatedMs": 1795840270470,
- "oddsCreditsLeft": "352"
+ "oddsUpdatedMs": 1795861886103,
+ "oddsCreditsLeft": "350"
 }
