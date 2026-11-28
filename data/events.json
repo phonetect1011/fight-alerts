@@ -1,5 +1,5 @@
 {
- "generatedMs": 1795847450337,
+ "generatedMs": 1795854656045,
  "source": "Wikipedia (CC BY-SA)",
  "health": {
   "UFC": {
@@ -1930,31 +1930,6 @@
    "prelimsMs": null,
    "earlyPrelimsMs": null,
    "bouts": [
-    {
-     "a": "Chihiro Sawada",
-     "b": "Anastasia Nikolakakos",
-     "section": "Main card",
-     "weight": "Women's Atomweight MMA",
-     "title": true,
-     "notes": "For the vacant ONE Women's Atomweight World Championship.",
-     "fa": {
-      "name": "Chihiro Sawada",
-      "country": "Japan",
-      "flag": "🇯🇵",
-      "url": "https://en.wikipedia.org/wiki/Chihiro_Sawada",
-      "record": "12-1-1",
-      "stats": {
-       "Age": "29",
-       "Height": "150 cm",
-       "Team": "Team AKATSUKI"
-      }
-     },
-     "fb": {
-      "name": "Anastasia Nikolakakos",
-      "country": "Canada",
-      "flag": "🇨🇦"
-     }
-    },
     {
      "a": "Hiromi Wajima",
      "b": "Mohammad Siasarani",
