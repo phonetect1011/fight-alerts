@@ -109,7 +109,7 @@
   ]
  },
  "2026-12-11": {
-  "checked": 1795782673449,
+  "checked": 1795833069513,
   "events": [
    {
     "strEvent": "Tyson Fury vs Anthony Joshua",
@@ -128,6 +128,29 @@
     "strLeague": "EVE",
     "strTimeLocal": "",
     "strTimestamp": "2026-12-11T00:00:00"
+   }
+  ]
+ },
+ "2026-12-12": {
+  "checked": 1795833069513,
+  "events": [
+   {
+    "strEvent": "Caged Steel 44",
+    "strLeague": "Caged Steel",
+    "strTimeLocal": "00:00:00",
+    "strTimestamp": "2026-12-12T00:00:00"
+   },
+   {
+    "strEvent": "Wrestlepalooza",
+    "strLeague": "WWE",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-12T00:00:00"
+   },
+   {
+    "strEvent": "UFC 335 Oliveira vs Lopes",
+    "strLeague": "UFC",
+    "strTimeLocal": "",
+    "strTimestamp": "2026-12-12T00:00:00"
    }
   ]
  },
@@ -265,6 +288,6 @@
     "url": "https://www.ufc.com/event/ufc-332"
    }
   ],
-  "checked": 1795825868501
+  "checked": 1795833069513
  }
 }
